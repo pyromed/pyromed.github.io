@@ -65,6 +65,9 @@ author:
     - label: "Github"
       icon: "fas fa-fw fa-github"
       url: "https://github.com/pyromed"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "info@pyromed.eu"
 
 footer:
   links:
