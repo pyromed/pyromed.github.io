@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Alicia Azpeleta"
+  name   : ""
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Forest and Fire Ecologist."
+  bio    : "Forest and Fire Ecology in the Mediterranean."
   links:
     - label: "Github"
       icon: "fas fa-fw fa-github"
