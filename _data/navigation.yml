@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+  - title: "Home"
+    url: /home/
+  - title: "Science for All"
+    url: /science/
+  - title: "Research"
+    url: /research/
+  - title: "About us"
     url: /about/
