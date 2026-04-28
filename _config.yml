@@ -1,7 +1,7 @@
 # Site settings
 title: PyroMED
 email: info@pyromed.eu
-description: "Forest and Fire Ecology in the Mediterranean."
+description: "Forest and Fire Ecology in the Mediterranean"
 url: "https://pyromed.github.io"
 baseurl: "" # Leave empty
 twitter_username: username
