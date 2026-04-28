@@ -1,8 +1,9 @@
 ---
 title: "Research"
-layout: single
+layout: collection
 permalink: /research/
-author_profile: true
+collection: research
+entries_layout: grid
 ---
 
 Aquí encontrarás detalles sobre nuestras investigaciones y proyectos actuales.
