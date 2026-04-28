@@ -32,6 +32,16 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /research/:path/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  ...
 
 include:
   - _pages
@@ -98,6 +108,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 category_archive:
   type: liquid
