@@ -6,4 +6,7 @@ collection: research
 entries_layout: grid
 ---
 
-Aquí encontrarás detalles sobre nuestras investigaciones y proyectos actuales.
+### Debugging List
+{% for item in site.research %}
+  - Found: {{ item.title }}
+{% endfor %}
