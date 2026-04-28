@@ -1,12 +1,14 @@
 ---
 title: "Research"
-layout: collection
+layout: single
 permalink: /research/
-collection: research
-entries_layout: grid
 ---
 
-### Debugging List
-{% for item in site.research %}
-  - Found: {{ item.title }}
+{% for project in site.research %}
+  ### [{{ project.title }}]({{ project.url }})
+  {{ project.excerpt }}
+  
+  [Read More]({{ project.url }})
+  
+  ---
 {% endfor %}
