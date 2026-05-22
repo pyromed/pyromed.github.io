@@ -1,1 +1,36 @@
+---
+title: "Your Captivating Project Title"
+layout: splash
+permalink: /story/
+header:
+  overlay_image: /assets/images/hero-banner.jpg
+  overlay_filter: 0.4
+  caption: "An impactful caption for your banner image."
+excerpt: "A powerful, one-to-two sentence hook that sums up why this project matters to the public."
+intro:
+  - excerpt: 'This is your main introductory narrative block. Use welcoming, accessible language here for your public audience. Explain the problem, the community impact, or the overall mission of the Pyromed project before diving into the data.'
+feature_row_map:
+  - image_path: /assets/images/map-screenshot1.png
+    alt: "Clear description of the map for accessibility"
+    title: "Exploring the Geography"
+    excerpt: "Instead of a live interactive map that will break in 5 months, a crisp, high-resolution screenshot with a clear legend works beautifully here. Guide the reader on what patterns to notice in the data."
+feature_row_impact:
+  - image_path: /assets/images/graphic1.jpg
+    alt: "Community or environmental impact graphic"
+    title: "Real-World Impact"
+    excerpt: "Pair your key field metrics, local stories, or environmental photos right alongside the narrative text block to keep the audience engaged as they scroll down the page."
+---
 
+{% include feature_row id="intro" type="center" %}
+
+---
+
+{% include feature_row id="feature_row_map" type="left" %}
+
+---
+
+{% include feature_row id="feature_row_impact" type="right" %}
+
+## Final Call to Action
+
+You can wrap up your public outreach page right here with standard Markdown text. Tell your readers how they can get involved, link to external resources, or provide your contact info.
