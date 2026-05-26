@@ -115,15 +115,15 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
   >
 
   <p style="font-size:0.9em; font-style:italic; margin-top:5px;">
-    Figura extreta de Hurteau, Koch, Hungate (2008). 
+    *Figura extreta de Hurteau, Koch, Hungate (2008). 
     <em>Carbon protection and fire risk reduction: toward a full accounting of forest carbon offsets.</em> 
-    Frontiers in Ecology and the Environment 6(9): 493–498.
+    Frontiers in Ecology and the Environment 6(9): 493–498.*
   </p>
 
   <p style="font-size:0.9em; font-style:italic;">
-    Bibliografia: Moreira F, Ascoli D, Safford H, et al. 2020. 
+    *Bibliografia: Moreira F, Ascoli D, Safford H, et al. 2020. 
     <em>Wildfire Management in Mediterranean-type regions: paradigm change needed.</em> 
-    Environmental Research Letters 15, 011001.
+    Environmental Research Letters 15, 011001.*
   </p>
 </div>
 
