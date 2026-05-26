@@ -18,10 +18,10 @@ feature_row_projects:
   - image_path: /assets/images/simulador.jpg
     alt: "Simulador"
     title: "Simulador d'àrea cremada"
-    excerpt: "Description of your next community science tool or interactive narrative project."
-    url: "#"
-    btn_label: "Coming Soon"
-    btn_class: "btn--disabled"
+    excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris."
+    url: "/simulador/"
+    btn_label: "Inicia el Simulador"
+    btn_class: "btn--primary"
 ---
 
 Benvinguts a l'espai de divulgació científica de PyroMED. Aquí podeu explorar les nostres eines interactives i històries visuals sobre l'ecologia del foc.
