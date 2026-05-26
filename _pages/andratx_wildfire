@@ -6,22 +6,104 @@ header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
 excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
-intro:
-  - excerpt: 'This is your main introductory narrative block. Use welcoming, accessible language here for your public audience. Explain the problem, the community impact, or the overall mission of the Pyromed project before diving into the data.'
-feature_row_map:
-  - image_path: /assets/images/map-screenshot1.png
-    alt: "Clear description of the map for accessibility"
-    title: "Exploring the Geography"
-    excerpt: "Instead of a live interactive map that will break in 5 months, a crisp, high-resolution screenshot with a clear legend works beautifully here. Guide the reader on what patterns to notice in the data."
-feature_row_impact:
-  - image_path: /assets/images/graphic1.jpg
-    alt: "Community or environmental impact graphic"
-    title: "Real-World Impact"
-    excerpt: "Pair your key field metrics, local stories, or environmental photos right alongside the narrative text block to keep the audience engaged as they scroll down the page."
+
 ---
 
-{% include feature_row id="intro" type="center" %}
+## Simulador d'Incendis Forestals
 
+<div style="display: flex; height: 500px; font-family: sans-serif;">
+  <div style="width: 25%; background: #0A3054; color: white; padding: 20px; box-sizing: border-box;">
+    <h3>INSTRUCCIONS:</h3>
+    <ol style="padding-left: 20px; font-size: 14px;">
+      <li>Selecciona la velocitat del vent i el temps</li>
+      <li>Fes click a qualsevol punt blau</li>
+      <li>Fes zoom per veure l'àrea cremada en detall</li>
+    </ol>
+    
+    <label for="windSpeed" style="display:block; margin-top:20px;">Velocitat del vent (km/h):</label>
+    <select id="windSpeed" style="width:100%; margin-top:5px; padding:5px;">
+      <option value="10" selected>10</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+    </select>
+
+    <label for="burnTime" style="display:block; margin-top:20px;">Temps (min):</label>
+    <select id="burnTime" style="width:100%; margin-top:5px; padding:5px;">
+      <option value="120" selected>120</option>
+      <option value="240">240</option>
+    </select>
+  </div>
+
+  <div id="map" style="width: 75%; height: 100%;"></div>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // Initialize map centered around Serra de Tramuntana coordinates
+  const map = L.map('map').setView([39.67, 2.48], 13);
+
+  // Add a light gray canvas basemap (similar to your screenshot)
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+  }).addTo(map);
+
+  let burnLayer;
+  let pointsData;
+  let polygonsData;
+
+  // Fetch your exported GeoJSON data structures 
+  Promise.all([
+    fetch('/ShinyApp/data/points.geojson').then(res => res.json()),
+    fetch('/ShinyApp/data/burn_polygons.geojson').then(res => res.json())
+  ]).then(([pointsRes, polygonsRes]) => {
+    pointsData = pointsRes;
+    polygonsData = polygonsRes;
+
+    // Add Blue Plot points 
+    L.geoJSON(pointsData, {
+      pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, {
+          radius: 6,
+          fillColor: "#4A61E3",
+          color: "#fff",
+          weight: 1,
+          opacity: 1,
+          fillOpacity: 0.8
+        });
+      }
+    }).addTo(map);
+
+    // Initial map render
+    updateBurnPolygon();
+  });
+
+  // Function to filter and show the active burn polygon
+  function updateBurnPolygon() {
+    if (burnLayer) { map.removeLayer(burnLayer); }
+
+    const selectedWind = document.getElementById('windSpeed').value;
+    const selectedTime = document.getElementById('burnTime').value;
+
+    burnLayer = L.geoJSON(polygonsData, {
+      filter: function(feature) {
+        // Matches the wspd and time columns you mutated in your R script
+        return feature.properties.wspd === selectedWind && 
+               feature.properties.time === selectedTime;
+      },
+      style: {
+        color: "#E34A4A",
+        fillColor: "#E34A4A",
+        fillOpacity: 0.5,
+        weight: 2
+      }
+    }).addTo(map);
+  }
+
+  // Listen for dropdown changes to re-trigger the rendering logic
+  document.getElementById('windSpeed').addEventListener('change', updateBurnPolygon);
+  document.getElementById('burnTime').addEventListener('change', updateBurnPolygon);
+</script>
 ---
 
 {% include feature_row id="feature_row_map" type="left" %}
