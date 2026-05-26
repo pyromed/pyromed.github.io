@@ -7,6 +7,36 @@ header:
   overlay_filter: 0.35
 excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
 
+feature_row_incendis_extrems:
+  - image_path: /assets/images/burn.jpg
+    alt: "Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013"
+    title: "Incendis extrems"
+    excerpt: "Els incendis esdevenen una amenaça crítica quan mostren un <strong>comportament extrem</strong>, el qual es caracteritza per:<br><br>
+    <ul>
+      <li><strong>Alta intensitat:</strong> s'allibera una quantitat massiva d'energia calorífica que dificulta qualsevol atac directe.</li>
+      <li><strong>Propagació per capçades:</strong> el foc salta a l'estrat arbori alt, avançant a gran velocitat de manera independent del sotabosc.</li>
+      <li><strong>Llarga durada:</strong> són altament persistents i poden romandre actius durant dies o, fins i tot, setmanes.</li>
+      <li><strong>Gran extensió:</strong> superen fàcilment el llindar dels Grans Incendis Forestals (GIF), afectant superfícies superiors a les 500 hectàrees.</li>
+      <li><strong>Complexitat de control:</strong> l'avanç erràtic i imprevisible trenca la capacitat d'extinció dels equips d'emergència i posa en risc directe els nuclis de població.</li>
+      <li><strong>Generació de focus secundaris:</strong> la projecció de fragments d'escorça o brases a llargues distàncies obre nous fronts de foc i, en situacions extremes, el plomall de fum pot interactuar amb l'atmosfera creant una <strong>meteorologia pròpia</strong> (piroclúmuls).</li>
+    </ul>"
+
+feature_row_interficie_urbana:
+  - image_path: /assets/images/interficie.jpg
+    alt: "Bombers treballen en la interfície urbana-forestal d'Andratx en 2013"
+    title: "La interfície urbana-forestal (IUF)"
+    excerpt: "La <strong>zona d'interfície urbana-forestal</strong> —allà on coexisteixen les estructures humanes i el combustible vegetal— representa un dels majors desafiaments en la <strong>gestió d'incendis forestals</strong>. Les principals raons per les quals aquestes àrees en comprometen l'extinció i multipliquen els riscos scalen són:<br><br>
+    <ul>
+      <li><strong>Saturació dels serveis d'emergència:</strong> La prioritat absoluta de salvar vides obliga a fragmentar els recursos humans i materials. Cal coordinar simultàniament l'atac al front de foc, l'evacuació de la comunitat i la defensa proactiva de les infraestructures.</li>
+      <li><strong>Propagació erràtica i comportament complex:</strong> La interacció entre els combustibles forestals i els elements urbans (jardins, tancats, estructures) genera dinàmiques de foc altament impredictibles, especialment sota condicions de fort vent.</li>
+      <li><strong>Presència d'elements d'alt risc a les llars:</strong> La proximitat del foc a dipòsits de combustible domèstic (com <strong>bombones de butà</strong> o dipòsits de gasoil) genera perill d'explosió, mentre que elements com les finestres obertes o els tendals faciliten una ràpida <strong>transferència de calor</strong> cap a l'interior dels habitatges.</li>
+    </ul>"
+
+feature_row_severitat:
+  - image_path: /assets/images/post-incendi.jpg
+    alt: "El paisatge després de l'incendi forestal d'Andratx en 2013"
+    excerpt: "Els incendis de <strong>comportament extrem</strong> solen classificar-se com incendis d'<strong>alta severitat</strong>, atès que provoquen una mortalitat vegetal massiva, una intensa <strong>degradació del sòl</strong> i l'alteració profunda del <strong>cicle de l'aigua</strong>.<br><br>
+    Aquestes condicions dràstiques comprometen seriosament la <strong>regeneració natural postincendi</strong>. La destrucció total de la coberta vegetal i la pèrdua de matèria orgànica a la capa superficial del sòl redueixen dràsticament la resiliència de l'ecosistema i en frenen la capacitat de recuperació autònoma."
 ---
 
 ## Simulador d'Incendis Forestals
@@ -40,10 +70,8 @@ excerpt: "El foc és una pertorbació ecològica natural que regula els ecosiste
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
-  // Initialize map centered around Serra de Tramuntana coordinates
   const map = L.map('map').setView([39.67, 2.48], 13);
 
-  // Add a light gray canvas basemap (similar to your screenshot)
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
   }).addTo(map);
@@ -52,7 +80,6 @@ excerpt: "El foc és una pertorbació ecològica natural que regula els ecosiste
   let pointsData;
   let polygonsData;
 
-  // Fetch your exported GeoJSON data structures 
   Promise.all([
     fetch('/assets/data/points.geojson').then(res => res.json()),
     fetch('/assets/data/burn_polygons.geojson').then(res => res.json())
@@ -60,7 +87,6 @@ excerpt: "El foc és una pertorbació ecològica natural que regula els ecosiste
     pointsData = pointsRes;
     polygonsData = polygonsRes;
 
-    // Add Blue Plot points 
     L.geoJSON(pointsData, {
       pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, {
@@ -74,11 +100,9 @@ excerpt: "El foc és una pertorbació ecològica natural que regula els ecosiste
       }
     }).addTo(map);
 
-    // Initial map render
     updateBurnPolygon();
   });
 
-  // Function to filter and show the active burn polygon
   function updateBurnPolygon() {
     if (burnLayer) { map.removeLayer(burnLayer); }
 
@@ -87,7 +111,6 @@ excerpt: "El foc és una pertorbació ecològica natural que regula els ecosiste
 
     burnLayer = L.geoJSON(polygonsData, {
       filter: function(feature) {
-        // Matches the wspd and time columns you mutated in your R script
         return feature.properties.wspd === selectedWind && 
                feature.properties.time === selectedTime;
       },
@@ -100,17 +123,35 @@ excerpt: "El foc és una pertorbació ecològica natural que regula els ecosiste
     }).addTo(map);
   }
 
-  // Listen for dropdown changes to re-trigger the rendering logic
   document.getElementById('windSpeed').addEventListener('change', updateBurnPolygon);
   document.getElementById('burnTime').addEventListener('change', updateBurnPolygon);
 </script>
----
-
-{% include feature_row id="feature_row_map" type="left" %}
 
 ---
 
-{% include feature_row id="feature_row_impact" type="right" %}
+{% include feature_row id="feature_row_incendis_extrems" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Imatge de la dreta: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: <a href="https://www.arabalears.cat" target="_blank">Ara Balears</a>
+</div>
+
+---
+
+{% include feature_row id="feature_row_interficie_urbana" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Imatge de la dreta: Bombers treballen en la interfície urbana-forestal d'Andratx en 2013. Autor: NA Font: <a href="https://www.ultimahora.es" target="_blank">Ultima Hora</a>
+</div>
+
+---
+
+{% include feature_row id="feature_row_severitat" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Imatge de la dreta: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: <a href="https://www.diariodemallorca.es" target="_blank">Diario de Mallorca</a>
+</div>
+
+---
 
 ## Final Call to Action
 
