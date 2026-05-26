@@ -5,13 +5,12 @@ permalink: /tramuntana/
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
-excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. 
-En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
+excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes.<br>En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
 ---
 
 ## Què és un foc?
 
-El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en reacció simultània. És l'efecte visible i tèrmic d'aquest procés de combustió ràpida.
+El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en reacció simultània.És l'efecte visible i tèrmic d'aquest procés de combustió ràpida.
 
 > **Un incendi és un foc descontrolat que es propaga en l'espai i el temps, afectant superfícies forestals o rurals, i que no està previst en els plans de gestió de l'ecosistema.**
 
@@ -25,7 +24,7 @@ Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistèn
 * **Combustible:** Tota la biomassa de la massa forestal capaç de cremar, que inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca del sòl.
 * **Font de calor o ignició:** L'aportació d'energia inicial que desencadena el procés. Pot ser d'origen natural (com la caiguda d'un llamp) o fruit de l'activitat humana, ja sigui per negligència o accident (llosques, línies elèctriques, fogueres mal apagades o espurnes per fricció de cadenes o maquinària).
 
-<img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width: 45%; max-width: 400px; border-radius: 6px;">
 *Figura: El triangle de la combustió i els elements essencials del foc. Figura adaptada de: Richard M., Chambers J.C., Pyke D., Pierson F.B., Frederick & Williams C.J. 2013.*
 
 ---
