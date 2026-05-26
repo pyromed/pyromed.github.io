@@ -10,9 +10,9 @@ feature_row_projects:
   - image_path: /assets/images/andratx-hero.jpg
     alt: "Incendis Tramuntana"
     title: "Incendis a la Serra de Tramuntana"
-    excerpt: "Explore our interactive wildfire simulation and ecological footprint analysis in Mallorca."
+    excerpt: "Una mirada a la història dels incendis forestals ."
     url: "/tramuntana/"
-    btn_label: "Explore Map"
+    btn_label: "Explore Story"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/burn.jpg
