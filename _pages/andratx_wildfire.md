@@ -24,9 +24,21 @@ Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistèn
 * **Combustible:** Tota la biomassa de la massa forestal capaç de cremar, que inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca del sòl.
 * **Font de calor o ignició:** L'aportació d'energia inicial que desencadena el procés. Pot ser d'origen natural (com la caiguda d'un llamp) o fruit de l'activitat humana, ja sigui per negligència o accident (llosques, línies elèctriques, fogueres mal apagades o espurnes per fricció de cadenes o maquinària).
 
-<img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width: 45%; max-width: 400px; border-radius: 6px;">
-*Figura: El triangle de la combustió i els elements essencials del foc. Figura adaptada de: Richard M., Chambers J.C., Pyke D., Pierson F.B., Frederick & Williams C.J. 2013.*
+<div style="margin:20px 0;">
 
+  <img 
+    src="/assets/images/triangle-combustio.jpg" 
+    alt="El triangle de la combustió" 
+    style="width:45%; max-width:400px; border-radius:6px; display:block;"
+  >
+
+  <p style="font-size:0.9em; font-style:italic; margin-top:8px;">
+    Figura: El triangle de la combustió i els elements essencials del foc. 
+    Figura adaptada de: Richard M., Chambers J.C., Pyke D., Pierson F.B., 
+    Frederick & Williams C.J. 2013.
+  </p>
+
+</div>
 ---
 
 ## Incendis extrems
@@ -107,15 +119,15 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 
 És crucial **replantejar els objectius de la gestió d'incendis**, passant de la simple extinció dels focs a una visió més adaptada a la realitat natural dels ecosistemes. Aquest enfocament implica **(re-)aprendre a conviure amb els incendis forestals**.
 
-<div style="text-align:center;">
+<div style="margin:20px 0;">
   <img 
     src="/assets/images/paradoxa.jpg" 
     alt="Paradoxa de l'extinció" 
-    style="width:70%; border-radius:6px; margin:15px 0;"
+    style="width:70%; max-width:400px; border-radius:6px; display:block;"
   >
 
   <p style="font-size:0.9em; font-style:italic; margin-top:5px;">
-    *Figura extreta de Hurteau, Koch, Hungate (2008). 
+    *Figura extreta de Hurteau, Koch, Hungate. 2008. 
     <em>Carbon protection and fire risk reduction: toward a full accounting of forest carbon offsets.</em> 
     Frontiers in Ecology and the Environment 6(9): 493–498.*
   </p>
