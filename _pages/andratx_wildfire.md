@@ -107,7 +107,7 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 
 És crucial **replantejar els objectius de la gestió d'incendis**, passant de la simple extinció dels focs a una visió més adaptada a la realitat natural dels ecosistemes. Aquest enfocament implica **(re-)aprendre a conviure amb els incendis forestals**.
 
-<img src="/assets/images/paradoxa.jpg" alt="Paradoxa de l'extinció" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/paradoxa.jpg" alt="Paradoxa de l'extinció" style="width:70%; border-radius:6px; margin: 15px 0;">
 *Bibliografia: Moreira F, Ascoli D, Safford H, et al. 2020. Wildfire Management in Mediterranean-type regions: paradigm change needed. Environmental Research Letters 15, 011001.*
 
 ---
