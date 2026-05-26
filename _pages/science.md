@@ -15,7 +15,7 @@ feature_row_projects:
     btn_label: "Explore Story"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/burn.jpg
+  - image_path: /assets/images/simulador.jpg
     alt: "Simulador"
     title: "Simulador d'àrea cremada"
     excerpt: "Description of your next community science tool or interactive narrative project."
