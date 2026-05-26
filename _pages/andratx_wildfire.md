@@ -65,16 +65,6 @@ Els incendis de **comportament extrem** solen ser d'**alta severitat**, ja que c
 
 ---
 
-## Els incendis a les Balears
-
-L'ús cultural del foc va ser fonamental a les Illes Balears per a la neteja de terres, la millora dels cultius i les pastures, així com per a la producció tradicional de carbó vegetal. 
-
-L'augment de la biomassa i la continuïtat forestal, juntament amb la supressió total dels incendis forestals i l'increment de l'aridesa provocada pel canvi climàtic, han agreujat significativament el risc d'incendis a la conca mediterrània en les últimes dècades.
-
-<img src="/assets/images/carboner.jpg" alt="Carboner" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME*
-
----
 
 ## Beneficis del foc a l'ecosistema
 
@@ -99,6 +89,16 @@ Les comunitats vegetals del bosc mediterrani han desenvolupat una elevada resili
 
 ---
 
+## Els incendis a les Balears
+
+L'ús cultural del foc va ser fonamental a les Illes Balears per a la neteja de terres, la millora dels cultius i les pastures, així com per a la producció tradicional de carbó vegetal. 
+
+L'augment de la biomassa i la continuïtat forestal, juntament amb la supressió total dels incendis forestals i l'increment de l'aridesa provocada pel canvi climàtic, han agreujat significativament el risc d'incendis a la conca mediterrània en les últimes dècades.
+
+<img src="/assets/images/carboner.jpg" alt="Carboner" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME*
+
+---
 ## La paradoxa de l'extinció
 
 La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
