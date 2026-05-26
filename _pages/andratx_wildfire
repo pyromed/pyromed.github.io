@@ -11,78 +11,49 @@ feature_row_incendis_extrems:
   - image_path: /assets/images/burn.jpg
     alt: "Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013"
     title: "Incendis extrems"
-    excerpt: "Els incendis esdevenen una amenaça crítica quan mostren un <strong>comportament extrem</strong>, el qual es caracteritza per:<br><br>
-    <ul>
-      <li><strong>Alta intensitat:</strong> s'allibera una quantitat massiva d'energia calorífica que dificulta qualsevol atac directe.</li>
-      <li><strong>Propagació per capçades:</strong> el foc salta a l'estrat arbori alt, avançant a gran velocitat de manera independent del sotabosc.</li>
-      <li><strong>Llarga durada:</strong> són altament persistents i poden romandre actius durant dies o, fins i tot, setmanes.</li>
-      <li><strong>Gran extensió:</strong> superen fàcilment el llindar dels Grans Incendis Forestals (GIF), afectant superfícies superiors a les 500 hectàrees.</li>
-      <li><strong>Complexitat de control:</strong> l'avanç erràtic i imprevisible trenca la capacitat d'extinció dels equips d'emergència i posa en risc directe els nuclis de població.</li>
-      <li><strong>Generació de focus secundaris:</strong> la projecció de fragments d'escorça o brases a llargues distàncies obre nous fronts de foc i, en situacions extremes, el plomall de fum pot interactuar amb l'atmosfera creant una <strong>meteorologia pròpia</strong> (piroclúmuls).</li>
-    </ul>"
+    excerpt: "Els incendis esdevenen una amenaça crítica quan mostren un <strong>comportament extrem</strong>, el qual es caracteritza per:<br><br><ul><li><strong>Alta intensitat:</strong> s'allibera una quantitat massiva d'energia calorífica que dificulta qualsevol atac directe.</li><li><strong>Propagació per capçades:</strong> el foc salta a l'estrat arbori alt, avançant a gran velocitat de manera independent del sotabosc.</li><li><strong>Llarga durada:</strong> són altament persistents i poden romandre actius durant dies o, fins i tot, setmanes.</li><li><strong>Gran extensió:</strong> superen fàcilment el llindar dels Grans Incendis Forestals (GIF), afectant superfícies superiors a les 500 hectàrees.</li><li><strong>Complexitat de control:</strong> l'avanç erràtic i imprevisible trenca la capacitat d'extinció dels equips d'emergència i posa en risc directe els nuclis de població.</li><li><strong>Generació de focus secundaris:</strong> la projecció de fragments d'escorça o brases a llargues distàncies obre nous fronts de foc i, en situacions extremes, el plomall de fum pot interactuar amb l'atmosfera creant una <strong>meteorologia pròpia</strong> (piroclúmuls).</li></ul>"
 
 feature_row_interficie_urbana:
   - image_path: /assets/images/interficie.jpg
     alt: "Bombers treballen en la interfície urbana-forestal d'Andratx en 2013"
     title: "La interfície urbana-forestal (IUF)"
-    excerpt: "La <strong>zona d'interfície urbana-forestal</strong> —allà on coexisteixen les estructures humanes i el combustible vegetal— representa un dels majors desafiaments en la <strong>gestió d'incendis forestals</strong>. Les principals raons per les quals aquestes àrees en comprometen l'extinció i multipliquen els riscos scalen són:<br><br>
-    <ul>
-      <li><strong>Saturació dels serveis d'emergència:</strong> La prioritat absoluta de salvar vides obliga a fragmentar els recursos humans i materials. Cal coordinar simultàniament l'atac al front de foc, l'evacuació de la comunitat i la defensa proactiva de les infraestructures.</li>
-      <li><strong>Propagació erràtica i comportament complex:</strong> La interacció entre els combustibles forestals i els elements urbans (jardins, tancats, estructures) genera dinàmiques de foc altament impredictibles, especialment sota condicions de fort vent.</li>
-      <li><strong>Presència d'elements d'alt risc a les llars:</strong> La proximitat del foc a dipòsits de combustible domèstic (com <strong>bombones de butà</strong> o dipòsits de gasoil) genera perill d'explosió, mentre que elements com les finestres obertes o els tendals faciliten una ràpida <strong>transferència de calor</strong> cap a l'interior dels habitatges.</li>
-    </ul>"
+    excerpt: "La <strong>zona d'interfície urbana-forestal</strong> —allà on coexisteixen les estructures humanes i el combustible vegetal— representa un dels majors desafiaments en la <strong>gestió d'incendis forestals</strong>. Les principals raons per les quals aquestes àrees en comprometen l'extinció i multipliquen els riscos són:<br><br><ul><li><strong>Saturació dels serveis d'emergència:</strong> La prioritat absoluta de salvar vides obliga a fragmentar els recursos humans i materials. Cal coordinar simultàniament l'atac al front de foc, l'evacuació de la comunitat i la defensa proactiva de les infraestructures.</li><li><strong>Propagació erràtica i comportament complex:</strong> La interacció entre els combustibles forestals i els elements urbans (jardins, tancats, estructures) genera dinàmiques de foc altament impredictibles, especialment sota condicions de fort vent.</li><li><strong>Presència d'elements d'alt risc a les llars:</strong> La proximitat del foc a dipòsits de combustible domèstic (com <strong>bombones de butà</strong> o dipòsits de gasoil) genera perill d'explosió, mentre que elements com les finestres obertes o els tendals faciliten una ràpida <strong>transferència de calor</strong> cap a l'interior dels habitatges.</li></ul>"
 
 feature_row_severitat:
   - image_path: /assets/images/post-incendi.jpg
     alt: "El paisatge després de l'incendi forestal d'Andratx en 2013"
-    excerpt: "Els incendis de <strong>comportament extrem</strong> solen classificar-se com incendis d'<strong>alta severitat</strong>, atès que provoquen una mortalitat vegetal massiva, una intensa <strong>degradació del sòl</strong> i l'alteració profunda del <strong>cicle de l'aigua</strong>.<br><br>
-    Aquestes condicions dràstiques comprometen seriosament la <strong>regeneració natural postincendi</strong>. La destrucció total de la coberta vegetal i la pèrdua de matèria orgànica a la capa superficial del sòl redueixen dràsticament la resiliència de l'ecosistema i en frenen la capacitat de recuperació autònoma."
-
-feature_row_paradoxa:
-  - image_path: /assets/images/paradoxa.jpg
-    alt: "Esquema de producció de biomassa i gestió de l'extinció"
-    excerpt: "La supressió sistemàtica dels incendis forestals no és viable a llarg termini ni tampoc ecològicament desitjable, tal com constata la comunitat científica (Moreira et al., 2020).<br><br>
-    <blockquote><strong>Paradoxalment, la supressió total d'incendis forestals de baixa intensitat assegura l'aparició inevitable d'incendis de comportament extrem.</strong></blockquote><br>
-    Resulta crucial, per tant, replantejar els objectius de la gestió del foc: hem de transcendir la visió clàssica basada exclusivament en l'extinció d'emergència i avançar cap a una estratègia integrada i adaptada a la realitat climàtica dels nostres ecosistemes. Aquest canvi de paradigma implica necessàriament <strong>(re-)aprendre a conviure amb els incendis forestals</strong>."
+    excerpt: "Els incendis de <strong>comportament extrem</strong> solen classificar-se com incendis d'<strong>alta severitat</strong>, atès que provoquen una mortalitat vegetal massiva, una intensa <strong>degradació del sòl</strong> i l'alteració profunda del <strong>cicle de l'aigua</strong>.<br><br>Aquestes condicions dràstiques comprometen seriosament la <strong>regeneració natural postincendi</strong>. La destruction total de la coberta vegetal i la pèrdua de matèria orgànica a la capa superficial del sòl redueixen dràsticament la resiliència de l'ecosistema i en frenen la capacitat de recuperació autònoma."
 
 feature_row_balears:
   - image_path: /assets/images/carboner.jpg
     alt: "L'ofici de carboner i la producció tradicional de carbó vegetal"
     title: "Els incendis a les Balears"
-    excerpt: "Històricament, l'ús cultural del foc va ser una eina fonamental a les Illes Balears per a la neteja de terres, la millora de pastures i l'optimització dels cultius (Mayol, 2002; Cifre Sabater, 2020), a la vegada que sustentava activitats tradicionals com la producció de carbó vegetal (Fullana Llinàs et al., 2021).<br><br>
-    No obstant això, l'<strong>abandonament del món rural</strong> i el progressiu cessament d'aquestes pràctiques tradicionals han eliminat el mosaic paisatgístic històric. Això ha provocat un <strong>augment sense precedents de la biomassa</strong> i una perillosa continuïtat forestal. Aquests canvis en l'estructura del bosc, combinats amb la supressió total dels incendis i l'increment de l'aridesa provocada pel canvi climàtic, han agreujat críticament el risc de grans incendis forestals a la conca mediterrània durant les últimes dècades."
-
-
+    excerpt: "Històricament, l'ús cultural del foc va ser una eina fonamental a les Illes Balears per a la neteja de terres, la millora de pastures i l'optimització dels cultius, a la vegada que sustentava activitats tradicionals com la producció de carbó vegetal.<br><br>No obstant això, l'<strong>abandonament del món rural</strong> i el progressiu cessament d'aquestes pràctiques tradicionals han eliminat el mosaic paisatgístic històric. Això ha provocat un <strong>augment sense precedents de la biomassa</strong> i una perillosa continuïtat forestal. Aquests canvis en l'estructura del bosc, combinats amb la supressió total dels incendis i l'increment de l'aridesa provocada pel canvi climàtic, han agreujat críticament el risc de grans incendis forestals a la conca mediterrània durant les últimes dècades."
 
 feature_row_beneficis:
   - image_path: /assets/images/mosaic-biodiversitat.jpg
     alt: "Mosaic paisatgístic i obertura de nínxols ecològics postincendi"
     title: "El paper ecològic del foc: beneficis a l'ecosistema"
-    excerpt: "Luny de ser una simple força destructiva, el foc actua com un agent modelador fonamental en els ecosistemes mediterranis. Quan el règim de pertorbacions es manté dins dels seus llindars naturals, genera dinàmiques altament beneficioses:<br><br>
-    <ul>
-      <li><strong>Estímul de la regeneració:</strong> El xoc tèrmic i els components del fum actuen com a catalitzadors vitals, trencant la latència i estimulant la germinació de bancs de llavors persistents al sòl.</li>
-      <li><strong>Reciclatge eficient de nutrients:</strong> La mineralització immediata de la matèria vegetal transferida en forma de cendres retorna macro i micronutrients essencials al sòl, fertilitzant les capes superficials per al nou cicle vegetatiu.</li>
-      <li><strong>Promoció de l'heterogeneïtat i la biodiversitat:</strong> L'obertura de clarianes trenca la dominància del bosc tancat. Això genera un mosaic de sol i ombra que permet la colonització d'espècies heliòfiles, incrementant la riquesa de nínxols ecològics tant per a la flora com per a la fauna associada.</li>
-      <li><strong>Regulació de l'estructura forestal:</strong> Els focs de baixa intensitat actuen com un aclarida natural que redueix la densitat del sotabosc i el combustible acumulat, trencant la continuïtat vertical i horitzontal que alimentaria incendis posteriors catastròfics.</li>
-    </ul>"
+    excerpt: "Lluny de ser una simple força destructiva, el foc actua com un agent modelador fonamental en els ecosistemes mediterranis. Quan el règim de pertorbacions es manté dins dels seus llindars naturals, genera dinàmiques altament beneficioses:<br><br><ul><li><strong>Estímul de la regeneració:</strong> El xoc tèrmic i els components del fum actuen com a catalitzadors vitals, trencant la latència i estimulant la germinació de bancs de llavors persistents al sòl.</li><li><strong>Reciclatge eficient de nutrients:</strong> La mineralització immediata de la matèria vegetal transferida en forma de cendres retorna macro i micronutrients essencials al sòl, fertilitzant les capes superficials per al nou cicle vegetatiu.</li><li><strong>Promoció de l'heterogeneïtat i la biodiversitat:</strong> L'obertura de clarianes trenca la dominància del bosc tancat. Això genera un mosaic de sol i ombra que permet la colonització d'espècies heliòfiles, incrementant la riquesa de nínxols ecològics tant per a la flora com per a la fauna associada.</li><li><strong>Regulació de l'estructura forestal:</strong> Els focs de baixa intensitat actuen com un aclarida natural que redueix la densitat del sotabosc i el combustible acumulat, trencant la continuïtat vertical i horitzontal que alimentaria incendis posteriors catastròfics.</li></ul>"
 
 feature_row_adaptacions:
   - image_path: /assets/images/estepa-rebrot.jpg
     alt: "Una estepa rebrota després de l'incendi forestal d'Andratx"
     title: "Les plantes estan adaptades al règim d'incendis"
-    excerpt: "Les comunitats vegetals del bosc mediterrani han evolucionat conjuntament amb el foc, desenvolupant una elevada resiliència gràcies a dos mecanismes evolutius fonamentals de regeneració postincendi: la <strong>germinació</strong> (estimulada per la calor o el fum) i la <strong>rebrotació</strong> a partir d'estructures subterrànies o gemmes protegides.<br><br>
-    <blockquote><strong>La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a la pertorbació.</strong></blockquote>"
+    excerpt: "Les comunitats vegetals del bosc mediterrani han evolucionat conjuntament amb el foc, desenvolupant una elevada resiliència gràcies a dos mecanismes evolutius fonamentals de regeneració postincendi: la <strong>germinació</strong> (estimulada per la calor o el fum) i la <strong>rebrotació</strong> a partir d'estructures subterrànies o gemmes protegides.<br><br><blockquote><strong>La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a la pertorbació.</strong></blockquote>"
+
+feature_row_paradoxa:
+  - image_path: /assets/images/paradoxa.jpg
+    alt: "Esquema de producció de biomassa i gestió de l'extinció"
+    excerpt: "La supressió sistemàtica dels incendis forestals no és viable a llarg termini ni tampoc ecològicament desitjable, tal com constata la comunitat científica (Moreira et al., 2020).<br><br><blockquote><strong>Paradoxalment, la supressió total d'incendis forestals de baixa intensitat assegura l'aparició inevitable d'incendis de comportament extrem.</strong></blockquote><br>Resulta crucial, per tant, replantejar els objectius de la gestió del foc: hem de transcendir la visió clàssica basada exclusivament en l'extinció d'emergència i avançar cap a una estratègia integrada i adaptada a la realitat climàtica dels nosaltres ecosistemes. Aquest canvi de paradigma implica necessàriament <strong>(re-)aprendre a conviure amb els incendis forestals</strong>."
 
 feature_row_gestio:
   - image_path: /assets/images/esquema-gestio.jpg
     alt: "Model conceptual d'objectius i accions per a la reducció del risc d'incendis en interfície segons Calkin et al. 2013"
     title: "Gestió forestal i cogestió adaptativa"
-    excerpt: "Atès que la major part del territori forestal de les Illes Balears és de <strong>propietat privada</strong> i es troba altament fragmentat en petites parcel·les, els models tradicionals de dalt a baix resulten ineficaços. Esdevé imperatiu adoptar un enfocament basat en la <strong>cogestió forestal</strong>, on la presa de decisions sigui horitzontal i participativa.<br><br>
-    <blockquote><strong>Hem de reconèixer les Balears com un sistema socioecològic complex, on l'ésser humà i el seu entorn estan estretament vinculats, i on la gestió del risc és una responsabilitat compartida.</strong></blockquote><br>
-    Aquesta visió compartida exigeix articular accions transversals que abastin des de l'ordenació del territori i el disseny d'infraestructures resilients, fins a la prevenció social i l'autogestió proactiva de les parcel·les privades en zones d'interfície."
-
-
+    excerpt: "Atès que la major part del territori forestal de les Illes Balears és de <strong>propietat privada</strong> i es troba altament fragmentat en petites parcel·les, els models tradicionals de dalt a baix resulten ineficaços. Esdevé imperatiu adoptar un enfocament basat en la <strong>cogestió forestal</strong>, on la presa de decisions sigui horitzontal i participativa.<br><br><blockquote><strong>Hem de reconèixer les Balears com un sistema socioecològic complex, on l'ésser humà i el seu entorn estan estretament vinculats, i on la gestió del risc és una responsabilitat compartida.</strong></blockquote><br>Aquesta visió compartida exigeix articular accions transversals que abastin des de l'ordenació del territori i el disseny d'infraestructures resilients, fins a la prevenció social i l'autogestió proactiva de les parcel·les privades en zones d'interfície."
 ---
+
 ## Simulador d'Incendis Forestals
 
 <div style="display: flex; height: 500px; font-family: sans-serif;">
@@ -197,6 +168,46 @@ feature_row_gestio:
 
 ---
 
+{% include feature_row id="feature_row_balears" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Fotografia de la dreta: L'ofici de carboner i la producció de carbó vegetal. Font: <a href="https://www.ipcime.cat/inventari/13/243" target="_blank">IPCIME (Inventari del Patrimoni Cultural Immaterial de Menorca)</a>
+</div>
+
+---
+
+{% include feature_row id="feature_row_beneficis" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Imatge de la dreta: Regeneració d'estrats herbacis i arbustius sota un mosaic forestal mediterrani diversificat. Autor: PyroMED Team
+</div>
+
+---
+
+{% include feature_row id="feature_row_adaptacions" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Fotografia de la dreta: Una estepa (<em>Cistus</em>) rebrota amb força després de l'incendi forestal d'Andratx en 2013. Autor: NA
+</div>
+
+---
+
+{% include feature_row id="feature_row_paradoxa" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Imatge de la dreta: Esquema conceptual sobre els cicles de biomassa i gestió del foc. Bibliografia: Moreira F, Ascoli D, Safford H, et al. 2020. Wildfire Management in Mediterranean-type regions: paradigm change needed. <em>Environmental Research Letters</em> 15, 011001.
+</div>
+
+---
+
+{% include feature_row id="feature_row_gestio" type="right" %}
+
+<div style="font-size: 0.85em; color: #666; margin-top: -10px; margin-bottom: 30px;">
+  Figura de la dreta: Model conceptual que destaca els principals objectius i les accions per reduir el risc de pèrdua d'hàbitat com a conseqüència d'incendis forestals. Figura adaptada de: Calkin DE, Cohen JD, Finney MA, Thompson MP. 2013. How risk management can prevent future wildfire disasters in the wildland-urban interface. <em>PNAS</em> 111(2): 746–751.
+</div>
+
+---
+
 ## Final Call to Action
 
-You can wrap up your public outreach page right here with standard Markdown text. Tell your readers how they can get involved, link to external resources, or provide your contact info.
+Pots tancar l'espai de divulgació científica de PyroMED convidant els usuaris a seguir les vostres xarxes o descarregar els vostres articles complets sobre la dinàmica d'incendis a la conca mediterrània.
