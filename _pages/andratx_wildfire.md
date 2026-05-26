@@ -89,9 +89,9 @@ Les comunitats vegetals del bosc mediterrani han desenvolupat una elevada resili
 
 ---
 
-## Els incendis a les Balears
+## L'ús cultural del foc
 
-L'ús cultural del foc va ser fonamental a les Illes Balears per a la neteja de terres, la millora dels cultius i les pastures, així com per a la producció tradicional de carbó vegetal. 
+L'ús del foc va ser fonamental a les Illes Balears per a la neteja de terres, la millora dels cultius i les pastures, així com per a la producció tradicional de carbó vegetal. 
 
 L'augment de la biomassa i la continuïtat forestal, juntament amb la supressió total dels incendis forestals i l'increment de l'aridesa provocada pel canvi climàtic, han agreujat significativament el risc d'incendis a la conca mediterrània en les últimes dècades.
 
