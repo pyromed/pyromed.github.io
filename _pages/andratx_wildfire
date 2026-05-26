@@ -5,7 +5,7 @@ permalink: /tramuntana/
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
-excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi.<br><br><small><strong>Alícia Azpeleta</strong><br>May 13, 2024</small>."
+excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
 intro:
   - excerpt: 'This is your main introductory narrative block. Use welcoming, accessible language here for your public audience. Explain the problem, the community impact, or the overall mission of the Pyromed project before diving into the data.'
 feature_row_map:
