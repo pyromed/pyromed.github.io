@@ -6,54 +6,6 @@ header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
 excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
-
-feature_row_incendis_extrems:
-  - image_path: /assets/images/burn.jpg
-    alt: "Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013"
-    title: "Incendis extrems"
-    excerpt: "Els incendis esdevenen una amenaça crítica quan mostren un comportament extrem, caracteritzat per alta intensitat, propagació per capçades, llarga durada, gran extensió, complexitat de control i generació de focus secundaris."
-
-feature_row_interficie_urbana:
-  - image_path: /assets/images/interficie.jpg
-    alt: "Bombers treballen en la interfície urbana-forestal d'Andratx en 2013"
-    title: "La interfície urbana-forestal (IUF)"
-    excerpt: "La zona d'interfície urbana-forestal representa un dels majors desafhaments en la gestió del foc a causa de la saturació dels serveis d'emergència, la propagació erràtica del foc i la presència d'elements de risc com bombones de butà."
-
-feature_row_severitat:
-  - image_path: /assets/images/post-incendi.jpg
-    alt: "El paisatge després de l'incendi forestal d'Andratx en 2013"
-    title: "Severitat de l'incendi"
-    excerpt: "Els incendis d'alta severitat provoquen mortalitat vegetal massiva, degradació del sòl i alteració del cicle de l'aigua, la qual cosa compromet seriosament la regeneració natural postincendi."
-
-feature_row_balears:
-  - image_path: /assets/images/carboner.jpg
-    alt: "L'ofici de carboner i la producció tradicional de carbó vegetal"
-    title: "Els incendis a les Balears"
-    excerpt: "L'abandonament del món rural i el cessament de pràctiques tradicionals com el carbonet han eliminat el mosaic paisatgístic, provocant un augment sense precedents de la biomassa i la continuïtat forestal."
-
-feature_row_beneficis:
-  - image_path: /assets/images/mosaic-biodiversitat.jpg
-    alt: "Mosaic paisatgístic i obertura de nínxols ecològics postincendi"
-    title: "El paper ecològic del foc"
-    excerpt: "El foc actua com un agent modelador fonamental: estimula la germinació, recicla nutrients de manera eficient, promou la biodiversitat i regula l'estructura de la biomassa del sotabosc."
-
-feature_row_adaptacions:
-  - image_path: /assets/images/estepa-rebrot.jpg
-    alt: "Una estepa rebrota després de l'incendi forestal d'Andratx"
-    title: "Adaptació al règim d'incendis"
-    excerpt: "Les plantes de l'ecosistema mediterrani han evolucionat conjuntament amb el foc mitjançant estratègies resilients com la germinació induïda per la calor o la rebrotació des d'estructures subterrànies."
-
-feature_row_paradoxa:
-  - image_path: /assets/images/paradoxa.jpg
-    alt: "Esquema de producció de biomassa i gestió de l'extinció"
-    title: "La paradoxa de l'extinció"
-    excerpt: "La supressió total dels incendis de baixa intensitat acumula combustible de manera indefinida, assegurant l'aparició inevitable d'incendis de comportament extrem."
-
-feature_row_gestio:
-  - image_path: /assets/images/esquema-gestio.jpg
-    alt: "Model conceptual de reducció de risc"
-    title: "Gestió forestal adaptativa"
-    excerpt: "Atès que la major part del territori de les Illes Balears és de propietat privada, cal un model de cogestió horitzontal que assumeixi el territori com un sistema socioecològic complex."
 ---
 
 ## Simulador d'Incendis Forestals
@@ -148,32 +100,94 @@ feature_row_gestio:
 
 ---
 
-{% include feature_row id="feature_row_incendis_extrems" type="right" %}
+## Incendis extrems
+
+Els incendis esdevenen un problema greu quan presenten un **comportament extrem**, caracteritzat per:
+* **Alta intensitat:** generen una gran quantitat d'energia calorífica.
+* **Propagació per la capçada**.
+* **Llarga durada:** persistents durant dies o fins i tot mesos.
+* **Gran extensió** ($\ge 500$ hectàrees).
+* **Dificultat de control:** es propaguen de manera erràtica i imprevisible, representant un gran risc per als equips d'extinció i les poblacions.
+* **Creen nous incendis** a partir de fragments d'escorça cremada i inclús poden crear la seva pròpia meteorologia.
+
+<img src="/assets/images/burn.jpg" alt="Incendis extrems" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ara Balears*
 
 ---
 
-{% include feature_row id="feature_row_interficie_urbana" type="right" %}
+## La zona d'interfase urbana-forestal
+
+La **zona d'interfase urbana-forestal** representa un gran desafiament en la **gestió d'incendis forestals**. Les raons per les quals aquestes zones compliquen les feines d'extinció i augmenten el risc per als bombers forestals són les següents:
+* **Superen les capacitats dels bombers**, ja que cal coordinar diverses tasques simultànies, com la **supressió de l'incendi forestal**, l'**evacuació de la comunitat** i la **protecció de les infraestructures**.
+* **Propagació erràtica i impredictible** especialment quan interactuen els combustibles forestals amb elements urbans.
+* **Elements perillosos a les llars:** Alguns habitatges poden contenir **elements explosius**, com **bombones de butà**, o materials que **augmenten la transferència de calor**, com finestres obertes.
+
+<img src="/assets/images/interficie.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ultima Hora*
 
 ---
 
-{% include feature_row id="feature_row_severitat" type="right" %}
+## Severitat de l'incendi
+
+Els incendis de **comportament extrem** solen ser d'**alta severitat**, ja que causen una gran mortalitat vegetal, una intensa **degradació del sòl** i alteren el **cicle de l'aigua**. Aquestes condicions dificulten considerablement la **regeneració natural post-incendi**, perquè la destrucció de la vegetació i la pèrdua de matèria orgànica al sòl afecten la capacitat de l'ecosistema per recuperar-se.
+
+<img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Imatge: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: Diario de Mallorca*
 
 ---
 
-{% include feature_row id="feature_row_balears" type="right" %}
+## Els incendis a les Balears
+
+L'ús cultural del foc va ser fonamental a les Illes Balears per a la neteja de terres, la millora dels cultius i les pastures, així com per a la producció tradicional de carbó vegetal. 
+
+L'augment de la biomassa i la continuïtat forestal, juntament amb la supressió total dels incendis forestals i l'increment de l'aridesa provocada pel canvi climàtic, han agreujat significativament el risc d'incendis a la conca mediterrània en les últimes dècades.
+
+<img src="/assets/images/carboner.jpg" alt="Carboner" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME*
 
 ---
 
-{% include feature_row id="feature_row_beneficis" type="right" %}
+## Beneficis del foc a l'ecosistema
+
+Quan el foc es manté en un règim natural, aporta dinàmiques positives:
+* **Regeneració:** estimula la germinació de llavors de plantes germinadores.
+* **Cicle de nutrients:** allibera nutrients de la matèria vegetal cremada, enriquint el sòl.
+* **Biodiversitat:** Els incendis obren espais per a noves plantes i ajuden a mantenir la diversitat ecològica.
+* **Control de vegetació:** Els incendis redueixen la densitat de vegetació, prevenint incendis més grans.
+
+<img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
 ---
 
-{% include feature_row id="feature_row_adaptacions" type="right" %}
+## Les plantes estan adaptades al règim d'incendis
+
+Les comunitats vegetals del bosc mediterrani han desenvolupat una elevada resiliència als incendis, gràcies a dos mecanismes clau de regeneració post-incendi: **germinació** i **rebrotació**.
+
+> **La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a l'incendi.**
+
+<img src="/assets/images/estepa-rebrot.jpg" alt="Estepa rebrotant" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Fotografia: Una estepa rebrota després de l'incendi forestal d'Andratx en 2013.*
 
 ---
 
-{% include feature_row id="feature_row_paradoxa" type="right" %}
+## La paradoxa de l'extinció
+
+La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
+
+> **Paradoxalment, la supressió d'incendis forestals assegura l'aparició d'incendis de comportament extrem.**
+
+És crucial **replantejar els objectius de la gestió d'incendis**, passant de la simple extinció dels focs a una visió més adaptada a la realitat natural dels ecosistemes. Aquest enfocament implica **(re-)aprendre a conviure amb els incendis forestals**.
+
+<img src="/assets/images/paradoxa.jpg" alt="Paradoxa de l'extinció" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Bibliografia: Moreira F, Ascoli D, Safford H, et al. 2020. Wildfire Management in Mediterranean-type regions: paradigm change needed. Environmental Research Letters 15, 011001.*
 
 ---
 
-{% include feature_row id="feature_row_gestio" type="right" %}
+## Gestió forestal
+
+Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
+
+> **Hem de reconèixer les Balears com un sistema on l'humà i l'entorn estan estretament vinculats i a on la gestió és una responsabilitat compartida.**
+
+<img src="/assets/images/esquema-gestio.jpg" alt="Esquema gestió forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Figura: Model conceptual que destaca els principals objectius i les accions per reduir el risc de pèrdua d'habitatge com a conseqüència d'incendis forestals. Figura adaptada de: Calkin DE, Cohen J.D., Finney M.A., Thompson M.P. 2013.*
