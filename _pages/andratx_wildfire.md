@@ -8,6 +8,27 @@ header:
 excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
 ---
 
+## Què és un foc?
+
+El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en reacció simultània. És l'efecte visible i tèrmic d'aquest procés de combustió ràpida.
+
+> **Un incendi és un foc descontrolat que es propaga en l'espai i el temps, afectant superfícies forestals o rurals, i que no està previst en els plans de gestió de l'ecosistema.**
+
+Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-ne un dels components. Per exemple, l'aplicació d'aigua sobre la biomassa té un doble efecte: refreda el material combustible i crea una barrera física que l'aïlla de l'oxigen de l'aire, aturant la propagació de manera immediata.
+
+### El triangle de la combustió
+
+Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistència de tres factors clau:
+
+* **Oxigen (Comburent):** Present a l'atmosfera de manera constant (aproximadament un 21% en volum), és el gas que activa i sosté la reacció química.
+* **Combustible:** Tota la biomassa de la massa forestal capaç de cremar, que inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca del sòl.
+* **Font de calor o ignició:** L'aportació d'energia inicial que desencadena el procés. Pot ser d'origen natural (com la caiguda d'un llamp) o fruit de l'activitat humana, ja sigui per negligència o accident (llosques, línies elèctriques, fogueres mal apagades o espurnes per fricció de cadenes o maquinària).
+
+<img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Figura: El triangle de la combustió i els elements essencials del foc. Figura adaptada de: Richard M., Chambers J.C., Pyke D., Pierson F.B., Frederick & Williams C.J. 2013.*
+
+---
+
 ## Incendis extrems
 
 Els incendis esdevenen un problema greu quan presenten un **comportament extrem**, caracteritzat per:
