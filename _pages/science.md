@@ -16,8 +16,8 @@ feature_row_projects:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/burn.jpg
-    alt: "Future Project Placeholder"
-    title: "Projecte 2: Proximament"
+    alt: "Simulador"
+    title: "Simulador d'àrea cremada"
     excerpt: "Description of your next community science tool or interactive narrative project."
     url: "#"
     btn_label: "Coming Soon"
