@@ -174,21 +174,27 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
 
 </div>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-
 <script>
-  // Initialize map tracking standard viewing box coordinates
+  // 1. Initialize map WITHOUT the standard base map layer tiles
+  // (We remove L.tileLayer completely to give you a clean slate)
   var map = L.map('map').setView([39.6, 2.7], 11);
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
-  }).addTo(map);
-
+  // Global variables to store your custom spatial layers
   var allPoints = [];
   var allPolygons = [];
+  var allContours = []; // Added to hold your topographic lines
   
-  var pointsLayerGroup = L.layerGroup().addTo(map);
-  var polygonsLayerGroup = L.layerGroup().addTo(map);
+  // Dedicated overlay layers
+  var contoursLayerGroup = L.layerGroup().addTo(map); // Static background
+  var polygonsLayerGroup = L.layerGroup().addTo(map); // Dynamic burn footprints
+  var pointsLayerGroup = L.layerGroup().addTo(map);   // Interactive blue points
+
+  // Component Style Profiles (Adjust colors to make them pop against a dark/light dashboard!)
+  var contourStyle = {
+    color: "#4a6b82",    // Subtle blue-grey contour lines
+    weight: 1,
+    opacity: 0.6
+  };
 
   var bluePointStyle = {
     radius: 6,
@@ -206,16 +212,19 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     fillOpacity: 0.5
   };
 
-  // Jekyll asset path injection parsing via Liquid Engine
+  // 2. Fetch all three GeoJSON assets concurrently from your Jekyll assets folder
   Promise.all([
     fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => r.json()),
-    fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json())
-  ]).then(([pointsData, polygonsData]) => {
+    fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json()),
+    fetch('{{ "/assets/data/contours.geojson" | relative_url }}').then(r => r.json()) // Fetching your contours!
+  ]).then(([pointsData, polygonsData, contoursData]) => {
     allPoints = pointsData.features;
     allPolygons = polygonsData.features;
+    allContours = contoursData.features;
     
+    // Build initial layout render
     updateSimulation();
-  }).catch(err => console.error('Error loading simulation components:', err));
+  }).catch(err => console.error('Error loading simulation layer maps:', err));
 
   document.getElementById('wind-select').addEventListener('change', function() { polygonsLayerGroup.clearLayers(); });
   document.getElementById('time-select').addEventListener('change', function() { polygonsLayerGroup.clearLayers(); });
@@ -223,18 +232,26 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
   function updateSimulation() {
     pointsLayerGroup.clearLayers();
     polygonsLayerGroup.clearLayers();
+    contoursLayerGroup.clearLayers(); // Clean slate refresh
+    
     document.getElementById('left-metrics').classList.add('hidden');
     document.getElementById('right-panel').style.display = 'none';
 
     if(allPoints.length === 0) return;
 
-    // Render geographic data points
+    // A. Render your custom Contour lines as the absolute background canvas layer
+    var contourLayer = L.geoJSON({ type: "FeatureCollection", features: allContours }, {
+      style: contourStyle
+    }).addTo(contoursLayerGroup);
+
+    // B. Render interactive point layer nodes over the contour canvas background
     var geoJsonLayer = L.geoJSON({ type: "FeatureCollection", features: allPoints }, {
       pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, bluePointStyle);
       },
       onEachFeature: function (feature, layer) {
-        layer.on('click', function () {
+        layer.on('click', function (e) {
+          L.DomEvent.stopPropagation(e);
           var currentWind = parseInt(document.getElementById('wind-select').value);
           var currentTime = parseInt(document.getElementById('time-select').value);
           displayIncidentDetails(feature, currentWind, currentTime);
@@ -242,45 +259,53 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
       }
     }).addTo(pointsLayerGroup);
 
-    // Zoom automatically right directly into the coordinates frame bounding layout
-    if (geoJsonLayer.getBounds().isValid()) {
-        map.fitBounds(geoJsonLayer.getBounds(), { padding: [40, 40] });
+    // C. Zoom the viewport smoothly to center directly over your localized contour bounds!
+    if (contourLayer.getBounds().isValid()) {
+        map.fitBounds(contourLayer.getBounds(), { padding: [20, 20] });
     }
   }
 
   function displayIncidentDetails(pointFeature, wind, time) {
+    // Clear out old active polygons completely upon each new click event
     polygonsLayerGroup.clearLayers();
 
-    // Find overlapping simulation polygon
-    var matchingPoly = allPolygons.find(p => 
-      String(p.properties.id) === String(pointFeature.properties.id) &&
-      parseInt(p.properties.wind) === wind &&
-      parseInt(p.properties.time) === time
-    );
+    var pointId = String(pointFeature.properties.id);
+
+    // Filter matching burn layout criteria safely by converting indices to clear strings
+    var matchingPoly = allPolygons.find(p => {
+      var matchId = String(p.properties.id || p.properties.site_id);
+      var matchWind = parseInt(p.properties.wind);
+      var matchTime = parseInt(p.properties.time);
+      
+      return matchId === pointId && matchWind === wind && matchTime === time;
+    });
 
     if (matchingPoly) {
       L.geoJSON(matchingPoly, { style: activeBurnStyle }).addTo(polygonsLayerGroup);
+    } else {
+      console.warn("No overlapping layout map found for point ID:", pointId, "Wind:", wind, "Time:", time);
     }
 
+    // Populate Side Control Dashboards
     var props = pointFeature.properties;
 
-    // --- LEFT SIDEBAR CONTENT HANDLING ---
+    // --- Left Panels updates ---
     document.getElementById('left-metrics').classList.remove('hidden');
     document.getElementById('fire-type').innerText = props.fire_type || "DE SUPERFÍCIE";
     
+    // Pull the calculated values explicitly or apply standard defaults if unavailable
     var intensity = props.intensity || 248.22;
     var speed = props.spread_speed || 2.6;
+    
     document.getElementById('intensity-val').innerText = intensity;
     document.getElementById('speed-val').innerText = speed;
     
-    // Scale tracking bars
     document.getElementById('intensity-bar').style.width = Math.min((intensity / 1000) * 100, 100) + "%";
     document.getElementById('speed-bar').style.width = Math.min((speed / 20) * 100, 100) + "%";
     
-    // This populates the custom string text directly from your geojson properties tag!
     document.getElementById('critical-elements').innerText = props.critical_elements || "Plantes adaptades a la sequera -> Molt inflamables";
 
-    // --- RIGHT SIDEBAR CONTENT HANDLING ---
+    // --- Right Panels updates ---
     document.getElementById('right-panel').style.display = 'block';
     document.getElementById('char-elev').innerText = props.elevation || "-";
     document.getElementById('char-slope').innerText = props.slope || "-";
@@ -290,7 +315,6 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     document.getElementById('char-under').innerText = props.understory_cover || "-";
     
     if(props.image_url) {
-       // Appends Jekyll base path tags to target your image asset catalog folder perfectly
        document.getElementById('env-img').src = '{{ "" | relative_url }}' + props.image_url;
     } else {
        document.getElementById('env-img').src = '{{ "/assets/images/bosc_default.jpg" | relative_url }}';
