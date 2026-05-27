@@ -7,7 +7,7 @@ sidebar:
   nav: "main"
 ---
 
-Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i els punts d'ignició associats a la simulació d'incendis de PyroMED.
+Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i els punts d'ignició associats a una simulació d'incendis.
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
