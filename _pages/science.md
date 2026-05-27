@@ -7,7 +7,7 @@ sidebar:
   nav: "main"
 
 feature_row_projects:
-  - image_path: /assets/images/mosaic.jpg
+  - image_path: /assets/images/andratx.jpg
     alt: "Incendis Tramuntana"
     title: "Una mirada a la història dels incendis forestals"
     excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
