@@ -9,8 +9,8 @@ sidebar:
 feature_row_projects:
   - image_path: /assets/images/mosaic.jpg
     alt: "Incendis Tramuntana"
-    title: "Incendis a la Serra de Tramuntana"
-    excerpt: "Una mirada a la història dels incendis forestals"
+    title: "Una mirada a la història dels incendis forestals"
+    excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
     url: "/tramuntana/"
     btn_label: "Explore Story"
     btn_class: "btn--primary"
