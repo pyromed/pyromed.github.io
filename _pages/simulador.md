@@ -12,12 +12,12 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
 <style>
-  /* Dashboard layout matching your screenshots */
+  /* Dashboard layout configuration matching your layout templates */
   .dashboard-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: #1a425a; /* Deep blue background */
+    background-color: #1a425a; 
     color: #ffffff;
     padding: 20px;
     border-radius: 8px;
@@ -30,12 +30,6 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
-
-  .sidebar-controls h3 {
-    margin-top: 0;
-    color: #fff;
-    font-size: 1.1em;
   }
 
   .control-group {
@@ -78,7 +72,7 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     border-radius: 4px;
     max-height: 550px;
     overflow-y: auto;
-    display: none; /* Hidden until a blue point is clicked */
+    display: none; 
   }
 
   .info-panel img {
@@ -122,7 +116,7 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
       <label for="wind-select">Velocitat del vent (km/h):</label>
       <select id="wind-select">
         <option value="10">10</option>
-        <option value="20">20</option>
+        <option value="20" selected>20</option>
         <option value="30">30</option>
       </select>
     </div>
@@ -130,7 +124,7 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     <div class="control-group">
       <label for="time-select">Temps (min):</label>
       <select id="time-select">
-        <option value="30">30</option>
+        <option value="30" selected>30</option>
         <option value="60">60</option>
         <option value="120">120</option>
       </select>
@@ -150,7 +144,7 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
       </div>
 
       <p style="margin-top:20px;"><strong>Perill d'incendi:</strong> <span id="danger-level">Moderat</span></p>
-      <p><strong>Elements crítics:</strong><br><small id="critical-elements">Plantes adaptades a la sequera -> Molt inflamables</small></p>
+      <p><strong>Elements crítics:</strong><br><small id="critical-elements">-</small></p>
     </div>
   </div>
 
@@ -183,22 +177,19 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
 <script>
-  // Initialize map centered on the simulation area
+  // Initialize map tracking standard viewing box coordinates
   var map = L.map('map').setView([39.6, 2.7], 11);
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
   }).addTo(map);
 
-  // Global variables to store parsed GeoJSON feature structures
   var allPoints = [];
   var allPolygons = [];
   
-  // Layer groups to easily clear map objects dynamically
   var pointsLayerGroup = L.layerGroup().addTo(map);
   var polygonsLayerGroup = L.layerGroup().addTo(map);
 
-  // Styling properties
   var bluePointStyle = {
     radius: 6,
     fillColor: "#5856d6",
@@ -215,7 +206,7 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     fillOpacity: 0.5
   };
 
-  // Fetch both GeoJSON data assets concurrently
+  // Jekyll asset path injection parsing via Liquid Engine
   Promise.all([
     fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => r.json()),
     fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json())
@@ -223,86 +214,86 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     allPoints = pointsData.features;
     allPolygons = polygonsData.features;
     
-    // Initial display filter
     updateSimulation();
-  }).catch(err => console.error('Error loading simulation layer maps:', err));
+  }).catch(err => console.error('Error loading simulation components:', err));
 
-  // Handle changes in dropdown configurations
-  document.getElementById('wind-select').addEventListener('change', updateSimulation);
-  document.getElementById('time-select').addEventListener('change', updateSimulation);
+  document.getElementById('wind-select').addEventListener('change', function() { polygonsLayerGroup.clearLayers(); });
+  document.getElementById('time-select').addEventListener('change', function() { polygonsLayerGroup.clearLayers(); });
 
   function updateSimulation() {
-    // 1. Clear previous layers and hide side dynamic info panels
     pointsLayerGroup.clearLayers();
     polygonsLayerGroup.clearLayers();
     document.getElementById('left-metrics').classList.add('hidden');
     document.getElementById('right-panel').style.display = 'none';
 
-    var selectedWind = parseInt(document.getElementById('wind-select').value);
-    var selectedTime = parseInt(document.getElementById('time-select').value);
+    if(allPoints.length === 0) return;
 
-    // 2. Filter data points matching chosen UI conditions
-    // (Ensure your GeoJSON features include properties like 'wind' and 'time')
-    var filteredPoints = allPoints.filter(f => {
-      return f.properties.wind === selectedWind && f.properties.time === selectedTime;
-    });
-
-    if(filteredPoints.length === 0) return;
-
-    // 3. Render matching points onto map
-    var geoJsonLayer = L.geoJSON({ type: "FeatureCollection", features: filteredPoints }, {
+    // Render geographic data points
+    var geoJsonLayer = L.geoJSON({ type: "FeatureCollection", features: allPoints }, {
       pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, bluePointStyle);
       },
       onEachFeature: function (feature, layer) {
         layer.on('click', function () {
-          displayIncidentDetails(feature, selectedWind, selectedTime);
+          var currentWind = parseInt(document.getElementById('wind-select').value);
+          var currentTime = parseInt(document.getElementById('time-select').value);
+          displayIncidentDetails(feature, currentWind, currentTime);
         });
       }
     }).addTo(pointsLayerGroup);
 
-    // Adjust perspective bounding box frame
-    map.fitBounds(geoJsonLayer.getBounds(), { padding: [20, 20] });
+    // Zoom automatically right directly into the coordinates frame bounding layout
+    if (geoJsonLayer.getBounds().isValid()) {
+        map.fitBounds(geoJsonLayer.getBounds(), { padding: [40, 40] });
+    }
   }
 
   function displayIncidentDetails(pointFeature, wind, time) {
     polygonsLayerGroup.clearLayers();
 
-    // 1. Find corresponding polygon using a shared relational ID (e.g., 'id' or 'site_id')
+    // Find overlapping simulation polygon
     var matchingPoly = allPolygons.find(p => 
-      p.properties.id === pointFeature.properties.id &&
-      p.properties.wind === wind &&
-      p.properties.time === time
+      String(p.properties.id) === String(pointFeature.properties.id) &&
+      parseInt(p.properties.wind) === wind &&
+      parseInt(p.properties.time) === time
     );
 
     if (matchingPoly) {
       L.geoJSON(matchingPoly, { style: activeBurnStyle }).addTo(polygonsLayerGroup);
     }
 
-    // 2. Populate dynamic values inside UI Container panels
     var props = pointFeature.properties;
 
-    // Left Panel Metrics & Scaling Bars
+    // --- LEFT SIDEBAR CONTENT HANDLING ---
     document.getElementById('left-metrics').classList.remove('hidden');
     document.getElementById('fire-type').innerText = props.fire_type || "DE SUPERFÍCIE";
-    document.getElementById('intensity-val').innerText = props.intensity || "248.22";
-    document.getElementById('speed-val').innerText = props.spread_speed || "2.6";
     
-    // Relative visual tracking bar percentages (Modify 1000/20 maximum normalizations if needed)
-    document.getElementById('intensity-bar').style.width = Math.min((props.intensity / 1000) * 100, 100) + "%";
-    document.getElementById('speed-bar').style.width = Math.min((props.spread_speed / 20) * 100, 100) + "%";
+    var intensity = props.intensity || 248.22;
+    var speed = props.spread_speed || 2.6;
+    document.getElementById('intensity-val').innerText = intensity;
+    document.getElementById('speed-val').innerText = speed;
     
-    // Right Sidebar Panel Attributes
+    // Scale tracking bars
+    document.getElementById('intensity-bar').style.width = Math.min((intensity / 1000) * 100, 100) + "%";
+    document.getElementById('speed-bar').style.width = Math.min((speed / 20) * 100, 100) + "%";
+    
+    // This populates the custom string text directly from your geojson properties tag!
+    document.getElementById('critical-elements').innerText = props.critical_elements || "Plantes adaptades a la sequera -> Molt inflamables";
+
+    // --- RIGHT SIDEBAR CONTENT HANDLING ---
     document.getElementById('right-panel').style.display = 'block';
-    document.getElementById('char-elev').innerText = props.elevation || "185,0";
-    document.getElementById('char-slope').innerText = props.slope || "21";
-    document.getElementById('char-orient').innerText = props.orientation || "Nord est";
-    document.getElementById('char-dens').innerText = props.tree_density || "76,4";
-    document.getElementById('char-canopy').innerText = props.canopy_height || "9,0";
-    document.getElementById('char-under').innerText = props.understory_cover || "74";
+    document.getElementById('char-elev').innerText = props.elevation || "-";
+    document.getElementById('char-slope').innerText = props.slope || "-";
+    document.getElementById('char-orient').innerText = props.orientation || "-";
+    document.getElementById('char-dens').innerText = props.tree_density || "-";
+    document.getElementById('char-canopy').innerText = props.canopy_height || "-";
+    document.getElementById('char-under').innerText = props.understory_cover || "-";
     
     if(props.image_url) {
-       document.getElementById('env-img').src = props.image_url;
+       // Appends Jekyll base path tags to target your image asset catalog folder perfectly
+       document.getElementById('env-img').src = '{{ "" | relative_url }}' + props.image_url;
+    } else {
+       document.getElementById('env-img').src = '{{ "/assets/images/bosc_default.jpg" | relative_url }}';
     }
   }
 </script>
