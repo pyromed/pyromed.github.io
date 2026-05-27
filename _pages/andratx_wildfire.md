@@ -20,7 +20,7 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 
 Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistència de tres factors clau:
 
-* **Oxigen (Comburent):** Present a l'atmosfera de manera constant (aproximadament un 21% en volum), és el gas que activa i sosté la reacció química.
+* **Oxigen:** Present a l'atmosfera de manera constant (aproximadament un 21% en volum), és el gas que activa i sosté la reacció química.
 * **Combustible:** Tota la biomassa de la massa forestal capaç de cremar, que inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca del sòl.
 * **Font de calor o ignició:** L'aportació d'energia inicial que desencadena el procés. Pot ser d'origen natural (com la caiguda d'un llamp) o fruit de l'activitat humana, ja sigui per negligència o accident (llosques, línies elèctriques, fogueres mal apagades o espurnes per fricció de cadenes o maquinària).
 
@@ -47,7 +47,7 @@ Els incendis esdevenen un problema greu quan presenten un comportament extrem, c
 * **Alta intensitat:** generen una gran quantitat d'energia calorífica.
 * **Propagació per la capçada**.
 * **Llarga durada:** persistents durant dies o fins i tot mesos.
-* **Gran extensió** ($\ge 500$ hectàrees).
+* **Gran extensió** (≥ 500 hectàrees).
 * **Dificultat de control:** es propaguen de manera erràtica i imprevisible, representant un gran risc per als equips d'extinció i les poblacions.
 * **Creen nous incendis** a partir de fragments d'escorça cremada i inclús poden crear la seva pròpia meteorologia.
 
