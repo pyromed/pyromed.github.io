@@ -1,5 +1,5 @@
 ---
-title: "Incendis forestals a la serra de Tramuntana"
+title: "Una mirada a la història dels incendis forestals"
 layout: splash
 permalink: /tramuntana/
 header:
@@ -43,7 +43,7 @@ Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistèn
 
 ## Incendis extrems
 
-Els incendis esdevenen un problema greu quan presenten un **comportament extrem**, caracteritzat per:
+Els incendis esdevenen un problema greu quan presenten un comportament extrem, caracteritzat per:
 * **Alta intensitat:** generen una gran quantitat d'energia calorífica.
 * **Propagació per la capçada**.
 * **Llarga durada:** persistents durant dies o fins i tot mesos.
@@ -58,10 +58,10 @@ Els incendis esdevenen un problema greu quan presenten un **comportament extrem*
 
 ## La zona d'interfase urbana-forestal
 
-La **zona d'interfase urbana-forestal** representa un gran desafiament en la **gestió d'incendis forestals**. Les raons per les quals aquestes zones compliquen les feines d'extinció i augmenten el risc per als bombers forestals són les següents:
-* **Superen les capacitats dels bombers**, ja que cal coordinar diverses tasques simultànies, com la **supressió de l'incendi forestal**, l'**evacuació de la comunitat** i la **protecció de les infraestructures**.
+La **zona d'interfase urbana-forestal** representa un gran desafiament en la gestió d'incendis forestals. Les raons per les quals aquestes zones compliquen les feines d'extinció i augmenten el risc per als bombers forestals són les següents:
+* **Superen les capacitats dels bombers**, ja que cal coordinar diverses tasques simultànies, com la supressió de l'incendi forestal, l'evacuació de la comunitat i la protecció de les infraestructures.
 * **Propagació erràtica i impredictible** especialment quan interactuen els combustibles forestals amb elements urbans.
-* **Elements perillosos a les llars:** Alguns habitatges poden contenir **elements explosius**, com **bombones de butà**, o materials que **augmenten la transferència de calor**, com finestres obertes.
+* **Elements perillosos a les llars:** Alguns habitatges poden contenir elements explosius, com bombones de butà, o materials que augmenten la transferència de calor, com finestres obertes.
 
 <img src="/assets/images/interficie.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ultima Hora*
@@ -70,7 +70,7 @@ La **zona d'interfase urbana-forestal** representa un gran desafiament en la **g
 
 ## Severitat de l'incendi
 
-Els incendis de **comportament extrem** solen ser d'**alta severitat**, ja que causen una gran mortalitat vegetal, una intensa **degradació del sòl** i alteren el **cicle de l'aigua**. Aquestes condicions dificulten considerablement la **regeneració natural post-incendi**, perquè la destrucció de la vegetació i la pèrdua de matèria orgànica al sòl afecten la capacitat de l'ecosistema per recuperar-se.
+Els incendis de comportament extrem solen ser d'alta severitat, ja que causen una gran mortalitat vegetal, una intensa degradació del sòl i alteren el cicle de l'aigua. Aquestes condicions dificulten considerablement la regeneració natural post-incendi, perquè la destrucció de la vegetació i la pèrdua de matèria orgànica al sòl afecten la capacitat de l'ecosistema per recuperar-se.
 
 <img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: Diario de Mallorca*
@@ -117,7 +117,7 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 
 > **Paradoxalment, la supressió d'incendis forestals assegura l'aparició d'incendis de comportament extrem.**
 
-És crucial **replantejar els objectius de la gestió d'incendis**, passant de la simple extinció dels focs a una visió més adaptada a la realitat natural dels ecosistemes. Aquest enfocament implica **(re-)aprendre a conviure amb els incendis forestals**.
+És crucial replantejar els objectius de la gestió d'incendis, passant de la simple extinció dels focs a una visió més adaptada a la realitat natural dels ecosistemes. Aquest enfocament implica (re-)aprendre a conviure amb els incendis forestals.
 
 <div style="margin:20px 0;">
   <img 
