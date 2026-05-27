@@ -20,7 +20,7 @@ feature_row_projects:
     title: "Simulador d'àrea cremada"
     excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
     url: "/simulador/"
-    btn_label: "Inicia el Simulador"
+    btn_label: "Explore Simulador"
     btn_class: "btn--primary"
 ---
 
