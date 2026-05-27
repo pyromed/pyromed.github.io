@@ -7,7 +7,7 @@ sidebar:
   nav: "main"
 
 feature_row_projects:
-  - image_path: /assets/images/andratx-hero.jpg
+  - image_path: /assets/images/mosaic.jpg
     alt: "Incendis Tramuntana"
     title: "Incendis a la Serra de Tramuntana"
     excerpt: "Una mirada a la història dels incendis forestals"
