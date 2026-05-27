@@ -40,7 +40,7 @@ plugins:
 # Author Info
 author:
   name   : "PyroMED"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/pyromed_logo.jpg"
   bio    : "Forest and Fire Ecology in the Mediterranean."
   links:
     - label: "Github"
