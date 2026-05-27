@@ -179,39 +179,20 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
 <script>
-  // Initialize Leaflet Map Window
+  // Initialize Map Window
   var map = L.map('map').setView([39.6, 2.7], 11);
 
   var allPoints = [];
   var allPolygons = [];
   
-  // Isolate dynamic layouts into separate layer groups
+  // Isolated overlay layout group arrays
   var contoursLayerGroup = L.layerGroup().addTo(map);
   var polygonsLayerGroup = L.layerGroup().addTo(map);
   var pointsLayerGroup = L.layerGroup().addTo(map);
 
-  // Brightened color choices to contrast clearly against the dark container
-  var contourStyle = {
-    color: "#8bb2cc",    
-    weight: 0.8,
-    opacity: 0.4
-  };
-
-  var bluePointStyle = {
-    radius: 6,
-    fillColor: "#5856d6",
-    color: "#fff",
-    weight: 1.5,
-    opacity: 1,
-    fillOpacity: 0.9
-  };
-
-  var activeBurnStyle = {
-    color: "#e63946",
-    fillColor: "#e63946",
-    weight: 2,
-    fillOpacity: 0.5
-  };
+  var contourStyle = { color: "#8bb2cc", weight: 0.8, opacity: 0.4 };
+  var bluePointStyle = { radius: 6, fillColor: "#5856d6", color: "#fff", weight: 1.5, opacity: 1, fillOpacity: 0.9 };
+  var activeBurnStyle = { color: "#e63946", fillColor: "#e63946", weight: 2, fillOpacity: 0.5 };
 
   // STEP 1: Fetch primary core points data first to guarantee the site loads safely
   Promise.all([
