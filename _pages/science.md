@@ -10,7 +10,7 @@ feature_row_projects:
   - image_path: /assets/images/andratx-hero.jpg
     alt: "Incendis Tramuntana"
     title: "Incendis a la Serra de Tramuntana"
-    excerpt: "Una mirada a la història dels incendis forestals ."
+    excerpt: "Una mirada a la història dels incendis forestals"
     url: "/tramuntana/"
     btn_label: "Explore Story"
     btn_class: "btn--primary"
@@ -18,7 +18,7 @@ feature_row_projects:
   - image_path: /assets/images/simulador.jpg
     alt: "Simulador"
     title: "Simulador d'àrea cremada"
-    excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris."
+    excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
     url: "/simulador/"
     btn_label: "Inicia el Simulador"
     btn_class: "btn--primary"
