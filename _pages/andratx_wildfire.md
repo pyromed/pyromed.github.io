@@ -58,7 +58,7 @@ Els incendis esdevenen un problema greu quan presenten un comportament extrem, c
 
 ## La zona d'interfase urbana-forestal
 
-La **zona d'interfase urbana-forestal** representa un gran desafiament en la gestió d'incendis forestals. Les raons per les quals aquestes zones compliquen les feines d'extinció i augmenten el risc per als bombers forestals són les següents:
+La zona d'interfase urbana-forestal representa un gran desafiament en la gestió d'incendis forestals. Les raons per les quals aquestes zones compliquen les feines d'extinció i augmenten el risc per als bombers forestals són les següents:
 * **Superen les capacitats dels bombers**, ja que cal coordinar diverses tasques simultànies, com la supressió de l'incendi forestal, l'evacuació de la comunitat i la protecció de les infraestructures.
 * **Propagació erràtica i impredictible** especialment quan interactuen els combustibles forestals amb elements urbans.
 * **Elements perillosos a les llars:** Alguns habitatges poden contenir elements explosius, com bombones de butà, o materials que augmenten la transferència de calor, com finestres obertes.
