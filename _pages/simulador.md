@@ -59,9 +59,11 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
   }
 
   #map {
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 550px !important;
     border-radius: 4px;
+    background-color: #113043; /* Warm deep fallback color */
   }
 
   .info-panel {
@@ -174,26 +176,25 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
 
 </div>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
 <script>
-  // 1. Initialize map WITHOUT the standard base map layer tiles
-  // (We remove L.tileLayer completely to give you a clean slate)
+  // Initialize Leaflet Map Window
   var map = L.map('map').setView([39.6, 2.7], 11);
 
-  // Global variables to store your custom spatial layers
   var allPoints = [];
   var allPolygons = [];
-  var allContours = []; // Added to hold your topographic lines
   
-  // Dedicated overlay layers
-  var contoursLayerGroup = L.layerGroup().addTo(map); // Static background
-  var polygonsLayerGroup = L.layerGroup().addTo(map); // Dynamic burn footprints
-  var pointsLayerGroup = L.layerGroup().addTo(map);   // Interactive blue points
+  // Isolate dynamic layouts into separate layer groups
+  var contoursLayerGroup = L.layerGroup().addTo(map);
+  var polygonsLayerGroup = L.layerGroup().addTo(map);
+  var pointsLayerGroup = L.layerGroup().addTo(map);
 
-  // Component Style Profiles (Adjust colors to make them pop against a dark/light dashboard!)
+  // Brightened color choices to contrast clearly against the dark container
   var contourStyle = {
-    color: "#4a6b82",    // Subtle blue-grey contour lines
-    weight: 1,
-    opacity: 0.6
+    color: "#8bb2cc",    
+    weight: 0.8,
+    opacity: 0.4
   };
 
   var bluePointStyle = {
@@ -212,19 +213,56 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     fillOpacity: 0.5
   };
 
-  // 2. Fetch all three GeoJSON assets concurrently from your Jekyll assets folder
+  // STEP 1: Fetch primary core points data first to guarantee the site loads safely
   Promise.all([
-    fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => r.json()),
-    fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json()),
-    fetch('{{ "/assets/data/contours.geojson" | relative_url }}').then(r => r.json()) // Fetching your contours!
-  ]).then(([pointsData, polygonsData, contoursData]) => {
+    fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => {
+      if(!r.ok) throw new Error("Missing points data");
+      return r.json();
+    }),
+    fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => {
+      if(!r.ok) throw new Error("Missing polygons data");
+      return r.json();
+    })
+  ]).then(([pointsData, polygonsData]) => {
     allPoints = pointsData.features;
     allPolygons = polygonsData.features;
-    allContours = contoursData.features;
     
-    // Build initial layout render
+    // Draw the point markers immediately so everything functions
     updateSimulation();
-  }).catch(err => console.error('Error loading simulation layer maps:', err));
+
+    // STEP 2: Asynchronously fetch contours in the background so it doesn't block loading
+    fetch('{{ "/assets/data/contours.geojson" | relative_url }}')
+      .then(r => {
+        if(!r.ok) throw new Error("Contours path incorrect or still compiling");
+        return r.json();
+      })
+      .then(contoursData => {
+        var contourLayer = L.geoJSON(contoursData, { style: contourStyle }).addTo(contoursLayerGroup);
+        
+        // Auto zoom viewport around your precise topography limits
+        if (contourLayer.getBounds().isValid()) {
+            map.fitBounds(contourLayer.getBounds(), { padding: [20, 20] });
+        }
+      })
+      .catch(contourErr => {
+        console.warn("Background contour load bypassed:", contourErr.message);
+        // Secondary auto zoom fallback using point bounding spaces
+        executeFallbackZoom(pointsData);
+      });
+
+  }).catch(criticalErr => {
+    console.error("Critical dashboard failure:", criticalErr);
+    document.getElementById('left-metrics').classList.remove('hidden');
+    document.getElementById('critical-elements').innerHTML = 
+      "<span style='color:#ffbc00;'>Error carregant dades de simulació. Revisa els fitxers GeoJSON.</span>";
+  });
+
+  function executeFallbackZoom(pointsData) {
+    var tempLayer = L.geoJSON(pointsData);
+    if(tempLayer.getBounds().isValid()) {
+      map.fitBounds(tempLayer.getBounds(), { padding: [40, 40] });
+    }
+  }
 
   document.getElementById('wind-select').addEventListener('change', function() { polygonsLayerGroup.clearLayers(); });
   document.getElementById('time-select').addEventListener('change', function() { polygonsLayerGroup.clearLayers(); });
@@ -232,20 +270,13 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
   function updateSimulation() {
     pointsLayerGroup.clearLayers();
     polygonsLayerGroup.clearLayers();
-    contoursLayerGroup.clearLayers(); // Clean slate refresh
     
     document.getElementById('left-metrics').classList.add('hidden');
     document.getElementById('right-panel').style.display = 'none';
 
     if(allPoints.length === 0) return;
 
-    // A. Render your custom Contour lines as the absolute background canvas layer
-    var contourLayer = L.geoJSON({ type: "FeatureCollection", features: allContours }, {
-      style: contourStyle
-    }).addTo(contoursLayerGroup);
-
-    // B. Render interactive point layer nodes over the contour canvas background
-    var geoJsonLayer = L.geoJSON({ type: "FeatureCollection", features: allPoints }, {
+    L.geoJSON({ type: "FeatureCollection", features: allPoints }, {
       pointToLayer: function (feature, latlng) {
         return L.circleMarker(latlng, bluePointStyle);
       },
@@ -258,20 +289,13 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
         });
       }
     }).addTo(pointsLayerGroup);
-
-    // C. Zoom the viewport smoothly to center directly over your localized contour bounds!
-    if (contourLayer.getBounds().isValid()) {
-        map.fitBounds(contourLayer.getBounds(), { padding: [20, 20] });
-    }
   }
 
   function displayIncidentDetails(pointFeature, wind, time) {
-    // Clear out old active polygons completely upon each new click event
     polygonsLayerGroup.clearLayers();
 
     var pointId = String(pointFeature.properties.id);
 
-    // Filter matching burn layout criteria safely by converting indices to clear strings
     var matchingPoly = allPolygons.find(p => {
       var matchId = String(p.properties.id || p.properties.site_id);
       var matchWind = parseInt(p.properties.wind);
@@ -283,17 +307,15 @@ Aquest espai cartogràfic interactiu mostra les dades de les àrees afectades i 
     if (matchingPoly) {
       L.geoJSON(matchingPoly, { style: activeBurnStyle }).addTo(polygonsLayerGroup);
     } else {
-      console.warn("No overlapping layout map found for point ID:", pointId, "Wind:", wind, "Time:", time);
+      console.warn("No polygon found for ID:", pointId, "Wind:", wind, "Time:", time);
     }
 
-    // Populate Side Control Dashboards
     var props = pointFeature.properties;
 
     // --- Left Panels updates ---
     document.getElementById('left-metrics').classList.remove('hidden');
     document.getElementById('fire-type').innerText = props.fire_type || "DE SUPERFÍCIE";
     
-    // Pull the calculated values explicitly or apply standard defaults if unavailable
     var intensity = props.intensity || 248.22;
     var speed = props.spread_speed || 2.6;
     
