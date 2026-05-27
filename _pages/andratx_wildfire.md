@@ -81,10 +81,12 @@ Els incendis de comportament extrem solen ser d'alta severitat, ja que causen un
 ## Beneficis del foc a l'ecosistema
 
 Quan el foc es manté en un règim natural, aporta dinàmiques positives:
-* **Regeneració:** estimula la germinació de llavors de plantes germinadores.
+* **Control de plagues i malalties:** elimina insectes patògens, fongs i paràsits que afecten els arbres vells o malalts, evitant que es converteixin en epidèmies.
 * **Cicle de nutrients:** allibera nutrients de la matèria vegetal cremada, enriquint el sòl.
-* **Biodiversitat:** Els incendis obren espais per a noves plantes i ajuden a mantenir la diversitat ecològica.
-* **Control de vegetació:** Els incendis redueixen la densitat de vegetació, prevenint incendis més grans.
+* **Biodiversitat:** obren espais per a noves plantes i crea un paisatge en forma de "mosaic" que és ideal per a la fauna, ja que combina zones de refugi (bosc dens) amb zones d'alimentació (terrenys oberts).
+* **Control de vegetació:** redueixen l'acumulació de biomassa morta, prevenint incendis més grans.
+* **Reducció de l'estrès hídric:** en reduir la densitat de vegetació (sobretot d'arbustos i arbres joves), hi ha menys competència per l'aigua.
+* **Regeneració:** estimula la germinació de llavors de plantes germinadores.
 
 <img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
