@@ -88,7 +88,7 @@ Quan el foc es manté en un règim natural, aporta dinàmiques positives:
 * **Reducció de l'estrès hídric:** en reduir la densitat de vegetació (sobretot d'arbustos i arbres joves), hi ha menys competència per l'aigua.
 * **Regeneració:** estimula la germinació de llavors de plantes germinadores.
 
-<img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/mosaic.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
 ---
 
