@@ -143,6 +143,7 @@ En aquest paisatge agroforestal, els marges de pedra seca i les marjades exercie
 
 <img src="/assets/images/marges.jpg" alt="marges" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: marges de pedra en sec Andratx, 2023.*
+
 ---
 ## La paradoxa de l'extinció
 La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
