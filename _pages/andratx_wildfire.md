@@ -84,7 +84,7 @@ Els incendis de comportament extrem solen ser d'alta severitat, ja que causen un
 
 ## Beneficis del foc a l'ecosistema
 
-Quan el foc es manté en un règim natural, aporta dinàmiques positives:
+Quan el foc es manté en un règim natural, aporta dinàmiques positives fonamentals per a la salut de l'ecosistema:
 * **Control de plagues i malalties:** elimina insectes patògens, fongs i paràsits que afecten els arbres vells o malalts, evitant que es converteixin en epidèmies.
 * **Cicle de nutrients:** allibera nutrients de la matèria vegetal cremada, enriquint el sòl.
 * **Biodiversitat:** obren espais per a noves plantes i crea un paisatge en forma de "mosaic" que és ideal per a la fauna, ja que combina zones de refugi (bosc dens) amb zones d'alimentació (terrenys oberts).
