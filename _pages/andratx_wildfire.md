@@ -102,7 +102,7 @@ Les comunitats vegetals del bosc mediterrani han desenvolupat una elevada resili
 
 > **La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a l'incendi.**
 
-<img src="/assets/images/estepa-rebrot.jpg" alt="Estepa rebrotant" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/adaptacions.jpg" alt="Estepa rebrotant" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: Una estepa rebrota després de l'incendi forestal d'Andratx en 2013.*
 
 ---
