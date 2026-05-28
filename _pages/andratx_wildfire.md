@@ -41,6 +41,7 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 ## Incendis extrems
 
 Els incendis esdevenen un problema greu quan presenten un comportament extrem.
+
 <img src="/assets/images/burn.jpg" alt="Incendis extrems" style="width:100%; border-radius:6px; margin: 15px 0;">
 <p style="font-size: 0.85em; font-style: italic; margin-bottom: 20px; color: #555;">
   *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ara Balears*
