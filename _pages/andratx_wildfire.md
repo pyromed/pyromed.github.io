@@ -25,7 +25,6 @@ Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistèn
 * **Font de calor o ignició:** És l’aportació d’energia inicial necessària per iniciar la combustió i mantenir-ne la propagació. La calor deshidrata el combustible proper, escalfa l’aire circumdant i preescalfa la vegetació situada davant del front de foc. Les fonts d’ignició poden ser naturals, com els llamps, o derivades de l’activitat humana, com llosques mal apagades, línies elèctriques, maquinària agrícola o forestal, espurnes de motors o fogueres.
 
 Les estratègies de prevenció i extinció d’incendis es basen precisament en eliminar, reduir o separar algun dels components del triangle. En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos o la retirada de biomassa, redueixen la quantitat i continuïtat del material combustible i dificulten la propagació del foc. Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal.
-
 <div style="margin:20px 0;">
 
   <img 
