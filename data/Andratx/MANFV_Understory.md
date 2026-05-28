@@ -4,7 +4,7 @@
 This dataset contains line-intercept transect measurements used to quantify understory vegetation cover, composition, and structural characteristics (width and height). It records the specific intervals where vegetation species or ground cover types (e.g., bare soil) intersect established transect lines within each sampling plot.
 
 ## File Details
-* **File Name:** `Understory.csv` <!-- Replace if your file name is slightly different -->
+* **File Name:** `MANFV_Understory.csv`
 * **Format:** CSV (Comma-Separated Values)
 * **Sampling Method:** Line-Intercept / Belt Transect Method
 
