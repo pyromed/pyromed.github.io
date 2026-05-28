@@ -76,6 +76,7 @@ Els principals factors que dificulten les tasques d’extinció són:
 ## Severitat de l'incendi
 
 Els incendis de comportament extrem solen presentar una elevada severitat ecològica, ja que provoquen una gran mortalitat vegetal, una intensa degradació del sòl i alteracions importants en el cicle hidrològic. Les temperatures extremes poden destruir la matèria orgànica del sòl i reduir-ne la capacitat d’infiltració d’aigua, afavorint processos d’erosió i escorrentia després de l’incendi.
+
 Aquestes condicions dificulten considerablement la regeneració natural post-incendi. Tot i que moltes espècies mediterrànies estan adaptades al foc, la recurrència d’incendis molt intensos o massa freqüents pot superar la capacitat de recuperació dels ecosistemes i provocar canvis permanents en la composició i estructura de la vegetació.
 
 <img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:100%; border-radius:6px; margin: 15px 0;">
