@@ -112,7 +112,7 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
 
 ---
 
-## L'ús cultural del foc
+## La paradoxa de l'extinció
 
 L'ús del foc va ser fonamental a les Illes Balears per a la neteja de terres, la millora dels cultius i les pastures, així com per a la producció tradicional de carbó vegetal. 
 
@@ -122,7 +122,6 @@ L'augment de la biomassa i la continuïtat forestal, juntament amb la supressió
 *Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME*
 
 ---
-## La paradoxa de l'extinció
 
 La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
 
