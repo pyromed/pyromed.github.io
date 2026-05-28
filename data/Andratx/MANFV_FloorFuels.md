@@ -4,7 +4,7 @@
 This dataset contains surface fuel loading information collected via planar intersect sampling (Brown’s Transects). It quantifies downed woody debris (DWD) categorized by time-lag fuel classes alongside systematic point measurements of litter ($T$) and duff ($D$) depth profile measurements across cardinally oriented plot transects.
 
 ## File Details
-* **File Name:** `Forest_Floor_Fuels.csv` <!-- Replace with your actual file name -->
+* **File Name:** `MANFV_FloorFuels.csv`
 * **Format:** CSV (Comma-Separated Values)
 * **Methodology:** Planar Intersect Method (Brown's Transects)
 
