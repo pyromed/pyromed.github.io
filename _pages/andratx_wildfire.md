@@ -38,8 +38,6 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
   </tr>
 </table>
 
----
-
 ## Incendis extrems
 
 Els incendis esdevenen un problema greu quan presenten un comportament extrem, caracteritzat per:
