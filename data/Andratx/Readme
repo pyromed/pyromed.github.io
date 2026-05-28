@@ -1,203 +1,41 @@
-This datasets contain spatial, environmental, and inventory data for plots in the Font de la Vila Catchment (Andratx, Mallorca). 
-
-* **Temporal Scope:** Field inventories were conducted between April and July 2024.
-
-## Usage & Context
-This dataset is designed for environmental analysis, wildfire risk modeling, and vegetation recovery monitoring. 
-
-## Files Details
-
----
-# Dataset: MANFV Inventory
+# Font de la Vila Catchment Forest Inventory & Wildfire  Dataset
+### Location: Andratx, Mallorca (Balearic Islands, Spain)
 
 ## Overview
-* **File Name:** `MANFV_PlotInfo.csv` * **Format:** CSV (Comma-Separated Values)
-* **Coordinate System:** UTM Zone 31N
-It details topographical characteristics (elevation, slope, aspect), canopy metrics, fuel classifications, field crew information, and wildfire history (specifically tracking events from 1994 and 2013).
-## Data Dictionary (Column Descriptions)
+This repository contains a comprehensive suite of spatial, environmental, and ecological inventory data collected within the **Font de la Vila Catchment**. The dataset is structurally designed to support environmental analysis, wildfire risk modeling, biomass estimation, and long-term post-fire vegetation recovery monitoring in Mediterranean ecosystems.
 
-| Column Name | Data Type | Description | Example / Allowed Values |
-| :--- | :--- | :--- | :--- |
-| **PlotID** | String | Unique identifier for each sampling plot. | `MANFV04` |
-| **UTM** | String | Universal Transverse Mercator coordinate zone. | `31N` |
-| **Easting_m** | Integer | Easting spatial coordinate in meters. | `448919` |
-| **Northing_m** | Integer | Northing spatial coordinate in meters. | `4382430` |
-| **Fire_94** | Boolean/Integer | Indicates if the plot was affected by the 1994 fire (1 = Yes, 0 = No). | `1` |
-| **Fire_13** | Character | Burn severity 2013 fire. | `H` (High), `M` (Moderate), `0` (None) |
-| **TimeSinceLast** | Integer | Years elapsed since the last recorded fire event. | `19`,  |
-| **Features** | String | Plot features. | `NT` (Non-Terraced), `T` (Terraced)|
-| **Elevation_m** | Float | Elevation above sea level in meters. | `251.1` |
-| **Aspect_deg** | Integer | Compass direction that the slope faces (0° - 360°). | `212` |
-| **Slope_pct** | Integer | Incline or steepness of the slope expressed as a percentage. | `15` |
-| **Canopy_N** | Integer | Canopy closure or coverage metric (North or total count). | `46` |
-| **Canc** / **Canop** | Integer | *[Columns cut off in preview]* Likely sub-metrics of canopy cover or structure percentages. | `85`, `33`, `29` |
-| **FuelClass** | String | Standardized fuel model for wildfire behavior modeling. | `TU1`, `SH1`, `GS3` |
-| **Crew** | String | Initials of the field crew | `AAT`, `AAT,SEH` |
-| **InventoryDate** | Date | The date the plot data was collected. | `16-Apr-24` |
+The study area captures a complex landscape marked by historical wildfire events—specifically tracking major burn footprints from **1994** and **2013**—across varying terrain configurations, including traditional agricultural dry-stone terracing.
 
 ---
 
-# Dataset: Plant Recruitment and Regeneration Inventory
-
-## Overview
-This dataset captures plant recruitment (seedling and sapling regeneration) data across multiple sampling plots. It tracks the abundance of specific plant species categorized into four distinct growth, height, or size classes to analyze forest recovery and vegetation structure.
-
-## File Details
-* **File Name:** `MANFV_Recruitment.csv` 
-* **Format:** CSV (Comma-Separated Values)
-
+## Quick Project Metadata
+* **Temporal Scope:** Field inventories were systematically conducted between **April and July 2024**.
+* **Coordinate Reference System:** UTM Zone 31N (Datum: ETRS89 / WGS84).
+* **Core Species Monitored:** *Pinus halepensis* (Piha), *Quercus ilex* (Quil), *Olea europaea* (Oleu), and *Ampelodesmos mauritanicus* (Amma).
 
 ---
 
-## Data Dictionary (Column Descriptions)
+## Repository Architecture & Data Documentation
 
-| Column Name | Data Type | Description | Example / Allowed Values |
-| :--- | :--- | :--- | :--- |
-| **SiteID** | String | Broad geographic site identifier. | `MANFV` |
-| **PlotID** | String | Unique identifier for the specific sampling plot within the site. | `MANFV01`, `MANFV02` |
-| **InventoryDate** | Date | The date the recruitment survey was conducted (MM/DD/YYYY). | `4/11/2024` |
-| **Species** | String | 4-letter genus/species abbreviation code for the observed plant. | `Piha`, `Quil`, `Oleu`, `Cesi` |
-| **Class_1** | Integer | Count of individuals in Size/Height Class 1 (e.g., < 10 cm). | `2` |
-| **Class_2** | Integer | Count of individuals in Size/Height Class 2 (e.g., 10-30 cm). | `15` |
-| **Class_3** | Integer | Count of individuals in Size/Height Class 3 (e.g., 30-50 cm). | `20` |
-| **Class_4** | Integer | Count of individuals in Size/Height Class 4 (e.g., > 50 cm / saplings). | `3` |
+To keep the data highly navigable, each data file is paired with its own standalone Markdown documentation (`.md`) file containing exact column data dictionaries, variable types, and methodological definitions.
 
----
-* **Class 1:** Seedlings from 0 to 10 cm in height.
-* **Class 2:** Seedlings/Saplings from 11 to 30 cm in height.
-* **Class 3:** Saplings from 31 to 50 cm in height.
-* **Class 4:** Saplings > 50 cm in height with a DBH < X cm.
+### 📋 Dataset Directory
 
-### Key Project Notes:
-* **Missing Data:** Where canopy or fuel metrics are zero (`0`), it generally correlates with high burn severity (`H`) from the `Fire_13` column, indicating complete vegetation loss.
-
-# Dataset: Understory Cover and Vegetation Structure
-
-## Overview
-This dataset contains line-intercept transect measurements used to quantify understory vegetation cover, composition, and structural characteristics (width and height). It records the specific intervals where vegetation species or ground cover types (e.g., bare soil) intersect established transect lines within each sampling plot.
-
-## File Details
-* **File Name:** `Understory.csv` <!-- Replace if your file name is slightly different -->
-* **Format:** CSV (Comma-Separated Values)
-* **Sampling Method:** Line-Intercept / Belt Transect Method
+| Data File (CSV) | Data Dictionary & Metadata | Description Summary |
+| :--- | :--- | :--- |
+| 📄 [`MANFV_PlotInfo.csv`](./MANFV_PlotInfo.csv) | 📖 [PlotInfo Metadata](./MANFV_PlotInfo.md) | Topographical metrics (elevation, slope, aspect), fuel classes, plot features (terracing), and site wildfire history. |
+| 📄 [`MANFV_Recruitment.csv`](./MANFV_Recruitment.csv) | 📖 [Recruitment Metadata](./MANFV_Recruitment.md) | Regeneration and seedling abundance metrics divided across 4 distinct plant size/height classes. |
+| 📄 [`MANFV_Overstory.csv`](./MANFV_Overstory.csv) | 📖 [Overstory Metadata](./MANFV_Overstory.md) | Tree-level metrics including DBH, total height, Crown Base Height (CBH), multi-cardinal bark thickness, and physical damage codes. |
+| 📄 [`MANFV_Understory.csv`](./MANFV_Understory.csv) | 📖 [Understory Metadata](./MANFV_Understory.md) | Line-intercept transect intervals capturing fine-scale shrub cover, bare soil distribution, and average patch heights. |
+| 📄 [`MANFV_FloorFuels.csv`](./MANFV_FloorFuels.csv) | 📖 [Forest Floor Fuels Metadata](./MANFV_FloorFuels.md) | Downed woody debris metrics categorized via time-lag fuel classes (1-hr, 10-hr, 100-hr) alongside systematic litter and duff depth layers. |
+| 📄 [`MANFV_PlantTraits.csv`](./MANFV_PlantTraits.csv) | 📖 [Traits Metadata](./MANFV_PlantTraits.md) | Comprehensive functional plant trait database containing flammability profiles (SAV, Bulk Density, Heat content) and evolutionary traits. |
 
 ---
 
-## Data Dictionary (Column Descriptions)
+## Methodological Key Notes
+* **Feature Classification:** The `Features` metric explicitly tracks land-management; specifically distinguishing between **NT** (Non-Terraced) and **T** (Terraced) slope systems.
+* **Data Integration:** All CSV files in this repository are linked via the **`PlotID`** column.
+* **Missing Value Log:** Structural voids or values of `0` appearing in canopy closure fields typically reflect total vegetative loss in zones hit with high burn severities (`H`) during the 2013 fire footprint.
 
-| Column Name | Data Type | Description | Example / Allowed Values |
-| :--- | :--- | :--- | :--- |
-| **SiteID** | String | Broad geographic site identifier. | `MANFV` |
-| **PlotID** | String | Unique identifier for the specific sampling plot. | `MANFV29` |
-| **Transect** | String | Directional orientation of the transect tape within the plot. | `NESW` (North-East to South-West), `NWSE` (North-West to South-East) |
-| **Species** | String | 4-letter plant species code or ground cover type descriptor. | `Amma`, `soil` |
-| **Start_m** | Float | The starting point of the species or cover patch along the transect tape (in meters). | `0.4` |
-| **End_m** | Float | The ending point of the species or cover patch along the transect tape (in meters). | `0.6` |
-| **Width_m** | Float | The perpendicular width or patch size of the vegetation intercept (in meters). Left blank for abiotic cover like soil. | `0.1` |
-| **Ht_avg_m** | Float | The average vertical height of the vegetation patch (in meters). Left blank for abiotic cover. | `0.2` |
-| **Date** | Date | The date the transect data was collected (MM/DD/YYYY). | `7/10/2024` |
-
----
-
-# Dataset: Forest Floor Fuels, Litter, and Duff Depth
-
-## Overview
-This dataset contains surface fuel loading information collected via planar intersect sampling (Brown’s Transects). It quantifies downed woody debris (DWD) categorized by time-lag fuel classes alongside systematic point measurements of litter ($T$) and duff ($D$) depth profile measurements across cardinally oriented plot transects.
-
-## File Details
-* **File Name:** `Forest_Floor_Fuels.csv` <!-- Replace with your actual file name -->
-* **Format:** CSV (Comma-Separated Values)
-* **Methodology:** Planar Intersect Method (Brown's Transects)
-
----
-
-## Data Dictionary (Column Descriptions)
-
-| Column Name | Data Type | Description | Example / Allowed Values |
-| :--- | :--- | :--- | :--- |
-| **SiteID** | String | Broad geographic site identifier. | `MANFV` |
-| **PlotID** | String | Unique identifier for the specific sampling plot. | `MANFV01` |
-| **InventoryDate** | Date | The date the fuel inventory was conducted (MM/DD/YYYY). | `4/11/2024` |
-| **Crew** | String | Initials of the field crew responsible for data collection. | `AAT` |
-| **Transect** | String | Compass direction of the transect line originating from plot center. | `NE`, `SE`, `SW`, `NW` |
-| **SlopePct** | Integer | The slope incline along the transect line, expressed as a percentage. | `12` |
-| **Tally_1hr** | Integer | Count of fine woody debris intersecting the transect tape with a diameter between 0.0 – 0.64 cm (0 – 0.25 inches). | `3` |
-| **Tally_10hr** | Integer | Count of fine woody debris intersecting the transect tape with a diameter between 0.64 – 2.54 cm (0.25 – 1 inch). | `1` |
-| **Tally_100hr** | Integer | Count of coarse woody debris intersecting the transect tape with a diameter between 2.54 – 7.62 cm (1 – 3 inches). | `0` |
-| **Sum_Dian** / **Sum_Dian** | Float | *[Duplicate headers in preview]* Typically holds calculations or diameters for 1000-hr+ heavy fuels ($>3$ inches). | `90.25`, `216.64` |
-| **T_0.5** to **T_13.5** | Float | **Litter Depth (Trash/Top organic layer):** Vertical thickness of the loose, undecomposed organic material layer measured at designated intervals (e.g., 0.5m, 1.5m, up to 13.5m) along the transect line. | `1.5` |
-| **D_0.5** to **D_13.5** | Float | **Duff Depth:** Vertical thickness of the fermenting and partially decomposed organic material layer located directly below the litter layer, measured at designated intervals. | `0.25` |
-| **Comments** | String | Contextual field notes detailing anomalies, obstacle locations, or surrounding conditions. | `trail close`, `@10,5m main` |
-
----
-
-## Methodological Notes
-
-### Time-Lag Fuel Definition Summary:
-* **1-Hour Fuels:** Twigs up to 1/4 inch diameter. Highly responsive to immediate relative humidity changes.
-* **10-Hour Fuels:** Wood 1/4 inch to 1 inch diameter. 
-* **100-Hour Fuels:** Wood 1 inch to 3 inches diameter.
-* **Litter ($T$):** Un-rotted dead leaves, needles, twigs, and bark resting on the forest floor surface.
-* **Duff ($D$):** Highly decomposed organic material that has begun blending with underlying mineral soil.
-
-### Depth Sampling Points:
- Paired litter and duff measurements ($T\_x$ and $D\_x$) are recorded in meters at the specific locations along the transect tape dictated by the column header numeric suffix (e.g., `T_0.5` represents the litter depth at exactly $0.5\text{ meters}$).
-# Dataset: Plant Functional Traits and Flammability Metrics
-
-## Overview
-This dataset serves as a comprehensive trait database for plant species found within the study area. It aggregates taxonomic classifications, functional vegetative and regenerative traits (e.g., Raunkiaer life forms, leaf anatomy, resprouting mechanics), and physical flammability parameters (e.g., heat content, surface-area-to-volume ratio, bulk density) coupled with their respective literature references.
-
-## File Details
-* **File Name:** `Plant_Traits.csv` <!-- Replace with your actual file name -->
-* **Format:** CSV (Comma-Separated Values)
-* **Geographic Context:** Mediterranean ecosystem (species documented using regional Catalan/Balearic common names).
-
----
-
-## Data Dictionary (Column Descriptions)
-
-### 1. Taxonomy & Basic Identifiers
-| Column Name | Data Type | Description | Example / Allowed Values |
-| :--- | :--- | :--- | :--- |
-| **CommonN** | String | Regional or local common name of the plant species. | `Càrritx`, `Margalló`, `Porrassa` |
-| **Family** / **Family2** | String | Botanical family names (including historical or alternative family groupings). | `LILIACEAE`, `Poaceae` |
-| **Genus** | String | Taxonomic genus classification. | `Ampelodesmos`, `Cyclamen` |
-| **Species** | String | Specific epithet of the plant. | `mauritanicus`, `balearicum` |
-| **Authority** | String | The author citation for the scientific name. | `L.`, `Willk.`, `Poiret T. Dyer` |
-| **Code** | String | 4-letter operational code matching genus and species initials. | `Amma`, `Cyba`, `Asra` |
-| **Group** | String | Major evolutionary plant division. | `monocot`, `dicot` |
-
-### 2. Morphological & Functional Traits
-| Column Name | Data Type | Description | Example / Allowed Values |
-| :--- | :--- | :--- | :--- |
-| **Raunkiaer** | String | Raunkiaer life-form classification system denoting the position of regenerating buds. | `geophyte`, `hemicryptophyte`, `nanophanero` |
-| **Woodiness** | String | Structural tissue composition. | `herbaceous`, `woody` |
-| **LeafType** | String | Structural leaf adaptation class. | `malacophyllous`, `sclerophyllous` |
-| **LeafPheno** | String | Leaf phenology / persistence cycle. | `deciduous`, `evergreen` |
-| **LeafShape** | String | Geometric shape profile of the leaves. | `linear`, `broad` |
-| **LeafSize** | String | Leaf size classification category based on surface area. | `mesophyll`, `notophyll`, `microphyll` |
-| **GrowthForm** | String | Overall structural growth habit of the mature plant. | `forb`, `graminoid`, `large shrub` |
-| **Clonality** | String | Type of vegetative expansion or structural arrangement. | `storage-organ`, `caespitos` (tufted), `rhizomatous` |
-| **RootType** | String | Morphological structure of the root system. | `tuberous`, `fibrous` |
-| **Dispersal** | String | Primary seed dispersal mechanism. | `autochory` (self), `anemochory` (wind), `endozoochory` (animal ingestion) |
-
-### 3. Fire-Ecology & Flammability Traits
-| Column Name | Data Type | Description | Example / Allowed Values |
-| :--- | :--- | :--- | :--- |
-| **Mechanis** | String | Post-fire regeneration strategy. | `resprouter`, `seeder` |
-| **Ref.Mechan** | String | Literature reference validating the assigned fire response mechanism. | `Lloret et al.`, `Coca and...` |
-| **Awsh** / **Bwsh** / **Ratio** | Float | Custom structural or architectural ratios used in fuel modeling. | `0.96`, `0.71` |
-| **Ref. fuels** | String | Primary literature citation for fuel architecture parameters. | `Sánchez-Pinillos et al. (2021)` |
-| **BD** | Float | **Bulk Density:** Oven-dry mass of fuel per unit of volume ($g/m^3$ or $kg/m^3$). | `2.62` |
-| **Ref.BulkD** | String | Literature reference for the bulk density value. | `Sánchez-Pinillos et al. (2021)` |
-| **SAV** | Float | **Surface-Area-to-Volume Ratio:** Higher values indicate finer fuels that ignite rapidly ($m^{-1}$ or $cm^{-1}$). | `3620`, `5740` |
-| **Ref.SAV** | String | Literature reference for the SAV ratio calculation. | `Sánchez-Pinillos et al. (2021)` |
-| **Heat** | Integer | **High Heat Value (HHV):** Total energy released during complete combustion ($J/g$ or $kJ/kg$). | `18250`, `19740` |
-| **Ref.heat** | String | Literature reference for the calorific/heat content. | `Sánchez-Pinillos et al. (2021)` |
-| **minFMC** | Float | **Minimum Fuel Moisture Content:** Lowest threshold percentage of moisture content observed in live tissue under drought/fire conditions. | `50`, `63.9`, `20` |
-| **Ref.FMC** | String | Literature reference verifying the minimum fuel moisture values. | `Vilà et al.`, `Domenech et al.` |
-
----
-
-## Technical Column Clarifications
-* **Partially Hidden Headers (`Afbt`, `Bfbt`, `Cfbt`, `Dfbt`, `CR`):** These columns are placeholders or custom coefficient attributes associated with biomass distribution equations or structural crown traits (e.g., Crown Ratio or fuel layer fractions). If used in downstream modeling, document their exact mathematical definitions here.
+## License & Citation
+*[Optional: Add your preferred licensing terms here, e.g., Creative Commons Attribution 4.0 International]*
