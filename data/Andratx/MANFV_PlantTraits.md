@@ -4,7 +4,7 @@
 This dataset serves as a comprehensive trait database for plant species found within the study area. It aggregates taxonomic classifications, functional vegetative and regenerative traits (e.g., Raunkiaer life forms, leaf anatomy, resprouting mechanics), and physical flammability parameters (e.g., heat content, surface-area-to-volume ratio, bulk density) coupled with their respective literature references.
 
 ## File Details
-* **File Name:** `Plant_Traits.csv` <!-- Replace with your actual file name -->
+* **File Name:** `MANFV_PlantTraits.csv`
 * **Format:** CSV (Comma-Separated Values)
 * **Geographic Context:** Mediterranean ecosystem (species documented using regional Catalan/Balearic common names).
 
