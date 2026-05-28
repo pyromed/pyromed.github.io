@@ -30,8 +30,7 @@ Les estratègies de prevenció i extinció d’incendis es basen precisament en 
   <img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width:45%; max-width:400px; border-radius:6px; display:block;">
   <p style="font-size:0.9em; font-style:italic; margin-top:8px;">
     Figura: El triangle de la combustió i els elements essencials del foc. 
-    Figura adaptada de: Richard M., Chambers J.C., Pyke D., Pierson F.B., 
-    Frederick & Williams C.J. 2013.
+    Adaptada de: Miller R, Chambers J, Pyke DA, Pierson FB, Williams CJ. 2013. A review of fire effects on vegetation and soils in the Great Basin region: response and ecological site characteristics: USDA General Technical Report RMRS-GTR-308.
   </p>
 </div>
 ---
