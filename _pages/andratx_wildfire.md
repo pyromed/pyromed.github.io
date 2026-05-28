@@ -87,13 +87,13 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 
 ## Beneficis del foc a l'ecosistema
 
-Quan el foc es manté en un règim natural, aporta dinàmiques positives fonamentals per a la salut de l'ecosistema:
-* **Control de plagues i malalties:** elimina insectes patògens, fongs i paràsits que afecten els arbres vells o malalts, evitant que es converteixin en epidèmies.
-* **Cicle de nutrients:** allibera nutrients de la matèria vegetal cremada, enriquint el sòl.
-* **Biodiversitat:** obren espais per a noves plantes i crea un paisatge en forma de "mosaic" que és ideal per a la fauna, ja que combina zones de refugi (bosc dens) amb zones d'alimentació (terrenys oberts).
-* **Control de vegetació:** redueixen l'acumulació de biomassa morta, prevenint incendis més grans.
-* **Reducció de l'estrès hídric:** en reduir la densitat de vegetació (sobretot d'arbustos i arbres joves), hi ha menys competència per l'aigua.
-* **Regeneració:** estimula la germinació de llavors de plantes germinadores.
+Quan el foc es produeix dins un règim natural i amb una freqüència i intensitat compatibles amb la dinàmica de l’ecosistema mediterrani, exerceix funcions ecositemiques que contribuixen al manteniment de la biodiversitat i la salut forestal.
+* **Control de plagues i malalties:** el foc elimina insectes patògens, fongs i organismes paràsits que afecten arbres debilitats o malalts, limitant-ne la propagació i reduint el risc d’episodis epidèmics.
+* **Cicle de nutrients:** la combustió de matèria vegetal allibera nutrients acumulats a la biomassa i els retorna al sòl en forma de cendres, afavorint la fertilitat i el creixement de nova vegetació.
+* **Biodiversitat:** els incendis creen espais oberts i generen paisatges en mosaic que és ideal per a la fauna, ja que combina zones de refugi (bosc dens) amb zones d'alimentació (terrenys oberts).
+* **Reducció de combustible:** el foc consumeix part de la biomassa morta i de la vegetació acumulada, disminuint la continuïtat del combustible i reduint el risc de futurs incendis extrems.
+* **Disminució de l'estrès hídric:** en reduir la densitat d’arbustos i arbres debilitats, disminueix la competència per l’aigua i els recursos disponibles, fet especialment rellevant en ecosistemes mediterranis sotmesos a sequeres recurrents.
+* **Estimulació de la recuperació natural:** algunes espècies mediterrànies depenen parcialment del foc per completar el seu cicle vital. La calor o determinats compostos químics presents al fum poden estimular la germinació de llavors. En el cas del pi blanc (Pinus halepensis), les altes temperatures fonen la resina que manté tancades les pinyes, afavorint-ne l’obertura i l’alliberament de llavors després de l’incendi.
 
 <img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
