@@ -112,10 +112,19 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
 
 ---
 
-## La paradoxa de l'extinció
+## La 
 
+<p>
 L’ús del foc ha estat històricament una eina fonamental de gestió del paisatge a les Illes Balears. Durant segles, les comunitats rurals utilitzaren el foc de manera controlada per regenerar pastures, eliminar vegetació acumulada, mantenir zones agrícoles i facilitar activitats tradicionals com la ramaderia extensiva o l’ofici de carboner. Aquestes pràctiques contribuïen a crear un paisatge en mosaic, format per una combinació de conreus, pastures, garrigues i masses forestals amb diferents densitats de vegetació.
+</p>
 
+<img src="/assets/images/carboner.jpg" 
+     alt="Carboner" 
+     style="width:100%; border-radius:6px; margin: 15px 0;">
+
+<p style="font-size:0.9em; color:#666; margin-top:-5px;">
+<em>Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME.</em>
+</p>
 L’abandonament progressiu del món rural durant les darreres dècades ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles i ramaders tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
 
 Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosionant el coneixement ecològic i cultural associat a la gestió del foc i del territori.
@@ -124,7 +133,7 @@ Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosiona
 *Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME*
 
 ---
-
+## La paradoxa de l'extinció
 La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
 
 > **Paradoxalment, la supressió d'incendis forestals assegura l'aparició d'incendis de comportament extrem.**
