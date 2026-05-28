@@ -6,7 +6,7 @@ This datasets contains spatial, environmental, and inventory data for plots in t
 * **Temporal Scope:** Field inventories were conducted between April and July 2024.
 
 ## Usage & Context
-This dataset is designed for environmental analysis, wildfire risk modeling, and vegetation recovery tracking. 
+This dataset is designed for environmental analysis, wildfire risk modeling, and vegetation recovery monitoring. 
 
 ## File Details
 * **File Name:** `MANFV_PlotInfo.csv` * **Format:** CSV (Comma-Separated Values)
