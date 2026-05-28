@@ -18,11 +18,26 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 
 ### El triangle de la combustió
 
-| | |
-| :--- | :--- |
-| Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistència de tres factors clau, coneguts com el triangle de la combustió: oxigen, combustible i calor. El foc és una reacció química que no pot iniciar-se ni mantenir-se si manca algun d’aquests tres elements.<br><br>**• Oxigen:** Present a l'atmosfera de manera constant (aproximadament un 21% en volum), és el gas que activa i sosté la combustió. Perquè el foc pugui mantenir-se, l’aire ha de contenir almenys un 16% d’oxigen.<br><br>**• Combustible:** És qualsevol material capaç de cremar. En els ecosistemes forestals, això inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca acumulada al sòl. També poden actuar com a combustible elements antròpics presents a la interfase urbana-forestal, com habitatges, cobertes de fusta, piles de llenya o dipòsits de gas. La capacitat de propagació del foc depèn de factors com la humitat del combustible, la seva mida, quantitat i distribució sobre el territori.<br><br>**• Font de calor o ignició:** És l’aportació d’energia inicial necessària per iniciar la combustió i mantenir-ne la propagació. La calor deshidrata el combustible proper, escalfa l’aire circumdant i preescalfa la vegetació situada davant del front de foc. Les fonts d’ignició poden ser naturals, com els llamps, o derivades de l’activitat humana, com llosques mal apagades, línies elèctriques, maquinària agrícola o forestal, espurnes de motors o fogueres.<br><br>Les estratègies de prevenció i extinció d’incendis es basen precisament en eliminar, reduir o separar algun dels components del triangle. En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos o la retirada de biomassa, redueixen la quantitat i continuïtat del material combustible i dificulten la propagació del foc. Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal. | ! [El triangle de la combustió](/assets/images/triangle-combustio.jpg)<br><br>*Figura: El triangle de la combustió i els elements essencials del foc. Adaptada de: Miller R, Chambers J, Pyke DA, Pierson FB, Williams CJ. 2013. A review of fire effects on vegetation and soils in the Great Basin region: response and ecological site characteristics: USDA General Technical Report RMRS-GTR-308.* |
+<table>
+  <tr>
+    <td style="width: 65%; vertical-align: top; padding-right: 20px;">
+      <p>Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistència de tres factors clau, coneguts com el triangle de la combustió: oxigen, combustible i calor. El foc és una reacció química que no pot iniciar-se ni mantenir-se si manca algun d’aquests tres elements.</p>
+      <ul>
+        <li><strong>Oxigen:</strong> Present a l'atmosfera de manera constant (aproximadament un 21% en volum), és el gas que activa i sosté la combustió. Perquè el foc pugui mantenir-se, l’aire ha de contenir almenys un 16% d’oxigen.</li>
+        <li><strong>Combustible:</strong> És qualsevol material capaç de cremar. En els ecosistemes forestals, això inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca acumulada al sòl. També poden actuar com a combustible elements antròpics presents a la interfase urbana-forestal, com habitatges, cobertes de fusta, piles de llenya o dipòsits de gas. La capacitat de propagació del foc depèn de factors com la humitat del combustible, la seva mida, quantitat i distribució sobre el territori.</li>
+        <li><strong>Font de calor o ignició:</strong> És l’aportació d’energia inicial necessària per iniciar la combustió i mantenir-ne la propagació. La calor deshidrata el combustible proper, escalfa l’aire circumdant i preescalfa la vegetació situada davant del front de foc. Les fonts d’ignició poden ser naturals, com els llamps, o derivades de l’activitat humana, com llosques mal apagades, línies elèctriques, maquinària agrícola o forestal, espurnes de motors o fogueres.</li>
+      </ul>
+      <p>Les estratègies de prevenció i extinció d’incendis es basen precisament en eliminar, reduir o separar algun dels components del triangle. En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos o la retirada de biomassa, redueixen la quantitat i continuïtat del material combustible i dificulten la propagació del foc. Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal.</p>
+    </td>
+    <td style="width: 35%; vertical-align: top;">
+      <img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width: 100%; height: auto; display: block; border-radius: 6px;">
+      <p style="font-size: 0.85em; font-style: italic; margin-top: 10px; color: #555; line-height: 1.4;">
+        Figura: El triangle de la combustió i els elements essencials del foc. Adaptada de: Miller R, Chambers J, Pyke DA, Pierson FB, Williams CJ. 2013. A review of fire effects on vegetation and soils in the Great Basin region: response and ecological site characteristics: USDA General Technical Report RMRS-GTR-308.
+      </p>
+    </td>
+  </tr>
+</table>
 
----
 ---
 
 ## Incendis extrems
