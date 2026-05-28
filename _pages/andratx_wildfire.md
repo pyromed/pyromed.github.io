@@ -139,6 +139,7 @@ L’abandonament progressiu del món rural durant les darreres dècades ha provo
 
 Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosionant el coneixement ecològic i cultural associat a la gestió del foc i del territori.
 
+En aquest paisatge agroforestal, els marges de pedra seca i les marjades exercien també una funció ecològica i territorial rellevant. A més de permetre el cultiu en pendents pronunciats i reduir l’erosió del sòl, aquestes estructures fragmentaven la continuïtat de la vegetació i actuaven com a petites barreres físiques davant la propagació del foc superficial.
 
 ---
 ## La paradoxa de l'extinció
