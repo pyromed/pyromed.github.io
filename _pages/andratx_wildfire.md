@@ -40,16 +40,22 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 
 ## Incendis extrems
 
-Els incendis esdevenen un problema greu quan presenten un comportament extrem, caracteritzat per:
-* **Alta intensitat:** generen una gran quantitat d'energia calorífica.
-* **Propagació per la capçada**.
-* **Llarga durada:** persistents durant dies o fins i tot mesos.
-* **Gran extensió** (≥ 500 hectàrees).
-* **Dificultat de control:** es propaguen de manera erràtica i imprevisible, representant un gran risc per als equips d'extinció i les poblacions.
-* **Creen nous incendis** a partir de fragments d'escorça cremada i inclús poden crear la seva pròpia meteorologia.
-
+Els incendis esdevenen un problema greu quan presenten un comportament extrem.
 <img src="/assets/images/burn.jpg" alt="Incendis extrems" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ara Balears*
+<p style="font-size: 0.85em; font-style: italic; margin-bottom: 20px; color: #555;">
+  *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ara Balears*
+</p>
+
+Es caracteritzen per:
+* **Alta intensitat (≥10,000 kW per metre):** cada metre lineal d'aquest front de foc desprèn una quantitat d'energia equivalent a 5.000 estufes domèstiques enceses alhora. És una potència tèrmica que dobla el límit on els avions i camions de bombers deixen de ser efectius.
+* **Propagació ràpida (≥ 50 m per minut):** el front de foc pot avançar a una velocitat equivalent a travessar un camp de futbol en dos minuts.
+* **Longitud de ka flama (≥ 10 m):** 
+* **Gran extensió (≥ 1000 hectàrees):** 
+* **Creen nous incendis:** a partir de fragments d'escorça cremada i inclús poden crear la seva pròpia meteorologia.
+* **Llarga durada:** persistents durant dies o fins i tot mesos.
+* **Dificultat de control:** es propaguen de manera erràtica i imprevisible, representant un gran risc per als equips d'extinció i les poblacions.
+
+
 
 ---
 
