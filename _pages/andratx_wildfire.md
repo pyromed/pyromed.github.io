@@ -98,12 +98,14 @@ Quan el foc es manté en un règim natural, aporta dinàmiques positives fonamen
 
 ## Les plantes estan adaptades al règim d'incendis
 
-Les comunitats vegetals del bosc mediterrani han desenvolupat una elevada resiliència als incendis, gràcies a dos mecanismes clau de regeneració post-incendi: **germinació** i **rebrotació**.
+Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc forma part de la dinàmica natural dels ecosistemes. Per aquest motiu, moltes espècies han desenvolupat estratègies que els permeten resistir i recuperar-se després d’un incendi, fet que confereix al bosc mediterrani una elevada capacitat de resiliència.
 
-> **La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a l'incendi.**
+> **La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a l'incendi. Aquesta recuperació es produeix principalment mitjançant dos mecanismes: la rebrotació i la germinació.**
 
-<img src="/assets/images/adaptacions.jpg" alt="Estepa rebrotant" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Fotografia: Una estepa rebrota després de l'incendi forestal d'Andratx en 2013.*
+* **Rebrotació:** algunes espècies, com l’estepa o l’ullastre, poden rebrotar després del foc gràcies a estructures subterrànies o teixits protegits que sobreviuen a les altes temperatures.
+* **Germinació:** altres plantes aprofiten l’incendi com a estímul per activar la germinació de les llavors. En el cas d’alguns pins mediterranis, la calor obre les pinyes i afavoreix l’alliberament de llavors sobre un sòl ric en nutrients i amb menys competència vegetal.
+<img src="/assets/images/adaptacions.jpg" alt="adaptacions al foct" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Fotografia: Rebrot d’estepa i regeneració massiva de pins després de l’incendi forestal d’Andratx de 2013.*
 
 ---
 
