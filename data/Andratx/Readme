@@ -3,6 +3,8 @@
 ## Overview
 This datasets contains spatial, environmental, and inventory data for plots in the Font de la Vila Catchment (Andratx, Mallorca). 
 
+* **Temporal Scope:** Field inventories were conducted between April and July 2024.
+
 ## Usage & Context
 This dataset is designed for environmental analysis, wildfire risk modeling, and vegetation recovery tracking. 
 
@@ -40,4 +42,4 @@ It details topographical characteristics (elevation, slope, aspect), canopy metr
 
 ### Key Project Notes:
 * **Missing Data:** Where canopy or fuel metrics are zero (`0`), it generally correlates with high burn severity (`H`) from the `Fire_13` column, indicating complete vegetation loss.
-* **Temporal Scope:** Field inventories were conducted between April and July 2024.
+
