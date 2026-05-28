@@ -50,12 +50,12 @@ Els incendis esdevenen un problema greu quan presenten un comportament extrem.
 Es caracteritzen per:
 * **Alta intensitat (≥10,000 kW per metre):** cada metre lineal d'aquest front de foc desprèn una quantitat d'energia equivalent a 5.000 estufes domèstiques enceses alhora. És una potència tèrmica que dobla el límit on els avions i camions de bombers deixen de ser efectius.
 * **Propagació ràpida (≥ 50 m per minut):** el front de foc pot avançar a una velocitat equivalent a travessar un camp de futbol en dos minuts.
-* **Longitud de ka flama (≥ 10 m):** 
-* **Gran extensió (≥ 1000 hectàrees):** 
-* **Creen nous incendis:** a partir de fragments d'escorça cremada i inclús poden crear la seva pròpia meteorologia.
-* **Llarga durada:** persistents durant dies o fins i tot mesos.
-* **Dificultat de control:** es propaguen de manera erràtica i imprevisible, representant un gran risc per als equips d'extinció i les poblacions.
-
+* **Longitud de flama elevada (≥ 10 m):** poden superar l’alçada d’un edifici de tres pisos, afavorint la propagació cap a les capçades dels arbres i dificultant enormement les tasques d’extinció.
+* **Gran extensió (≥ 1000 hectàrees):** equivalen a 1.000 camps de futbol o
+* **Generació de focus secundaris:** a partir de fragments cremats transportats pel vent a més d’un quilòmetre de distància, originant nous incendis molt allunyats del front principal.
+* **Comportament atmosfèric extrem:** en els episodis més intensos, poden alterar les condicions atmosfèriques locals i generar la seva pròpia meteorologia, amb vents intensos i grans columnes convectives que afavoreixen una propagació encara més imprevisible.
+* **Llarga durada:** poden mantenir-se actius durant dies o fins i tot setmanes, especialment sota condicions de sequera i vents persistents.
+* **Dificultat de control:** el seu comportament erràtic i imprevisible supera sovint la capacitat d’extinció i representa un risc molt elevat tant per als equips d’emergència com per a la població.
 
 
 ---
