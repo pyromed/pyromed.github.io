@@ -10,7 +10,7 @@ excerpt: "El foc és una pertorbació ecològica natural que regula els ecosiste
 
 ## Què és un foc?
 
-El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en reacció simultània.És l'efecte visible i tèrmic d'aquest procés de combustió ràpida.
+El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en reacció simultània. És l'efecte visible i tèrmic d'aquest procés de combustió ràpida.
 
 > **Un incendi és un foc descontrolat que es propaga en l'espai i el temps, afectant superfícies forestals o rurals, i que no està previst en els plans de gestió de l'ecosistema.**
 
@@ -18,11 +18,13 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 
 ### El triangle de la combustió
 
-Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistència de tres factors clau:
+Perquè es generi i es mantingui qualsevol foc, és imprescindible la coexistència de tres factors clau, coneguts com el triangle de la combustió: oxigen, combustible i calor. El foc és una reacció química que no pot iniciar-se ni mantenir-se si manca algun d’aquests tres elements.
 
-* **Oxigen:** Present a l'atmosfera de manera constant (aproximadament un 21% en volum), és el gas que activa i sosté la reacció química.
-* **Combustible:** Tota la biomassa de la massa forestal capaç de cremar, que inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca del sòl.
-* **Font de calor o ignició:** L'aportació d'energia inicial que desencadena el procés. Pot ser d'origen natural (com la caiguda d'un llamp) o fruit de l'activitat humana, ja sigui per negligència o accident (llosques, línies elèctriques, fogueres mal apagades o espurnes per fricció de cadenes o maquinària).
+* **Oxigen:** Present a l'atmosfera de manera constant (aproximadament un 21% en volum), és el gas que activa i sosté la combustió. Perquè el foc pugui mantenir-se, l’aire ha de contenir almenys un 16% d’oxigen.
+* **Combustible:** És qualsevol material capaç de cremar. En els ecosistemes forestals, això inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca acumulada al sòl. També poden actuar com a combustible elements antròpics presents a la interfase urbana-forestal, com habitatges, cobertes de fusta, piles de llenya o dipòsits de gas. La capacitat de propagació del foc depèn de factors com la humitat del combustible, la seva mida, quantitat i distribució sobre el territori.
+* **Font de calor o ignició:** És l’aportació d’energia inicial necessària per iniciar la combustió i mantenir-ne la propagació. La calor deshidrata el combustible proper, escalfa l’aire circumdant i preescalfa la vegetació situada davant del front de foc. Les fonts d’ignició poden ser naturals, com els llamps, o derivades de l’activitat humana, com llosques mal apagades, línies elèctriques, maquinària agrícola o forestal, espurnes de motors o fogueres.
+
+Les estratègies de prevenció i extinció d’incendis es basen precisament en eliminar, reduir o separar algun dels components del triangle. En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos o la retirada de biomassa, redueixen la quantitat i continuïtat del material combustible i dificulten la propagació del foc. Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal.
 
 <div style="margin:20px 0;">
 
