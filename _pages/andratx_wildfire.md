@@ -40,29 +40,29 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 
 ### El triangle del comportament del foc
 
-Mentre que el triangle de la combustió explica com es genera el foc, el triangle del comportament del foc explica com es propaga un incendi forestal i com interacciona amb l'entorn a través de tres components ambientals: meteorologia, topografia i combustible.
+Mentre que el triangle de la combustió explica com es genera el foc, el triangle del comportament del foc explica com es propaga un incendi forestal i com interacciona amb l'entorn a través de tres factors que interactuen constantment i condicionen la velocitat, intensitat i direcció de l’incendi: meteorologia, topografia i combustible.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/behavior_triangle.jpg" alt="Incendis extrems" style="width: 50%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; font-style: italic; margin-top: 8px; color: #555;">
-    Imatge: El triangle del comportament del foc. Adaptada de:
+    Imatge: El triangle del comportament del foc. Adaptada de:[ref]
   </p>
 </div>
 
 <p><strong>Meteorologia i clima</strong></p>
 
 <ul>
-  <li>Les sequeres prolongades alternades amb períodes de pluges intenses afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible.</li>
-  <li>Les temperatures elevades, la baixa humitat relativa i l'escassetat de precipitacions redueixen la humitat dels combustibles i n'augmenten la inflamabilitat.</li>
-  <li>El vent és sovint el factor més determinant durant un incendi, ja que els episodis de vents secs i forts poden accelerar notablement la propagació del foc.</li>
+  <li>Les <strong>sequeres prolongades</strong>strong> alternades amb períodes de pluges intenses afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible.</li>
+  <li>Les <strong>temperatures elevades</strong>strong>, la <strong>baixa humitat relativa</strong>strong> i l'escassetat de precipitacions redueixen la humitat dels combustibles, n'augmenten la inflamabilitat i acceleren la propagació del foc.</li>
+  <li>El <strong>vent</strong>strong> és sovint el factor més determinant durant un incendi. A més d’incrementar la velocitat de propagació, preescalfa els combustibles situats davant del front de foc.</li>
 </ul>
 
 <p><strong>Topografia</strong></p>
 
 <ul>
-  <li>Els incendis que cremen costa amunt es propaguen més ràpidament perquè les flames preescalfen i assequen el combustible situat a la part superior del vessant.</li>
+  <li>Els incendis tendeixen a avançar més ràpidament <strong>pendent amunt</strong>strong> que pendent avall. Això es deu al fet que les flames i la calor radiant preescalfen la vegetació situada a la part superior del vessant, reduint-ne la humitat i facilitant-ne la ignició. Com més pronunciat és el pendent, més ràpida acostuma a ser la propagació.</li>
   <li>Els barrancs, valls i colls poden actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi).</li>
-  <li>La combinació entre relleu i vent pot provocar variacions importants en la velocitat i direcció de propagació de l'incendi.</li>
+  <li>Els vessants més exposats al sol (sud-est) solen presentar combustibles més secs i, per tant, més susceptibles de cremar.</li>
 </ul>
 
 <p><strong>Combustible</strong></p>
@@ -70,8 +70,7 @@ Mentre que el triangle de la combustió explica com es genera el foc, el triangl
 <ul>
   <li>Inclou tant la vegetació natural (viva o morta) com les estructures presents a la interfase urbana-forestal.</li>
   <li>El tipus de vegetació, la seva distribució i el seu contingut d'humitat determinen la facilitat d'ignició i la intensitat del foc.</li>
-  <li>La continuïtat horitzontal i vertical del combustible crea vies que faciliten la propagació de les flames.</li>
-  <li>És l'únic component del triangle que es pot modificar mitjançant actuacions de gestió forestal.</li>
+  <li>La continuïtat horitzontal i vertical del combustible facilita que el foc es propagui ràpidament pel sotabosc i pugui ascendir fins a les capçades dels arbres.</li>
 </ul>
 
 <p>
