@@ -27,7 +27,7 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
         <li><strong>Combustible:</strong> És qualsevol material capaç de cremar. En els ecosistemes forestals, això inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca acumulada al sòl. També poden actuar com a combustible elements antròpics presents a la interfase urbana-forestal, com habitatges, cobertes de fusta, piles de llenya o dipòsits de gas. La capacitat de propagació del foc depèn de factors com la humitat del combustible, la seva mida, quantitat i distribució sobre el territori.</li>
         <li><strong>Font de calor o ignició:</strong> És l’aportació d’energia inicial necessària per iniciar la combustió i mantenir-ne la propagació. La calor deshidrata el combustible proper, escalfa l’aire circumdant i preescalfa la vegetació situada davant del front de foc. Les fonts d’ignició poden ser naturals, com els llamps, o derivades de l’activitat humana, com llosques mal apagades, línies elèctriques, maquinària agrícola o forestal, espurnes de motors o fogueres.</li>
       </ul>
-      <p>Les estratègies de prevenció i extinció d’incendis es basen precisament en eliminar, reduir o separar algun dels components del triangle. En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos o la retirada de biomassa, redueixen la quantitat i continuïtat del material combustible i dificulten la propagació del foc. Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal.</p>
+      <p>Les estratègies d'extinció d’incendis es basen precisament en eliminar, reduir o separar algun dels components del triangle. El anfibis dien aigua i refresquen els combustibles eliminant la seva availibilitat.Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal.</p>
     </td>
     <td style="width: 35%; vertical-align: top;">
       <img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width: 100%; height: auto; display: block; border-radius: 6px;">
@@ -46,17 +46,17 @@ Mentre que el triangle de la combustió explica com es genera el foc, el triangl
   <tr>
     <td style="width: 65%; vertical-align: top; padding-right: 20px;">
       <ul>
-        <li><strong>Meteorologia i Clima:</strong> El clima i les condicions meteorològiques influeixen directament en el risc i la propagació dels incendis.
+        <strong>Meteorologia i Clima:</strong> El clima i les condicions meteorològiques influeixen directament en el risc i la propagació dels incendis.
         * **es sequeres prolongades, alternades amb períodes de pluges intenses, afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible
         * **Tendències estacionals: temperatures elevades, baixa humitat relativa i escassetat de precipitacions redueixen la humitat dels combustibles, fent-los més inflamables.
-        * **Meteorologia actual: el vent és sovint el factor més determinant durant un incendi. Episodis de vents secs i forts poden accelerar enormement la velocitat de propagació del foc. L</li>
-        <li><strong>Topografia:</strong> Descriu la forma del terreny (altitud, pendent, orientació i relleu). 
+        * **Meteorologia actual: el vent és sovint el factor més determinant durant un incendi. Episodis de vents secs i forts poden accelerar enormement la velocitat de propagació del foc. 
+        <strong>Topografia:</strong> Descriu la forma del terreny (altitud, pendent, orientació i relleu). 
           * ** cremen costa amunt:** es propaguen més ràpidament perquè les flames preescalfen i assequen el combustible situat a la part superior. 
           * ** barrancs i valls :**actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi), creant canvis bruscos i turbulències.</li>
-        <li><strong>Combustible:</strong> Inclou tant la vegetació natural (viva o morta) com les estructures humanes de la interfase urbana-forestal. La configuració, humitat, mida i continuïtat (tant horitzontal com vertical) d'aquests materials determinen el potencial d'ignició i faciliten camins perquè el foc es mogui. 
-          * **El tipus de vegetació, la seva distribució i el seu contingut d'humitat determinen la facilitat d'ignició i la intensitat del foc.</li>
+        <strong>Combustible:</strong> Inclou tant la vegetació natural (viva o morta) com les estructures humanes de la interfase urbana-forestal. La configuració, humitat, mida i continuïtat (tant horitzontal com vertical) d'aquests materials determinen el potencial d'ignició i faciliten camins perquè el foc es mogui. 
+          * **El tipus de vegetació, la seva distribució i el seu contingut d'humitat determinen la facilitat d'ignició i la intensitat del foc.
       </ul>
-      <p>Quan les condicions d'aquests tres components són severes, l'incendi pot desenvolupar un <strong>comportament extrem</strong>. Això es tradueix en altes velocitats de propagació, focs de capçades (coronant els arbres), pluja d'espurnes que generen focs secundaris a llarga distància o, fins i tot, la creació de potents columnes d'aire calent (pirocúmuls) que generen la seva pròpia meteorologia.</p>
+      <p> En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos o la retirada de biomassa, redueixen la quantitat i continuïtat del material combustible i dificulten la propagació del foc.</p>
     </td>
     <td style="width: 35%; vertical-align: top;">
       <img src="/assets/images/triangle-comportament.jpg" alt="El triangle del comportament del foc" style="width: 100%; height: auto; display: block; border-radius: 6px;">
