@@ -8,7 +8,7 @@ header:
 excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes.<br>En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
 ---
 
-## Què és un foc?
+## Què és un foc i com es genera?
 
 El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en reacció simultània. És l'efecte visible i tèrmic d'aquest procés de combustió ràpida.
 
@@ -98,8 +98,6 @@ Es caracteritzen per:
 * **Dificultat de control:** el seu comportament erràtic i imprevisible supera sovint la capacitat d’extinció i representa un risc molt elevat tant per als equips d’emergència com per a la població.
 
 
----
-
 ### La zona d'interfase urbana-forestal
 
 La zona d’interfase urbana-forestal, on habitatges, urbanitzacions i massa forestal entren en contacte directe, representa un dels principals desafiaments en la gestió dels incendis forestals. En aquests espais, el foc no només afecta la vegetació, sinó també persones, infraestructures i serveis essencials, fet que incrementa notablement la complexitat de les operacions d’emergència.
@@ -126,6 +124,7 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 ---
 ## L'origen del problema
 <p>Per què tenim ara aquests incendis de comportament extrem? La resposta es troba en la pèrdua de la relació tradicional amb el nostre entorn.</p>
+
 ### L'abandonament del paisatge en mosaic
 
 <p>
@@ -188,11 +187,11 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 
 ---
 
-## Gestió forestal
----
+## (Re)aprendre a conviure amb el foc
+Com que la supressió total dels incendis forestals no és viable ni ecològicament desitjable, hem de passar de la visió de la "simple extinció" a una visió d'adaptació i gestió del territori. Cal aprendre a conviure amb el foc compatible amb el bosc mediterrani.
 
 
-## Beneficis del foc a l'ecosistema
+### El paper ecològic del foc
 
 Quan el foc es produeix dins un règim natural i amb una freqüència i intensitat compatibles amb la dinàmica de l’ecosistema mediterrani, exerceix funcions ecositemiques que contribuixen al manteniment de la biodiversitat i la salut forestal.
 * **Control de plagues i malalties:** el foc elimina insectes patògens, fongs i organismes paràsits que afecten arbres debilitats o malalts, limitant-ne la propagació i reduint el risc d’episodis epidèmics.
@@ -206,7 +205,7 @@ Quan el foc es produeix dins un règim natural i amb una freqüència i intensit
 
 ---
 
-## Les plantes estan adaptades al règim d'incendis
+### Les plantes estan adaptades al règim d'incendis
 
 Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc forma part de la dinàmica natural dels ecosistemes. Per aquest motiu, moltes espècies han desenvolupat estratègies que els permeten resistir i recuperar-se després d’un incendi, fet que confereix al bosc mediterrani una elevada capacitat de resiliència.
 
@@ -217,7 +216,7 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
 <img src="/assets/images/adaptacions.jpg" alt="adaptacions al foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: Rebrot d’estepa i regeneració massiva de pins després de l’incendi forestal d’Andratx de 2013.*
 
-
+### La cogestió
 Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
 
 > **Hem de reconèixer les Balears com un sistema on l'humà i l'entorn estan estretament vinculats i a on la gestió és una responsabilitat compartida.**
