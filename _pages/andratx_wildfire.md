@@ -38,7 +38,7 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
   </tr>
 </table>
 
-### El triangle del comportament del foc
+## El triangle del comportament del foc
 
 Mentre que el triangle de la combustió explica com es genera el foc, el triangle del comportament del foc explica com es propaga un incendi forestal i com interacciona amb l'entorn a través de tres factors que interactuen constantment i condicionen la velocitat, intensitat i direcció de l’incendi: meteorologia, topografia i combustible.
 
@@ -78,7 +78,7 @@ En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida
 </p>
 
 
-## Incendis extrems
+## Quan el comportament esdevé Extrem
 
 Els incendis esdevenen un problema greu quan presenten un comportament extrem.
 
@@ -100,7 +100,7 @@ Es caracteritzen per:
 
 ---
 
-## La zona d'interfase urbana-forestal
+### La zona d'interfase urbana-forestal
 
 La zona d’interfase urbana-forestal, on habitatges, urbanitzacions i massa forestal entren en contacte directe, representa un dels principals desafiaments en la gestió dels incendis forestals. En aquests espais, el foc no només afecta la vegetació, sinó també persones, infraestructures i serveis essencials, fet que incrementa notablement la complexitat de les operacions d’emergència.
 Els principals factors que dificulten les tasques d’extinció són:
@@ -122,37 +122,11 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 <img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: Diario de Mallorca*
 
----
-
-
-## Beneficis del foc a l'ecosistema
-
-Quan el foc es produeix dins un règim natural i amb una freqüència i intensitat compatibles amb la dinàmica de l’ecosistema mediterrani, exerceix funcions ecositemiques que contribuixen al manteniment de la biodiversitat i la salut forestal.
-* **Control de plagues i malalties:** el foc elimina insectes patògens, fongs i organismes paràsits que afecten arbres debilitats o malalts, limitant-ne la propagació i reduint el risc d’episodis epidèmics.
-* **Cicle de nutrients:** la combustió de matèria vegetal allibera nutrients acumulats a la biomassa i els retorna al sòl en forma de cendres, afavorint la fertilitat i el creixement de nova vegetació.
-* **Biodiversitat:** els incendis creen espais oberts i generen paisatges en mosaic que és ideal per a la fauna, ja que combina zones de refugi (bosc dens) amb zones d'alimentació (terrenys oberts).
-* **Reducció de combustible:** el foc consumeix part de la biomassa morta i de la vegetació acumulada, disminuint la continuïtat del combustible i reduint el risc de futurs incendis extrems.
-* **Disminució de l'estrès hídric:** en reduir la densitat d’arbustos i arbres debilitats, disminueix la competència per l’aigua i els recursos disponibles, fet especialment rellevant en ecosistemes mediterranis sotmesos a sequeres recurrents.
-* **Estimulació de la recuperació natural:** algunes espècies mediterrànies depenen parcialment del foc per completar el seu cicle vital. La calor o determinats compostos químics presents al fum poden estimular la germinació de llavors. En el cas del pi blanc (Pinus halepensis), les altes temperatures fonen la resina que manté tancades les pinyes, afavorint-ne l’obertura i l’alliberament de llavors després de l’incendi.
-
-<img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
 ---
-
-## Les plantes estan adaptades al règim d'incendis
-
-Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc forma part de la dinàmica natural dels ecosistemes. Per aquest motiu, moltes espècies han desenvolupat estratègies que els permeten resistir i recuperar-se després d’un incendi, fet que confereix al bosc mediterrani una elevada capacitat de resiliència.
-
-> **La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a l'incendi. Aquesta recuperació es produeix principalment mitjançant dos mecanismes: la rebrotació i la germinació.**
-
-* **Rebrotació:** algunes espècies, com l’estepa o l’ullastre, poden rebrotar després del foc gràcies a estructures subterrànies o teixits protegits que sobreviuen a les altes temperatures.
-* **Germinació:** altres plantes aprofiten l’incendi com a estímul per activar la germinació de les llavors. En el cas d’alguns pins mediterranis, la calor obre les pinyes i afavoreix l’alliberament de llavors sobre un sòl ric en nutrients i amb menys competència vegetal.
-<img src="/assets/images/adaptacions.jpg" alt="adaptacions al foc" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Fotografia: Rebrot d’estepa i regeneració massiva de pins després de l’incendi forestal d’Andratx de 2013.*
-
----
-
-## L'ús del foc i el territori 
+## L'origen del problema
+<p>Per què tenim ara aquests incendis de comportament extrem? La resposta es troba en la pèrdua de la relació tradicional amb el nostre entorn.</p>
+### L'abandonament del paisatge en mosaic
 
 <p>
 L’ús del foc ha estat històricament una eina fonamental de gestió del paisatge a les Illes Balears. Durant segles, les comunitats rurals utilitzaren el foc de manera controlada per regenerar pastures, eliminar vegetació acumulada, mantenir zones agrícoles i facilitar activitats tradicionals com la ramaderia extensiva o l’ofici de carboner. Aquestes pràctiques contribuïen a crear un paisatge en mosaic, format per una combinació de conreus, pastures, garrigues i masses forestals amb diferents densitats de vegetació.
@@ -215,6 +189,34 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 ---
 
 ## Gestió forestal
+---
+
+
+## Beneficis del foc a l'ecosistema
+
+Quan el foc es produeix dins un règim natural i amb una freqüència i intensitat compatibles amb la dinàmica de l’ecosistema mediterrani, exerceix funcions ecositemiques que contribuixen al manteniment de la biodiversitat i la salut forestal.
+* **Control de plagues i malalties:** el foc elimina insectes patògens, fongs i organismes paràsits que afecten arbres debilitats o malalts, limitant-ne la propagació i reduint el risc d’episodis epidèmics.
+* **Cicle de nutrients:** la combustió de matèria vegetal allibera nutrients acumulats a la biomassa i els retorna al sòl en forma de cendres, afavorint la fertilitat i el creixement de nova vegetació.
+* **Biodiversitat:** els incendis creen espais oberts i generen paisatges en mosaic que és ideal per a la fauna, ja que combina zones de refugi (bosc dens) amb zones d'alimentació (terrenys oberts).
+* **Reducció de combustible:** el foc consumeix part de la biomassa morta i de la vegetació acumulada, disminuint la continuïtat del combustible i reduint el risc de futurs incendis extrems.
+* **Disminució de l'estrès hídric:** en reduir la densitat d’arbustos i arbres debilitats, disminueix la competència per l’aigua i els recursos disponibles, fet especialment rellevant en ecosistemes mediterranis sotmesos a sequeres recurrents.
+* **Estimulació de la recuperació natural:** algunes espècies mediterrànies depenen parcialment del foc per completar el seu cicle vital. La calor o determinats compostos químics presents al fum poden estimular la germinació de llavors. En el cas del pi blanc (Pinus halepensis), les altes temperatures fonen la resina que manté tancades les pinyes, afavorint-ne l’obertura i l’alliberament de llavors després de l’incendi.
+
+<img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+
+---
+
+## Les plantes estan adaptades al règim d'incendis
+
+Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc forma part de la dinàmica natural dels ecosistemes. Per aquest motiu, moltes espècies han desenvolupat estratègies que els permeten resistir i recuperar-se després d’un incendi, fet que confereix al bosc mediterrani una elevada capacitat de resiliència.
+
+> **La resiliència al foc és la capacitat d'un ecosistema per recuperar-se després d'un incendi, tornant a la seva estructura, funció i dinàmiques ecològiques prèvies a l'incendi. Aquesta recuperació es produeix principalment mitjançant dos mecanismes: la rebrotació i la germinació.**
+
+* **Rebrotació:** algunes espècies, com l’estepa o l’ullastre, poden rebrotar després del foc gràcies a estructures subterrànies o teixits protegits que sobreviuen a les altes temperatures.
+* **Germinació:** altres plantes aprofiten l’incendi com a estímul per activar la germinació de les llavors. En el cas d’alguns pins mediterranis, la calor obre les pinyes i afavoreix l’alliberament de llavors sobre un sòl ric en nutrients i amb menys competència vegetal.
+<img src="/assets/images/adaptacions.jpg" alt="adaptacions al foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Fotografia: Rebrot d’estepa i regeneració massiva de pins després de l’incendi forestal d’Andratx de 2013.*
+
 
 Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
 
