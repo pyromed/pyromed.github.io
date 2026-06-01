@@ -45,11 +45,16 @@ Mentre que el triangle de la combustió explica com es genera el foc, el triangl
 <table>
   <tr>
     <td style="width: 65%; vertical-align: top; padding-right: 20px;">
-      <p>El comportament d'un incendi i el seu potencial per esdevenir extrem estan governats per la interacció simultània de tres factors clau. D'aquests components, el combustible és l'únic que l'ésser humà pot modificar a gran escala per alterar el comportament del foc, ja que la topografia i la meteorologia són elements constants o incontrolables.</p>
       <ul>
-        <li><strong>Meteorologia i Clima:</strong> És el factor més dinàmic. A llarg termini (clima), els cicles de sequera seguits de pluges generen un creixement ràpid de vegetació que es converteix en combustible disponible. A curt termini, les altes temperatures i la baixa humitat deshidraten el material forestal. En el moment de l'incendi, el <strong>vent</strong> és el factor dominant: accelera la propagació, aporta oxigen i, en casos de vents descendents (com en zones de muntanya), s'escalfa i s'asseca ràpidament incrementant el perill.</li>
-        <li><strong>Topografia:</strong> Descriu la forma del terreny (altitud, pendent, orientació i relleu). Influeix dràsticament en l'avanç del foc; per exemple, els incendis que cremen <strong>costa amunt</strong> es propaguen més ràpidament perquè les flames preescalfen i assequen el combustible situat a la part superior. A més, barrancs i valls poden actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi), creant canvis bruscos i turbulències.</li>
-        <li><strong>Combustible:</strong> Inclou tant la vegetació natural (viva o morta) com les estructures humanes de la interfase urbana-forestal. La configuració, humitat, mida i continuïtat (tant horitzontal com vertical) d'aquests materials determinen el potencial d'ignició i faciliten camins perquè el foc es mogui. És l'únic costat del triangle que es pot gestionar activament mitjançant tales, aclarides o cremes prescrites per reduir-ne la càrrega.</li>
+        <li><strong>Meteorologia i Clima:</strong> El clima i les condicions meteorològiques influeixen directament en el risc i la propagació dels incendis.
+        * **es sequeres prolongades, alternades amb períodes de pluges intenses, afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible
+        * **Tendències estacionals: temperatures elevades, baixa humitat relativa i escassetat de precipitacions redueixen la humitat dels combustibles, fent-los més inflamables.
+        * **Meteorologia actual: el vent és sovint el factor més determinant durant un incendi. Episodis de vents secs i forts poden accelerar enormement la velocitat de propagació del foc. L</li>
+        <li><strong>Topografia:</strong> Descriu la forma del terreny (altitud, pendent, orientació i relleu). 
+          * ** cremen costa amunt:** es propaguen més ràpidament perquè les flames preescalfen i assequen el combustible situat a la part superior. 
+          * ** barrancs i valls :**actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi), creant canvis bruscos i turbulències.</li>
+        <li><strong>Combustible:</strong> Inclou tant la vegetació natural (viva o morta) com les estructures humanes de la interfase urbana-forestal. La configuració, humitat, mida i continuïtat (tant horitzontal com vertical) d'aquests materials determinen el potencial d'ignició i faciliten camins perquè el foc es mogui. 
+          * **El tipus de vegetació, la seva distribució i el seu contingut d'humitat determinen la facilitat d'ignició i la intensitat del foc.</li>
       </ul>
       <p>Quan les condicions d'aquests tres components són severes, l'incendi pot desenvolupar un <strong>comportament extrem</strong>. Això es tradueix en altes velocitats de propagació, focs de capçades (coronant els arbres), pluja d'espurnes que generen focs secundaris a llarga distància o, fins i tot, la creació de potents columnes d'aire calent (pirocúmuls) que generen la seva pròpia meteorologia.</p>
     </td>
