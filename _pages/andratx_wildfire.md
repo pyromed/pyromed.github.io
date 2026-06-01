@@ -45,23 +45,49 @@ Mentre que el triangle de la combustió explica com es genera el foc, el triangl
 <table>
   <tr>
     <td style="width: 65%; vertical-align: top; padding-right: 20px;">
+
       <ul>
-        <strong>Meteorologia i Clima:</strong> El clima i les condicions meteorològiques influeixen directament en el risc i la propagació dels incendis.
-        * **es sequeres prolongades, alternades amb períodes de pluges intenses, afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible
-        * **Tendències estacionals: temperatures elevades, baixa humitat relativa i escassetat de precipitacions redueixen la humitat dels combustibles, fent-los més inflamables.
-        * **Meteorologia actual: el vent és sovint el factor més determinant durant un incendi. Episodis de vents secs i forts poden accelerar enormement la velocitat de propagació del foc. 
-        <strong>Topografia:</strong> Descriu la forma del terreny (altitud, pendent, orientació i relleu). 
-          * ** cremen costa amunt:** es propaguen més ràpidament perquè les flames preescalfen i assequen el combustible situat a la part superior. 
-          * ** barrancs i valls :**actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi), creant canvis bruscos i turbulències.</li>
-        <strong>Combustible:</strong> Inclou tant la vegetació natural (viva o morta) com les estructures humanes de la interfase urbana-forestal. La configuració, humitat, mida i continuïtat (tant horitzontal com vertical) d'aquests materials determinen el potencial d'ignició i faciliten camins perquè el foc es mogui. 
-          * **El tipus de vegetació, la seva distribució i el seu contingut d'humitat determinen la facilitat d'ignició i la intensitat del foc.
+        <li>
+          <strong>Meteorologia i clima</strong>: El clima i les condicions meteorològiques influeixen directament en el risc i la propagació dels incendis.
+          <ul>
+            <li>Les sequeres prolongades alternades amb períodes de pluges intenses afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible.</li>
+            <li>Les temperatures elevades, la baixa humitat relativa i l'escassetat de precipitacions redueixen la humitat dels combustibles i n'augmenten la inflamabilitat.</li>
+            <li>El vent és sovint el factor més determinant durant un incendi, ja que els episodis de vents secs i forts poden accelerar notablement la propagació del foc.</li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>Topografia</strong>: Descriu la forma del terreny (altitud, pendent, orientació i relleu).
+          <ul>
+            <li>Els incendis que cremen costa amunt es propaguen més ràpidament perquè les flames preescalfen i assequen el combustible situat a la part superior del vessant.</li>
+            <li>Els barrancs, valls i colls poden actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi), generant turbulències i canvis bruscos en el comportament del foc.</li>
+            <li>La combinació entre relleu i vent pot provocar variacions importants en la velocitat i direcció de propagació de l'incendi.</li>
+          </ul>
+        </li>
+
+        <li>
+          <strong>Combustible</strong>: Inclou tant la vegetació natural (viva o morta) com les estructures presents a la interfase urbana-forestal.
+          <ul>
+            <li>El tipus de vegetació, la seva distribució i el seu contingut d'humitat determinen la facilitat d'ignició i la intensitat del foc.</li>
+            <li>La continuïtat horitzontal i vertical del combustible crea vies que faciliten la propagació de les flames.</li>
+            <li>És l'únic component del triangle que es pot modificar mitjançant actuacions de gestió forestal.</li>
+          </ul>
+        </li>
       </ul>
-      <p> En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos o la retirada de biomassa, redueixen la quantitat i continuïtat del material combustible i dificulten la propagació del foc.</p>
+
+      <p>
+        En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos, la retirada de biomassa o les cremes prescrites, redueixen la quantitat i la continuïtat del material combustible i dificulten la propagació del foc.
+      </p>
+
     </td>
+
     <td style="width: 35%; vertical-align: top;">
-      <img src="/assets/images/triangle-comportament.jpg" alt="El triangle del comportament del foc" style="width: 100%; height: auto; display: block; border-radius: 6px;">
+      <img src="/assets/images/triangle-comportament.jpg"
+           alt="El triangle del comportament del foc"
+           style="width: 100%; height: auto; display: block; border-radius: 6px;">
+
       <p style="font-size: 0.85em; font-style: italic; margin-top: 10px; color: #555; line-height: 1.4;">
-        Figura: El triangle del comportament del foc i els factors que governen la propagació dels incendis forestals. Adaptada de: National Weather Service / Wildland Fire Behavior frameworks.
+        Figura: El triangle del comportament del foc i els factors que governen la propagació dels incendis forestals. Adaptada de: National Weather Service / Wildland Fire Behavior Frameworks.
       </p>
     </td>
   </tr>
