@@ -156,8 +156,8 @@ En aquest paisatge agroforestal, els marges de pedra seca i les marjades exercie
 <img src="/assets/images/marges.jpg" alt="marges" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: marges de pedra en sec Andratx, 2023.*
 
----
-## La paradoxa de l'extinció
+
+### La paradoxa de l'extinció
 La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
 
 > **Paradoxalment, la supressió d'incendis forestals assegura l'aparició d'incendis de comportament extrem.**
@@ -202,7 +202,7 @@ Quan el foc es produeix dins un règim natural i amb una freqüència i intensit
 
 <img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
----
+
 
 ### Les plantes estan adaptades al règim d'incendis
 
