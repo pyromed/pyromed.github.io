@@ -38,6 +38,30 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
   </tr>
 </table>
 
+### El triangle del comportament del foc
+
+Mentre que el triangle de la combustió explica com es genera el foc, el triangle del comportament del foc explica com es propaga un incendi forestal i com interacciona amb l'entorn a través de tres components ambientals: meteorologia, topografia i combustible.
+
+<table>
+  <tr>
+    <td style="width: 65%; vertical-align: top; padding-right: 20px;">
+      <p>El comportament d'un incendi i el seu potencial per esdevenir extrem estan governats per la interacció simultània de tres factors clau. D'aquests components, el combustible és l'únic que l'ésser humà pot modificar a gran escala per alterar el comportament del foc, ja que la topografia i la meteorologia són elements constants o incontrolables.</p>
+      <ul>
+        <li><strong>Meteorologia i Clima:</strong> És el factor més dinàmic. A llarg termini (clima), els cicles de sequera seguits de pluges generen un creixement ràpid de vegetació que es converteix en combustible disponible. A curt termini, les altes temperatures i la baixa humitat deshidraten el material forestal. En el moment de l'incendi, el <strong>vent</strong> és el factor dominant: accelera la propagació, aporta oxigen i, en casos de vents descendents (com en zones de muntanya), s'escalfa i s'asseca ràpidament incrementant el perill.</li>
+        <li><strong>Topografia:</strong> Descriu la forma del terreny (altitud, pendent, orientació i relleu). Influeix dràsticament en l'avanç del foc; per exemple, els incendis que cremen <strong>costa amunt</strong> es propaguen més ràpidament perquè les flames preescalfen i assequen el combustible situat a la part superior. A més, barrancs i valls poden actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi), creant canvis bruscos i turbulències.</li>
+        <li><strong>Combustible:</strong> Inclou tant la vegetació natural (viva o morta) com les estructures humanes de la interfase urbana-forestal. La configuració, humitat, mida i continuïtat (tant horitzontal com vertical) d'aquests materials determinen el potencial d'ignició i faciliten camins perquè el foc es mogui. És l'únic costat del triangle que es pot gestionar activament mitjançant tales, aclarides o cremes prescrites per reduir-ne la càrrega.</li>
+      </ul>
+      <p>Quan les condicions d'aquests tres components són severes, l'incendi pot desenvolupar un <strong>comportament extrem</strong>. Això es tradueix en altes velocitats de propagació, focs de capçades (coronant els arbres), pluja d'espurnes que generen focs secundaris a llarga distància o, fins i tot, la creació de potents columnes d'aire calent (pirocúmuls) que generen la seva pròpia meteorologia.</p>
+    </td>
+    <td style="width: 35%; vertical-align: top;">
+      <img src="/assets/images/triangle-comportament.jpg" alt="El triangle del comportament del foc" style="width: 100%; height: auto; display: block; border-radius: 6px;">
+      <p style="font-size: 0.85em; font-style: italic; margin-top: 10px; color: #555; line-height: 1.4;">
+        Figura: El triangle del comportament del foc i els factors que governen la propagació dels incendis forestals. Adaptada de: National Weather Service / Wildland Fire Behavior frameworks.
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## Incendis extrems
 
 Els incendis esdevenen un problema greu quan presenten un comportament extrem.
