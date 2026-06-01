@@ -151,11 +151,6 @@ L’abandonament progressiu del món rural durant les darreres dècades ha provo
 
 Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosionant el coneixement ecològic i cultural associat a la gestió del foc i del territori.
 
-En aquest paisatge agroforestal, els marges de pedra seca i les marjades exercien també una funció ecològica i territorial rellevant. A més de permetre el cultiu en pendents pronunciats i reduir l’erosió del sòl, aquestes estructures fragmentaven la continuïtat de la vegetació i actuaven com a petites barreres físiques davant la propagació del foc.
-
-<img src="/assets/images/marges.jpg" alt="marges" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Fotografia: marges de pedra en sec Andratx, 2023.*
-
 
 ### La paradoxa de l'extinció
 La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
@@ -203,7 +198,6 @@ Quan el foc es produeix dins un règim natural i amb una freqüència i intensit
 <img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
 
-
 ### Les plantes estan adaptades al règim d'incendis
 
 Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc forma part de la dinàmica natural dels ecosistemes. Per aquest motiu, moltes espècies han desenvolupat estratègies que els permeten resistir i recuperar-se després d’un incendi, fet que confereix al bosc mediterrani una elevada capacitat de resiliència.
@@ -214,6 +208,14 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
 * **Germinació:** altres plantes aprofiten l’incendi com a estímul per activar la germinació de les llavors. En el cas d’alguns pins mediterranis, la calor obre les pinyes i afavoreix l’alliberament de llavors sobre un sòl ric en nutrients i amb menys competència vegetal.
 <img src="/assets/images/adaptacions.jpg" alt="adaptacions al foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: Rebrot d’estepa i regeneració massiva de pins després de l’incendi forestal d’Andratx de 2013.*
+
+### Les terrasses agrícoles i les marges de pedra en sec
+
+En aquest paisatge agroforestal, els marges de pedra i les marjades exercien també una funció ecològica i territorial rellevant. A més de permetre el cultiu en pendents pronunciats i reduir l’erosió del sòl, aquestes estructures fragmentaven la continuïtat de la vegetació i actuaven com a petites barreres físiques davant la propagació del foc.
+
+<img src="/assets/images/marges.jpg" alt="marges" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Fotografia: marges de pedra en sec Andratx, 2023.*
+
 
 ### La cogestió
 Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
