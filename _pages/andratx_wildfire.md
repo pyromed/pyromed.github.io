@@ -42,9 +42,9 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 
 Mentre que el triangle de la combustió explica com es genera el foc, el triangle del comportament del foc explica com es propaga un incendi forestal i com interacciona amb l'entorn a través de tres components ambientals: meteorologia, topografia i combustible.
 
-<img src="/assets/images/burn.jpg" alt="Incendis extrems" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/behavior_triangle.jpg" alt="Incendis extrems" style="width:100%; border-radius:6px; margin: 15px 0;">
 <p style="font-size: 0.85em; font-style: italic; margin-bottom: 20px; color: #555;">
-  *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ara Balears*
+  *Imatge: El triangle del comportament del foc. Adaptada de:*
 </p>
 
 <p><strong>Meteorologia i clima</strong></p>
