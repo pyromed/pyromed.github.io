@@ -15,7 +15,7 @@ El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en r
 > **Un incendi és un foc descontrolat que es propaga en l'espai i el temps, afectant superfícies forestals o rurals, i que no està previst en els plans de gestió de l'ecosistema.**
 
 Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-ne un dels components. Per exemple, l'aplicació d'aigua sobre la biomassa té un doble efecte: refreda el material combustible i crea una barrera física que l'aïlla de l'oxigen de l'aire, aturant la propagació de manera immediata.
-
+---
 ### El triangle de la combustió
 
 <table>
@@ -37,10 +37,13 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
     </td>
   </tr>
 </table>
+---
 
-## El triangle del comportament del foc
+## Com es propaga un incendi?
 
-Mentre que el triangle de la combustió explica com es genera el foc, el triangle del comportament del foc explica com es propaga un incendi forestal i com interacciona amb l'entorn a través de tres factors que interactuen constantment i condicionen la velocitat, intensitat i direcció de l’incendi: meteorologia, topografia i combustible.
+Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció entre tres factors principals: la meteorologia, la topografia i el combustible. Aquesta relació és coneguda com el triangle del comportament del foc..
+
+### El triangle del comportament del foc
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/behavior_triangle.jpg" alt="Comportament del foc" style="width: 50%; height: auto; border-radius: 6px;">
@@ -73,21 +76,19 @@ Mentre que el triangle de la combustió explica com es genera el foc, el triangl
   <li>La <strong>continuïtat</strong> horitzontal i vertical del combustible facilita que el foc es propagui ràpidament pel sotabosc i pugui ascendir fins a les capçades dels arbres.</li>
 </ul>
 
-<p>
-En l’àmbit forestal, les tasques de gestió del combustible, com l’aclarida de boscos, la retirada de biomassa o les cremes prescrites, redueixen la quantitat i la continuïtat del material combustible i dificulten la propagació del foc.
-</p>
-
+> **La gestió forestal preventiva actua principalment sobre el combustible, reduint-ne la quantitat i la continuïtat per disminuir la intensitat potencial dels incendis.**
+---
 
 ## Quan el comportament esdevé Extrem
 
-Els incendis esdevenen un problema greu quan presenten un comportament extrem.
+Els incendis esdevenen un problema greu quan presenten un comportament extrem, és a dir, quan superen la capacitat de control dels mitjans d'extinció.
 
 <img src="/assets/images/burn.jpg" alt="Incendis extrems" style="width:100%; border-radius:6px; margin: 15px 0;">
 <p style="font-size: 0.85em; font-style: italic; margin-bottom: 20px; color: #555;">
   *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ara Balears*
 </p>
 
-Es caracteritzen per:
+### Els incendis extrems es caracteritzen per:
 * **Alta intensitat (≥10,000 kW per metre):** cada metre lineal d'aquest front de foc desprèn una quantitat d'energia equivalent a 5.000 estufes domèstiques enceses alhora. És una potència tèrmica que dobla el límit on els avions i camions de bombers deixen de ser efectius.
 * **Propagació ràpida (≥ 50 m per minut):** el front de foc pot avançar a una velocitat equivalent a travessar un camp de futbol en dos minuts.
 * **Longitud de flama elevada (≥ 10 m):** poden superar l’alçada d’un edifici de tres pisos, afavorint la propagació cap a les capçades dels arbres i dificultant enormement les tasques d’extinció.
@@ -109,9 +110,7 @@ Els principals factors que dificulten les tasques d’extinció són:
 <img src="/assets/images/interficie.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ultima Hora*
 
----
-
-### Severitat de l'incendi
+### La severitat de l'incendi
 
 Els incendis de comportament extrem solen presentar una elevada severitat ecològica, ja que provoquen una gran mortalitat vegetal, una intensa degradació del sòl i alteracions importants en el cicle hidrològic. Les temperatures extremes poden destruir la matèria orgànica del sòl i reduir-ne la capacitat d’infiltració d’aigua, afavorint processos d’erosió i escorrentia després de l’incendi.
 
@@ -119,7 +118,6 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 
 <img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: Diario de Mallorca*
-
 
 ---
 ## L'origen del problema
