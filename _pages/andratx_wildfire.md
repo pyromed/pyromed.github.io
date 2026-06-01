@@ -15,6 +15,7 @@ El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en r
 > **Un incendi és un foc descontrolat que es propaga en l'espai i el temps, afectant superfícies forestals o rurals, i que no està previst en els plans de gestió de l'ecosistema.**
 
 Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-ne un dels components. Per exemple, l'aplicació d'aigua sobre la biomassa té un doble efecte: refreda el material combustible i crea una barrera física que l'aïlla de l'oxigen de l'aire, aturant la propagació de manera immediata.
+
 ---
 ### El triangle de la combustió
 
