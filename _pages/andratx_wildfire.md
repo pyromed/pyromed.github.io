@@ -52,15 +52,15 @@ Mentre que el triangle de la combustió explica com es genera el foc, el triangl
 <p><strong>Meteorologia i clima</strong></p>
 
 <ul>
-  <li>Les <strong>sequeres prolongades</strong>strong> alternades amb períodes de pluges intenses afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible.</li>
-  <li>Les <strong>temperatures elevades</strong>strong>, la <strong>baixa humitat relativa</strong>strong> i l'escassetat de precipitacions redueixen la humitat dels combustibles, n'augmenten la inflamabilitat i acceleren la propagació del foc.</li>
-  <li>El <strong>vent</strong>strong> és sovint el factor més determinant durant un incendi. A més d’incrementar la velocitat de propagació, preescalfa els combustibles situats davant del front de foc.</li>
+  <li>Les <strong>sequeres prolongades</strong> alternades amb períodes de pluges intenses afavoreixen un creixement ràpid de la vegetació que posteriorment s'asseca i es converteix en combustible disponible.</li>
+  <li>Les <strong>temperatures elevades</strong>, la <strong>baixa humitat relativa</strong> i l'escassetat de precipitacions redueixen la humitat dels combustibles, n'augmenten la inflamabilitat i acceleren la propagació del foc.</li>
+  <li>El <strong>vent</strong> és sovint el factor més determinant durant un incendi. A més d’incrementar la velocitat de propagació, preescalfa els combustibles situats davant del front de foc.</li>
 </ul>
 
 <p><strong>Topografia</strong></p>
 
 <ul>
-  <li>Els incendis tendeixen a avançar més ràpidament <strong>pendent amunt</strong>strong> que pendent avall. Això es deu al fet que les flames i la calor radiant preescalfen la vegetació situada a la part superior del vessant, reduint-ne la humitat i facilitant-ne la ignició. Com més pronunciat és el pendent, més ràpida acostuma a ser la propagació.</li>
+  <li>Els incendis tendeixen a avançar més ràpidament <strong>pendent amunt</strong> que pendent avall. Això passa perquè les flames i la calor radiant preescalfen la vegetació situada a la part superior del vessant, reduint-ne la humitat i facilitant-ne la ignició. Com més pronunciat és el pendent, més ràpida acostuma a ser la propagació.</li>
   <li>Els barrancs, valls i colls poden actuar com a embuts que canalitzen i acceleren el vent (efecte Venturi).</li>
   <li>Els vessants més exposats al sol (sud-est) solen presentar combustibles més secs i, per tant, més susceptibles de cremar.</li>
 </ul>
