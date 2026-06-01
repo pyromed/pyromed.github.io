@@ -16,7 +16,6 @@ El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en r
 
 Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-ne un dels components. Per exemple, l'aplicació d'aigua sobre la biomassa té un doble efecte: refreda el material combustible i crea una barrera física que l'aïlla de l'oxigen de l'aire, aturant la propagació de manera immediata.
 
----
 ### El triangle de la combustió
 
 <table>
@@ -38,8 +37,9 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
     </td>
   </tr>
 </table>
----
 
+
+---
 ## Com es propaga un incendi?
 
 Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció entre tres factors principals: la meteorologia, la topografia i el combustible. Aquesta relació és coneguda com el triangle del comportament del foc..
