@@ -141,33 +141,35 @@ L’abandonament progressiu del món rural a meitats del segle XX ha provocat un
 
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
-<div id="comparison"></div>
+<div id="comparison" style="width: 100%; max-width: 800px; margin: 0 auto;"></div>
 
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 
 <script>
-new juxtapose.JXSlider(
-  '#comparison',
-  [
+window.onload = function() {
+  new juxtapose.JXSlider(
+    '#comparison',
+    [
+      {
+        src: 'images/Andratx_1956.jpg',
+        label: '1956'
+      },
+      {
+        src: 'images/Andratx_2012.jpg',
+        label: '2012'
+      }
+    ],
     {
-      src: 'images/Andratx_1956.jpg',
-      label: '1956'
-    },
-    {
-      src: 'images/Andratx_2012.jpg',
-      label: '2012'
+      animate: true,
+      showLabels: true,
+      showCredits: false
     }
-  ],
-  {
-    animate: true,
-    showLabels: true,
-    showCredits: false
-  }
-);
+  );
+};
 </script>
 
-<p style="font-size:0.9em; color:#666; margin-top:-5px;">
-<em> Comparació de fotografies aèries del mateix indret en dues dates diferents. El lliscador permet visualitzar l’expansió de la coberta forestal després de l’abandonament progressiu dels usos agrícoles i ramaders tradicionals. </em>
+<p style="font-size:0.9em; color:#666; margin-top:10px; text-align: center;">
+<em>Comparació de fotografies aèries del mateix indret en dues dates diferents. El lliscador permet visualitzar l’expansió de la coberta forestal després de l’abandonament progressiu dels usos agrícoles i ramaders tradicionals.</em>
 </p>
 
 
