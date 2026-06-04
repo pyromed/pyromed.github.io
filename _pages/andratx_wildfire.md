@@ -123,7 +123,7 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 ## L'origen del problema
 <p>Per què tenim ara aquests incendis de comportament extrem? La resposta es troba en la pèrdua de la relació tradicional amb el nostre entorn.</p>
 
-### L'abandonament del paisatge en mosaic
+### L'abandonament del món rural
 
 <p>
 L’ús del foc ha estat històricament una eina fonamental de gestió del paisatge a les Illes Balears. Durant segles, les comunitats rurals utilitzaren el foc de manera controlada per regenerar pastures, eliminar vegetació acumulada, mantenir zones agrícoles i facilitar activitats tradicionals com la ramaderia extensiva o l’ofici de carboner. Aquestes pràctiques contribuïen a crear un paisatge en mosaic, format per una combinació de conreus, pastures, garrigues i masses forestals amb diferents densitats de vegetació.
@@ -137,7 +137,7 @@ L’ús del foc ha estat històricament una eina fonamental de gestió del paisa
 <em>Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME.</em>
 </p>
 
-L’abandonament progressiu del món rural durant les darreres dècades ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles i ramaders tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
+L’abandonament progressiu del món rural a meitats del segle XX ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles, ramaders i forestals tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
 
 <img src="/assets/images/land_change.jpg" 
      alt="canvi" 
@@ -212,7 +212,7 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
 
 En aquest paisatge agroforestal, els marges de pedra i les marjades exercien també una funció ecològica i territorial rellevant. A més de permetre el cultiu en pendents pronunciats i reduir l’erosió del sòl, aquestes estructures fragmentaven la continuïtat de la vegetació i actuaven com a petites barreres físiques davant la propagació del foc.
 
-Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activitats agrícoles tradicionals, moltes marjades han deixat de conservar-se i els murs s’han degradat progressivament, arribant sovint a ensorrar-se parcialment. Paral·lelament, l'acumulació de combustible a la base dels marges fan que es vegi reduida la seva capacitat per limitar la propagació de les flames.
+Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activitats agrícoles tradicionals, moltes marjades han deixat de conservar-se i els murs de pedra seca s’han degradat progressivament, arribant sovint a ensorrar-se total o parcialment. Paral·lelament, l'acumulació de combustible a la base dels marges fan que es vegi reduida la seva capacitat per limitar la propagació de les flames.
 
 <img src="/assets/images/marges.jpg" alt="marges" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: marges de pedra en sec Andratx, 2023.*
