@@ -139,39 +139,7 @@ L’ús del foc ha estat històricament una eina fonamental de gestió del paisa
 
 L’abandonament progressiu del món rural a meitats del segle XX ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles, ramaders i forestals tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
 
----
-layout: default
-title: Comparació Territorial
----
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
-
-<div id="comparison" style="width: 100%; max-width: 800px; margin: 30px auto; min-height: 400px; background: #f0f0f0;"></div>
-
-{% raw %}
-<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-<script>
-function initSlider() {
-  if (typeof juxtapose !== 'undefined' && juxtapose.JXSlider) {
-    new juxtapose.JXSlider(
-      '#comparison',
-      [
-        { src: 'images/Andratx_1956.jpg', label: '1956' },
-        { src: 'images/Andratx_2012.jpg', label: '2012' }
-      ],
-      { animate: true, showLabels: true, showCredits: false }
-    );
-  } else {
-    setTimeout(initSlider, 100);
-  }
-}
-
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initSlider);
-} else {
-  initSlider();
-}
-</script>
-{% endraw %}
+<iframe class="juxtapose" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=fccca160-028f-11ed-b96e-0edaf8f81e27&leftImage=https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/images/Andratx_1956.jpg&leftLabel=1956&rightImage=https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/images/Andratx_2012.jpg&rightLabel=2012&showLabels=true&showCredits=false&animate=true" width="100%" height="450" frameborder="0"></iframe>
 
 <p style="font-size:0.9em; color:#666; margin-top:10px; text-align: center;">
   <em>Comparació de fotografies aèries del mateix indret en dues dates diferents. El lliscador permet visualitzar l’expansió de la coberta forestal després de l’abandonament progressiu dels usos agrícoles i ramaders tradicionals.</em>
