@@ -143,38 +143,33 @@ L’abandonament progressiu del món rural a meitats del segle XX ha provocat un
 layout: default
 title: Comparació Territorial
 ---
-
-L’abandonament progressiu del món rural a meitats del segle XX ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles, ramaders i forestals tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
-
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
-<div id="comparison" style="width: 100%; max-width: 800px; margin: 30px auto; height: 450px;"></div>
+<div id="comparison" style="width: 100%; max-width: 800px; margin: 30px auto; min-height: 400px; background: #f0f0f0;"></div>
 
-{% menu %}{% raw %}
+{% raw %}
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 <script>
-  // This fires regardless of how fast GitHub builds the DOM
-  function initSlider() {
-    if (typeof juxtapose !== 'undefined' && juxtapose.JXSlider) {
-      new juxtapose.JXSlider(
-        '#comparison',
-        [
-          { src: 'images/Andratx_1956.jpg', label: '1956' },
-          { src: 'images/Andratx_2012.jpg', label: '2012' }
-        ],
-        { animate: true, showLabels: true, showCredits: false }
-      );
-    } else {
-      // Retry in 100ms if CDN is still loading
-      setTimeout(initSlider, 100);
-    }
-  }
-  
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initSlider);
+function initSlider() {
+  if (typeof juxtapose !== 'undefined' && juxtapose.JXSlider) {
+    new juxtapose.JXSlider(
+      '#comparison',
+      [
+        { src: 'images/Andratx_1956.jpg', label: '1956' },
+        { src: 'images/Andratx_2012.jpg', label: '2012' }
+      ],
+      { animate: true, showLabels: true, showCredits: false }
+    );
   } else {
-    initSlider();
+    setTimeout(initSlider, 100);
   }
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initSlider);
+} else {
+  initSlider();
+}
 </script>
 {% endraw %}
 
