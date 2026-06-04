@@ -139,12 +139,35 @@ L’ús del foc ha estat històricament una eina fonamental de gestió del paisa
 
 L’abandonament progressiu del món rural a meitats del segle XX ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles, ramaders i forestals tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
 
-<img src="/assets/images/land_change.jpg" 
-     alt="canvi" 
-     style="width:100%; border-radius:6px; margin: 15px 0;">
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+
+<div id="comparison"></div>
+
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+
+<script>
+new juxtapose.JXSlider(
+  '#comparison',
+  [
+    {
+      src: 'images/site_1956.jpg',
+      label: '1956'
+    },
+    {
+      src: 'images/site_2024.jpg',
+      label: '2024'
+    }
+  ],
+  {
+    animate: true,
+    showLabels: true,
+    showCredits: false
+  }
+);
+</script>
 
 <p style="font-size:0.9em; color:#666; margin-top:-5px;">
-<em>Fotografia: Sean. Font: </em>
+<em> Comparació de fotografies aèries del mateix indret en dues dates diferents. El lliscador permet visualitzar l’expansió de la coberta forestal després de l’abandonament progressiu dels usos agrícoles i ramaders tradicionals. </em>
 </p>
 
 
