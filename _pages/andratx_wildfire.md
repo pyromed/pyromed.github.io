@@ -150,11 +150,11 @@ new juxtapose.JXSlider(
   '#comparison',
   [
     {
-      src: 'images/Andratx_1956.png',
+      src: 'images/Andratx_1956.jpg',
       label: '1956'
     },
     {
-      src: 'images/Andratx_2012.png',
+      src: 'images/Andratx_2012.jpg',
       label: '2012'
     }
   ],
