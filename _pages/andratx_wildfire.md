@@ -139,24 +139,44 @@ L’ús del foc ha estat històricament una eina fonamental de gestió del paisa
 
 L’abandonament progressiu del món rural a meitats del segle XX ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles, ramaders i forestals tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
 
+---
+layout: default
+title: Comparació Territorial
+---
+
+L’abandonament progressiu del món rural a meitats del segle XX ha provocat una transformació profunda del territori. La desaparició dels usos agrícoles, ramaders i forestals tradicionals ha afavorit l’expansió contínua de la massa forestal i una acumulació sense precedents de biomassa combustible. En conseqüència, molts espais que antigament funcionaven com a mosaics agroforestals avui formen paisatges homogenis i altament connectats, on el foc es pot propagar amb molta més intensitat i rapidesa.
+
 <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
-<div id="comparison" style="width: 100%; max-width: 800px; margin: 20px auto;"></div>
+<div id="comparison" style="width: 100%; max-width: 800px; margin: 30px auto; height: 450px;"></div>
 
+{% menu %}{% raw %}
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  new juxtapose.JXSlider(
-    '#comparison',
-    [
-      { src: 'images/Andratx_1956.jpg', label: '1956' },
-      { src: 'images/Andratx_2012.jpg', label: '2012' }
-    ],
-    { animate: true, showLabels: true, showCredits: false }
-  );
-});
+  // This fires regardless of how fast GitHub builds the DOM
+  function initSlider() {
+    if (typeof juxtapose !== 'undefined' && juxtapose.JXSlider) {
+      new juxtapose.JXSlider(
+        '#comparison',
+        [
+          { src: 'images/Andratx_1956.jpg', label: '1956' },
+          { src: 'images/Andratx_2012.jpg', label: '2012' }
+        ],
+        { animate: true, showLabels: true, showCredits: false }
+      );
+    } else {
+      // Retry in 100ms if CDN is still loading
+      setTimeout(initSlider, 100);
+    }
+  }
+  
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSlider);
+  } else {
+    initSlider();
+  }
 </script>
+{% endraw %}
 
 <p style="font-size:0.9em; color:#666; margin-top:10px; text-align: center;">
   <em>Comparació de fotografies aèries del mateix indret en dues dates diferents. El lliscador permet visualitzar l’expansió de la coberta forestal després de l’abandonament progressiu dels usos agrícoles i ramaders tradicionals.</em>
