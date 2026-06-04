@@ -14,7 +14,7 @@ El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en r
 
 > **Un incendi és un foc descontrolat que es propaga en l'espai i el temps, afectant superfícies forestals o rurals, i que no està previst en els plans de gestió de l'ecosistema.**
 
-Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-ne un dels components. Per exemple, l'aplicació d'aigua sobre la biomassa té un doble efecte: refreda el material combustible i crea una barrera física que l'aïlla de l'oxigen de l'aire, aturant la propagació de manera immediata.
+Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-ne un dels components. Per exemple, l'aplicació d'aigua sobre la biomassa té un doble efecte: refreda el material combustible i crea una barrera física que l'aïlla de l'oxigen de l'aire, aturant la propagació de manera immediata. Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal.
 
 ### El triangle de la combustió
 
@@ -27,7 +27,6 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
         <li><strong>Combustible:</strong> És qualsevol material capaç de cremar. En els ecosistemes forestals, això inclou la vegetació viva, les restes de poda, les branques mortes, la fusta i la fullaraca acumulada al sòl. També poden actuar com a combustible elements antròpics presents a la interfase urbana-forestal, com habitatges, cobertes de fusta, piles de llenya o dipòsits de gas. La capacitat de propagació del foc depèn de factors com la humitat del combustible, la seva mida, quantitat i distribució sobre el territori.</li>
         <li><strong>Font de calor o ignició:</strong> És l’aportació d’energia inicial necessària per iniciar la combustió i mantenir-ne la propagació. La calor deshidrata el combustible proper, escalfa l’aire circumdant i preescalfa la vegetació situada davant del front de foc. Les fonts d’ignició poden ser naturals, com els llamps, o derivades de l’activitat humana, com llosques mal apagades, línies elèctriques, maquinària agrícola o forestal, espurnes de motors o fogueres.</li>
       </ul>
-      <p>Les estratègies d'extinció d’incendis es basen precisament en eliminar, reduir o separar algun dels components del triangle. El anfibis dien aigua i refresquen els combustibles eliminant la seva availibilitat.Igualment, la reducció de fonts d’ignició associades a l’activitat humana contribueix a disminuir la probabilitat que es desencadeni un incendi forestal.</p>
     </td>
     <td style="width: 35%; vertical-align: top;">
       <img src="/assets/images/triangle-combustio.jpg" alt="El triangle de la combustió" style="width: 100%; height: auto; display: block; border-radius: 6px;">
@@ -42,7 +41,7 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 ---
 ## Com es propaga un incendi?
 
-Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció entre tres factors principals: la meteorologia, la topografia i el combustible. Aquesta relació és coneguda com el triangle del comportament del foc..
+Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció entre tres factors principals: la meteorologia, la topografia i el combustible. Aquesta relació és coneguda com el triangle del comportament del foc.
 
 ### El triangle del comportament del foc
 
