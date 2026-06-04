@@ -150,12 +150,12 @@ new juxtapose.JXSlider(
   '#comparison',
   [
     {
-      src: 'images/site_1956.jpg',
+      src: 'images/Andratx_1956.png',
       label: '1956'
     },
     {
-      src: 'images/site_2024.jpg',
-      label: '2024'
+      src: 'images/Andratx_2012.png',
+      label: '2012'
     }
   ],
   {
