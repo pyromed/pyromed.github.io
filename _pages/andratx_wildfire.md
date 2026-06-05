@@ -145,7 +145,7 @@ console.log("TEST SCRIPT LOADED");
 <link rel="stylesheet"
 href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
-<div id="foo" style="height:500px;"></div>
+<div id="foo"></div>
 
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 
