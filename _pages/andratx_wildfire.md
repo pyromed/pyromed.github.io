@@ -142,12 +142,30 @@ L’abandonament progressiu del món rural a meitats del segle XX ha provocat un
 <script>
 console.log("TEST SCRIPT LOADED");
 </script>
-<iframe
-  frameborder="0"
-  width="100%"
-  height="450"
-  src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?leftImage=https://pyromed.github.io/assets/images/Andratx_1956.jpg&rightImage=https://pyromed.github.io/assets/images/Andratx_2012.jpg&leftLabel=1956&rightLabel=2012">
-</iframe>
+<link rel="stylesheet"
+href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
+
+<div id="foo" style="height:500px;"></div>
+
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+
+<script>
+new juxtapose.JXSlider('#foo',
+[
+  {
+    src: 'https://pyromed.github.io/assets/images/Andratx_1956.jpg',
+    label: '1956'
+  },
+  {
+    src: 'https://pyromed.github.io/assets/images/Andratx_2012.jpg',
+    label: '2012'
+  }
+],
+{
+  animate: true,
+  showLabels: true
+});
+</script>
 {: .notice}
 
 *Comparació de fotografies aèries del mateix indret en dues dates diferents. El lliscador permet visualitzar l’expansió de la coberta forestal després de l’abandonament progressiu dels usos agrícoles i ramaders tradicionals.*
