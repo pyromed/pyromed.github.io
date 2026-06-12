@@ -62,14 +62,15 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   .map-container {
     height: 550px !important;
     position: relative !important;
-    min-width: 0 !important; /* Prevents leaflet wrapper from distorting grid track */
+    min-width: 0 !important;
   }
 
   #map {
     width: 100% !important;
     height: 100% !important;
     border-radius: 4px !important;
-    background-color: #113043 !important;
+    /* Changed background to a dark neutral color so your points/polygons pop without a basemap */
+    background-color: #112233 !important; 
   }
 
   .info-panel {
@@ -79,7 +80,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     max-height: 550px !important;
     overflow-y: auto !important;
     display: block !important;
-    visibility: hidden; /* Keeps slot allocation alive without showing template placeholders */
+    visibility: hidden;
     opacity: 0;
     transition: opacity 0.2s ease;
   }
@@ -113,7 +114,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 
   .hidden { display: none !important; }
 
-  /* Smooth stacking rules for smaller device windows */
   @media (max-width: 1024px) {
     .dashboard-container {
       grid-template-columns: 1fr !important;
@@ -173,4 +173,185 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
       </div>
 
       <p style="margin-top:20px;"><strong>Perill d'incendi:</strong> <span id="danger-level">Moderat</span></p>
-      <p><strong>Elements crítics:</strong><br><small id="critical-elements">-
+      <p><strong>Elements crítics:</strong><br><small id="critical-elements">-</small></p>
+    </div>
+  </div>
+
+  <div class="map-container">
+    <div id="map"></div>
+  </div>
+
+  <div class="info-panel" id="right-panel">
+    <img id="env-img" src="{{ '/assets/images/bosc_default.jpg' | relative_url }}" alt="Entorn">
+    
+    <h4>Historial d'incendis</h4>
+    <p id="fire-history">Cremada fa 10 y 30 anys; molts arbres van sobreviure.</p>
+    
+    <h4>Entorn</h4>
+    <p id="env-desc">Antigues terrasses agrícoles abandonades...</p>
+    
+    <h4>Característiques</h4>
+    <ul style="padding-left:20px; font-size:0.9em;">
+      <li>Elevació: <span id="char-elev">-</span> m</li>
+      <li>Pendent: <span id="char-slope">-</span>%</li>
+      <li>Orientació: <span id="char-orient">-</span></li>
+      <li>Densitat: <span id="char-dens">-</span> arbres/ha</li>
+      <li>Alçada dosser: <span id="char-canopy">-</span> m</li>
+      <li>Coberta de sotabosc: <span id="char-under">-</span>%</li>
+    </ul>
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+<script>
+  // NO BASEMAP FIX: Initialize map using simple coordinate CRS grid rather than world-map projections
+  var map = L.map('map', {
+    crs: L.CRS.Simple,
+    minZoom: -5
+  });
+
+  var allPoints = [];
+  var allPolygons = [];
+  
+  var contoursLayerGroup = L.layerGroup().addTo(map);
+  var polygonsLayerGroup = L.layerGroup().addTo(map);
+  var pointsLayerGroup = L.layerGroup().addTo(map);
+
+  var contourStyle = { color: "#8bb2cc", weight: 0.8, opacity: 0.4 };
+  var bluePointStyle = { radius: 7, fillColor: "#5856d6", color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.9 };
+  var activeBurnStyle = { color: "#e63946", fillColor: "#e63946", weight: 3, fillOpacity: 0.6 };
+
+  Promise.all([
+    fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => r.json()),
+    fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json())
+  ]).then(([pointsData, polygonsData]) => {
+    allPoints = pointsData.features;
+    allPolygons = polygonsData.features;
+    
+    updateSimulation();
+
+    // Dynamically auto-focus view on data layout borders directly since standard basemaps are gone
+    executeFallbackZoom(pointsData);
+
+    fetch('{{ "/assets/data/contours.geojson" | relative_url }}')
+      .then(r => r.json())
+      .then(contoursData => {
+        var contourLayer = L.geoJSON(contoursData, { style: contourStyle }).addTo(contoursLayerGroup);
+        if (contourLayer.getBounds().isValid()) {
+            map.fitBounds(contourLayer.getBounds(), { padding: [20, 20] });
+        }
+      }).catch(err => {
+        console.warn("Contours bypassed or not found.");
+      });
+
+  }).catch(criticalErr => {
+    console.error("Data loading failure:", criticalErr);
+  });
+
+  function executeFallbackZoom(pointsData) {
+    var tempLayer = L.geoJSON(pointsData);
+    if(tempLayer.getBounds().isValid()) {
+      map.fitBounds(tempLayer.getBounds(), { padding: [40, 40] });
+    }
+  }
+
+  document.getElementById('wind-select').addEventListener('change', function() { updateSimulation(); });
+  document.getElementById('time-select').addEventListener('change', function() { updateSimulation(); });
+
+  // FIXED ID FALLBACK: Force extraction from case-insensitive properties explicitly
+  function getFeatureId(f) {
+    if (!f || !f.properties) return null;
+    var p = f.properties;
+    
+    // Explicitly scan every permutation of PlotID, site labels, and explicit ID keys
+    var potentialId = p.PlotID ?? p.plotid ?? p.PlotId ?? p.id ?? p.ID ?? p.Id ?? p.site_id ?? p.FID;
+    return potentialId !== undefined && potentialId !== null ? String(potentialId).trim() : null;
+  }
+
+  function updateSimulation() {
+    pointsLayerGroup.clearLayers();
+    polygonsLayerGroup.clearLayers();
+    
+    document.getElementById('left-metrics').classList.add('hidden');
+    document.getElementById('right-panel').classList.remove('visible');
+
+    if(allPoints.length === 0) return;
+
+    L.geoJSON({ type: "FeatureCollection", features: allPoints }, {
+      pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, bluePointStyle);
+      },
+      onEachFeature: function (feature, layer) {
+        layer.on('click', function (e) {
+          L.DomEvent.stopPropagation(e);
+          var currentWind = document.getElementById('wind-select').value;
+          var currentTime = document.getElementById('time-select').value;
+          displayIncidentDetails(feature, currentWind, currentTime);
+        });
+      }
+    }).addTo(pointsLayerGroup);
+  }
+
+  function displayIncidentDetails(pointFeature, wind, time) {
+    polygonsLayerGroup.clearLayers();
+
+    var pointId = getFeatureId(pointFeature);
+
+    var matchingPoly = allPolygons.find(p => {
+      var matchId = getFeatureId(p);
+      
+      // Flexible wind parameter verification matching windspeed, wspd, or custom inputs
+      var rawWind = p.properties ? (p.properties.windspeed ?? p.properties.wspd ?? p.properties.wind ?? p.properties.WIND) : null;
+      var rawTime = p.properties ? (p.properties.time ?? p.properties.TIME ?? p.properties.Time) : null;
+      
+      var matchWind = rawWind !== undefined && rawWind !== null ? String(parseFloat(rawWind)) : "";
+      var matchTime = rawTime !== undefined && rawTime !== null ? String(rawTime).trim() : "";
+      
+      return matchId === pointId && matchWind === String(parseFloat(wind)) && matchTime === String(time).trim();
+    });
+
+    if (matchingPoly) {
+      var burnGeoLayer = L.geoJSON(matchingPoly, { style: activeBurnStyle }).addTo(polygonsLayerGroup);
+      if(burnGeoLayer.getBounds().isValid()) {
+          map.fitBounds(burnGeoLayer.getBounds(), { padding: [30, 30] });
+      }
+    } else {
+      console.warn("Lookup mismatch! Point ID extracted:", pointId, "Wind:", wind, "Time:", time);
+      alert("No s'ha trobat cap polígon per a ID: " + pointId + " amb Vent: " + wind + " i Temps: " + time + ".\n\nComprova si coincideixen els IDs de 'burn_polygons.geojson' i 'points.geojson'.");
+    }
+
+    var props = pointFeature.properties;
+
+    // --- Left Panels updates ---
+    document.getElementById('left-metrics').classList.remove('hidden');
+    document.getElementById('fire-type').innerText = props.fire_type || "DE SUPERFÍCIE";
+    
+    var intensity = parseFloat(props.intensity || 248.22);
+    var speed = parseFloat(props.spread_speed || 2.6);
+    
+    document.getElementById('intensity-val').innerText = intensity;
+    document.getElementById('speed-val').innerText = speed;
+    
+    document.getElementById('intensity-bar').style.width = Math.min((intensity / 1000) * 100, 100) + "%";
+    document.getElementById('speed-bar').style.width = Math.min((speed / 20) * 100, 100) + "%";
+    
+    document.getElementById('critical-elements').innerText = props.critical_elements || "Plantes adaptades a la sequera -> Molt inflamables";
+
+    // --- Right Panels updates ---
+    document.getElementById('right-panel').classList.add('visible');
+    document.getElementById('char-elev').innerText = props.elevation || "-";
+    document.getElementById('char-slope').innerText = props.slope || "-";
+    document.getElementById('char-orient').innerText = props.orientation || "-";
+    document.getElementById('char-dens').innerText = props.tree_density || "-";
+    document.getElementById('char-canopy').innerText = props.canopy_height || "-";
+    document.getElementById('char-under').innerText = props.understory_cover || "-";
+    
+    if(props.image_url) {
+       document.getElementById('env-img').src = '{{ "" | relative_url }}' + props.image_url;
+    } else {
+       document.getElementById('env-img').src = '{{ "/assets/images/bosc_default.jpg" | relative_url }}';
+    }
+  }
+</script>
