@@ -12,17 +12,24 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
 <style>
-  /* Hard override of layout templates using explicit grid properties */
+  /* BREAKOUT THEME OVERRIDE: Forces the container to be wider than the standard narrow theme column */
+  @media (min-width: 1025px) {
+    .dashboard-container {
+      width: calc(100% + 160px) !important;
+      margin-left: -80px !important;
+    }
+  }
+
+  /* Robust 3-column CSS Grid Layout */
   .dashboard-container {
     display: grid !important;
-    grid-template-columns: 260px 1fr 280px !important;
+    grid-template-columns: 250px 1fr 280px !important;
     gap: 15px !important;
     background-color: #1a425a !important; 
     color: #ffffff !important;
     padding: 20px !important;
     border-radius: 8px !important;
     font-family: Arial, sans-serif !important;
-    width: 100% !important;
     box-sizing: border-box !important;
   }
 
@@ -55,7 +62,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   .map-container {
     height: 550px !important;
     position: relative !important;
-    min-width: 0 !important;
+    min-width: 0 !important; /* Prevents leaflet wrapper from distorting grid track */
   }
 
   #map {
@@ -71,11 +78,14 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     border-radius: 4px !important;
     max-height: 550px !important;
     overflow-y: auto !important;
-    opacity: 0; /* Keeps layout tracking intact without collapsing columns */
+    display: block !important;
+    visibility: hidden; /* Keeps slot allocation alive without showing template placeholders */
+    opacity: 0;
     transition: opacity 0.2s ease;
   }
 
   .info-panel.visible {
+    visibility: visible !important;
     opacity: 1 !important;
   }
 
@@ -103,15 +113,14 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 
   .hidden { display: none !important; }
 
-  /* Responsive fallback stack for smaller screen sizes */
+  /* Smooth stacking rules for smaller device windows */
   @media (max-width: 1024px) {
     .dashboard-container {
       grid-template-columns: 1fr !important;
     }
     .info-panel {
       max-height: none !important;
-      opacity: 1 !important;
-      display: none;
+      display: none !important;
     }
     .info-panel.visible {
       display: block !important;
@@ -196,10 +205,8 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
 <script>
-  // Initialize Map Framework
   var map = L.map('map').setView([39.6, 2.7], 11);
 
-  // Add standard base layer map tiles so you aren't loading onto a pitch-black container
   L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap'
   }).addTo(map);
@@ -215,7 +222,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   var bluePointStyle = { radius: 7, fillColor: "#5856d6", color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.9 };
   var activeBurnStyle = { color: "#e63946", fillColor: "#e63946", weight: 3, fillOpacity: 0.6 };
 
-  // Load GeoJSON content pipelines securely
   Promise.all([
     fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => r.json()),
     fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json())
@@ -223,10 +229,8 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     allPoints = pointsData.features;
     allPolygons = polygonsData.features;
     
-    // Initial paint of map assets
     updateSimulation();
 
-    // Background asynchronous loading for minor contour details
     fetch('{{ "/assets/data/contours.geojson" | relative_url }}')
       .then(r => r.json())
       .then(contoursData => {
@@ -240,7 +244,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
       });
 
   }).catch(criticalErr => {
-    console.error("Data tracking failure:", criticalErr);
+    console.error("Data loading failure:", criticalErr);
   });
 
   function executeFallbackZoom(pointsData) {
@@ -250,12 +254,19 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     }
   }
 
-  // CRITICAL FIX: Re-render everything fresh when dropdown controls tweak to reset broken clicks
   document.getElementById('wind-select').addEventListener('change', function() { updateSimulation(); });
   document.getElementById('time-select').addEventListener('change', function() { updateSimulation(); });
 
+  // HELPER FUNCTION: Extracts standard GIS property IDs safely
+  function getFeatureId(f) {
+    if (!f || !f.properties) return null;
+    var p = f.properties;
+    // Evaluates every common spelling structure alternative exported by QGIS/ArcGIS
+    var potentialId = p.id ?? p.ID ?? p.Id ?? p.site_id ?? p.site_ID ?? p.FID ?? p.OBJECTID;
+    return potentialId !== undefined && potentialId !== null ? String(potentialId) : null;
+  }
+
   function updateSimulation() {
-    // Completely wipe all rendering components to prevent element stacking locks
     pointsLayerGroup.clearLayers();
     polygonsLayerGroup.clearLayers();
     
@@ -269,14 +280,10 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
         return L.circleMarker(latlng, bluePointStyle);
       },
       onEachFeature: function (feature, layer) {
-        // Safe, repeatable click processing pipeline
         layer.on('click', function (e) {
           L.DomEvent.stopPropagation(e);
-          
-          // Pull raw user inputs straight from real-time DOM states
           var currentWind = document.getElementById('wind-select').value;
           var currentTime = document.getElementById('time-select').value;
-          
           displayIncidentDetails(feature, currentWind, currentTime);
         });
       }
@@ -286,15 +293,15 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   function displayIncidentDetails(pointFeature, wind, time) {
     polygonsLayerGroup.clearLayers();
 
-    // Match checking using string conversions to eliminate data-type filtering mismatches
-    var pointId = String(pointFeature.properties.id || pointFeature.properties.site_id);
+    // CRITICAL FIX: Extract the feature ID safely using our new fallback function
+    var pointId = getFeatureId(pointFeature);
 
     var matchingPoly = allPolygons.find(p => {
-      var matchId = String(p.properties.id || p.properties.site_id);
-      var matchWind = String(p.properties.wind);
-      var matchTime = String(p.properties.time);
+      var matchId = getFeatureId(p);
+      var matchWind = p.properties ? (p.properties.wind ?? p.properties.WIND ?? p.properties.Wind) : null;
+      var matchTime = p.properties ? (p.properties.time ?? p.properties.TIME ?? p.properties.Time) : null;
       
-      return matchId === pointId && matchWind === String(wind) && matchTime === String(time);
+      return matchId === pointId && String(matchWind) === String(wind) && String(matchTime) === String(time);
     });
 
     if (matchingPoly) {
@@ -303,8 +310,8 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
          map.fitBounds(burnGeoLayer.getBounds(), { padding: [30, 30] });
       }
     } else {
-      console.warn("Data mismatch lookup: Point ID:", pointId, "| Wind Requested:", wind, "| Time Requested:", time);
-      alert("No s'ha trobat cap polígon per a ID: " + pointId + " amb Vent: " + wind + " i Temps: " + time);
+      console.warn("Lookup mismatch! Point ID extracted:", pointId, "Wind:", wind, "Time:", time);
+      alert("No s'ha trobat cap polígon per a ID: " + pointId + " amb Vent: " + wind + " i Temps: " + time + ".\n\nComprova si coincideixen els IDs de 'burn_polygons.geojson' i 'points.geojson'.");
     }
 
     var props = pointFeature.properties;
