@@ -20,7 +20,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     }
   }
 
-  /* UPDATED: Changed grid from 3 columns to 2 columns so the map uses all leftover space */
+  /* 2-column CSS Grid Layout */
   .dashboard-container {
     display: grid !important;
     grid-template-columns: 250px 1fr !important;
@@ -150,7 +150,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     <div id="map"></div>
   </div>
 
-  </div>
+</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
@@ -163,37 +163,52 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   var allPoints = [];
   var allPolygons = [];
   
+  // Map Layer Groups
   var contoursLayerGroup = L.layerGroup().addTo(map);
+  var wallsLayerGroup = L.layerGroup().addTo(map);
+  var housingLayerGroup = L.layerGroup().addTo(map);
   var polygonsLayerGroup = L.layerGroup().addTo(map);
   var pointsLayerGroup = L.layerGroup().addTo(map);
 
+  // Cartographic Styles for Permanent Infrastructure Layers
   var contourStyle = { color: "#8bb2cc", weight: 0.8, opacity: 0.4 };
+  var wallStyle = { color: "#a18262", weight: 1.2, opacity: 0.7 };
+  var housingStyle = { color: "#aaaaaa", fillColor: "#cccccc", weight: 1, fillOpacity: 0.4 };
+  
   var bluePointStyle = { radius: 7, fillColor: "#5856d6", color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.9 };
   var activeBurnStyle = { color: "#e63946", fillColor: "#e63946", weight: 3, fillOpacity: 0.6 };
 
+  // 1. Asynchronously load points, polygons, and all baseline infrastructure layouts
   Promise.all([
     fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => r.json()),
-    fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json())
-  ]).then(([pointsData, polygonsData]) => {
+    fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json()),
+    fetch('{{ "/assets/data/contours.geojson" | relative_url }}').then(r => r.json()).catch(() => null),
+    fetch('{{ "/assets/data/walls.geojson" | relative_url }}').then(r => r.json()).catch(() => null),
+    fetch('{{ "/assets/data/housing.geojson" | relative_url }}').then(r => r.json()).catch(() => null)
+  ]).then(([pointsData, polygonsData, contoursData, wallsData, housingData]) => {
     allPoints = pointsData.features;
     allPolygons = polygonsData.features;
     
     updateSimulation();
     executeFallbackZoom(pointsData);
 
-    fetch('{{ "/assets/data/contours.geojson" | relative_url }}')
-      .then(r => r.json())
-      .then(contoursData => {
-        var contourLayer = L.geoJSON(contoursData, { style: contourStyle }).addTo(contoursLayerGroup);
-        if (contourLayer.getBounds().isValid()) {
-            map.fitBounds(contourLayer.getBounds(), { padding: [20, 20] });
-        }
-      }).catch(err => {
-        console.warn("Contours bypassed or not found.");
-      });
+    // 2. Permanently render Contours Layer if valid
+    if (contoursData) {
+      L.geoJSON(contoursData, { style: contourStyle }).addTo(contoursLayerGroup);
+    }
+
+    // 3. Permanently render Walls Layer if valid
+    if (wallsData) {
+      L.geoJSON(wallsData, { style: wallStyle }).addTo(wallsLayerGroup);
+    }
+
+    // 4. Permanently render Housing Layouts Layer if valid
+    if (housingData) {
+      L.geoJSON(housingData, { style: housingStyle }).addTo(housingLayerGroup);
+    }
 
   }).catch(criticalErr => {
-    console.error("Data loading failure:", criticalErr);
+    console.error("Data framework loading failure:", criticalErr);
   });
 
   function executeFallbackZoom(pointsData) {
@@ -278,7 +293,5 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     document.getElementById('speed-bar').style.width = Math.min((speed / 20) * 100, 100) + "%";
     
     document.getElementById('critical-elements').innerText = props.critical_elements || "Plantes adaptades a la sequera -> Molt inflamables";
-
-    // CLEANUP: Right side panel UI updates removed to prevent script execution crashes
   }
 </script>
