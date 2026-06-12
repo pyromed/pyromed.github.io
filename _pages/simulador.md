@@ -12,7 +12,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
 
 <style>
-  /* BREAKOUT THEME OVERRIDE: Forces the container to be wider than the standard narrow theme column */
+  /* BREAKOUT THEME OVERRIDE */
   @media (min-width: 1025px) {
     .dashboard-container {
       width: calc(100% + 160px) !important;
@@ -70,6 +70,23 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     height: 100% !important;
     border-radius: 4px !important;
     background-color: #112233 !important; 
+  }
+
+  /* Custom styling for the Reset View UI button inside Leaflet container */
+  .leaflet-control-resetview {
+    background: #ffffff;
+    color: #333333;
+    padding: 6px 10px;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    border: none;
+  }
+  .leaflet-control-resetview:hover {
+    background: #f4f4f4;
+    color: #000000;
   }
 
   .metric-bar-container {
@@ -162,61 +179,74 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 
   var allPoints = [];
   var allPolygons = [];
+  var initialBounds = null; // Stores global data boundaries for the reset layout view trigger
   
-  // Map Layer Groups
-  var contoursLayerGroup = L.layerGroup().addTo(map);
+  // Layer Groups
+  var demLayerGroup = L.layerGroup().addTo(map);
   var wallsLayerGroup = L.layerGroup().addTo(map);
   var housingLayerGroup = L.layerGroup().addTo(map);
   var polygonsLayerGroup = L.layerGroup().addTo(map);
   var pointsLayerGroup = L.layerGroup().addTo(map);
 
-  // Cartographic Styles for Permanent Infrastructure Layers
-  var contourStyle = { color: "#8bb2cc", weight: 0.8, opacity: 0.4 };
-  var wallStyle = { color: "#a18262", weight: 1.2, opacity: 0.7 };
+  // Thicker Walls Style applied
+  var wallStyle = { color: "#a18262", weight: 3.6, opacity: 0.8 };
   var housingStyle = { color: "#aaaaaa", fillColor: "#cccccc", weight: 1, fillOpacity: 0.4 };
   
   var bluePointStyle = { radius: 7, fillColor: "#5856d6", color: "#fff", weight: 2, opacity: 1, fillOpacity: 0.9 };
   var activeBurnStyle = { color: "#e63946", fillColor: "#e63946", weight: 3, fillOpacity: 0.6 };
 
-  // 1. Asynchronously load points, polygons, and all baseline infrastructure layouts
   Promise.all([
     fetch('{{ "/assets/data/points.geojson" | relative_url }}').then(r => r.json()),
     fetch('{{ "/assets/data/burn_polygons.geojson" | relative_url }}').then(r => r.json()),
-    fetch('{{ "/assets/data/contours.geojson" | relative_url }}').then(r => r.json()).catch(() => null),
     fetch('{{ "/assets/data/walls.geojson" | relative_url }}').then(r => r.json()).catch(() => null),
     fetch('{{ "/assets/data/housing.geojson" | relative_url }}').then(r => r.json()).catch(() => null)
-  ]).then(([pointsData, polygonsData, contoursData, wallsData, housingData]) => {
+  ]).then(([pointsData, polygonsData, wallsData, housingData]) => {
     allPoints = pointsData.features;
     allPolygons = polygonsData.features;
     
     updateSimulation();
-    executeFallbackZoom(pointsData);
 
-    // 2. Permanently render Contours Layer if valid
-    if (contoursData) {
-      L.geoJSON(contoursData, { style: contourStyle }).addTo(contoursLayerGroup);
+    // Calculate baseline coordinate boundaries
+    var dataBounds = L.geoJSON(pointsData).getBounds();
+    if(dataBounds.isValid()) {
+      initialBounds = dataBounds; // Save global reference globally
+      map.fitBounds(initialBounds, { padding: [40, 40] });
+      
+      // Optional DEM Overlay matching configuration setup
+      var demImageUrl = '{{ "/assets/images/dem_background.png" | relative_url }}';
+      L.imageOverlay(demImageUrl, dataBounds, { opacity: 0.4 }).addTo(demLayerGroup);
     }
 
-    // 3. Permanently render Walls Layer if valid
     if (wallsData) {
       L.geoJSON(wallsData, { style: wallStyle }).addTo(wallsLayerGroup);
     }
 
-    // 4. Permanently render Housing Layouts Layer if valid
     if (housingData) {
       L.geoJSON(housingData, { style: housingStyle }).addTo(housingLayerGroup);
     }
 
+    // CREATE RESET VIEW BUTTON UI: Programmatically attach custom floating interface button
+    var resetControl = L.Control.extend({
+      options: { position: 'topleft' },
+      onAdd: function (map) {
+        var btn = L.DomUtil.create('button', 'leaflet-control-resetview');
+        btn.innerHTML = '🌍 Restablir Vista';
+        btn.title = 'Torna a la vista general de la simulació';
+        
+        L.DomEvent.on(btn, 'click', function (e) {
+          L.DomEvent.stopPropagation(e);
+          if (initialBounds) {
+            map.fitBounds(initialBounds, { padding: [40, 40] });
+          }
+        });
+        return btn;
+      }
+    });
+    map.addControl(new resetControl());
+
   }).catch(criticalErr => {
     console.error("Data framework loading failure:", criticalErr);
   });
-
-  function executeFallbackZoom(pointsData) {
-    var tempLayer = L.geoJSON(pointsData);
-    if(tempLayer.getBounds().isValid()) {
-      map.fitBounds(tempLayer.getBounds(), { padding: [40, 40] });
-    }
-  }
 
   document.getElementById('wind-select').addEventListener('change', function() { updateSimulation(); });
   document.getElementById('time-select').addEventListener('change', function() { updateSimulation(); });
@@ -231,7 +261,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   function updateSimulation() {
     pointsLayerGroup.clearLayers();
     polygonsLayerGroup.clearLayers();
-    
     document.getElementById('left-metrics').classList.add('hidden');
 
     if(allPoints.length === 0) return;
@@ -253,7 +282,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 
   function displayIncidentDetails(pointFeature, wind, time) {
     polygonsLayerGroup.clearLayers();
-
     var pointId = getFeatureId(pointFeature);
 
     var matchingPoly = allPolygons.find(p => {
@@ -268,18 +296,16 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     });
 
     if (matchingPoly) {
-      var burnGeoLayer = L.geoJSON(matchingPoly, { style: activeBurnStyle }).addTo(polygonsLayerGroup);
-      if(burnGeoLayer.getBounds().isValid()) {
-          map.fitBounds(burnGeoLayer.getBounds(), { padding: [30, 30] });
-      }
+      // RENDERS BURN POLYGON ON MAP
+      L.geoJSON(matchingPoly, { style: activeBurnStyle }).addTo(polygonsLayerGroup);
+      
+      // AUTO ZOOM REMOVED: map.fitBounds(...) was removed from here so the viewport stays exactly where it is!
     } else {
-      console.warn("Lookup mismatch! Point ID extracted:", pointId, "Wind:", wind, "Time:", time);
-      alert("No s'ha trobat cap polígon per a ID: " + pointId + " amb Vent: " + wind + " i Temps: " + time + ".\n\nComprova si coincideixen els IDs de 'burn_polygons.geojson' i 'points.geojson'.");
+      console.warn("Lookup mismatch! Point ID:", pointId, "Wind:", wind, "Time:", time);
+      alert("No s'ha trobat cap polígon per a ID: " + pointId + " amb Vent: " + wind + " i Temps: " + time);
     }
 
     var props = pointFeature.properties;
-
-    // --- Left Panels updates ---
     document.getElementById('left-metrics').classList.remove('hidden');
     document.getElementById('fire-type').innerText = props.fire_type || "DE SUPERFÍCIE";
     
@@ -291,7 +317,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     
     document.getElementById('intensity-bar').style.width = Math.min((intensity / 1000) * 100, 100) + "%";
     document.getElementById('speed-bar').style.width = Math.min((speed / 20) * 100, 100) + "%";
-    
     document.getElementById('critical-elements').innerText = props.critical_elements || "Plantes adaptades a la sequera -> Molt inflamables";
   }
 </script>
