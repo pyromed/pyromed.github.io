@@ -20,10 +20,10 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     }
   }
 
-  /* Robust 3-column CSS Grid Layout */
+  /* UPDATED: Changed grid from 3 columns to 2 columns so the map uses all leftover space */
   .dashboard-container {
     display: grid !important;
-    grid-template-columns: 250px 1fr 280px !important;
+    grid-template-columns: 250px 1fr !important;
     gap: 15px !important;
     background-color: #1a425a !important; 
     color: #ffffff !important;
@@ -69,31 +69,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     width: 100% !important;
     height: 100% !important;
     border-radius: 4px !important;
-    /* Changed background to a dark neutral color so your points/polygons pop without a basemap */
     background-color: #112233 !important; 
-  }
-
-  .info-panel {
-    background: rgba(255, 255, 255, 0.1) !important;
-    padding: 15px !important;
-    border-radius: 4px !important;
-    max-height: 550px !important;
-    overflow-y: auto !important;
-    display: block !important;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.2s ease;
-  }
-
-  .info-panel.visible {
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-
-  .info-panel img {
-    width: 100% !important;
-    border-radius: 4px !important;
-    margin-bottom: 15px !important;
   }
 
   .metric-bar-container {
@@ -117,13 +93,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   @media (max-width: 1024px) {
     .dashboard-container {
       grid-template-columns: 1fr !important;
-    }
-    .info-panel {
-      max-height: none !important;
-      display: none !important;
-    }
-    .info-panel.visible {
-      display: block !important;
     }
   }
 </style>
@@ -181,32 +150,11 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     <div id="map"></div>
   </div>
 
-  <div class="info-panel" id="right-panel">
-    <img id="env-img" src="{{ '/assets/images/bosc_default.jpg' | relative_url }}" alt="Entorn">
-    
-    <h4>Historial d'incendis</h4>
-    <p id="fire-history">Cremada fa 10 y 30 anys; molts arbres van sobreviure.</p>
-    
-    <h4>Entorn</h4>
-    <p id="env-desc">Antigues terrasses agrícoles abandonades...</p>
-    
-    <h4>Característiques</h4>
-    <ul style="padding-left:20px; font-size:0.9em;">
-      <li>Elevació: <span id="char-elev">-</span> m</li>
-      <li>Pendent: <span id="char-slope">-</span>%</li>
-      <li>Orientació: <span id="char-orient">-</span></li>
-      <li>Densitat: <span id="char-dens">-</span> arbres/ha</li>
-      <li>Alçada dosser: <span id="char-canopy">-</span> m</li>
-      <li>Coberta de sotabosc: <span id="char-under">-</span>%</li>
-    </ul>
   </div>
-
-</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
 <script>
-  // NO BASEMAP FIX: Initialize map using simple coordinate CRS grid rather than world-map projections
   var map = L.map('map', {
     crs: L.CRS.Simple,
     minZoom: -5
@@ -231,8 +179,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     allPolygons = polygonsData.features;
     
     updateSimulation();
-
-    // Dynamically auto-focus view on data layout borders directly since standard basemaps are gone
     executeFallbackZoom(pointsData);
 
     fetch('{{ "/assets/data/contours.geojson" | relative_url }}')
@@ -260,12 +206,9 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
   document.getElementById('wind-select').addEventListener('change', function() { updateSimulation(); });
   document.getElementById('time-select').addEventListener('change', function() { updateSimulation(); });
 
-  // FIXED ID FALLBACK: Force extraction from case-insensitive properties explicitly
   function getFeatureId(f) {
     if (!f || !f.properties) return null;
     var p = f.properties;
-    
-    // Explicitly scan every permutation of PlotID, site labels, and explicit ID keys
     var potentialId = p.PlotID ?? p.plotid ?? p.PlotId ?? p.id ?? p.ID ?? p.Id ?? p.site_id ?? p.FID;
     return potentialId !== undefined && potentialId !== null ? String(potentialId).trim() : null;
   }
@@ -275,7 +218,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     polygonsLayerGroup.clearLayers();
     
     document.getElementById('left-metrics').classList.add('hidden');
-    document.getElementById('right-panel').classList.remove('visible');
 
     if(allPoints.length === 0) return;
 
@@ -301,8 +243,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
 
     var matchingPoly = allPolygons.find(p => {
       var matchId = getFeatureId(p);
-      
-      // Flexible wind parameter verification matching windspeed, wspd, or custom inputs
       var rawWind = p.properties ? (p.properties.windspeed ?? p.properties.wspd ?? p.properties.wind ?? p.properties.WIND) : null;
       var rawTime = p.properties ? (p.properties.time ?? p.properties.TIME ?? p.properties.Time) : null;
       
@@ -339,19 +279,6 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     
     document.getElementById('critical-elements').innerText = props.critical_elements || "Plantes adaptades a la sequera -> Molt inflamables";
 
-    // --- Right Panels updates ---
-    document.getElementById('right-panel').classList.add('visible');
-    document.getElementById('char-elev').innerText = props.elevation || "-";
-    document.getElementById('char-slope').innerText = props.slope || "-";
-    document.getElementById('char-orient').innerText = props.orientation || "-";
-    document.getElementById('char-dens').innerText = props.tree_density || "-";
-    document.getElementById('char-canopy').innerText = props.canopy_height || "-";
-    document.getElementById('char-under').innerText = props.understory_cover || "-";
-    
-    if(props.image_url) {
-       document.getElementById('env-img').src = '{{ "" | relative_url }}' + props.image_url;
-    } else {
-       document.getElementById('env-img').src = '{{ "/assets/images/bosc_default.jpg" | relative_url }}';
-    }
+    // CLEANUP: Right side panel UI updates removed to prevent script execution crashes
   }
 </script>
