@@ -14,9 +14,11 @@ Wildfires, climate change, and socio-ecological adaptation require more than jus
 ### Dr. Alicia Azpeleta
 **Principal Investigator & Co-Founder**
 
-Dr. Alicia Azpeleta is a forest and fire ecologist with over a decade of experience decoding fire–climate interactions, wildfire risk assessments, and ecosystem resilience. Her research integrates dendroecology, forest inventory data, and advanced predictive modelling to reconstruct past ecological disturbances and simulate future climate scenarios.
+Dr. Alicia Azpeleta brings over a decade of international experience in forest and fire ecology, combining research across North America and the Mediterranean. Her expertise lies at the intersection of wildfire, climate change, forest resilience, and historical landscape dynamics.
 
-A defining feature of Alicia’s career is her commitment to co-developing science alongside land managers and stakeholders, ensuring that data translates directly into on-the-ground action. Her international trajectory includes doctoral and faculty work at Northern Arizona University, where she collaborated closely with U.S. federal agencies and Tribal Nations on fire history and fuel management. Having led multiple competitive research projects across Europe and North America, Alicia brings an interdisciplinary, impact-oriented vision to the vanguard of modern fire science.
+Her research integrates dendrochronology, fire-history reconstruction, forest inventories, remote sensing, and predictive modelling to understand how ecosystems respond to disturbance and how landscape management can reduce wildfire risk. During eleven years in the United States, Alicia worked at Northern Arizona University as a doctoral researcher and faculty member, collaborating with federal agencies, land managers, and the Mescalero Apache Tribe on fire history, forest resilience, and climate-adaptive management.
+
+She is currently a postdoctoral researcher at the Universitat de les Illes Balears, where her work focuses on how historical land-use legacies and Mediterranean cultural landscapes influence wildfire behaviour and ecosystem resilience. Her scientific perspective ensures that pyromed combines rigorous ecological research with practical approaches to building more resilient landscapes.
 
 ### Sean E. Henning
 **Operational Specialist & Co-Founder**
