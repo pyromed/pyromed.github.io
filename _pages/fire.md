@@ -5,7 +5,6 @@ permalink: /fire/
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
-excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes.<br>En lloc de combatre'l, hauríem de (re-)aprendre a conviure-hi."
 ---
 
 ## Què és un foc i com es genera?
