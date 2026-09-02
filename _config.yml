@@ -1,5 +1,5 @@
 # Site settings
-title: pyromed
+logo: "/assets/images/logo.jpg"
 email: info@pyromed.eu
 description: "Forest and Fire Ecology in the Mediterranean"
 url: "https://pyromed.github.io"
