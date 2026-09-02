@@ -35,7 +35,7 @@ feature_row_projects:
     btn_label: "Explora el simulador"
     btn_class: "btn--primary"
  
-  - image_path: /assets/images/adaptacions.jpg
+  - image_path: /assets/images/estepa-rebrot.jpg
     alt: "adaptacions"
     title: "Reaprendre a conviure"
     url: "/reaprendre/"
