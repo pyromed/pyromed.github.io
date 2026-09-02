@@ -15,7 +15,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-- image_path: /assets/images/burn.jpg
+  - image_path: /assets/images/burn.jpg
     alt: "Extrem"
     title: "Què és un foc i com es genera?"
     excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
@@ -28,7 +28,7 @@ feature_row_projects:
     title: "Simulador d'àrea cremada"
     excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
     url: "/simulador/"
-    btn_label: "Explore Simulador"
+    btn_label: "Explora el simulador"
     btn_class: "btn--primary"
 ---
 
