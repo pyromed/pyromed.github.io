@@ -22,14 +22,14 @@ feature_row_projects:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/Andratx_1956.jpg
-    alt: "Canvis"
+    alt: "Andratx_1956"
     title: "Origen del problema"
     url: "/origin/"
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/Andratx_1956.jpg
-    alt: "Andratx_1956"
+  - image_path: /assets/images/adaptatcions.jpg
+    alt: "adaptacions"
     title: "Reaprendre a conviure"
     url: "/reaprendre/"
     btn_label: "Explora"
