@@ -28,7 +28,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-   - image_path: /assets/images/simulador.jpg
+  - image_path: /assets/images/simulador.jpg
     alt: "Simulador"
     title: "Simulador d'àrea cremada"
     excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
