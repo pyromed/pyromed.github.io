@@ -21,7 +21,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/carboner.jpg
+  - image_path: /assets/images/Andratx_1956.jpg
     alt: "Canvis"
     title: "Origen del problema"
     url: "/origin/"
