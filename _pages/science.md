@@ -32,6 +32,6 @@ feature_row_projects:
     btn_class: "btn--primary"
 ---
 
-Benvinguts a l'espai de divulgació científica de PyroMED. Aquí podeu explorar les nostres eines interactives i històries visuals sobre l'ecologia del foc.
+Benvinguts a l'espai de divulgació científica de pyromed. Aquí podeu explorar les nostres eines interactives i històries visuals sobre l'ecologia del foc.
 
 {% include feature_row id="feature_row_projects" %}
