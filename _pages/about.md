@@ -11,6 +11,10 @@ By combining rigorous academic research with decades of operational field expert
 
 ## Our Team
 
+<img src="{{ '/assets/images/Humphreys.jpg' | relative_url }}"
+     alt="Alicia Azpeleta and Sean Henning"
+     style="display: block; margin: 20px auto 30px auto; max-width: 700px; width: 100%; border-radius: 8px;">
+     
 ### Dr. Alicia Azpeleta
 **Principal Investigator & Co-Founder**
 
