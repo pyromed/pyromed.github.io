@@ -14,5 +14,3 @@ sidebar:
       [🗂️ Dataset](#)
 ---
 
-# PILE Research
-Your abstract and links go here...
