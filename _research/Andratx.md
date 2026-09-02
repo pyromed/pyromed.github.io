@@ -1,6 +1,6 @@
 ---
-title: "Sa Font de la Vila River Catchment (Andratx)"
-excerpt: "Description of the Mallorca research site."
+title: "Wildfire Hazard in Afforested Mediterranean Landscapes"
+excerpt: ""
 date: 2026-04-28
 sidebar:
   - title: "Resources"
