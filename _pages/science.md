@@ -19,7 +19,7 @@ feature_row_projects:
     alt: "Extrem"
     title: "Què és un foc i com es genera?"
     excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
-    url: "/fire/"
+    url: "/extreme/"
     btn_label: "Explora"
     btn_class: "btn--primary"
 
