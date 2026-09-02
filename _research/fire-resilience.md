@@ -1,5 +1,5 @@
 ---
-title: "PILE Project"
+title: "Fire resilience in a Mediterranean cultural landscape"
 excerpt: "Description of the PILE research."
 ---
 
