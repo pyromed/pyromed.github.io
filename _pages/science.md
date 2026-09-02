@@ -23,6 +23,22 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/carboner.jpg
+    alt: "origin"
+    title: "Origen del problema"
+    excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
+    url: "/origin/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/simulador.jpg
+    alt: "Simulador"
+    title: "Simulador d'àrea cremada"
+    excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
+    url: "/reaprendre/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/simulador.jpg
     alt: "Simulador"
     title: "Simulador d'àrea cremada"
