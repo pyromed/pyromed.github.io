@@ -1,5 +1,5 @@
 ---
-title: "Science for All"
+title: "Ciència per a tothom"
 layout: single
 permalink: /science/
 author_profile: true
