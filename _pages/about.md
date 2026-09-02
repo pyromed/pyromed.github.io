@@ -7,7 +7,7 @@ author_profile: true
 
 Welcome to **PYROMED**. We are a forward-thinking initiative dedicated to bridging the "implementation gap" between cutting-edge fire science and practical, real-world land management.
 
-Wildfires, climate change, and socio-ecological adaptation require more than just theoretical solutions, they demand actionable strategies. By combining rigorous academic research with decades of operational field expertise, we develop locally adapted tools and insights to foster ecosystem resilience, specifically focusing on complex Mediterranean and island environments.
+By combining rigorous academic research with decades of operational field expertise, we develop locally adapted tools and insights to foster ecosystem resilience, specifically focusing on complex Mediterranean and island environments.
 
 ## Our Team
 
