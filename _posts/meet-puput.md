@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet Puput: The New Face of PyroMED"
-date: 2026-07-02
+date: 2026-05-01
 ---
 Our new logo is inspired by the hoopoe (*Upupa epops*), known locally in Catalan as the **puput**.
 
