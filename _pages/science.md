@@ -8,7 +8,7 @@ sidebar:
 
 feature_row_projects:
   - image_path: /assets/images/triangle-combustio.jpg
-    alt: "Incendis Tramuntana"
+    alt: "Incendis"
     title: "Què és un foc i com es genera?"
     excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
     url: "/fire/"
