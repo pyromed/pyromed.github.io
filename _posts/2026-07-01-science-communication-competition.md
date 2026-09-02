@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Taking Fire Science Beyond Academia"
-date: 2026-06-15
+date: 2026-07-01
 ---
 
 PyroMED is participating in the VII Concurs de Divulgació Científica organised by the Universitat de les Illes Balears (UIB), an initiative that encourages researchers to bring their work beyond academic journals and closer to society.
