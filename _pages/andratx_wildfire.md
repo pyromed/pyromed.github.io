@@ -1,5 +1,5 @@
 ---
-title: "Una mirada a la història dels incendis forestals"
+title: "Entendre el foc"
 layout: splash
 permalink: /tramuntana/
 header:
