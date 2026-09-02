@@ -28,6 +28,14 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
+   - image_path: /assets/images/simulador.jpg
+    alt: "Simulador"
+    title: "Simulador d'àrea cremada"
+    excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
+    url: "/simulador/"
+    btn_label: "Explora el simulador"
+    btn_class: "btn--primary"
+ 
   - image_path: /assets/images/adaptatcions.jpg
     alt: "adaptacions"
     title: "Reaprendre a conviure"
@@ -35,13 +43,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/simulador.jpg
-    alt: "Simulador"
-    title: "Simulador d'àrea cremada"
-    excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
-    url: "/simulador/"
-    btn_label: "Explora el simulador"
-    btn_class: "btn--primary"
+
 ---
 
 Benvinguts a l'espai de divulgació científica de pyromed. Aquí podeu explorar les nostres eines interactives i històries visuals sobre l'ecologia del foc.
