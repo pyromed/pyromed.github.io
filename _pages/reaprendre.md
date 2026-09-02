@@ -50,6 +50,7 @@ Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activita
 Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
 
 > **Hem de reconèixer les Balears com un sistema on l'humà i l'entorn estan estretament vinculats i a on la gestió és una responsabilitat compartida.**
+---
 
 <img src="/assets/images/esquema-gestio.jpg" alt="Esquema gestió forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Figura: Model conceptual que destaca els principals objectius i les accions per reduir el risc de pèrdua d'habitatge com a conseqüència d'incendis forestals. Figura adaptada de: Calkin DE, Cohen J.D., Finney M.A., Thompson M.P. 2013.*
