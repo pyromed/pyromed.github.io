@@ -14,8 +14,6 @@ sidebar:
       [🗂️ Dataset](#)
 ---
 
-# Wildfire Hazard in Afforested Mediterranean Landscapes
-
 Mediterranean landscapes are undergoing rapid transformation following decades of agricultural abandonment and forest expansion. These changes have increased fuel continuity and altered wildfire behaviour.
 
 This research investigates how historical cultural landscapes, including agricultural terraces and dry-stone walls, influence wildfire spread and hazard in afforested Mediterranean landscapes.
