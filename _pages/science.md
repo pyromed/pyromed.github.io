@@ -10,31 +10,27 @@ feature_row_projects:
   - image_path: /assets/images/triangle-combustio.jpg
     alt: "Incendis"
     title: "Què és un foc i com es genera?"
-    excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
     url: "/fire/"
     btn_label: "Explora"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/burn.jpg
-    alt: "Extrem"
+    alt: "Extrems"
     title: "Quan el comportament esdevé Extrem"
-    excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
     url: "/extreme/"
     btn_label: "Explora"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/carboner.jpg
-    alt: "origin"
+    alt: "Canvis"
     title: "Origen del problema"
-    excerpt: "El foc és una pertorbació ecològica natural que regula els ecosistemes. En lloc de combatre’l, hauríem de (re-)aprendre a conviure-hi"
     url: "/origin/"
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/simulador.jpg
-    alt: "Simulador"
-    title: "Simulador d'àrea cremada"
-    excerpt: "Explora com es comporta el foc i calcula el potencial d'àrea cremada segons diferents escenaris"
+  - image_path: /assets/images/Andratx_1956.jpg
+    alt: "Andratx_1956"
+    title: "Reaprendre a conviure"
     url: "/reaprendre/"
     btn_label: "Explora"
     btn_class: "btn--primary"
