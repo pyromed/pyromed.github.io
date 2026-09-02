@@ -5,10 +5,13 @@ permalink: /research/
 ---
 
 {% for project in site.research %}
-  ### [{{ project.title }}]({{ project.url }})
-  {{ project.excerpt }}
-  
-  [Read More]({{ project.url }})
-  
-  ---
+
+<h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+
+<p>{{ project.excerpt }}</p>
+
+<p><a href="{{ project.url | relative_url }}">Read More →</a></p>
+
+<hr>
+
 {% endfor %}
