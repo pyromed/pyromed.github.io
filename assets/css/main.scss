@@ -1,6 +1,3 @@
----
----
-
 @import "minimal-mistakes/skins/{{ site.site_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
@@ -13,7 +10,7 @@
   object-position: center !important;
 }
 
-/* Full-bleed Hero Banner across screen width */
+/* 1. Full-bleed Hero Banner across screen width */
 .page__hero--overlay {
   min-height: 500px !important;
   height: 500px !important;
@@ -23,7 +20,7 @@
   padding: 0 !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: flex-start !important;
+  justify-content: flex-start !important; /* Forces inner wrapper to align left */
 }
 
 /* Hide hero title text on the homepage */
@@ -32,15 +29,20 @@
   display: none !important;
 }
 
+/* Target wrapper alignment globally inside hero overlays */
+.page__hero--overlay .wrapper {
+  width: 85% !important; 
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /* Show and style hero title text on topic/splash pages */
 .layout--splash .page__hero--overlay .wrapper,
 .layout--single .page__hero--overlay .wrapper {
   display: block !important;
   text-align: left !important;
   z-index: 2;
-  width: 85% !important; 
-  max-width: 1200px !important;
-  margin: 0 auto !important;
 }
 
 /* Style titles strictly inside the hero overlay banner */
@@ -54,7 +56,7 @@
   margin: 0 !important;
 }
 
-/* Lock Header & Navigation to exact width alignment */
+/* 2. Lock Header & Navigation to exact width alignment */
 .masthead__inner-wrap {
   width: 85% !important;
   max-width: 1200px !important;
