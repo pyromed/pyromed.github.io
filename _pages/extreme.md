@@ -48,7 +48,6 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 *Imatge: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: Diario de Mallorca*
 ---
 
-Vicenc Mut (CAIB)
 
 <div class="page-navigation">
   <a href="/fire/" class="btn btn--primary">
