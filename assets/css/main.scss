@@ -77,3 +77,21 @@
   border-bottom: 2px solid #e0e0e0 !important;
   margin-left: 1rem !important;
 }
+
+/* Hide default Minimal Mistakes homepage archive title */
+.layout--home .archive__subtitle {
+  display: none !important;
+}
+
+/* Expand overall page wrapper width */
+#main {
+  max-width: 85% !important; /* Set to 85% (or 90%/100%) of screen width */
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Allow main content column to stretch across the available space */
+.archive, .page {
+  width: 100% !important;
+  padding-right: 0 !important;
+}
