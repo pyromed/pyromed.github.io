@@ -1,5 +1,5 @@
 ---
-title: "Ecologia del foc"
+title: "El paper ecològic del foc"
 layout: splash
 permalink: /ecology/
 header:
@@ -7,7 +7,6 @@ header:
   overlay_filter: 0.35
 ---
 
-### El paper ecològic del foc
 
 Quan el foc es produeix dins un règim natural i amb una freqüència i intensitat compatibles amb la dinàmica de l’ecosistema mediterrani, exerceix funcions ecositemiques que contribuixen al manteniment de la biodiversitat i la salut forestal.
 * **Control de plagues i malalties:** el foc elimina insectes patògens, fongs i organismes paràsits que afecten arbres debilitats o malalts, limitant-ne la propagació i reduint el risc d’episodis epidèmics.
