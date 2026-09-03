@@ -3,7 +3,7 @@ title: "Origen del problema"
 layout: splash
 permalink: /origin/
 header:
-  overlay_image: /assets/images/carboner.jpg
+  overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
 ---
 
