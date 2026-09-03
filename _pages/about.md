@@ -5,12 +5,6 @@ layout: single
 author_profile: true
 ---
 
-Welcome to **PYROMED**. We are a forward-thinking initiative dedicated to bridging the "implementation gap" between cutting-edge fire science and practical, real-world land management.
-
-By combining rigorous academic research with decades of operational field expertise, we develop locally adapted tools and insights to foster ecosystem resilience, specifically focusing on complex Mediterranean and island environments.
-
-## Our Team
-
 <img src="{{ '/assets/images/Humphreys.jpg' | relative_url }}"
      alt="Alicia Azpeleta and Sean Henning"
      style="display: block; margin: 20px auto 30px auto; max-width: 700px; width: 100%; border-radius: 8px;">
@@ -31,5 +25,5 @@ Sean Henning brings over two decades of boots-on-the-ground, operational wildfir
 
 Throughout his career, Sean has developed and implemented fire danger operating plans across U.S. National Forests and contributed to hundreds of active wildfire incidents. He has served as a geospatial specialist for multiple national forests, the Southwest Geographic Area Coordination Center (GACC), and the National Interagency Coordination Center (NICC). His deep immersion in incident management and decision-support systems ensures that our scientific frameworks are completely aligned with the fast-paced, practical realities of wildfire workflows and management needs.
 
-## The PYROMED Initiative
+## PYROMED
 As co-founders of PYROMED, Alicia and Sean united their complementary backgrounds to create a non-profit initiative that breaks down the traditional silos between scientists and practitioners. We believe that protecting our landscapes requires a shared language. By fostering international knowledge exchange and building data-driven, localized tools, we empower communities and land managers to proactively adapt to a changing climate and learn to safely coexist with fire.
