@@ -1,14 +1,14 @@
 ---
-# Front matter required for Jekyll SCSS processing
 ---
 
-@import "minimal-mistakes/skins/{{ site.site_skin | default: 'default' }}"; // main skin
-@import "minimal-mistakes"; // main theme code
+@import "minimal-mistakes/skins/{{ site.site_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-/* Custom Styles */
-.feature__item-teaser img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  object-position: center;
+/* Force fixed image aspect ratio across feature rows */
+.feature__item-teaser img,
+.archive__item-teaser img {
+  width: 100% !important;
+  height: 180px !important;
+  object-fit: cover !important;
+  object-position: center !important;
 }
