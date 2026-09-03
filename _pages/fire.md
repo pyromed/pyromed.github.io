@@ -80,7 +80,7 @@ Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció e
 Aquest gracies a Vicenc Mut (CAIB)
 
 <div class="page-navigation">
- <a href="/origin/" class="btn btn--primary">
+ <a href="/extreme/" class="btn btn--primary">
     Comportament extrem →
   </a>
 </div>
