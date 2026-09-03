@@ -42,6 +42,20 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/estepa-rebrot.jpg
+    alt: "adaptacions"
+    title: "Regim incendis"
+    url: "/regime/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/estepa-rebrot.jpg
+    alt: "adaptacions"
+    title: "Combustibles"
+    url: "/fuels/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/simulador.jpg
     alt: "Simulador"
     title: "Simulador d'àrea cremada"
