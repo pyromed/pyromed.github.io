@@ -1,5 +1,5 @@
 ---
-title: "Origen del problema"
+title: " L'origen del problema"
 layout: splash
 permalink: /origin/
 header:
@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.35
 ---
 
-## L'origen del problema
+
 <p>Per què tenim ara aquests incendis de comportament extrem? La resposta es troba en la pèrdua de la relació tradicional amb el nostre entorn.</p>
 
 ### L'abandonament del món rural
