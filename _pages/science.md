@@ -28,6 +28,13 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/estepa-rebrot.jpg
+    alt: "adaptacions"
+    title: "Ecologia del foc"
+    url: "/ecology/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/simulador.jpg
     alt: "Simulador"
     title: "Simulador d'àrea cremada"
