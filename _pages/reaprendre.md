@@ -1,5 +1,5 @@
 ---
-title: "Reaprendre a conviure"
+title: "Reaprendre a conviure amb el foc"
 layout: splash
 permalink: /reaprendre/
 header:
@@ -7,9 +7,36 @@ header:
   overlay_filter: 0.35
 ---
 
-## (Re)aprendre a conviure amb el foc
+
 Com que la supressió total dels incendis forestals no és viable ni ecològicament desitjable, hem de passar de la visió de la "simple extinció" a una visió d'adaptació i gestió del territori. Cal aprendre a conviure amb el foc compatible amb el bosc mediterrani.
 
+### Què és un tractament de combustible forestal?
+
+La gestió dels combustibles forestals és una de les principals eines per reduir el risc d'incendis de gran intensitat i augmentar la resiliència dels boscos davant del foc.
+
+Durant dècades, la supressió sistemàtica dels incendis i l'abandonament de les activitats tradicionals han afavorit l'augment de la densitat de la vegetació i l'acumulació de combustible als boscos. Com a conseqüència, molts paisatges són avui més continus i vulnerables a incendis de gran intensitat i severitat.
+
+Els tractaments de combustible tenen com a objectiu modificar la quantitat, la distribució i l'estructura de la vegetació per reduir la intensitat i la propagació dels incendis. Alhora, poden contribuir a augmentar la diversitat d'espècies i recuperar estructures forestals més resistents al foc.
+
+### Principals tipus de tractaments
+
+Hi ha dues grans estratègies per gestionar el combustible forestal:
+
+* **Tractaments mecànics:** consistents en aclarir el bosc, retirar vegetació i reduir la densitat d'arbres i matolls.
+* **Crema prescrita:** aplicació planificada i controlada del foc per reduir el combustible acumulat abans que pugui alimentar un incendi forestal.
+
+L'elecció d'una estratègia o una altra depèn de les característiques del territori, les condicions ecològiques i la proximitat a habitatges o nuclis de població. Diversos estudis indiquen que la combinació d'aclarides i crema prescrita pot ser especialment efectiva per augmentar la resiliència dels boscos davant dels incendis forestals.
+
+### Estratègies de gestió del combustible
+
+| Estratègia                                                  | Efecte sobre el foc                                                                                          | Avantatge                                                                                 |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
+| **Reduir el combustible de superfície amb crema prescrita** | Disminueix la intensitat i la severitat del foc i evita que les flames creixin fins a arribar a les capçades | Els incendis són més fàcils de controlar i els arbres tenen menys probabilitats de cremar |
+| **Augmentar l'alçada de la capçada mitjançant la poda**     | El foc de superfície té més dificultats per arribar a les capçades                                           | Es redueix la probabilitat que el foc passi a les capçades                                |
+| **Reduir la densitat de les capçades mitjançant aclarides** | Augmenta la separació entre els arbres                                                                       | El foc té més dificultats per propagar-se d'un arbre a un altre                           |
+| **Conservar els arbres més grans**                          | Els arbres de major dimensió tenen una probabilitat més elevada de sobreviure als incendis intensos          | Es manté una estructura forestal més resilient després del foc                            |
+
+> **Gestionar el combustible significa modificar-ne l'estructura per reduir la probabilitat que un incendi de superfície es transformi en un incendi d'alta intensitat i difícil de controlar.**
 
 ### Els marges de pedra en sec
 
