@@ -22,7 +22,7 @@ feature_row_projects:
 
   - image_path: /assets/images/burn.jpg
     alt: "Extrems"
-    title: "Interfase urbano-forestal"
+    title: "La interfície urbana-forestal"
     url: "/wui/"
     btn_label: "Explora"
     btn_class: "btn--primary"
