@@ -13,12 +13,30 @@
   object-position: center !important;
 }
 
-/* Remove text overlay on hero banner */
-.page__hero--overlay .wrapper {
+/* Hide hero title text on the homepage */
+.layout--home .page__hero--overlay .wrapper,
+.home .page__hero--overlay .wrapper {
   display: none !important;
 }
 
-/* 1. Full-bleed Hero Banner across screen width */
+/* Show and style hero title text on topic/splash pages */
+.layout--splash .page__hero--overlay .wrapper,
+.layout--single .page__hero--overlay .wrapper {
+  display: block !important;
+  text-align: center !important;
+  z-index: 2;
+}
+
+.page__hero--overlay .page__title {
+  display: block !important; /* Overrides global title hiding for hero overlays */
+  color: #ffffff !important;
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6) !important;
+  margin: 0 !important;
+}
+
+/* Full-bleed Hero Banner across screen width */
 .page__hero--overlay {
   min-height: 500px !important;
   height: 500px !important;
@@ -31,7 +49,7 @@
   justify-content: center !important;
 }
 
-/* 2. Lock Header & Navigation to exact width alignment */
+/* Lock Header & Navigation to exact width alignment */
 .masthead__inner-wrap {
   width: 85% !important;
   max-width: 1200px !important;
@@ -41,7 +59,7 @@
   padding-right: 0 !important;
 }
 
-/* 3. Make #main the relative parent container for the sidebar */
+/* Make #main the relative parent container for the sidebar */
 #main {
   position: relative !important;
   width: 85% !important;
