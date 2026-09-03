@@ -19,7 +19,7 @@
   height: 500px !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 !important;
+  margin: 0 0 3rem 0 !important; /* Added 3rem space below the banner */
   padding: 0 !important;
   display: flex !important;
   align-items: center !important;
@@ -43,10 +43,10 @@
 /* Style titles strictly inside the hero overlay banner */
 .page__hero--overlay .page__title {
   display: block !important;
-  color: #ffffff !important;
-  font-size: 3rem !important;
-  font-weight: 800 !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6) !important;
+  color: #e0e6ed !important; /* Soft greyish white tint */
+  font-size: 2rem !important; /* Reduced from 3rem */
+  font-weight: 700 !important; /* Slightly lighter weight */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important; /* Softened shadow */
   margin: 0 !important;
 }
 
