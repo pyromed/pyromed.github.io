@@ -77,3 +77,10 @@ Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció e
 
 > **La gestió forestal preventiva actua principalment sobre el combustible, reduint-ne la quantitat i la continuïtat per disminuir la intensitat potencial dels incendis.**
 ---
+Aquest gracies a Vicenc Mut (CAIB)
+
+<div class="page-navigation">
+ <a href="/origin/" class="btn btn--primary">
+    Comportament extrem →
+  </a>
+</div>
