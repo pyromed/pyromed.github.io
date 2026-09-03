@@ -16,8 +16,11 @@ Hi ha dos tipus distingibles de interfície urbana-forestal: Interfície i Inter
 <img src="/assets/images/wui_IB.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: Urbanirzació a Mallorca
 
+En àrees de major densitat d'habitatge, un foc que s'ha mogut de terra salvatge a una estructura pot llavors estendre's ràpidament entre edificis, creant un “efecte domino.”
 
-En aquests espais, el foc no només afecta la vegetació, sinó també persones, infraestructures i serveis essencials, fet que incrementa notablement la complexitat de les operacions d’emergència.
+En aquests espais, el foc no només afecta la vegetació, sinó també persones, infraestructures i serveis essencials, 
+
+## fet que incrementa notablement la complexitat de les operacions d’emergència.
 Els principals factors que dificulten les tasques d’extinció són:
 * **Saturació de la capacitat de resposta:** els equips d’emergència han de coordinar simultàniament la supressió de l’incendi, l’evacuació de la població i la protecció d’habitatges i infraestructures crítiques.
 * **Presència d’elements perillosos:** molts habitatges contenen materials inflamables o potencialment explosius, com bombones de butà, dipòsits de combustible, vehicles o estructures, que poden agreujar la intensitat del foc i augmentar el risc per als bombers.
