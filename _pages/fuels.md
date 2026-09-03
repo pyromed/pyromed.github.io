@@ -20,7 +20,7 @@ header:
     ← Què és regim d'incendis
   </a>
 
-  <a href="/simulator/" class="btn btn--primary">
+  <a href="/simulador/" class="btn btn--primary">
     Simulador →
   </a>
 </div>
