@@ -38,7 +38,7 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 
 <div class="page-navigation">
   <a href="/fire/" class="btn btn--primary">
-    ← Què és un foc?
+    ← Què és un foc i com es genera?
   </a>
 
   <a href="/wui/" class="btn btn--primary">
