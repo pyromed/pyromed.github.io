@@ -13,6 +13,19 @@
   object-position: center !important;
 }
 
+/* 1. Full-bleed Hero Banner across screen width */
+.page__hero--overlay {
+  min-height: 500px !important;
+  height: 500px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
 /* Hide hero title text on the homepage */
 .layout--home .page__hero--overlay .wrapper,
 .home .page__hero--overlay .wrapper {
@@ -27,8 +40,9 @@
   z-index: 2;
 }
 
+/* Style titles strictly inside the hero overlay banner */
 .page__hero--overlay .page__title {
-  display: block !important; /* Overrides global title hiding for hero overlays */
+  display: block !important;
   color: #ffffff !important;
   font-size: 3rem !important;
   font-weight: 800 !important;
@@ -36,20 +50,7 @@
   margin: 0 !important;
 }
 
-/* Full-bleed Hero Banner across screen width */
-.page__hero--overlay {
-  min-height: 500px !important;
-  height: 500px !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-/* Lock Header & Navigation to exact width alignment */
+/* 2. Lock Header & Navigation to exact width alignment */
 .masthead__inner-wrap {
   width: 85% !important;
   max-width: 1200px !important;
@@ -59,7 +60,7 @@
   padding-right: 0 !important;
 }
 
-/* Make #main the relative parent container for the sidebar */
+/* 3. Make #main the relative parent container for the sidebar */
 #main {
   position: relative !important;
   width: 85% !important;
@@ -119,8 +120,8 @@
   margin-left: 1rem !important;
 }
 
-/* Hide default Minimal Mistakes page/archive titles */
-.page__title,
+/* Hide default in-body titles and homepage archive titles */
+.page__content .page__title,
 .layout--home .archive__title,
 .layout--home h3.archive__subtitle {
   display: none !important;
