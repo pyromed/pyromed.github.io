@@ -1,5 +1,5 @@
 ---
-title: "El canvi climatic"
+title: "El canvi climàtic"
 layout: splash
 permalink: /clima/
 header:
