@@ -1,13 +1,11 @@
 ---
-title: "Entendre el foc"
+title: "Què és un foc i com es genera?"
 layout: splash
 permalink: /fire/
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
 ---
-
-## Què és un foc i com es genera?
 
 El foc es genera quan l'oxigen, el combustible i una font d'ignició entren en reacció simultània. És l'efecte visible i tèrmic d'aquest procés de combustió ràpida.
 
