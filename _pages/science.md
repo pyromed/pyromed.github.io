@@ -20,7 +20,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/burn.jpg
+  - image_path: /assets/images/wui-IB.jpg
     alt: "Extrems"
     title: "La interfície urbana-forestal"
     url: "/wui/"
