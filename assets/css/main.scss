@@ -12,3 +12,13 @@
   object-fit: cover !important;
   object-position: center !important;
 }
+
+/* Hide text title in top navbar while keeping logo */
+.site-title {
+  font-size: 0 !important;
+}
+
+.site-title img {
+  max-height: 2rem; /* Adjust height of logo as needed */
+  vertical-align: middle;
+}
