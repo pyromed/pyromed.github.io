@@ -95,6 +95,6 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
   </a>
 
   <a href="/ecology/" class="btn btn--primary">
-    Ecologia del foc →
+    El paper ecològic del foc →
   </a>
 </div>
