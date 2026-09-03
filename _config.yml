@@ -45,7 +45,7 @@ author:
   bio    : "Forest and Fire Ecology in the Mediterranean."
   links:
     - label: "Github"
-      icon: "fas fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/pyromed"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -58,7 +58,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -68,13 +68,13 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   - scope:
       path: ""
       type: research
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
 
 category_archive:
