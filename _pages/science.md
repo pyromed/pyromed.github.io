@@ -36,7 +36,7 @@ feature_row_projects:
 
   - image_path: /assets/images/estepa-rebrot.jpg
     alt: "adaptacions"
-    title: "Ecologia del foc"
+    title: " El paper ecològic del foc"
     url: "/ecology/"
     btn_label: "Explora"
     btn_class: "btn--primary"
