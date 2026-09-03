@@ -13,31 +13,37 @@
   object-position: center !important;
 }
 
-/* Remove text overlay and space on hero image */
+/* Remove text overlay on hero banner */
 .page__hero--overlay .wrapper {
   display: none !important;
 }
 
-/* Adjust height of the home page banner */
+/* 1. Full-bleed Hero Banner across screen width */
 .page__hero--overlay {
   min-height: 500px !important;
   height: 500px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
   padding: 0 !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
 }
 
-/* Align logo to the far left edge of the navigation header */
-.masthead__inner-wrap {
-  max-width: 90% !important;
+/* 2. Lock Header, Navigation, and Content to exact same width alignment */
+.masthead__inner-wrap,
+#main {
+  width: 85% !important;
+  max-width: 1200px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 /* Header spacing and container override */
 .masthead,
-.masthead__inner-wrap,
 .site-title,
 .masthead__theme {
   height: auto !important;
@@ -46,7 +52,7 @@
   padding-bottom: 1rem !important;
 }
 
-/* Target ALL possible logo selectors to force 5rem size */
+/* Target logo to force size */
 .site-title img,
 .site-logo img,
 .masthead__theme img {
@@ -91,33 +97,26 @@
   display: none !important;
 }
 
-/* Overall layout wrapper width */
-#main {
-  max-width: 90% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Keep sidebar fixed on the left */
+/* 3. Shift profile sidebar into far-left outer margin */
 .sidebar,
 .page__sidebar {
-  display: block !important;
-  width: 200px !important;
-  float: left !important;
+  position: absolute !important;
+  left: 2rem !important;
+  width: 180px !important;
 }
 
-/* Force main content block to occupy the remaining space on the right */
+/* 4. Align Recent Posts directly to the left red line */
 .archive,
 .page,
 .page__inner-wrap {
-  width: calc(100% - 220px) !important;
-  max-width: calc(100% - 220px) !important;
-  float: right !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
   padding-left: 0 !important;
-  padding-right: 0 !important;
+  float: none !important;
 }
 
-/* Clear floats so layout container wraps properly */
+/* Clear floats */
 #main::after {
   content: "";
   display: table;
