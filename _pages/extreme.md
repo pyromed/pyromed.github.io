@@ -42,6 +42,6 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
   </a>
 
   <a href="/wui/" class="btn btn--primary">
-    Interfase urbana-forestal →
+    Interfície urbana-forestal →
   </a>
 </div>
