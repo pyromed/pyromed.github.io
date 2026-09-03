@@ -78,6 +78,6 @@ Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció e
 
 <div class="page-navigation">
  <a href="/extreme/" class="btn btn--primary">
-    Comportament extrem →
+    Incendis extrems →
   </a>
 </div>
