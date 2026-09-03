@@ -54,7 +54,7 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
     ← Què és un foc?
   </a>
 
-  <a href="/origin/" class="btn btn--primary">
-    Origen del problema →
+  <a href="/wui/" class="btn btn--primary">
+    Interfase urbana-forestal →
   </a>
 </div>
