@@ -30,3 +30,14 @@ Atès que gran part de les Balears és de propietat privada i molt fragmentada e
 
 <img src="/assets/images/esquema-gestio.jpg" alt="Esquema gestió forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Figura: Model conceptual que destaca els principals objectius i les accions per reduir el risc de pèrdua d'habitatge com a conseqüència d'incendis forestals. Figura adaptada de: Calkin DE, Cohen J.D., Finney M.A., Thompson M.P. 2013.*
+
+---
+<div class="page-navigation">
+  <a href="/similador/" class="btn btn--primary">
+    ← Simulador
+  </a>
+
+  <a href="/clima/" class="btn btn--primary">
+    El canvi climatic →
+  </a>
+</div>
