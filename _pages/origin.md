@@ -90,11 +90,11 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 ---
 
 <div class="page-navigation">
-  <a href="/extreme/" class="btn btn--primary">
-    ← Comportament extrem
+  <a href="/wui/" class="btn btn--primary">
+    ← Interfase urbano-forestal
   </a>
 
   <a href="/ecology/" class="btn btn--primary">
-    Origen del problema →
+    Ecologia del foc →
   </a>
 </div>
