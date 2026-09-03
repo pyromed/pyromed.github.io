@@ -91,7 +91,7 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 
 <div class="page-navigation">
   <a href="/wui/" class="btn btn--primary">
-    ← Interfase urbano-forestal
+    ← Interfície urbana-forestal
   </a>
 
   <a href="/ecology/" class="btn btn--primary">
