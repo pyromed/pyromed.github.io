@@ -7,7 +7,6 @@ header:
   overlay_filter: 0.35
 ---
 
-## Quan el comportament esdevé Extrem
 
 Els incendis esdevenen un problema greu quan presenten un comportament extrem, és a dir, quan superen la capacitat de control dels mitjans d'extinció.
 
