@@ -88,3 +88,13 @@ La supressió dels incendis forestals no és viable, ni ecològicamente desitjab
 </div>
 
 ---
+
+<div class="page-navigation">
+  <a href="/extreme/" class="btn btn--primary">
+    ← Comportament extrem
+  </a>
+
+  <a href="/origin/" class="btn btn--primary">
+    Origen del problema →
+  </a>
+</div>
