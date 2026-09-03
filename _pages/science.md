@@ -45,6 +45,8 @@ feature_row_projects:
 
 ---
 
-Benvinguts a l'espai de divulgació científica de pyromed. Aquí podeu explorar les nostres eines interactives i històries visuals sobre l'ecologia del foc.
+Benvinguts a l'espai de divulgació científica de PyroMED. Aquí podeu explorar les nostres eines interactives i històries visuals sobre l'ecologia del foc.
+
+Aquest espai, així com part dels continguts que s'hi presenten, han estat possibles gràcies al suport del programa postdoctoral Vicenç Mut del Govern de les Illes Balears (CAIB).
 
 {% include feature_row id="feature_row_projects" %}
