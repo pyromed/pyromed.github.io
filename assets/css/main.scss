@@ -37,3 +37,20 @@
   align-items: center !important;
   justify-content: center !important;
 }
+
+/* Increase header height & vertical spacing around logo/menu */
+.masthead {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+}
+
+/* Make header logo slightly larger */
+.site-title img {
+  max-height: 2.8rem !important; 
+}
+
+/* Make navigation menu links bold and slightly darker */
+.masthead__menu-item a {
+  font-weight: 700 !important;
+  color: #333 !important;
+}
