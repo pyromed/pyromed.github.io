@@ -22,3 +22,8 @@
   max-height: 2rem; /* Adjust height of logo as needed */
   vertical-align: middle;
 }
+
+/* Remove text overlay and space on hero image */
+.page__hero--overlay .wrapper {
+  display: none !important;
+}
