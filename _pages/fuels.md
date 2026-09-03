@@ -17,7 +17,7 @@ header:
 ---
 <div class="page-navigation">
   <a href="/regime/" class="btn btn--primary">
-    ← Què és regim d'incendis
+    ← 	Règims d'incendi
   </a>
 
   <a href="/simulador/" class="btn btn--primary">
