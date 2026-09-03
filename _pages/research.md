@@ -2,6 +2,7 @@
 title: "Research"
 layout: single
 permalink: /research/
+author_profile: true
 ---
 
 {% for project in site.research %}
