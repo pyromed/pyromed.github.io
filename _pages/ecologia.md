@@ -36,7 +36,7 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
     ← Què és un foc?
   </a>
 
-  <a href="/regim/" class="btn btn--primary">
+  <a href="/regime/" class="btn btn--primary">
     Què és el règim d'incendis? →
   </a>
 </div>
