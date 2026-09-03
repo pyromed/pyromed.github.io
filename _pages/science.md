@@ -21,6 +21,13 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/burn.jpg
+    alt: "Extrems"
+    title: "Interfase urbano-forestal"
+    url: "/wui/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/Andratx_1956.jpg
     alt: "Andratx_1956"
     title: "Origen del problema"
