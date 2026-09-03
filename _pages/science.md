@@ -29,7 +29,7 @@ feature_row_projects:
 
   - image_path: /assets/images/Andratx_1956.jpg
     alt: "Andratx_1956"
-    title: "Origen del problema"
+    title: " L'origen del problema"
     url: "/origin/"
     btn_label: "Explora"
     btn_class: "btn--primary"
