@@ -47,3 +47,15 @@ Aquestes condicions dificulten considerablement la regeneració natural post-inc
 <img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: Diario de Mallorca*
 ---
+
+Vicenc Mut (CAIB)
+
+<div class="page-navigation">
+  <a href="/fire/" class="btn btn--primary">
+    ← Què és un foc?
+  </a>
+
+  <a href="/origin/" class="btn btn--primary">
+    Origen del problema →
+  </a>
+</div>
