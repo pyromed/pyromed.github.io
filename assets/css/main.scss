@@ -13,7 +13,7 @@
   display: block !important;
 }
 
-/* 1. Full-bleed Hero Banner across screen width */
+/* Full-bleed Hero Banner across screen width */
 .page__hero--overlay {
   min-height: 500px !important;
   height: 500px !important;
@@ -34,7 +34,7 @@
   margin-right: auto !important;
 }
 
-/* FIX 1: Explicitly hide hero title/wrapper on homepage layouts */
+/* Explicitly hide hero title/wrapper on homepage layouts */
 .layout--home .page__hero--overlay .wrapper,
 .home .page__hero--overlay .wrapper,
 .layout--home .page__hero--overlay .page__title,
@@ -102,16 +102,14 @@
   vertical-align: middle !important;
 }
 
-/* FIX 2: Hide text site title next to logo completely */
-.site-title span,
-.site-title text,
-a.site-title {
+/* Hide the text next to the header logo */
+.masthead .site-title span,
+.masthead .site-title {
   font-size: 0 !important;
 }
-.site-title {
-  font-size: 0 !important;
-  display: inline-flex !important;
-  align-items: center !important;
+
+.masthead .site-title {
+  display: inline-block !important;
 }
 
 /* Navigation menu styling */
