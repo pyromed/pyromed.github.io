@@ -16,17 +16,11 @@
   height: 500px !important;
   width: 100% !important;
   max-width: 100% !important;
-  margin: 0 0 3rem 0 !important; /* Added 3rem space below the banner */
+  margin: 0 0 3rem 0 !important;
   padding: 0 !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: flex-start !important; /* Forces inner wrapper to align left */
-}
-
-/* Hide hero title text on the homepage */
-.layout--home .page__hero--overlay .wrapper,
-.home .page__hero--overlay .wrapper {
-  display: none !important;
+  justify-content: flex-start !important;
 }
 
 /* Target wrapper alignment globally inside hero overlays */
@@ -37,7 +31,15 @@
   margin-right: auto !important;
 }
 
-/* Show and style hero title text on topic/splash pages */
+/* FIX 1: Explicitly hide hero title/wrapper on homepage layouts */
+.layout--home .page__hero--overlay .wrapper,
+.home .page__hero--overlay .wrapper,
+.layout--home .page__hero--overlay .page__title,
+.home .page__hero--overlay .page__title {
+  display: none !important;
+}
+
+/* Show and style hero title text strictly on topic/splash/single pages */
 .layout--splash .page__hero--overlay .wrapper,
 .layout--single .page__hero--overlay .wrapper {
   display: block !important;
@@ -49,10 +51,10 @@
 .page__hero--overlay .page__title {
   display: block !important;
   text-align: left !important;
-  color: #e0e6ed !important; /* Soft greyish white tint */
-  font-size: 2rem !important; /* Reduced from 3rem */
-  font-weight: 700 !important; /* Slightly lighter weight */
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important; /* Softened shadow */
+  color: #e0e6ed !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
   margin: 0 !important;
 }
 
@@ -97,9 +99,16 @@
   vertical-align: middle !important;
 }
 
-/* Hide text site title if present */
+/* FIX 2: Hide text site title next to logo completely */
+.site-title span,
+.site-title text,
+a.site-title {
+  font-size: 0 !important;
+}
 .site-title {
   font-size: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
 }
 
 /* Navigation menu styling */
