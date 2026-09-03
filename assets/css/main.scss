@@ -13,16 +13,6 @@
   object-position: center !important;
 }
 
-/* Hide text title in top navbar while keeping logo */
-.site-title {
-  font-size: 0 !important;
-}
-
-.site-title img {
-  max-height: 2rem; /* Adjust height of logo as needed */
-  vertical-align: middle;
-}
-
 /* Remove text overlay and space on hero image */
 .page__hero--overlay .wrapper {
   display: none !important;
@@ -38,41 +28,39 @@
   justify-content: center !important;
 }
 
-/* Increase header height & vertical spacing around logo/menu */
-.masthead {
-  padding-top: 1.25rem !important;
-  padding-bottom: 1.25rem !important;
+/* Header spacing and container override */
+.masthead,
+.masthead__inner-wrap,
+.site-title,
+.masthead__theme {
+  height: auto !important;
+  max-height: none !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
-/* Make header logo slightly larger */
-.site-title img {
-  max-height: 2.8rem !important; 
+/* Target ALL possible logo selectors to force 8rem size */
+.site-title img,
+.site-logo img,
+.masthead__theme img {
+  max-height: 8rem !important;
+  height: 8rem !important;
+  width: auto !important;
+  vertical-align: middle !important;
 }
 
-/* Make navigation menu links bold and slightly darker */
+/* Hide text site title if present */
+.site-title {
+  font-size: 0 !important;
+}
+
+/* Navigation menu styling */
 .masthead__menu-item a {
   font-weight: 700 !important;
   color: #333 !important;
 }
 
-/* Enlarge header logo and allow parent container to expand */
-.site-title {
-  height: auto !important;
-  max-height: none !important;
-}
-
-.site-title img {
-  max-height: 8rem !important;
-  height: auto !important;
-  width: auto !important;
-}
-
-/* Ensure navbar wrapper expands to fit the bigger logo */
-.masthead__inner-wrap {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
-}
-/* Post-style section heading */
+/* Section heading styling */
 .post-heading {
   font-size: 2.2rem !important;
   font-weight: 800 !important;
@@ -83,7 +71,6 @@
   margin-bottom: 1.5rem !important;
 }
 
-/* Draws the horizontal line extending to the right */
 .post-heading::after {
   content: "" !important;
   flex: 1 !important;
