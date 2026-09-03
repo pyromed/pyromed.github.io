@@ -13,7 +13,7 @@
   object-position: center !important;
 }
 
-/* 1. Full-bleed Hero Banner across screen width */
+/* Full-bleed Hero Banner across screen width */
 .page__hero--overlay {
   min-height: 500px !important;
   height: 500px !important;
@@ -23,7 +23,7 @@
   padding: 0 !important;
   display: flex !important;
   align-items: center !important;
-  justify-content: center !important;
+  justify-content: flex-start !important;
 }
 
 /* Hide hero title text on the homepage */
@@ -46,6 +46,7 @@
 /* Style titles strictly inside the hero overlay banner */
 .page__hero--overlay .page__title {
   display: block !important;
+  text-align: left !important;
   color: #e0e6ed !important; /* Soft greyish white tint */
   font-size: 2rem !important; /* Reduced from 3rem */
   font-weight: 700 !important; /* Slightly lighter weight */
@@ -53,7 +54,7 @@
   margin: 0 !important;
 }
 
-/* 2. Lock Header & Navigation to exact width alignment */
+/* Lock Header & Navigation to exact width alignment */
 .masthead__inner-wrap {
   width: 85% !important;
   max-width: 1200px !important;
