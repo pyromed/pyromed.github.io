@@ -8,7 +8,16 @@ header:
 ---
 
 
-La zona d’interfície urbana-forestal, on habitatges, urbanitzacions i massa forestal entren en contacte directe, representa un dels principals desafiaments en la gestió dels incendis forestals. En aquests espais, el foc no només afecta la vegetació, sinó també persones, infraestructures i serveis essencials, fet que incrementa notablement la complexitat de les operacions d’emergència.
+La zona d’interfície urbana-forestal, on habitatges, urbanitzacions i massa forestal entren en contacte directe, representa un dels principals desafiaments en la gestió dels incendis forestals. 
+
+##  Tipus de WUI
+Hi ha dos tipus distingibles de interfície urbana-forestal: Interfície i Intermix. La diferència entre els dos tipus es basa en la densitat de l'habitatge. Aquesta, té un efecte significatiu en la propagació dels incendis, ja que una major densitat d'habitatges permet que el foc s'estengui més fàcilment.
+
+<img src="/assets/images/wui_IB.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
+*Imatge: Urbanirzació a Mallorca
+
+
+En aquests espais, el foc no només afecta la vegetació, sinó també persones, infraestructures i serveis essencials, fet que incrementa notablement la complexitat de les operacions d’emergència.
 Els principals factors que dificulten les tasques d’extinció són:
 * **Saturació de la capacitat de resposta:** els equips d’emergència han de coordinar simultàniament la supressió de l’incendi, l’evacuació de la població i la protecció d’habitatges i infraestructures crítiques.
 * **Presència d’elements perillosos:** molts habitatges contenen materials inflamables o potencialment explosius, com bombones de butà, dipòsits de combustible, vehicles o estructures, que poden agreujar la intensitat del foc i augmentar el risc per als bombers.
