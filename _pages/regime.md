@@ -17,7 +17,7 @@ header:
 ---
 <div class="page-navigation">
   <a href="/ecology/" class="btn btn--primary">
-    ← Què és un foc?
+    ← El paper ecològic del foc
   </a>
 
   <a href="/fuels/" class="btn btn--primary">
