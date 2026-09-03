@@ -1,7 +1,7 @@
 ---
 title: "Règims d'incendi"
 layout: splash
-permalink: /regim/
+permalink: /regime/
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
