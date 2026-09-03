@@ -30,7 +30,10 @@
 
 /* Adjust height of the home page banner */
 .page__hero--overlay {
-  min-height: 500px !important; 
-  height: 500px !important;     
-  padding: 0 !important;        
+  min-height: 500px !important;
+  height: 500px !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
