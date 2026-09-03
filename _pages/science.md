@@ -3,8 +3,7 @@ title: "Ciència per a tothom"
 layout: single
 permalink: /science/
 author_profile: true
-sidebar:
-  nav: "main"
+
 
 feature_row_projects:
   - image_path: /assets/images/triangle-combustio.jpg
