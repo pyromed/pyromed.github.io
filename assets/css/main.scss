@@ -31,9 +31,19 @@
   justify-content: center !important;
 }
 
-/* 2. Lock Header, Navigation, and Content to exact same width alignment */
-.masthead__inner-wrap,
+/* 2. Lock Header & Navigation to exact width alignment */
+.masthead__inner-wrap {
+  width: 85% !important;
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 3. Make #main the relative parent container for the sidebar */
 #main {
+  position: relative !important;
   width: 85% !important;
   max-width: 1200px !important;
   margin-left: auto !important;
@@ -91,21 +101,23 @@
   margin-left: 1rem !important;
 }
 
-/* Hide default Minimal Mistakes homepage archive title */
+/* Hide default Minimal Mistakes page/archive titles */
+.page__title,
 .layout--home .archive__title,
 .layout--home h3.archive__subtitle {
   display: none !important;
 }
 
-/* 3. Shift profile sidebar into far-left outer margin */
+/* 4. Shift profile sidebar relative to #main container */
 .sidebar,
 .page__sidebar {
   position: absolute !important;
-  left: 2rem !important;
+  top: 0 !important;
+  left: -200px !important; /* Pulls sidebar out into left margin area */
   width: 180px !important;
 }
 
-/* 4. Align Recent Posts directly to the left red line */
+/* 5. Align content directly to the main container edge */
 .archive,
 .page,
 .page__inner-wrap {
