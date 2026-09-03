@@ -15,7 +15,7 @@ feature_row_projects:
 
   - image_path: /assets/images/burn.jpg
     alt: "Extrems"
-    title: "Quan el comportament esdevé Extrem"
+    title: "Incendis extrems"
     url: "/extreme/"
     btn_label: "Explora"
     btn_class: "btn--primary"
