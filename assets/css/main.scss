@@ -1,13 +1,16 @@
 @import "minimal-mistakes/skins/{{ site.site_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Force fixed image aspect ratio across feature rows */
+/* Force identical dimensions across all feature/grid images */
 .feature__item-teaser img,
-.archive__item-teaser img {
+.archive__item-teaser img,
+.feature__item img {
   width: 100% !important;
-  height: 180px !important;
-  object-fit: cover !important;
+  height: 200px !important; /* Adjust height here if needed */
+  max-height: 200px !important;
+  object-fit: contain !important; /* Prevents distortion/clipping */
   object-position: center !important;
+  display: block !important;
 }
 
 /* 1. Full-bleed Hero Banner across screen width */
