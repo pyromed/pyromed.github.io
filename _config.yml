@@ -40,7 +40,7 @@ plugins:
 
 # Author Info
 author:
-  name   : "pyromed"
+  name   : ""
   avatar : "/assets/images/logo2.png"
   bio    : "Forest and Fire Ecology in the Mediterranean."
   links:
