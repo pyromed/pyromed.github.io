@@ -30,3 +30,14 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
 * **Germinació:** altres plantes aprofiten l’incendi com a estímul per activar la germinació de les llavors. En el cas d’alguns pins mediterranis, la calor obre les pinyes i afavoreix l’alliberament de llavors sobre un sòl ric en nutrients i amb menys competència vegetal.
 <img src="/assets/images/adaptacions.jpg" alt="adaptacions al foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: Rebrot d’estepa i regeneració massiva de pins després de l’incendi forestal d’Andratx de 2013.*
+
+---
+<div class="page-navigation">
+  <a href="/fire/" class="btn btn--primary">
+    ← Què és un foc?
+  </a>
+
+  <a href="/regim/" class="btn btn--primary">
+    Què és el règim d'incendis? →
+  </a>
+</div>
