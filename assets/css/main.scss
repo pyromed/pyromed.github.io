@@ -54,3 +54,8 @@
   font-weight: 700 !important;
   color: #333 !important;
 }
+
+/* Enlarge header logo image */
+.site-title img {
+  max-height: 4rem !important; /* Increased from 2.8rem */
+}
