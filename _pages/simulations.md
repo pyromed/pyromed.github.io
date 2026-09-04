@@ -47,6 +47,33 @@ on R representa la velocitat de propagació del foc.
 
 > En essència, el model compara l'energia que el foc produeix i transmet cap endavant amb l'energia necessària per encendre el combustible.
 
+
+## Els models de combustible
+
+Els models de combustible agrupen diferents tipus de vegetació segons les seves característiques i la manera com poden influir en la propagació d'un incendi.
+
+Cada model descriu, entre altres característiques:
+
+- la quantitat de combustible disponible;
+- la mida de les partícules de combustible;
+- la proporció de combustibles vius i morts;
+- la compactació i distribució del combustible;
+- l'alçada i estructura de la vegetació;
+- la càrrega de combustible.
+
+Aquesta informació permet transformar un paisatge complex en una sèrie de variables que poden ser utilitzades pel model matemàtic.
+
+> Un model de combustible no descriu exactament una espècie vegetal concreta, sinó una combinació de característiques del combustible que pot produir un determinat comportament del foc.
+
+## Com podem estimar l'àrea cremada?
+
+Per simular l'expansió espacial d'un incendi, una aproximació habitual consisteix a representar el perímetre del foc com una el·lipse.
+
+Per què una el·lipse?
+
+Quan el foc es propaga sota la influència del vent o de la pendent, no avança igual en totes les direccions. El foc tendeix a avançar més ràpidament en la direcció principal de propagació, mentre que la velocitat disminueix progressivament cap als flancs i la part posterior.
+
+Per aquest motiu, molts models simplificats representen el creixement d'un incendi amb una forma el·líptica.
 ---
 <div class="page-navigation">
   <a href="/behaviour/" class="btn btn--primary">
