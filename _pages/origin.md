@@ -65,7 +65,7 @@ Paral·lelament a l'abandonament rural i a l'expansió de les masses forestals, 
 
 La Llei d'incendis forestals de 1968 va establir per primera vegada un marc específic per a la lluita contra els incendis. Durant les dècades següents, la creació de l'ICONA, la incorporació de mitjans aeris i el desenvolupament de plans coordinats d'emergència van consolidar progressivament un sistema orientat a detectar i extingir els incendis tan aviat com fos possible.
 
-<img src="/assets/images/canadair.jpg" 
+<img src="/assets/images/canadair.jpeg" 
      alt="hidroavió" 
      style="width:100%; border-radius:6px; margin: 15px 0;">
 
