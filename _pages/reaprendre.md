@@ -94,6 +94,11 @@ El següent esquema mostra com diferents decisions i accions poden contribuir co
 <img src="/assets/images/esquema-gestio.jpg" alt="Esquema gestió forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Figura: Model conceptual que destaca els principals objectius i les accions per reduir el risc de pèrdua d'habitatge com a conseqüència d'incendis forestals. Figura adaptada de: Calkin DE, Cohen J.D., Finney M.A., Thompson M.P. 2013.*
 
+L'objectiu final és reduir el risc de pèrdua d'habitatges. Per aconseguir-ho, cal actuar simultàniament sobre diferents aspectes: reduir l'exposició dels habitatges als incendis, disminuir la probabilitat que aquests es converteixin en grans incendis i augmentar la capacitat de resistència de les construccions.
+
+Aquestes accions no depenen d'un únic actor. La planificació territorial correspon principalment a les administracions locals; la prevenció i la gestió del combustible impliquen els serveis forestals i els propietaris del territori; mentre que la protecció directa dels habitatges és també responsabilitat dels seus propietaris.
+
+
 ---
 <div class="page-navigation">
   <a href="/similador/" class="btn btn--primary">
@@ -105,7 +110,4 @@ El següent esquema mostra com diferents decisions i accions poden contribuir co
   </a>
 </div>
 
-L'objectiu final és reduir el risc de pèrdua d'habitatges. Per aconseguir-ho, cal actuar simultàniament sobre diferents aspectes: reduir l'exposició dels habitatges als incendis, disminuir la probabilitat que aquests es converteixin en grans incendis i augmentar la capacitat de resistència de les construccions.
-
-Aquestes accions no depenen d'un únic actor. La planificació territorial correspon principalment a les administracions locals; la prevenció i la gestió del combustible impliquen els serveis forestals i els propietaris del territori; mentre que la protecció directa dels habitatges és també responsabilitat dels seus propietaris.
 
