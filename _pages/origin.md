@@ -74,7 +74,7 @@ La Llei d'incendis forestals de 1968 va establir per primera vegada un marc espe
 </p>
 
 
-Aquest model va aconseguir reduir eficaçment molts incendis de petita i mitjana extensió. Però la supressió continuada dels focs també pot tenir conseqüències inesperades sobre determinats ecosistemes.
+Aquest model de gestió va aconseguir reduir eficaçment molts incendis de petita i mitjana extensió. Però la supressió continuada dels focs també pot tenir conseqüències inesperades sobre determinats ecosistemes.
 
 ### La paradoxa de l'extinció
 
