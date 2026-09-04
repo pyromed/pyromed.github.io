@@ -98,7 +98,7 @@ El següent esquema mostra com diferents decisions i accions poden contribuir co
   >
 
   <p style="font-size:0.8em; font-style:italic; color:#555; line-height:1.4; margin-top:8px;">
-    Figura: Model conceptual dels principals objectius, accions i actors implicats en la reducció del risc de pèrdua d'habitatges com a conseqüència dels incendis forestals. Adaptada de Calkin, D.E., Cohen, J.D., Finney, M.A. i Thompson, M.P. (2013).
+    Figura: Model conceptual dels principals objectius, accions i actors implicats en la reducció del risc de pèrdua d'habitatges davant dels incendis forestals. Adaptada de Calkin, D.E., Cohen, J.D., Finney, M.A. i Thompson, M.P. (2013).
   </p>
 </div>
 
