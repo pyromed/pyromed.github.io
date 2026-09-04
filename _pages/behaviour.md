@@ -9,7 +9,7 @@ header:
 
 Tot i que el règim de foc descriu els patrons generals dels incendis al llarg del temps, el comportament de cada incendi individual depèn principalment de la interacció entre la topografia, els combustibles i les condicions meteorològiques.
 
-<img src="/assets/images/behavior-triangle.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/behavior-triangle.jpg" alt="El triangledel comportament del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
 ## Topografia
 Pendents pronunciats: augmenten la velocitat de propagació del foc.
