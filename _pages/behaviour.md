@@ -32,7 +32,7 @@ Núvols: poden reduir la radiació solar i modificar la temperatura i la humi
 ---
 <div class="page-navigation">
   <a href="/regime/" class="btn btn--primary">
-    ← El paper ecològic del foc
+    ← Règims d'incendi
   </a>
 
   <a href="/behaviour/" class="btn btn--primary">
