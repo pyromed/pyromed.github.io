@@ -55,7 +55,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/estepa-rebrot.jpg
+  - image_path: /assets/images/area.jpg
     alt: "simulacions"
     title: "Com podem anticipar el comportament d’un incendi?"
     url: "/simulations/"
