@@ -16,8 +16,8 @@ header:
 
 ---
 <div class="page-navigation">
-  <a href="/regime/" class="btn btn--primary">
-    ← 	Règims d'incendi
+  <a href="/behaviour/" class="btn btn--primary">
+    ← 		Què determina el comportament d'un incendi?
   </a>
 
   <a href="/simulador/" class="btn btn--primary">
