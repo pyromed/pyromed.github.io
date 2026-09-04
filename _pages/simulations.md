@@ -23,6 +23,29 @@ Una simulació pot ajudar a respondre preguntes com:
 
 És important entendre, però, que una simulació no prediu exactament el futur. Representa una possible evolució del foc a partir de les condicions introduïdes al model.
 
+## El model de Rothermel
+
+El 1972, Richard Rothermel va desenvolupar un model matemàtic per estimar la velocitat de propagació d'un incendi de superfície.
+
+La idea fonamental és relativament senzilla: el foc es propaga quan l'energia produïda per la combustió és suficient per escalfar i encendre el combustible que té al davant.
+
+De manera simplificada, el model es pot expressar així:
+
+$$ R = \frac{I_R \cdot \xi \cdot (1+\phi_w+\phi_s)} {\rho_b \cdot \epsilon \cdot Q_{ig}} $$
+
+on R representa la velocitat de propagació del foc.
+
+| Component        | Què representa?                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| **\(I_R\)**      | Energia produïda per la combustió                                                    |
+| **\(\xi\)**      | Fracció de l'energia que contribueix a escalfar el combustible situat davant del foc |
+| **\(\phi_w\)**   | Efecte del vent sobre la propagació                                                  |
+| **\(\phi_s\)**   | Efecte de la pendent                                                                 |
+| **\(\rho_b\)**   | Densitat del llit de combustible                                                     |
+| **\(\epsilon\)** | Proporció del combustible que s'escalfa abans de cremar                              |
+| **\(Q_{ig}\)**   | Energia necessària perquè el combustible arribi a la ignició                         |
+
+> En essència, el model compara l'energia que el foc produeix i transmet cap endavant amb l'energia necessària per encendre el combustible.
 
 ---
 <div class="page-navigation">
