@@ -63,8 +63,6 @@ No tots els animals consumeixen el mateix tipus de vegetació. Les ovelles tende
 El bosc mediterrani va ser també un espai productiu. L'extracció de llenya, la producció de carbó vegetal, el pasturatge i altres aprofitaments forestals contribuïen a mantenir una estructura de vegetació .
 
 
-> No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.
-
 ### Els marges de pedra en sec
 En aquest paisatge agroforestal, els marges de pedra i les marjades exercien també una funció ecològica i territorial rellevant. A més de permetre el cultiu en pendents pronunciats i reduir l’erosió del sòl, aquestes estructures fragmentaven la continuïtat de la vegetació i actuaven com a petites barreres físiques davant la propagació del foc.
 
@@ -73,6 +71,8 @@ Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activita
 <img src="/assets/images/marges.jpg" alt="marges" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Fotografia: marges de pedra en sec Andratx, 2023.*
 
+
+> No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.
 
 ### La cogestió
 Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
