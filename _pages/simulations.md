@@ -12,11 +12,18 @@ header:
 Els incendis forestals són fenòmens complexos en què interactuen constantment la topografia, els combustibles i la meteorologia. Per comprendre com aquestes variables influeixen en la propagació del foc, els investigadors i els serveis de gestió utilitzen models de simulació d'incendis forestals.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/images/area.jpg" alt="Comportament del foc" style="width: 50%; height: auto; border-radius: 6px;">
-  <p style="font-size: 0.85em; font-style: italic; margin-top: 8px; color: #555;">
-    Figura: Representació simplificada del creixement el·líptic d'un incendi. La velocitat de propagació és màxima al cap de l'incendi, disminueix als flancs i és mínima a la cua, generant una àrea cremada de forma aproximadament el·líptica. Adaptada de:[Van Wagner 1969]
+  <img src="/assets/images/area.jpg"
+       alt="Comportament del foc"
+       style="width: 50%; height: auto; border-radius: 6px;">
+
+  <p style="font-size: 0.8em; font-style: italic; margin-top: 8px; color: #555; line-height: 1.4;">
+    Figura: Representació simplificada del creixement el·líptic d'un incendi.
+    La velocitat de propagació és màxima al cap de l'incendi, disminueix als
+    flancs i és mínima a la cua, generant una àrea cremada de forma
+    aproximadament el·líptica. Adaptada de Van Wagner (1969).
   </p>
 </div>
+
 No existeix un únic model capaç de reproduir tots els processos que intervenen en un incendi. Els diferents models de simulació simplifiquen la realitat de maneres diferents segons allò que es vol estudiar.
 
 Podem imaginar-los com una escala de complexitat:
