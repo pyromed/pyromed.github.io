@@ -17,7 +17,7 @@ Generalment es distingeixen dos tipus principals: Interfície i Intermix.
 
 **Interfície:** Els habitatges es concentren en àrees urbanitzades ben definides que limiten directament amb una massa forestal o una zona de vegetació contínua.
 
-<img src="/assets/images/wui_IB.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/wui-IB.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: Urbanirzació a Mallorca
 
 **Interfície:** Els habitatges es troben dispersos dins d'una matriu predominantment forestal o natural. La vegetació i les construccions es troben intercalades
