@@ -81,9 +81,14 @@ Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activita
 > **No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.**
 
 ### La cogestió
-Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
+## La cogestió
 
-> **Hem de reconèixer les Balears com un sistema on l'humà i l'entorn estan estretament vinculats i a on la gestió és una responsabilitat compartida.**
+Atès que gran part del territori de les Illes Balears és de propietat privada i està molt fragmentat en petites parcel·les, la gestió del risc d'incendi no pot recaure únicament sobre l'administració.
+
+La reducció del risc requereix la coordinació entre propietaris, administracions locals, serveis de gestió forestal i comunitats. Les decisions sobre com construïm, gestionam els boscos, mantenim els espais agrícoles o protegim els habitatges formen part d'un mateix sistema.
+
+El següent esquema mostra com diferents decisions i accions poden contribuir conjuntament a reduir el risc de pèrdua d'habitatges davant dels incendis forestals.
+
 ---
 
 <img src="/assets/images/esquema-gestio.jpg" alt="Esquema gestió forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
@@ -99,3 +104,8 @@ Atès que gran part de les Balears és de propietat privada i molt fragmentada e
     El canvi climatic →
   </a>
 </div>
+
+L'objectiu final és reduir el risc de pèrdua d'habitatges. Per aconseguir-ho, cal actuar simultàniament sobre diferents aspectes: reduir l'exposició dels habitatges als incendis, disminuir la probabilitat que aquests es converteixin en grans incendis i augmentar la capacitat de resistència de les construccions.
+
+Aquestes accions no depenen d'un únic actor. La planificació territorial correspon principalment a les administracions locals; la prevenció i la gestió del combustible impliquen els serveis forestals i els propietaris del territori; mentre que la protecció directa dels habitatges és també responsabilitat dels seus propietaris.
+
