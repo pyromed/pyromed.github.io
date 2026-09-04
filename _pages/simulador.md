@@ -327,7 +327,7 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     ← 	Com podem anticipar el comportament d’un incendi?
   </a>
 
-  <a href="/simulador/" class="btn btn--primary">
-    Simulador →
+  <a href="/reaprendre/" class="btn btn--primary">
+    	Reaprendre a conviure amb el foc →
   </a>
 </div>
