@@ -8,23 +8,32 @@ header:
 ---
 
 
-La zona d’interfície urbana-forestal, on habitatges, urbanitzacions i massa forestal entren en contacte directe, representa un dels principals desafiaments en la gestió dels incendis forestals. 
+La zona d’interfície urbana-forestal (WUI, de l'anglès Wildland–Urban Interface),és l'espai on els habitatges, les urbanitzacions i altres infraestructures entren en contacte amb la vegetació natural o forestal. Aquestes zones representen un dels principals desafiaments en la prevenció i gestió dels incendis forestals. 
 
-##  Tipus de WUI
-Hi ha dos tipus distingibles de interfície urbana-forestal: Interfície i Intermix. La diferència entre els dos tipus es basa en la densitat de l'habitatge. Aquesta, té un efecte significatiu en la propagació dels incendis, ja que una major densitat d'habitatges permet que el foc s'estengui més fàcilment.
+
+##  Tipus d'interfície urbana-forestal
+
+Generalment es distingeixen dos tipus principals: Interfície i Intermix. 
+
+**Interfície:** Els habitatges es concentren en àrees urbanitzades ben definides que limiten directament amb una massa forestal o una zona de vegetació contínua.
 
 <img src="/assets/images/wui_IB.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: Urbanirzació a Mallorca
 
-En àrees de major densitat d'habitatge, un foc que s'ha mogut de terra salvatge a una estructura pot llavors estendre's ràpidament entre edificis, creant un “efecte domino.”
+**Interfície:** Els habitatges es troben dispersos dins d'una matriu predominantment forestal o natural. La vegetació i les construccions es troben intercalades
 
-En aquests espais, el foc no només afecta la vegetació, sinó també persones, infraestructures i serveis essencials, 
 
-## fet que incrementa notablement la complexitat de les operacions d’emergència.
+##  Per què són especialment perilloses?
+
+En un incendi que afecta la interfície urbana-forestal, el foc no només afecta la vegetació. La proximitat entre vegetació, habitatges i infraestructures augmenta l'exposició de la població i multiplica la complexitat de les operacions d'emergència.
+
 Els principals factors que dificulten les tasques d’extinció són:
-* **Saturació de la capacitat de resposta:** els equips d’emergència han de coordinar simultàniament la supressió de l’incendi, l’evacuació de la població i la protecció d’habitatges i infraestructures crítiques.
-* **Presència d’elements perillosos:** molts habitatges contenen materials inflamables o potencialment explosius, com bombones de butà, dipòsits de combustible, vehicles o estructures, que poden agreujar la intensitat del foc i augmentar el risc per als bombers.
-* **Elements perillosos a les llars:** Alguns habitatges poden contenir elements explosius, com bombones de butà, o materials que augmenten la transferència de calor, com finestres obertes.
+
+* **Múltiples prioritats simultànies:** els equips d'emergència han de combinar la supressió de l'incendi amb l'evacuació de la població, la protecció d'habitatges i la defensa d'infraestructures crítiques.
+* **Propagació entre estructures:** un incendi pot passar de la vegetació als edificis i, posteriorment, propagar-se entre construccions. Aquest procés pot generar una successió d'ignicions coneguda com a propagació estructural o «efecte dominó».
+* **Exposició a focus secundaris:** les paves i altres materials incandescents poden ser transportats pel vent a grans distàncies i provocar nous focus dins de les urbanitzacions, fins i tot abans que el front principal de l'incendi hi arribi.
+* **Elements combustibles i materials perillosos:** els habitatges poden contenir dipòsits de combustible, vehicles, bombones de gas i altres materials inflamables o potencialment perillosos que augmenten el risc per a les persones i els equips d'emergència.
+* **Accessibilitat limitada:** carrers estrets, carreteres sense sortida o una elevada dispersió dels habitatges poden dificultar tant l'evacuació de la població com l'accés dels vehicles d'emergència.
 
 <img src="/assets/images/interficie.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
 *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ultima Hora*
