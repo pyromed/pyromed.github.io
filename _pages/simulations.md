@@ -15,12 +15,13 @@ No existeix un únic model capaç de reproduir tots els processos que intervenen
 
 Podem imaginar-los com una escala de complexitat:
 
--| Tipus de model              | Què intenta respondre?                                                               |
+| Tipus de model              | Què intenta respondre?                                                               |
 | --------------------------- | ------------------------------------------------------------------------------------ |
 | **Comportament del foc**    | A quina velocitat i en quina direcció es pot propagar?                               |
 | **Creixement de l'incendi** | Com pot evolucionar el perímetre i l'àrea cremada amb el temps?                      |
 | **Propagació al paisatge**  | Com interactua el foc amb la topografia, els combustibles i el territori?            |
 | **Foc i atmosfera**         | Com pot el foc modificar la meteorologia i generar el seu propi comportament extrem? |
+
 
 
 És important entendre, però, que una simulació no prediu exactament el futur. Representa una possible evolució del foc a partir de les condicions introduïdes al model.
