@@ -72,7 +72,7 @@ Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activita
 *Fotografia: marges de pedra en sec Andratx, 2023.*
 
 
-> No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.
+> **No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.**
 
 ### La cogestió
 Atès que gran part de les Balears és de propietat privada i molt fragmentada en petites parcel·les, és fonamental que s'adopti un enfocament de cogestió forestal.
