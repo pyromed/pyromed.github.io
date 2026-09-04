@@ -27,3 +27,15 @@ Temperatura: afavoreix l'assecament dels combustibles.
 Humitat relativa: condiciona la humitat de la vegetació morta.
 Precipitació: incrementa la humitat dels combustibles i pot reduir temporalment la seva inflamabilitat.
 Núvols: poden reduir la radiació solar i modificar la temperatura i la humi
+
+
+---
+<div class="page-navigation">
+  <a href="/regime/" class="btn btn--primary">
+    ← El paper ecològic del foc
+  </a>
+
+  <a href="/behaviour/" class="btn btn--primary">
+    Què determina el comportament d'un incendi? →
+  </a>
+</div>
