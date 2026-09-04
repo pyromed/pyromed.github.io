@@ -320,3 +320,14 @@ Aquest espai cartogràfic interactiu mostra els punts d'ignició i les àrees af
     document.getElementById('critical-elements').innerText = props.critical_elements || "Plantes adaptades a la sequera -> Molt inflamables";
   }
 </script>
+
+---
+<div class="page-navigation">
+  <a href="/simulations/" class="btn btn--primary">
+    ← 	Com podem anticipar el comportament d’un incendi?
+  </a>
+
+  <a href="/simulador/" class="btn btn--primary">
+    Simulador →
+  </a>
+</div>
