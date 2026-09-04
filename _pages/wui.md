@@ -17,9 +17,9 @@ La interfície urbana-forestal representa un continu de configuracions, des d'à
 
 <table>
   <tr>
-    <td style="width: 55%; vertical-align: top; padding-right: 25px; font-size: 17px; line-height: 1.6;">
+    <td style="width: 55%; vertical-align: top; padding-right: 25px; font-size: 20px; line-height: 1.6;">
       
-      <h3 style="font-size: 20px; margin-top: 0;">Interfície</h3>
+      <h3 style="font-size: 25px; margin-top: 0;">Interfície</h3>
 
       <p>Els habitatges es concentren en àrees urbanitzades ben definides que limiten directament amb una massa forestal o una zona de vegetació contínua.</p>
 
