@@ -93,7 +93,7 @@ En els ecosistemes mediterranis, els incendis són especialment freqüents duran
     ← El paper ecològic del foc
   </a>
 
-  <a href="/fuels/" class="btn btn--primary">
-    Els combustibles →
+  <a href="/behaviour/" class="btn btn--primary">
+    Què determina el comportament d'un incendi? →
   </a>
 </div>
