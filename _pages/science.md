@@ -69,15 +69,15 @@ feature_row_projects:
     btn_label: "Explora el simulador"
     btn_class: "btn--primary"
  
-  - image_path: /assets/images/estepa-rebrot.jpg
+  - image_path: /assets/images/marges.jpg
     alt: "adaptacions"
     title: "Reaprendre a conviure"
     url: "/reaprendre/"
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/estepa-rebrot.jpg
-    alt: "adaptacions"
+  - image_path: /assets/images/clima.jpg
+    alt: "hotspots"
     title: "El canvi climatic"
     url: "/clima/"
     btn_label: "Explora"
