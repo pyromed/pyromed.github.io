@@ -47,9 +47,9 @@ La interfície urbana-forestal representa un continu de configuracions, des d'à
   </tr>
 
   <tr>
-    <td style="width: 55%; vertical-align: top; padding-right: 25px; font-size: 17px; line-height: 1.6;">
+    <td style="width: 55%; vertical-align: top; padding-right: 25px; font-size: 20px; line-height: 1.6;">
       
-      <h3 style="font-size: 20px; margin-top: 0;">Intermix</h3>
+      <h3 style="font-size: 25px; margin-top: 0;">Intermix</h3>
 
       <p>Els habitatges es troben dispersos dins d'una matriu predominantment forestal o natural. La vegetació i les construccions es troben intercalades, sense un límit clar entre l'espai urbanitzat i la massa forestal.</p>
 
