@@ -12,11 +12,21 @@ Tot i que el règim de foc descriu els patrons generals dels incendis al llarg d
 <img src="/assets/images/behavior-triangle.jpg" alt="El triangle del comportament del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
 ## Topografia
-- **Pendents pronunciats:** augmenten la velocitat de propagació del foc.
-- **Orientació sud:** generalment presenta temperatures més elevades i menor humitat.
-- **Elevació:** condiciona la temperatura i la precipitació.
-- **Barrancs estrets:** poden afavorir el preescalfament de la vegetació i la propagació de focus secundaris.
-- **Barreres naturals o artificials:** poden interrompre o modificar la propagació del foc.
+La topografia pot modificar significativament la velocitat i la direcció de propagació d'un incendi. En general, el foc es propaga més ràpidament i amb més intensitat pendent amunt.
+
+Això es deu principalment al fet que les flames queden més a prop de la vegetació situada vessant amunt. Aquesta vegetació rep més calor per radiació i convecció, fet que provoca un preescalfament més ràpid del combustible i facilita la seva ignició.
+
+A més, l'aire calent generat per l'incendi tendeix a ascendir pel vessant, creant corrents ascendents que transporten la calor cap als combustibles situats davant del foc. Com més pronunciada és la pendent, més important pot ser aquest efecte.
+
+La topografia també pot generar vents locals. Durant el dia, l'aire calent tendeix a ascendir pels vessants, mentre que durant la nit l'aire refredat i més dens tendeix a descendir cap a les valls.
+
+Els principals elements topogràfics que influeixen en el comportament del foc són:
+
+- **Pendents pronunciats:** com més pronunciada és la pendent, més ràpidament es pot propagar el foc pendent amunt. Les flames es troben més a prop del combustible situat vessant amunt, augmentant la transferència de calor i el preescalfament de la vegetació.
+- **Orientació sud:** els vessants orientats al sud reben més radiació solar a l'hemisferi nord i, generalment, presenten temperatures més elevades i combustibles més secs.
+- **Elevació:** les zones situades a major altitud solen presentar temperatures més baixes i, sovint, una major precipitació i humitat. Aquestes condicions poden modificar la composició de la vegetació, la durada de la temporada d'incendis i la disponibilitat de combustible.
+- **Barrancs estrets:** poden canalitzar el vent i afavorir el preescalfament dels vessants oposats. Això pot accelerar la propagació del foc i incrementar la probabilitat de generar focus secundaris.
+- **Barreres naturals o artificials:** rius, zones rocoses, marges, carreteres o canvis bruscos en la vegetació poden interrompre o limitar temporalment la continuïtat del combustible.
 
 ## Combustible
 - **Humitat:** els combustibles secs s'encenen i cremen més fàcilment.
