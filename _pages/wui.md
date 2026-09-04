@@ -17,11 +17,10 @@ Generalment es distingeixen dos tipus principals: Interfície i Intermix.
 
 **Interfície:** Els habitatges es concentren en àrees urbanitzades ben definides que limiten directament amb una massa forestal o una zona de vegetació contínua.
 
+**Intermix:** Els habitatges es troben dispersos dins d'una matriu predominantment forestal o natural. La vegetació i les construccions es troben intercalades
+
 <img src="/assets/images/wui-IB.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Imatge: Urbanirzació a Mallorca
-
-**Interfície:** Els habitatges es troben dispersos dins d'una matriu predominantment forestal o natural. La vegetació i les construccions es troben intercalades
-
+*Imatge: Urbanització a Mallorca
 
 ##  Per què són especialment perilloses?
 
@@ -30,8 +29,8 @@ En un incendi que afecta la interfície urbana-forestal, el foc no només afecta
 Els principals factors que dificulten les tasques d’extinció són:
 
 * **Múltiples prioritats simultànies:** els equips d'emergència han de combinar la supressió de l'incendi amb l'evacuació de la població, la protecció d'habitatges i la defensa d'infraestructures crítiques.
-* **Propagació entre estructures:** un incendi pot passar de la vegetació als edificis i, posteriorment, propagar-se entre construccions. Aquest procés pot generar una successió d'ignicions coneguda com a propagació estructural o «efecte dominó».
-* **Exposició a focus secundaris:** les paves i altres materials incandescents poden ser transportats pel vent a grans distàncies i provocar nous focus dins de les urbanitzacions, fins i tot abans que el front principal de l'incendi hi arribi.
+* **Propagació entre estructures:** un incendi pot passar de la vegetació als edificis i, posteriorment, propagar-se entre construccions. Aquest procés pot generar una successió d'ignicions o «efecte dominó».
+* **Exposició a focus secundaris:** els materials incandescents poden ser transportats pel vent a grans distàncies i provocar nous focus dins de les urbanitzacions, fins i tot abans que el front principal de l'incendi hi arribi.
 * **Elements combustibles i materials perillosos:** els habitatges poden contenir dipòsits de combustible, vehicles, bombones de gas i altres materials inflamables o potencialment perillosos que augmenten el risc per a les persones i els equips d'emergència.
 * **Accessibilitat limitada:** carrers estrets, carreteres sense sortida o una elevada dispersió dels habitatges poden dificultar tant l'evacuació de la població com l'accés dels vehicles d'emergència.
 
