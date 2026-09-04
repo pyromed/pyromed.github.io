@@ -57,8 +57,8 @@ feature_row_projects:
 
   - image_path: /assets/images/estepa-rebrot.jpg
     alt: "adaptacions"
-    title: "Combustibles"
-    url: "/fuels/"
+    title: "	Què determina el comportament d'un incendi?"
+    url: "/behaviour/"
     btn_label: "Explora"
     btn_class: "btn--primary"
 
