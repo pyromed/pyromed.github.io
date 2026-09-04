@@ -78,9 +78,13 @@ Aquest model de gestió va aconseguir reduir eficaçment molts incendis de petit
 
 ### La paradoxa de l'extinció
 
-La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
+Centrar la major part dels recursos exclusivament en l'extinció pot generar una paradoxa coneguda com la **trampa de l'extinció**.
 
-> **Paradoxalment, la supressió d'incendis forestals assegura l'aparició d'incendis de comportament extrem.**
+Quan els incendis petits són sistemàticament extingits, la vegetació continua acumulant-se i augmenta la continuïtat del combustible al paisatge. Al mateix temps, l'abandonament rural, l'expansió de les zones urbanitzades i el canvi climàtic incrementen progressivament el risc d'incendis.
+
+El resultat és un cercle viciós: com més èxit tenim extingint els incendis en condicions moderades, més combustible pot acumular-se per alimentar futurs incendis sota condicions extremes. Quan coincideixen sequeres, temperatures elevades i vents intensos, aquests grans incendis poden superar la capacitat dels serveis d'extinció.
+
+> **Paradoxalment, intentar extingir tots els incendis pot contribuir, a llarg termini, a crear les condicions que afavoreixen incendis més grans i de comportament més extrem.**
 
 
   <p style="font-size:0.9em; font-style:italic;">
