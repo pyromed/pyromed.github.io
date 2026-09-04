@@ -1,7 +1,7 @@
 ---
-title: "Els combustibles"
+title: "Com podem anticipar el comportament d'un incendi?"
 layout: splash
-permalink: /fuels/
+permalink: /simulations/
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
