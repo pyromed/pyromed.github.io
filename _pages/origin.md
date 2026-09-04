@@ -88,11 +88,10 @@ El resultat és un cercle viciós: com més èxit tenim extingint els incendis e
 
 
   <p style="font-size:0.9em; font-style:italic;">
-    *Bibliografia: Moreira F, Ascoli D, Safford H, et al. 2020. 
+    Bibliografia: Moreira F, Ascoli D, Safford H, et al. 2020. 
     <em>Wildfire Management in Mediterranean-type regions: paradigm change needed.</em> 
-    Environmental Research Letters 15, 011001.*
+    Environmental Research Letters 15, 011001.
   </p>
-</div>
 
 ---
 
