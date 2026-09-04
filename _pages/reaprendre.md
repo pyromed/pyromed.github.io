@@ -68,10 +68,15 @@ En aquest paisatge agroforestal, els marges de pedra i les marjades exercien tam
 
 Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activitats agrícoles tradicionals, moltes marjades han deixat de conservar-se i els murs de pedra seca s’han degradat progressivament, arribant sovint a ensorrar-se total o parcialment. Paral·lelament, l'acumulació de combustible a la base dels marges fan que es vegi reduida la seva capacitat per limitar la propagació de les flames.
 
-<img src="/assets/images/marges.jpg" alt="marges" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Fotografia: marges de pedra en sec Andratx, 2023.*
+<div style="margin-bottom: 40px;">
+  <img src="/assets/images/marges.jpg"
+       alt="marges"
+       style="width:100%; border-radius:6px; margin: 15px 0 5px 0;">
 
-
+  <p style="font-size: 0.8em; font-style: italic; color: #555;">
+    Fotografia: marges de pedra en sec, Andratx, 2023.
+  </p>
+</div>
 > **No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.**
 
 ### La cogestió
