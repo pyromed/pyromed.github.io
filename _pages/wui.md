@@ -13,49 +13,64 @@ La zona d’interfície urbana-forestal (WUI, de l'anglès Wildland–Urban Inte
 
 ##  Tipus d'interfície urbana-forestal
 
-Generalment es distingeixen dos tipus principals: Interfície i Intermix. 
+La interfície urbana-forestal representa un continu de configuracions, des d'àrees urbanitzades compactes situades al límit del bosc fins a habitatges dispersos dins d'una matriu forestal. Dins d'aquest continu, se solen distingir dos extrems principals: la interfície i l'intermix.
 
 <table>
   <tr>
-    <td style="width: 55%; vertical-align: top; padding-right: 20px;">
-      <h3>Interfície</h3>
+    <td style="width: 55%; vertical-align: top; padding-right: 25px; font-size: 17px; line-height: 1.6;">
+      
+      <h3 style="font-size: 20px; margin-top: 0;">Interfície</h3>
 
       <p>Els habitatges es concentren en àrees urbanitzades ben definides que limiten directament amb una massa forestal o una zona de vegetació contínua.</p>
 
       <p>En aquest tipus de configuració, existeix un límit relativament clar entre l'espai urbanitzat i la vegetació forestal.</p>
+
     </td>
 
     <td style="width: 45%; vertical-align: top;">
+      
       <img src="/assets/images/wui-IB.jpg"
            alt="Interfície urbana forestal"
            style="width: 100%; height: auto; display: block; border-radius: 6px;">
 
-      <p style="font-size: 0.85em; font-style: italic; margin-top: 10px; color: #555; line-height: 1.4;">
+      <p style="font-size: 0.9em; font-style: italic; margin-top: 10px; color: #555; line-height: 1.4;">
         Imatge: Urbanització a Mallorca.
       </p>
+
     </td>
   </tr>
 
   <tr>
-    <td style="width: 55%; vertical-align: top; padding-right: 20px; padding-top: 30px;">
-      <h3>Intermix</h3>
+    <td colspan="2" style="padding: 20px 0 5px;">
+      <hr style="border: 0; border-top: 1px solid #ccc;">
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width: 55%; vertical-align: top; padding-right: 25px; font-size: 17px; line-height: 1.6;">
+      
+      <h3 style="font-size: 20px; margin-top: 0;">Intermix</h3>
 
       <p>Els habitatges es troben dispersos dins d'una matriu predominantment forestal o natural. La vegetació i les construccions es troben intercalades, sense un límit clar entre l'espai urbanitzat i la massa forestal.</p>
 
       <p>Aquesta configuració pot dificultar les tasques d'evacuació i extinció, ja que les infraestructures i els habitatges es distribueixen per tot el paisatge.</p>
+
     </td>
 
-    <td style="width: 45%; vertical-align: top; padding-top: 30px;">
+    <td style="width: 45%; vertical-align: top;">
+      
       <img src="/assets/images/intermix.jpg"
            alt="Intermix"
            style="width: 100%; height: auto; display: block; border-radius: 6px;">
 
-      <p style="font-size: 0.85em; font-style: italic; margin-top: 10px; color: #555; line-height: 1.4;">
+      <p style="font-size: 0.9em; font-style: italic; margin-top: 10px; color: #555; line-height: 1.4;">
         Imatge: Cases disperses a la Serra de Tramuntana, Mallorca.
       </p>
+
     </td>
   </tr>
 </table>
+
 ##  Per què són especialment perilloses?
 
 En un incendi que afecta la interfície urbana-forestal, el foc no només afecta la vegetació. La proximitat entre vegetació, habitatges i infraestructures augmenta l'exposició de la població i multiplica la complexitat de les operacions d'emergència.
