@@ -10,6 +10,8 @@ header:
 
 Com que la supressió total dels incendis forestals no és viable ni ecològicament desitjable, hem de passar de la visió de la "simple extinció" a una visió d'adaptació i gestió del territori. Cal aprendre a conviure amb el foc compatible amb el bosc mediterrani.
 
+> **Reaprendre a conviure amb el foc implica entendre que els paisatges mediterranis han estat, durant mil·lennis, el resultat de la interacció entre processos naturals i activitat humana.**
+
 ## Què és un tractament de combustible forestal?
 
 La gestió dels combustibles forestals és una de les principals eines per reduir el risc d'incendis de gran intensitat i augmentar la resiliència dels boscos davant del foc.
@@ -43,14 +45,27 @@ L'elecció d'una estratègia o una altra depèn de les característiques del ter
 
 Els paisatges tradicionals de les Illes Balears no estaven formats per grans extensions contínues de vegetació forestal. Els conreus, les pastures i els boscos formaven un mosaic que fragmentava la continuïtat del combustible.
 
-La recuperació de 
+### Agricultura i recuperació dels conreus
 
-- Usos foretals: Durant segles, el bosc mediterrani va ser un espai productiu. L'extracció de llenya i altres aprofitaments forestals contribuïen a mantenir una estructura de vegetació diferent de l'actual.
-- Ramaderia extensiva: la ramaderia extensiva va contribuir a mantenir oberts molts paisatges mediterranis. El pasturatge reduïa de manera continuada la biomassa vegetal, especialment les herbes, els rebrots i part de la vegetació arbustiva, limitant així la quantitat i la continuïtat del combustible.
-- l'activitat agrària tradicional també pot contribuir a la prevenció d'incendis, especialment mitjançant el manteniment d'espais oberts i conreus de secà adaptats al territori.
+Els camps cultivats poden actuar com a discontinuïtats dins del paisatge i limitar la continuïtat de la vegetació combustible. La recuperació i el manteniment de conreus tradicionals, com els oliverars, garroverars, ametllerars o altres cultius de secà, pot contribuir a mantenir un paisatge més divers i heterogeni.
+
+### Ramaderia extensiva
+
+Durant segles, la ramaderia extensiva va contribuir a mantenir oberts molts paisatges mediterranis. El pasturatge reduïa de manera continuada la biomassa vegetal, especialment les herbes, els rebrots i part de la vegetació arbustiva, limitant així la quantitat i la continuïtat del combustible.
+
+La ramaderia pot actuar com una forma de gestió contínua de la vegetació, complementària als tractaments mecànics i a la crema prescrita.
+
+No tots els animals consumeixen el mateix tipus de vegetació. Les ovelles tendeixen a consumir principalment vegetació herbàcia, mentre que les cabres poden aprofitar una major proporció d'arbustos i vegetació llenyosa. Altres herbívors, com els ases, també poden contribuir al manteniment d'espais oberts.
+
+
+### Recuperar els usos forestals
+
+El bosc mediterrani va ser també un espai productiu. L'extracció de llenya, la producció de carbó vegetal, el pasturatge i altres aprofitaments forestals contribuïen a mantenir una estructura de vegetació .
+
 
 > No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.
-> 
+
+### Els marges de pedra en sec
 En aquest paisatge agroforestal, els marges de pedra i les marjades exercien també una funció ecològica i territorial rellevant. A més de permetre el cultiu en pendents pronunciats i reduir l’erosió del sòl, aquestes estructures fragmentaven la continuïtat de la vegetació i actuaven com a petites barreres físiques davant la propagació del foc.
 
 Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activitats agrícoles tradicionals, moltes marjades han deixat de conservar-se i els murs de pedra seca s’han degradat progressivament, arribant sovint a ensorrar-se total o parcialment. Paral·lelament, l'acumulació de combustible a la base dels marges fan que es vegi reduida la seva capacitat per limitar la propagació de les flames.
