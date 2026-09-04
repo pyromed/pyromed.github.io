@@ -8,7 +8,7 @@ header:
 ---
 
 
-La zona d’interfície urbana-forestal (WUI, de l'anglès Wildland–Urban Interface),és l'espai on els habitatges, les urbanitzacions i altres infraestructures entren en contacte amb la vegetació natural o forestal. Aquestes zones representen un dels principals desafiaments en la prevenció i gestió dels incendis forestals. 
+La zona d’interfície urbana-forestal (WUI, de l'anglès Wildland–Urban Interface), és l'espai on els habitatges, les urbanitzacions i altres infraestructures entren en contacte amb la vegetació natural o forestal. Aquestes zones representen un dels principals desafiaments en la prevenció i gestió dels incendis forestals. 
 
 
 ##  Tipus d'interfície urbana-forestal
