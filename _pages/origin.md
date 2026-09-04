@@ -59,8 +59,16 @@ new juxtapose.JXSlider('#foo',
 
 Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosionant el coneixement ecològic i cultural associat a la gestió del foc i del territori.
 
+### El canvi cap a la supressió del foc
+
+Paral·lelament a l'abandonament rural i a l'expansió de les masses forestals, es va consolidar a Espanya un nou model de gestió basat principalment en la prevenció i l'extinció dels incendis forestals.
+
+La Llei d'incendis forestals de 1968 va establir per primera vegada un marc específic per a la lluita contra els incendis. Durant les dècades següents, la creació de l'ICONA, la incorporació de mitjans aeris —els primers avions amfibis Canadair van arribar a Espanya el 1971— i el desenvolupament de plans coordinats d'emergència van consolidar progressivament un sistema orientat a detectar i extingir els incendis tan aviat com fos possible.
+
+Aquest model va aconseguir reduir eficaçment molts incendis de petita i mitjana extensió. Però la supressió continuada dels focs també pot tenir conseqüències inesperades sobre determinats ecosistemes.
 
 ### La paradoxa de l'extinció
+
 La supressió dels incendis forestals no és viable, ni ecològicamente desitjable, com afirmen diversos experts en la matèria (Moreira et al., 2020).
 
 > **Paradoxalment, la supressió d'incendis forestals assegura l'aparició d'incendis de comportament extrem.**
