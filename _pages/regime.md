@@ -29,6 +29,9 @@ Depenent d'on estigui cremant el combustible, podem distingir:
 * Foc subterrani:*  crema lentament les capes orgàniques situades sota la superfície del sòl, com la torba.
 * Foc de superfície:*  crema la vegetació situada sobre el sòl, incloent-hi la fullaraca, les herbes, els arbusts i les petites branques.
 * Foc de capçades:*  el foc arriba a les copes dels arbres i es propaga a través de la vegetació arbòria.
+
+<img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+
 ---
 ### Freqüència
 
