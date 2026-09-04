@@ -16,7 +16,7 @@ La topografia pot modificar significativament la velocitat i la direcció de pro
 
 Això es deu principalment al fet que les flames queden més a prop de la vegetació situada vessant amunt. Aquesta vegetació rep més calor per radiació i convecció, fet que provoca un preescalfament més ràpid del combustible i facilita la seva ignició.
 
-<img src="/assets/images/topografia.png" alt="Propagació en pendent" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/topografia.jpg" alt="Propagació en pendent" style="width:100%; border-radius:6px; margin: 15px 0;">
 <p style="font-size: 0.85em; font-style: italic; color: #555; text-align: center;">
   Figura: Representació esquemàtica de la propagació d'un incendi pendent amunt. Imatge generada amb intel·ligència artificial.
 </p>
