@@ -35,7 +35,7 @@ Primer, el model de Rothermel estima la velocitat de propagació del foc a parti
 
 Després, aquesta velocitat s'utilitza per representar com podria créixer espacialment l'incendi al llarg del temps.
 
-L'objectiu no és predir exactament què farà un incendi real, sinó explorar com diferents condicions poden modificar el seu comportament.
+> L'objectiu no és predir exactament què farà un incendi real, sinó explorar com diferents condicions poden modificar el seu comportament.
 ---
 <div class="page-navigation">
   <a href="/behaviour/" class="btn btn--primary">
