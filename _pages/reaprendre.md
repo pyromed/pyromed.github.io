@@ -77,6 +77,7 @@ Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activita
     Fotografia: marges de pedra en sec, Andratx, 2023.
   </p>
 </div>
+
 > **No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.**
 
 ### La cogestió
