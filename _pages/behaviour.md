@@ -69,7 +69,7 @@ Els principals factors meteorològics són:
     ← Règims d'incendi
   </a>
 
-  <a href="/behaviour/" class="btn btn--primary">
-    Què determina el comportament d'un incendi? →
+  <a href="/simulations/" class="btn btn--primary">
+    Com podem anticipar el comportament d'un incendi? →
   </a>
 </div>
