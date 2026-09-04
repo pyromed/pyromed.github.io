@@ -11,69 +11,31 @@ header:
 
 Els incendis forestals són fenòmens complexos en què interactuen constantment la topografia, els combustibles i la meteorologia. Per comprendre com aquestes variables influeixen en la propagació del foc, els investigadors i els serveis de gestió utilitzen models de simulació d'incendis forestals.
 
-Aquests models utilitzen equacions matemàtiques per representar els processos físics que intervenen en la propagació del foc i permeten estimar com podria comportar-se un incendi sota unes condicions determinades.
+No existeix un únic model capaç de reproduir tots els processos que intervenen en un incendi. Els diferents models de simulació simplifiquen la realitat de maneres diferents segons allò que es vol estudiar.
 
-Una simulació pot ajudar a respondre preguntes com:
+Podem imaginar-los com una escala de complexitat:
 
-- A quina velocitat es podria propagar el foc?
-- En quina direcció avançaria?
-- Com canviaria el comportament de l'incendi si augmenta el vent?
-- Què passa quan el foc arriba a una zona amb una pendent més pronunciada?
-- Com influeix la humitat o el tipus de combustible en la propagació?
+-| Tipus de model              | Què intenta respondre?                                                               |
+| --------------------------- | ------------------------------------------------------------------------------------ |
+| **Comportament del foc**    | A quina velocitat i en quina direcció es pot propagar?                               |
+| **Creixement de l'incendi** | Com pot evolucionar el perímetre i l'àrea cremada amb el temps?                      |
+| **Propagació al paisatge**  | Com interactua el foc amb la topografia, els combustibles i el territori?            |
+| **Foc i atmosfera**         | Com pot el foc modificar la meteorologia i generar el seu propi comportament extrem? |
+
 
 És important entendre, però, que una simulació no prediu exactament el futur. Representa una possible evolució del foc a partir de les condicions introduïdes al model.
 
-## El model de Rothermel
+> Com més processos intentem representar, més complex és el model i més informació i capacitat de càlcul necessita.
 
-El 1972, Richard Rothermel va desenvolupar un model matemàtic per estimar la velocitat de propagació d'un incendi de superfície.
+## Un model simplificat
 
-La idea fonamental és relativament senzilla: el foc es propaga quan l'energia produïda per la combustió és suficient per escalfar i encendre el combustible que té al davant.
+El simulador que trobaràs a continuació utilitza una aproximació simplificada per representar el creixement d'un incendi.
 
-De manera simplificada, el model es pot expressar així:
+Primer, el model de Rothermel estima la velocitat de propagació del foc a partir de característiques com el combustible, el vent i la pendent.
 
-$$ R = \frac{I_R \cdot \xi \cdot (1+\phi_w+\phi_s)} {\rho_b \cdot \epsilon \cdot Q_{ig}} $$
+Després, aquesta velocitat s'utilitza per representar com podria créixer espacialment l'incendi al llarg del temps.
 
-on R representa la velocitat de propagació del foc.
-
-| Component        | Què representa?                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------ |
-| **\(I_R\)**      | Energia produïda per la combustió                                                    |
-| **\(\xi\)**      | Fracció de l'energia que contribueix a escalfar el combustible situat davant del foc |
-| **\(\phi_w\)**   | Efecte del vent sobre la propagació                                                  |
-| **\(\phi_s\)**   | Efecte de la pendent                                                                 |
-| **\(\rho_b\)**   | Densitat del llit de combustible                                                     |
-| **\(\epsilon\)** | Proporció del combustible que s'escalfa abans de cremar                              |
-| **\(Q_{ig}\)**   | Energia necessària perquè el combustible arribi a la ignició                         |
-
-> En essència, el model compara l'energia que el foc produeix i transmet cap endavant amb l'energia necessària per encendre el combustible.
-
-
-## Els models de combustible
-
-Els models de combustible agrupen diferents tipus de vegetació segons les seves característiques i la manera com poden influir en la propagació d'un incendi.
-
-Cada model descriu, entre altres característiques:
-
-- la quantitat de combustible disponible;
-- la mida de les partícules de combustible;
-- la proporció de combustibles vius i morts;
-- la compactació i distribució del combustible;
-- l'alçada i estructura de la vegetació;
-- la càrrega de combustible.
-
-Aquesta informació permet transformar un paisatge complex en una sèrie de variables que poden ser utilitzades pel model matemàtic.
-
-> Un model de combustible no descriu exactament una espècie vegetal concreta, sinó una combinació de característiques del combustible que pot produir un determinat comportament del foc.
-
-## Com podem estimar l'àrea cremada?
-
-Per simular l'expansió espacial d'un incendi, una aproximació habitual consisteix a representar el perímetre del foc com una el·lipse.
-
-Per què una el·lipse?
-
-Quan el foc es propaga sota la influència del vent o de la pendent, no avança igual en totes les direccions. El foc tendeix a avançar més ràpidament en la direcció principal de propagació, mentre que la velocitat disminueix progressivament cap als flancs i la part posterior.
-
-Per aquest motiu, molts models simplificats representen el creixement d'un incendi amb una forma el·líptica.
+L'objectiu no és predir exactament què farà un incendi real, sinó explorar com diferents condicions poden modificar el seu comportament.
 ---
 <div class="page-navigation">
   <a href="/behaviour/" class="btn btn--primary">
