@@ -80,7 +80,7 @@ Aquesta funció depèn del seu manteniment. Amb l’abandonament de les activita
 
 > **No es tracta de recuperar exactament les pràctiques del passat, sinó d'aprendre de la manera com aquestes activitats modificaven la continuïtat i l'estructura del paisatge.**
 
-### La cogestió
+
 ## La cogestió
 
 Atès que gran part del territori de les Illes Balears és de propietat privada i està molt fragmentat en petites parcel·les, la gestió del risc d'incendi no pot recaure únicament sobre l'administració.
@@ -90,9 +90,16 @@ La reducció del risc requereix la coordinació entre propietaris, administracio
 El següent esquema mostra com diferents decisions i accions poden contribuir conjuntament a reduir el risc de pèrdua d'habitatges davant dels incendis forestals.
 
 ---
-<div style="margin-bottom: 40px;">
-<img src="/assets/images/esquema-gestio.jpg" alt="Esquema gestió forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
-*Figura: Model conceptual que destaca els principals objectius i les accions per reduir el risc de pèrdua d'habitatge com a conseqüència d'incendis forestals. Figura adaptada de: Calkin DE, Cohen J.D., Finney M.A., Thompson M.P. 2013.*
+<div style="margin: 20px 0 40px 0;">
+  <img 
+    src="/assets/images/esquema-gestio.jpg" 
+    alt="Model conceptual de gestió del risc d'incendis forestals" 
+    style="width:100%; border-radius:6px; display:block;"
+  >
+
+  <p style="font-size:0.8em; font-style:italic; color:#555; line-height:1.4; margin-top:8px;">
+    Figura: Model conceptual dels principals objectius, accions i actors implicats en la reducció del risc de pèrdua d'habitatges com a conseqüència dels incendis forestals. Adaptada de Calkin, D.E., Cohen, J.D., Finney, M.A. i Thompson, M.P. (2013).
+  </p>
 </div>
 
 L'objectiu final és reduir el risc de pèrdua d'habitatges. Per aconseguir-ho, cal actuar simultàniament sobre diferents aspectes: reduir l'exposició dels habitatges als incendis, disminuir la probabilitat que aquests es converteixin en grans incendis i augmentar la capacitat de resistència de les construccions.
