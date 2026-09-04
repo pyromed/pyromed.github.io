@@ -9,7 +9,7 @@ header:
 
 Tot i que el règim de foc descriu els patrons generals dels incendis al llarg del temps, el comportament de cada incendi individual depèn principalment de la interacció entre la topografia, els combustibles i les condicions meteorològiques.
 
-<img src="/assets/images/behavior-triangle.jpg" alt="El triangle del comportament del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/behavior_triangle.jpg" alt="El triangle del comportament del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
 ## Topografia
 La topografia pot modificar significativament la velocitat i la direcció de propagació d'un incendi. En general, el foc es propaga més ràpidament i amb més intensitat pendent amunt.
