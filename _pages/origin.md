@@ -63,7 +63,16 @@ Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosiona
 
 Paral·lelament a l'abandonament rural i a l'expansió de les masses forestals, es va consolidar a Espanya un nou model de gestió basat principalment en la prevenció i l'extinció dels incendis forestals.
 
-La Llei d'incendis forestals de 1968 va establir per primera vegada un marc específic per a la lluita contra els incendis. Durant les dècades següents, la creació de l'ICONA, la incorporació de mitjans aeris —els primers avions amfibis Canadair van arribar a Espanya el 1971— i el desenvolupament de plans coordinats d'emergència van consolidar progressivament un sistema orientat a detectar i extingir els incendis tan aviat com fos possible.
+La Llei d'incendis forestals de 1968 va establir per primera vegada un marc específic per a la lluita contra els incendis. Durant les dècades següents, la creació de l'ICONA, la incorporació de mitjans aeris i el desenvolupament de plans coordinats d'emergència van consolidar progressivament un sistema orientat a detectar i extingir els incendis tan aviat com fos possible.
+
+<img src="/assets/images/canadair.jpg" 
+     alt="hidroavió" 
+     style="width:100%; border-radius:6px; margin: 15px 0;">
+
+<p style="font-size:0.9em; color:#666; margin-top:-5px;">
+<em>Fotografia: els primers avions amfibis Canadair van arribar a Espanya el 1971. Font: (https://www.defensa.gob.es/).</em>
+</p>
+
 
 Aquest model va aconseguir reduir eficaçment molts incendis de petita i mitjana extensió. Però la supressió continuada dels focs també pot tenir conseqüències inesperades sobre determinats ecosistemes.
 
