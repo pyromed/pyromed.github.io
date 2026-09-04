@@ -48,7 +48,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
- - image_path: /assets/images/behavior_triangle.jpg
+  - image_path: /assets/images/behavior_triangle.jpg
     alt: "el triangle del comportamnet del foc"
     title: "Què determina el comportament d'un incendi?"
     url: "/behaviour/"
