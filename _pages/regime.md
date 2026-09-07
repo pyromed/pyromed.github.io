@@ -80,7 +80,7 @@ Un mateix incendi pot tenir diferents nivells de severitat en diferents parts de
 | **Alta**     | Elevada mortalitat de la vegetació i alteracions importants de les propietats físiques, químiques i biològiques del sòl. |
 
 > La intensitat descriu el comportament del foc, mentre que la severitat descriu els seus efectes.
->
+
 ---
 ### Estacionalitat
 
