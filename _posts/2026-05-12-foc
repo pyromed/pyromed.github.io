@@ -6,6 +6,6 @@ Per començar aquest nou espai de **Ciència per a tothom**, explorem els foname
 
 Perquè per entendre els incendis forestals, primer hem d'entendre el foc.
 
-<a href="{{ '/science/que-es-un-foc/' | relative_url }}" class="btn btn--primary">
+<a href="{{ '/science/que-es-un-foc/' | fire }}" class="btn btn--primary">
   Llegeix l'article complet
 </a>
