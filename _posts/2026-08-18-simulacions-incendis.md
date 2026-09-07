@@ -14,6 +14,6 @@ En aquest nou contingut de **Ciència per a tothom**, explorem com podem anticip
 
 
 
-<a href="{{ '/simulacions/' | relative_url }}" class="btn btn--primary">
+<a href="{{ '/simulations/' | relative_url }}" class="btn btn--primary">
   Llegeix l'article complet
 </a>
