@@ -13,8 +13,11 @@ El clima de la Terra sempre ha canviat. Al llarg de milions d'anys, les temperat
 
 El canvi climàtic actual, però, és diferent. La rapidesa i la magnitud dels canvis observats des de la Revolució Industrial estan principalment relacionades amb l'activitat humana.
 
-La crema de combustibles fòssils, la desforestació i altres activitats humanes han augmentat la concentració de gasos amb efecte d'hivernacle a l'atmosfera, provocant un escalfament global del planeta.
+Les activitats humanes, especialment la crema de combustibles fòssils, com el carbó, el gas natural i el petroli, per produir energia, per alimentar vehicles, indústries i habitatges, alliberen diòxid de carboni i altres gasos d'efecte hivernacle a l'atmosfera. Altres activitats, com la desforestació i la ramaderia, també contribueixen a l'emissió de gasos d'efecte hivernacle.
 
+Aquests gasos d'efecte hivernacle es troben de manera natural a l'atmosfera i contribueixen a mantenir la superfície de la Terra prou càlida per permetre la vida. Sense els gasos d'efecte hivernacle, la temperatura mitjana de la Terra seria d'uns **−18 °C**, en lloc dels aproximadament **14,6 °C** actuals.
+
+L'augment de la concentració d'aquests gasos a l'atmosfera fa que es retingui més calor a la Terra, provocant un increment de la temperatura global
 
 ## El Mediterrani: un punt calent del canvi climàtic
 
