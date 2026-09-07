@@ -95,7 +95,7 @@ T'ha quedat algun dubte? Vols aprofundir en algun dels temes que tractem o tens 
 
 Escriu-nos i ajuda'ns a fer créixer aquest espai de divulgació científica.
 
-[Posa't en contacte amb nosaltres →]
+**Posa't en contacte amb nosaltres**
 📧 [info@pyromed.eu](mailto:info@pyromed.eu)
 
 <div class="notice" markdown="1">
