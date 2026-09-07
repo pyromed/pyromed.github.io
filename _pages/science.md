@@ -43,7 +43,7 @@ feature_row_projects:
 
   - image_path: /assets/images/mosaic-biodiversitat.jpg
     alt: "mosaic"
-    title: "Regim incendis"
+    title: "Règim d'incendis"
     url: "/regime/"
     btn_label: "Explora"
     btn_class: "btn--primary"
