@@ -41,9 +41,9 @@ De manera general, els règims de foc es poden classificar com:
 
 | Interval aproximat entre incendis | Règim de foc |
 | --------------------------------- | ------------ |
-| **0–35 anys**                     | Freqüent     |
-| **35–200 anys**                   | Mixt         |
-| **Més de 200 anys**               | Infreqüent   |
+| 0–35 anys                     | Freqüent     |
+| 35–200 anys                   | Mixt         |
+| Més de 200 anys               | Infreqüent   |
 
 ---
 ### Extensió
