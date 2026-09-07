@@ -6,6 +6,6 @@ Per començar aquest nou espai de **Ciència per a tothom**, explorem els foname
 
 Perquè per entendre els incendis forestals, primer hem d'entendre el foc.
 
-👉 Descobreix-ho a PyroMED: [enllaç]
-
-#CiènciaPerATothom #Foc #IncendisForestals #PyroMED
+<a href="{{ '/science/que-es-un-foc/' | relative_url }}" class="btn btn--primary">
+  Llegeix l'article complet
+</a>
