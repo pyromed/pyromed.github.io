@@ -95,7 +95,8 @@ T'ha quedat algun dubte? Vols aprofundir en algun dels temes que tractem o tens 
 
 Escriu-nos i ajuda'ns a fer créixer aquest espai de divulgació científica.
 
-[Posa't en contacte amb nosaltres →](mailto:info@pyromed.eu)
+[Posa't en contacte amb nosaltres →]
+📧 [info@pyromed.eu](mailto:info@pyromed.eu)
 
 <div class="notice" markdown="1">
 Aquest espai, així com part dels continguts que s'hi presenten, han estat possibles gràcies al suport del programa postdoctoral Vicenç Mut del Govern de les Illes Balears (CAIB).
