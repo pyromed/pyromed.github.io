@@ -35,9 +35,19 @@ El canvi climàtic actual, però, és diferent. La temperatura global està augm
 
 Les activitats humanes, especialment la crema de combustibles fòssils, com el carbó, el gas natural i el petroli, per produir energia, per alimentar vehicles, indústries i habitatges, alliberen diòxid de carboni i altres gasos d'efecte hivernacle a l'atmosfera (GEH). Altres activitats, com la desforestació i la ramaderia, també contribueixen a l'emissió de gasos d'efecte hivernacle.
 
-Aquests gasos d'efecte hivernacle es troben de manera natural a l'atmosfera i contribueixen a mantenir la superfície de la Terra prou càlida per permetre la vida. Sense els gasos d'efecte hivernacle, la temperatura mitjana de la Terra seria d'uns **−18 °C**, en lloc dels aproximadament **14,6 °C** actuals.
+Aquests gasos d'efecte hivernacle es troben de manera natural a l'atmosfera i contribueixen a mantenir la superfície de la Terra prou càlida per permetre la vida. Sense els gasos d'efecte hivernacle, la temperatura mitjana de la Terra seria d'uns **−18 °C**, en lloc dels aproximadament **14,6 °C** actuals. L'augment de la concentració d'aquests gasos a l'atmosfera fa que es retingui més calor a la Terra, provocant un increment de la temperatura global
 
-L'augment de la concentració d'aquests gasos a l'atmosfera fa que es retingui més calor a la Terra, provocant un increment de la temperatura global
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/GHG.jpg" 
+       alt="L’efecte hivernacle" 
+       style="width: 100%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+   Els gasos d’efecte hivernacle (GEH) absorbeixen part de la calor irradiada per la superfície i en reemeten una part cap a l’espai i una altra cap a la superfície. Quan augmenta la concentració de GEH a l’atmosfera, aquest efecte s’intensifica: una menor proporció de calor escapa a l’espai i una major quantitat és retinguda pel sistema climàtic.
+  </em>
+</p>
+</div>
+
 
 ## El Mediterrani: un punt calent del canvi climàtic
 
