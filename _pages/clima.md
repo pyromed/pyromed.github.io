@@ -33,7 +33,7 @@ El canvi climàtic actual, però, és diferent. La temperatura global està augm
 </p>
 </div>
 
-Les activitats humanes, especialment la crema de combustibles fòssils, com el carbó, el gas natural i el petroli, per produir energia, per alimentar vehicles, indústries i habitatges, alliberen diòxid de carboni i altres gasos d'efecte hivernacle a l'atmosfera. Altres activitats, com la desforestació i la ramaderia, també contribueixen a l'emissió de gasos d'efecte hivernacle.
+Les activitats humanes, especialment la crema de combustibles fòssils, com el carbó, el gas natural i el petroli, per produir energia, per alimentar vehicles, indústries i habitatges, alliberen diòxid de carboni i altres gasos d'efecte hivernacle a l'atmosfera (GEH). Altres activitats, com la desforestació i la ramaderia, també contribueixen a l'emissió de gasos d'efecte hivernacle.
 
 Aquests gasos d'efecte hivernacle es troben de manera natural a l'atmosfera i contribueixen a mantenir la superfície de la Terra prou càlida per permetre la vida. Sense els gasos d'efecte hivernacle, la temperatura mitjana de la Terra seria d'uns **−18 °C**, en lloc dels aproximadament **14,6 °C** actuals.
 
