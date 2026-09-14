@@ -13,6 +13,17 @@ El clima de la Terra sempre ha canviat. Al llarg de milions d'anys, les temperat
 
 El canvi climàtic actual, però, és diferent. La temperatura global està augmentant a una velocitat excepcionalment ràpida, i l’escalfament observat des de la Revolució Industrial no es pot explicar únicament per factors naturals. Les evidències mostren que l’activitat humana n’és la causa principal.
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/temps.jpg" alt="El clima de la Terra" style="width: 50%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; font-style: italic; margin-top: 8px; color: #555;">
+    Imatge: El clima de la Terra ha canviat al llarg de la seva història, però l’escalfament actual és diferent.
+
+El panell (a) mostra que la temperatura global ha variat naturalment al llarg dels darrers mil·lennis. Fa uns 6.500 anys es va produir el període pluricentenari més càlid dels darrers 100.000 anys.
+
+Però el que observem avui destaca per la rapidesa de l’escalfament. El panell (b) mostra que les simulacions que només consideren factors naturals —com l’activitat solar i volcànica— no reprodueixen l’augment de temperatura observat durant les darreres dècades. En canvi, quan s’hi incorporen els factors humans, les simulacions s’ajusten molt millor a les observacions.. Adaptada de:[’IPCC (AR6, 2021)]
+  </p>
+</div>
+
 Les activitats humanes, especialment la crema de combustibles fòssils, com el carbó, el gas natural i el petroli, per produir energia, per alimentar vehicles, indústries i habitatges, alliberen diòxid de carboni i altres gasos d'efecte hivernacle a l'atmosfera. Altres activitats, com la desforestació i la ramaderia, també contribueixen a l'emissió de gasos d'efecte hivernacle.
 
 Aquests gasos d'efecte hivernacle es troben de manera natural a l'atmosfera i contribueixen a mantenir la superfície de la Terra prou càlida per permetre la vida. Sense els gasos d'efecte hivernacle, la temperatura mitjana de la Terra seria d'uns **−18 °C**, en lloc dels aproximadament **14,6 °C** actuals.
