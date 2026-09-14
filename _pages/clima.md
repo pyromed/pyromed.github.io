@@ -18,10 +18,6 @@ Per això, un dia fred no contradiu el canvi climàtic. El temps meteorològic p
 
 ## Què és el canvi climàtic?
 
-El clima de la Terra sempre ha canviat. Al llarg de milions d'anys, les temperatures, les precipitacions i la composició de l'atmosfera han variat de manera natural.
-
-El canvi climàtic actual, però, és diferent. La temperatura global està augmentant a una velocitat excepcionalment ràpida, i l’escalfament observat des de la Revolució Industrial no es pot explicar únicament per factors naturals. Les evidències mostren que l’activitat humana n’és la causa principal.
-
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/temps.jpg" 
        alt="Història del canvi de la temperatura global i causes de l’escalfament recent" 
@@ -34,9 +30,9 @@ El canvi climàtic actual, però, és diferent. La temperatura global està augm
 </p>
 </div>
 
-El panell (a) mostra que la temperatura global ha variat naturalment al llarg dels darrers mil·lennis. Fa uns 6.500 anys es va produir el període pluricentenari més càlid dels darrers 100.000 anys.
+El clima de la Terra no és constant. Al llarg de milions d'anys, les temperatures, les precipitacions i la composició de l'atmosfera han variat de manera natural. Les variacions en temperatura, per exemple, poden estar relacionades a factors externs, com l’activitat solar o les erupcions volcàniques, però també a oscil·lacions internes del sistema climàtic, especialment en la interacció entre l’atmosfera i els oceans. Aquestes variacions es produeixen a diferents escales temporals, des de dècades fins a segles i mil·lennis. El panell (a) de la figura mostra que la temperatura global ha variat naturalment al llarg dels darrers mil·lennis. Els registres paleoclimàtics ens permeten reconstruir aquesta variabilitat passada i identificar períodes climàtics, com el Període Càlid Medieval, un periode relativament calent aproximadament entre els anys 900 i 1200 o La Petita Edat de Gel (~1300–1850), un període de refredament relatiu que va afectar especialment algunes regions de l’hemisferi nord.
 
-Però el que observem avui destaca per la rapidesa de l’escalfament. El panell (b) mostra que les simulacions que només consideren factors naturals, com l’activitat solar i volcànica, no reprodueixen l’augment de temperatura observat durant les darreres dècades. En canvi, quan s’hi incorporen els factors humans, les simulacions s’ajusten molt millor a les observacions. Adaptada de:l’IPCC (AR6, 2021)
+El canvi climàtic actual, però, és diferent. La temperatura global està augmentant a una velocitat excepcionalment ràpida, i l’escalfament observat des de la Revolució Industrial no es pot explicar únicament per factors naturals. Les evidències mostren que l’activitat humana n’és la causa principal. El panell (b) de la figura mostra que les simulacions que només consideren factors naturals, com l’activitat solar i volcànica, no reprodueixen l’augment de temperatura observat durant les darreres dècades. En canvi, quan s’hi incorporen els factors humans, les simulacions s’ajusten molt millor a les observacions. Adaptada de:l’IPCC (AR6, 2021)
 
 Les activitats humanes, especialment la crema de combustibles fòssils, com el carbó, el gas natural i el petroli, per produir energia, per alimentar vehicles, indústries i habitatges, alliberen diòxid de carboni i altres gasos d'efecte hivernacle a l'atmosfera. Altres activitats, com la desforestació i la ramaderia, també contribueixen a l'emissió de gasos d'efecte hivernacle.
 
