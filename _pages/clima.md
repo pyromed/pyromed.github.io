@@ -17,10 +17,12 @@ El canvi climàtic actual, però, és diferent. La temperatura global està augm
   <img src="/assets/images/temps.jpg" 
        alt="Història del canvi de la temperatura global i causes de l’escalfament recent" 
        style="width: 100%; height: auto; border-radius: 6px;">
-  <p style="font-size: 0.85em; font-style: italic; margin-top: 8px; color: #555;">
-    Història de la temperatura global i causes de l’escalfament recent. 
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+    Història de la temperatura global i causes de l’escalfament recent.
     Figura adaptada i traduïda al català a partir de l’IPCC (AR6, 2021).
-  </p>
+  </em>
+</p>
 </div>
 
 El panell (a) mostra que la temperatura global ha variat naturalment al llarg dels darrers mil·lennis. Fa uns 6.500 anys es va produir el període pluricentenari més càlid dels darrers 100.000 anys.
