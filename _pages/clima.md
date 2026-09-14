@@ -11,7 +11,7 @@ header:
 
 El clima de la Terra sempre ha canviat. Al llarg de milions d'anys, les temperatures, les precipitacions i la composició de l'atmosfera han variat de manera natural.
 
-El canvi climàtic actual, però, és diferent. La rapidesa i la magnitud dels canvis observats des de la Revolució Industrial estan principalment relacionades amb l'activitat humana.
+El canvi climàtic actual, però, és diferent. La rapidesa i la magnitud de l’escalfament observat des de la Revolució Industrial no es poden explicar únicament per factors naturals. Les evidències mostren que l’escalfament actual està principalment causat per l’activitat humana.
 
 Les activitats humanes, especialment la crema de combustibles fòssils, com el carbó, el gas natural i el petroli, per produir energia, per alimentar vehicles, indústries i habitatges, alliberen diòxid de carboni i altres gasos d'efecte hivernacle a l'atmosfera. Altres activitats, com la desforestació i la ramaderia, també contribueixen a l'emissió de gasos d'efecte hivernacle.
 
