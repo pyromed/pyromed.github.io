@@ -7,6 +7,15 @@ header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
 ---
+
+## Temps meteorològic i clima: quina és la diferència?
+
+El **temps meteorològic** és el que passa a l’atmosfera en un lloc i moment determinats: si avui plou, fa calor, hi ha vent o una tempesta.
+
+El **clima**, en canvi, descriu els patrons habituals del temps meteorològic al llarg de períodes llargs, normalment de diverses dècades.
+
+Per això, un dia fred no contradiu el canvi climàtic. El temps meteorològic pot variar d’un dia a l’altre, mentre que el canvi climàtic es manifesta en les tendències i alteracions dels patrons climàtics a llarg termini.
+
 ## Què és el canvi climàtic?
 
 El clima de la Terra sempre ha canviat. Al llarg de milions d'anys, les temperatures, les precipitacions i la composició de l'atmosfera han variat de manera natural.
