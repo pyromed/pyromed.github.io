@@ -16,7 +16,7 @@ El canvi climàtic actual, però, és diferent. La temperatura global està augm
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/temps.jpg" 
        alt="Història del canvi de la temperatura global i causes de l’escalfament recent" 
-       style="width: 70%; height: auto; border-radius: 6px;">
+       style="width: 100%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; font-style: italic; margin-top: 8px; color: #555;">
     Història de la temperatura global i causes de l’escalfament recent. 
     Figura adaptada i traduïda al català a partir de l’IPCC (AR6, 2021).
