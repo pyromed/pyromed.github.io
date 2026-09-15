@@ -78,5 +78,16 @@ La sequera i les temperatures elevades no només augmenten directament la inflam
 
 A més, els arbres sotmesos a estrès hídric poden ser més vulnerables a plagues i malalties. La mortalitat d'arbres i l'acumulació de material vegetal mort poden, al seu torn, augmentar la quantitat de combustible disponible.
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/CC&Wildfire.jpg" 
+       alt="Relacions entre el canvi climàtic, les condicions de propagació dels incendis i els ecosistemes mediterranis" 
+       style="width: 100%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+    Esquema conceptual dels efectes del canvi climàtic sobre el règim d’incendis i els ecosistemes mediterranis.
+  </em>
+</p>
+</div>
+
 > El canvi climàtic no implica simplement que hi hagi més incendis. La seva principal influència és que modifica les condicions ambientals en què els incendis es desenvolupen. Quan coincideixen una ignició amb vegetació seca, una atmosfera càlida i seca i vents favorables, augmenta la probabilitat que el foc es propagui ràpidament i sigui difícil de controlar.
 > 
