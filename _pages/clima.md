@@ -91,3 +91,14 @@ A més, els arbres sotmesos a estrès hídric poden ser més vulnerables a plagu
 
 > El canvi climàtic no implica simplement que hi hagi més incendis. La seva principal influència és que modifica les condicions ambientals en què els incendis es desenvolupen. Quan coincideixen una ignició amb vegetació seca, una atmosfera càlida i seca i vents favorables, augmenta la probabilitat que el foc es propagui ràpidament i sigui difícil de controlar.
 > 
+
+---
+<div class="page-navigation">
+  <a href="/clima/" class="btn btn--primary">
+    ← Simulador
+  </a>
+
+  <a href="/clima/" class="btn btn--primary">
+    El canvi climatic →
+  </a>
+</div>
