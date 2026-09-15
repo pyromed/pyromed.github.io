@@ -52,10 +52,27 @@ Aquests gasos d'efecte hivernacle es troben de manera natural a l'atmosfera i co
 
 El canvi climàtic no és la causa directa de la majoria d'ignicions. Però està modificant les condicions ambientals en què els incendis es produeixen i es propaguen.
 
+L'augment de les temperatures, la disminució de la disponibilitat d'aigua i l'augment de la freqüència i intensitat de les sequeres estan fent que la vegetació estigui més seca durant períodes més llargs. Això incrementa la quantitat de dies amb condicions meteorològiques favorables per al foc, especialment a la regió mediterrània.
+
 **Combustibles més secs**
+Les temperatures més elevades augmenten l'evaporació i la demanda d'aigua de la vegetació. Quan aquestes condicions coincideixen amb períodes de poca precipitació, les plantes disposen de menys aigua i el seu contingut d'humitat disminueix.
+
+La vegetació seca actua com un combustible més fàcil d'encendre i de cremar, de manera que, una vegada produïda una ignició, el foc pot propagar-se més ràpidament i amb més intensitat.
 
 **Temporades d'incendis més llargues**
+L'augment de les temperatures i l'assecament de la vegetació fan que les condicions favorables per als incendis es mantinguin durant més temps. La temporada de risc elevat pot començar abans a la primavera i acabar més tard a la tardor.
+
+A escala global, el canvi climàtic ha contribuït a allargar la temporada meteorològica de risc d'incendi, i a Europa es preveu una ampliació de les zones i dels períodes amb condicions favorables per als incendis.
 
 **Més dies amb condicions extremes**
+El risc d'incendi no depèn només de la temperatura. Les situacions més perilloses es produeixen quan coincideixen temperatures elevades, baixa humitat, sequera i vent.
+
+Aquestes combinacions poden generar condicions meteorològiques extremes per al foc, durant els quals un incendi pot créixer ràpidament i ser especialment difícil de controlar. A la regió mediterrània, aquests episodis són cada vegada més preocupants.
 
 **Ecosistemes sota estrès**
+La sequera i les temperatures elevades no només augmenten directament la inflamabilitat de la vegetació, sinó que també debiliten els ecosistemes. La manca d'aigua pot reduir el creixement dels arbres, provocar defoliació, augmentar la mortalitat i disminuir la capacitat de recuperació de la vegetació.
+
+A més, els arbres sotmesos a estrès hídric poden ser més vulnerables a plagues i malalties. La mortalitat d'arbres i l'acumulació de material vegetal mort poden, al seu torn, augmentar la quantitat de combustible disponible.
+
+> El canvi climàtic no implica simplement que hi hagi més incendis. La seva principal influència és que modifica les condicions ambientals en què els incendis es desenvolupen. Quan coincideixen una ignició amb vegetació seca, una atmosfera càlida i seca i vents favorables, augmenta la probabilitat que el foc es propagui ràpidament i sigui difícil de controlar.
+> 
