@@ -24,14 +24,24 @@ Els règims de foc són una part fonamental de la dinàmica dels ecosistemes i c
 ---
 ### Tipus d'incendi
 
-Depenent d'on estigui cremant el combustible, podem distingir:
+<div style="display: flex; align-items: center; gap: 35px; margin: 30px 0;">
 
-- **Incendi subterrani:** crema lentament les capes orgàniques situades sota la superfície del sòl, com la torba.
-- **Incendi de superfície:** crema la vegetació situada sobre el sòl, incloent-hi la fullaraca, les herbes, els arbusts i les petites branques.
-- **Incendi de capçada:** arriba a les capçades dels arbres i es propaga a través de la vegetació arbòria.
+  <div style="flex: 1;">
+    <p>Depenent d'on estigui cremant el combustible, podem distingir:</p>
 
-<div style="max-width: 750px; margin: 30px auto;">
-<img src="/assets/images/FireType.jpg" alt="Tipus de foc" style="width:100%;">
+    <ul>
+      <li><strong>Incendi subterrani:</strong> crema lentament les capes orgàniques situades sota la superfície del sòl, com la torba.</li>
+      <li><strong>Incendi de superfície:</strong> crema la vegetació situada sobre el sòl, incloent-hi la fullaraca, les herbes, els arbusts i les petites branques.</li>
+      <li><strong>Incendi de capçada:</strong> arriba a les capçades dels arbres i es propaga a través de la vegetació arbòria.</li>
+    </ul>
+  </div>
+
+  <div style="flex: 0 0 45%; text-align: center;">
+    <img src="/assets/images/FireType.jpg"
+         alt="Tipus d'incendi"
+         style="width: 100%;">
+  </div>
+
 </div>
 
 ---
