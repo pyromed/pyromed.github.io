@@ -54,7 +54,7 @@ Els principals elements topogràfics que influeixen en el comportament del foc s
 
   <img src="/assets/images/combustible.jpg"
        alt="El combustible és qualsevol material capaç de cremar"
-       style="width:50%; max-width:600px; border-radius:6px;">
+       style="width:75%; max-width:600px; border-radius:6px;">
 
   <p style="font-size: 0.9em; font-style: italic; margin-top: 8px;">
   </p>
