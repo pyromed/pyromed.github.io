@@ -50,8 +50,6 @@ Els principals elements topogràfics que influeixen en el comportament del foc s
 
 ## Els combustibles
 
-El combustible és qualsevol material capaç de cremar. En un incendi forestal, inclou principalment la vegetació viva i morta: herbes, fullaraca, branques, arbustos i arbres.
-
 <div style="text-align: center; margin: 25px 0;">
 
   <img src="/assets/images/combustible.jpg"
@@ -59,11 +57,11 @@ El combustible és qualsevol material capaç de cremar. En un incendi forestal, 
        style="width:50%; max-width:600px; border-radius:6px;">
 
   <p style="font-size: 0.9em; font-style: italic; margin-top: 8px;">
-    El combustible és qualsevol material capaç de cremar.
   </p>
 
 </div>
 
+El combustible és qualsevol material capaç de cremar. En un incendi forestal, inclou principalment la vegetació viva i morta: herbes, fullaraca, branques, arbustos i arbres.
 
 Però no tots els combustibles cremen de la mateixa manera. La seva humitat, mida, quantitat i distribució al paisatge determinen la facilitat amb què s'encenen i la velocitat amb què el foc es propaga.
 
