@@ -2,7 +2,7 @@
 title: "La dendrocronologia"
 layout: splash
 permalink: /dendro/
-sitemap: false
+public: false
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
