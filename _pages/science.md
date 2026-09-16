@@ -83,6 +83,13 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
+ - image_path: /assets/images/cores.jpg
+    alt: "cores"
+    title: "La dendrocronologia"
+    url: "/dendro/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
+
 
 ---
 
