@@ -14,7 +14,7 @@ Quan el foc es produeix dins un règim natural i amb una freqüència i intensit
 * **Biodiversitat:** els incendis creen espais oberts i generen paisatges en mosaic que és ideal per a la fauna, ja que combina zones de refugi (bosc dens) amb zones d'alimentació (terrenys oberts).
 * **Reducció de combustible:** el foc consumeix part de la biomassa morta i de la vegetació acumulada, disminuint la continuïtat del combustible i reduint el risc de futurs incendis extrems.
 * **Disminució de l'estrès hídric:** en reduir la densitat d’arbustos i arbres debilitats, disminueix la competència per l’aigua i els recursos disponibles, fet especialment rellevant en ecosistemes mediterranis sotmesos a sequeres recurrents.
-* **Estimulació de la recuperació natural:** algunes espècies mediterrànies depenen parcialment del foc per completar el seu cicle vital. La calor o determinats compostos químics presents al fum poden estimular la germinació de llavors. En el cas del pi blanc (Pinus halepensis), les altes temperatures fonen la resina que manté tancades les pinyes, afavorint-ne l’obertura i l’alliberament de llavors després de l’incendi.
+* **Estimulació de la recuperació natural:** algunes espècies mediterrànies depenen parcialment del foc per completar el seu cicle vital. La calor o determinats compostos químics presents al fum poden estimular la germinació de llavors. En el cas del pi blanc (*Pinus halepensis*), les altes temperatures fonen la resina que manté tancades les pinyes, afavorint-ne l’obertura i l’alliberament de llavors després de l’incendi.
 
 <img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
 
