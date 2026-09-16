@@ -64,6 +64,8 @@ La mida i la configuració espacial dels incendis tenen conseqüències importan
 ---
 ### Magnitud: intensitat i severitat
 
+> La intensitat descriu el comportament del foc, mentre que la severitat descriu els seus efectes.
+
 **Intensitat**
 
 La intensitat descriu la quantitat d'energia que allibera el foc durant la combustió.
@@ -82,7 +84,7 @@ Un mateix incendi pot tenir diferents nivells de severitat en diferents parts de
 | **Moderada** | Mortalitat parcial de la vegetació i alteracions moderades del sòl.                                                      |
 | **Alta**     | Elevada mortalitat de la vegetació i alteracions importants de les propietats físiques, químiques i biològiques del sòl. |
 
-> La intensitat descriu el comportament del foc, mentre que la severitat descriu els seus efectes.
+
 
 ---
 ### Estacionalitat
