@@ -38,9 +38,7 @@ Per extingir-lo, la clau rau a trencar el "triangle de la combustió" eliminant-
 ---
 ## Com es propaga un incendi?
 
-Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció entre tres factors principals: la meteorologia, la topografia i el combustible. Aquesta relació és coneguda com el triangle del comportament del foc.
-
-### El triangle del comportament del foc
+Un cop iniciat, el comportament d'un incendi forestal depèn de la interacció entre tres factors principals: la meteorologia, la topografia i el combustible. Aquesta relació és coneguda com el **triangle del comportament del foc**.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/behavior_triangle.jpg" alt="Comportament del foc" style="width: 50%; height: auto; border-radius: 6px;">
