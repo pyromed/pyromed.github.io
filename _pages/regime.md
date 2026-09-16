@@ -33,6 +33,7 @@ Depenent d'on estigui cremant el combustible, podem distingir:
 <div style="max-width: 750px; margin: 30px auto;">
 <img src="/assets/images/FireType.jpg" alt="Tipus de foc" style="width:100%;">
 </div>
+
 ---
 
 ### Freqüència
