@@ -64,7 +64,7 @@
   margin: 0 !important;
 }
 
-/* 2. Lock Header & Navigation to exact width alignment */
+/* Lock Header & Navigation to exact width alignment */
 .masthead__inner-wrap {
   width: 85% !important;
   max-width: 1200px !important;
@@ -146,7 +146,7 @@
   display: none !important;
 }
 
-/* 4. Shift profile sidebar relative to #main container */
+/* Shift profile sidebar relative to #main container */
 .sidebar,
 .page__sidebar {
   position: absolute !important;
@@ -155,7 +155,7 @@
   width: 180px !important;
 }
 
-/* 5. Align content directly to the main container edge */
+/* Align content directly to the main container edge */
 .archive,
 .page,
 .page__inner-wrap {
@@ -171,4 +171,9 @@
   content: "";
   display: table;
   clear: both;
+}
+
+/* Caption font size */
+.figure-caption {
+  font-size: 18px;
 }
