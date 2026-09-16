@@ -9,6 +9,7 @@ twitter_username: username
 github_username: pyromed
 minimal_mistakes_skin: air
 search: true
+google_analytics: G-ZB86D2H14Y
 
 # Build settings
 markdown: kramdown
