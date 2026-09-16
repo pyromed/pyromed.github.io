@@ -3,7 +3,7 @@ title: "Reaprendre a conviure amb el foc"
 layout: splash
 permalink: /reaprendre/
 header:
-  overlay_image: /assets/images/estepa-rebrot.jpg
+  overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
 ---
 
