@@ -65,6 +65,7 @@ La mida i la configuració espacial dels incendis tenen conseqüències importan
 ### Magnitud: intensitat i severitat
 
 > La intensitat descriu el comportament del foc, mentre que la severitat descriu els seus efectes.
+>
 
 **Intensitat**
 
