@@ -44,7 +44,7 @@ Podem imaginar-los com una escala de complexitat:
 
 ## Un model simplificat
 
-El simulador que trobaràs a continuació utilitza una aproximació simplificada per representar el creixement d'un incendi.
+El simulador que trobaràs a continuació utilitza una aproximació simplificada per representar el comportament i el creixement d'un incendi.
 
 El model de Rothermel és un model matemàtic que ajuda a estimar com de ràpid es propagarà un incendi. Per fer-ho, té en compte les característiques del combustible i factors com el vent i la pendent. La velocitat de propagació estimada es pot utilitzar després per representar com podria créixer l’incendi al llarg del temps.
 
