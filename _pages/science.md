@@ -82,8 +82,8 @@ feature_row_projects:
     url: "/clima/"
     btn_label: "Explora"
     btn_class: "btn--primary"
-
- - image_path: /assets/images/cores.jpg
+  
+  - image_path: /assets/images/cores.jpg
     alt: "cores"
     title: "La dendrocronologia"
     url: "/dendro/"
