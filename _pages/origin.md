@@ -54,7 +54,7 @@ new juxtapose.JXSlider('#foo',
 {: .notice}
 
 *Comparació de fotografies aèries del mateix indret en dues dates diferents. El lliscador permet visualitzar l’expansió de la coberta forestal després de l’abandonament progressiu dels usos agrícoles i ramaders tradicionals.*
-{: .text-center}
+{: .text-center style="font-size: 18px;"}
 
 
 Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosionant el coneixement ecològic i cultural associat a la gestió del foc i del territori.
