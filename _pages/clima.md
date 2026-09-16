@@ -93,8 +93,8 @@ A més, els arbres sotmesos a estrès hídric poden ser més vulnerables a plagu
 
 ---
 <div class="page-navigation">
-  <a href="/clima/" class="btn btn--primary">
-    ← El canvi climatic
+  <a href="/reaprendre/" class="btn btn--primary">
+    ← Reaprendre a conviure amb el foc
   </a>
 
   <a href="/dendro/" class="btn btn--primary">
