@@ -37,20 +37,18 @@ Podem imaginar-los com una escala de complexitat:
 
 
 
-És important entendre, però, que una simulació no prediu exactament el futur. Representa una possible evolució del foc a partir de les condicions introduïdes al model.
+És important entendre, però, que una simulació no prediu exactament el futur. Representa una possible evolució del foc a partir de les condicions introduïdes al model. Com més processos intentem representar, més complex és el model i més informació i capacitat de càlcul necessita.
 
-> Com més processos intentem representar, més complex és el model i més informació i capacitat de càlcul necessita.
+> L'objectiu no és predir exactament què farà un incendi real, sinó explorar com diferents condicions poden modificar el seu comportament.
+---
 
 ## Un model simplificat
 
 El simulador que trobaràs a continuació utilitza una aproximació simplificada per representar el creixement d'un incendi.
 
-Primer, el model de Rothermel estima la velocitat de propagació del foc a partir de característiques com el combustible, el vent i la pendent.
+El model de Rothermel és un model matemàtic que ajuda a estimar com de ràpid es propagarà un incendi. Per fer-ho, té en compte les característiques del combustible i factors com el vent i la pendent. La velocitat de propagació estimada es pot utilitzar després per representar com podria créixer l’incendi al llarg del temps.
 
-Després, aquesta velocitat s'utilitza per representar com podria créixer espacialment l'incendi al llarg del temps.
 
-> L'objectiu no és predir exactament què farà un incendi real, sinó explorar com diferents condicions poden modificar el seu comportament.
----
 <div class="page-navigation">
   <a href="/behaviour/" class="btn btn--primary">
     ← 		Què determina el comportament d'un incendi?
