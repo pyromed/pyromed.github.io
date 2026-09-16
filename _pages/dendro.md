@@ -1,7 +1,8 @@
 ---
 title: "El canvi climàtic"
 layout: splash
-permalink: /clima/
+permalink: /dendro/
+sitemap: false
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
