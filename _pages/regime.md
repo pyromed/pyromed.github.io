@@ -22,18 +22,19 @@ Els règims de foc són una part fonamental de la dinàmica dels ecosistemes i c
 | **Estacionalitat** | El període de l'any en què els incendis es produeixen habitualment.                                      |
 
 ---
-### Tipus de foc
+### Tipus d'incendi
 
 Depenent d'on estigui cremant el combustible, podem distingir:
 
-- **Foc subterrani:** crema lentament les capes orgàniques situades sota la superfície del sòl, com la torba.
-- **Foc de superfície:** crema la vegetació situada sobre el sòl, incloent-hi la fullaraca, les herbes, els arbusts i les petites branques.
-- **Foc de capçades:** arriba a les capçades dels arbres i es propaga a través de la vegetació arbòria.
+- **Incendi subterrani:** crema lentament les capes orgàniques situades sota la superfície del sòl, com la torba.
+- **Incendi de superfície:** crema la vegetació situada sobre el sòl, incloent-hi la fullaraca, les herbes, els arbusts i les petites branques.
+- **Incendi de capçada:** arriba a les capçades dels arbres i es propaga a través de la vegetació arbòria.
 
 <div style="max-width: 750px; margin: 30px auto;">
 <img src="/assets/images/FireType.jpg" alt="Tipus de foc" style="width:100%;">
 </div>
 ---
+
 ### Freqüència
 
 La freqüència descriu el temps que transcorre, de mitjana, entre dos incendis en un mateix ecosistema.
