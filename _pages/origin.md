@@ -60,7 +60,7 @@ Amb la pèrdua d’aquestes pràctiques tradicionals també s’ha anat erosiona
 
 ### El canvi cap a la supressió del foc
 
-Paral·lelament a l'abandonament rural i a l'expansió de les masses forestals, es va consolidar a Espanya un nou model de gestió basat principalment en la prevenció i l'extinció dels incendis forestals.
+Paral·lelament a l'abandonament rural i a l'expansió de les masses forestals, es va consolidar a Espanya un nou model de gestió basat principalment en la prevenció d'ignicions i l'extinció dels incendis forestals.
 
 La Llei d'incendis forestals de 1968 va establir per primera vegada un marc específic per a la lluita contra els incendis. Durant les dècades següents, la creació de l'ICONA, la incorporació de mitjans aeris i el desenvolupament de plans coordinats d'emergència van consolidar progressivament un sistema orientat a detectar i extingir els incendis tan aviat com fos possible.
 
