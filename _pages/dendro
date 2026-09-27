@@ -8,7 +8,19 @@ header:
   overlay_filter: 0.35
 ---
 
-## 
+## Els anells de creixement dels arbres
+
+La dendrocronologia és la ciència que estudia els anells de creixement dels arbres per obtenir informació sobre el passat.
+
+El terme té arrels grecollatines:
+
+dendr- → arbre, fusta
+cronos → temps
+-logia → estudi, ciència
+
+Els arbres de les regions on hi ha una marcada estacionalitat formen, en general, un nou anell de creixement cada any. Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un any a l'altre.
+
+I és precisament aquesta variació la que ens permet convertir els arbres en arxius naturals del passat.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/temps.jpg" 
@@ -21,6 +33,33 @@ header:
 </p>
 </div>
 
+## Què ens expliquen els anells?
+
+El creixement d'un arbre depèn de les condicions ambientals i de l'estat de l'arbre.
+
+Durant els períodes favorables, quan disposa dels recursos necessaris, l'arbre pot créixer més i formar un anell més ample. En canvi, quan les condicions són desfavorables, el creixement pot reduir-se i l'anell serà més estret.
+
+L'aigua és especialment important en els ecosistemes mediterranis. La disponibilitat d'aigua condiciona la fotosíntesi i, per tant, la quantitat de carboni que l'arbre pot destinar al creixement.
+
+La fotosíntesi transforma l'energia de la llum en energia química, utilitzant diòxid de carboni i aigua per produir sucres:
+
+6 CO₂ + 6 H₂O + energia lumínica → C₆H₁₂O₆ + 6 O₂
+
+Aquests sucres proporcionen l'energia i el carboni necessaris per formar nous teixits, entre ells la fusta.
+
+## Com podem utilitzar els anells com a registre del clima?
+
+Els arbres d'una mateixa regió sovint responen de manera semblant a les variacions climàtiques. Un any especialment sec, per exemple, pot produir un anell molt estret en molts arbres alhora.
+
+Els dendrocronòlegs poden comparar aquests patrons de creixement entre diferents arbres i construir una cronologia, una sèrie temporal que pot estendre's durant dècades o fins i tot segles.
+
+Però com sabem què significa un anell estret?
+
+Aquí entra en joc el registre instrumental. Per als períodes recents disposem de dades meteorològiques —precipitació, temperatura, humitat, etc.— procedents d'estacions meteorològiques. Podem comparar aquestes dades amb els anells dels arbres. Si trobem una relació consistent entre el creixement i una determinada variable climàtica, podem utilitzar els anells més antics per estudiar com ha variat aquesta variable abans que existissin registres meteorològics.
+
+D'aquesta manera, un arbre pot ajudar-nos a mirar molt més enrere en el temps que les dades instrumentals.
+
+## Com podem utilitzar els anells com a registre d'incendis?
 
 
 > El canvi climàtic no implica simplement que hi hagi més incendis. La seva principal influència és que modifica les condicions ambientals en què els incendis es desenvolupen. Quan coincideixen una ignició amb vegetació seca, una atmosfera càlida i seca i vents favorables, augmenta la probabilitat que el foc es propagui ràpidament i sigui difícil de controlar.
