@@ -73,6 +73,17 @@ D'aquesta manera, un arbre pot ajudar-nos a mirar molt més enrere en el temps q
 
 ## Com podem utilitzar els anells com a registre d'incendis?
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/crosssection.png" 
+       alt="" 
+       style="width: 100%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+    Els estomes regulen l’intercanvi de gasos i la pèrdua d’aigua de la planta. Quan estan oberts, permeten l’entrada de CO₂ necessari per a la fotosíntesi, però també provoquen pèrdua d’aigua per transpiració. En condicions de sequera, els estomes es tanquen per reduir aquesta pèrdua d’aigua, limitant alhora l’entrada de CO₂ i la fotosíntesi..
+  </em>
+</p>
+</div>
+
 ## Podem utilitzar aquesta informació per entendre millor el futur?
 
 Els arbres ens proporcionen un registre de com han respost als canvis ambientals que ja han passat. Per exemple, podem identificar els anys de sequera més intensa i estudiar com va respondre cada espècie: quant va disminuir el seu creixement, fins a quin punt es va recuperar després de la sequera i quant de temps va necessitar per tornar al seu ritme habitual.
