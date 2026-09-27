@@ -19,15 +19,9 @@ El terme té arrels grecollatines:
 
 - -logia → estudi, ciència
 
-Els arbres formen, en general, un nou anell de creixement cada any. En moltes espècies d'arbres de regions temperades i mediterrànies, el creixement en diàmetre segueix un cicle estacional. Durant el període de creixement, el càmbium —una fina capa de cèl·lules situada sota l'escorça— produeix noves cèl·lules de fusta.
+Els arbres formen, en general, un nou anell de creixement cada any. Durant la temporada de creixement, el càmbium, una capa de cèl·lules situada sota l'escorça, produeix noves cèl·lules de fusta. Al començament de la temporada de creixement, les cèl·lules que es formen són generalment més grans i tenen parets més fines. Aquesta part de l'anell s'anomena fusta primerenca (earlywood) i sol tenir un aspecte més clar. A mesura que avança la temporada i les condicions de creixement canvien, les cèl·lules es fan més petites i tenen parets més gruixudes, formant la fusta tardana (latewood), que sol ser més fosca i densa. La transició entre aquests dos tipus de fusta fa que l'anell anual sigui visible i permeti distingir un any de creixement del següent. 
 
-Al començament de la temporada de creixement, les cèl·lules que es formen són generalment més grans i tenen parets més fines. Aquesta part de l'anell s'anomena fusta primerenca (earlywood) i sol tenir un aspecte més clar.
-
-A mesura que avança la temporada i les condicions de creixement canvien, les cèl·lules es fan més petites i tenen parets més gruixudes, formant la fusta tardana (latewood), que sol ser més fosca i densa.
-
-La transició entre aquests dos tipus de fusta fa que l'anell anual sigui visible i permeti distingir un any de creixement del següent. Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un any a l'altre.
-
-cada anell conté informació sobre les condicions en què va créixer l'arbre durant aquell any. Un anell ample indica, en general, unes condicions que van permetre un major creixement, mentre que un anell estret pot indicar que el creixement va estar limitat. I és precisament aquesta variació la que ens permet convertir els arbres en arxius naturals del passat.
+Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un any a l'altre. Cada anell conté informació sobre les condicions en què va créixer l'arbre durant aquell any. Un anell ample indica, en general, unes condicions que van permetre un major creixement, mentre que un anell estret pot indicar que el creixement va estar limitat. I és precisament aquesta variació la que ens permet convertir els arbres en arxius naturals del passat.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/tree_rings.jpg" 
@@ -42,15 +36,7 @@ cada anell conté informació sobre les condicions en què va créixer l'arbre d
 
 ## Què ens expliquen els anells?
 
-El creixement d'un arbre depèn de les condicions ambientals i de l'estat de l'arbre.
-
-Durant els períodes favorables, quan disposa dels recursos necessaris, l'arbre pot créixer més i formar un anell més ample. En canvi, quan les condicions són desfavorables, el creixement pot reduir-se i l'anell serà més estret.
-
-L'aigua és especialment important en els ecosistemes mediterranis. La disponibilitat d'aigua condiciona la fotosíntesi i, per tant, la quantitat de carboni que l'arbre pot destinar al creixement.
-
-La fotosíntesi és el procés mitjançant el qual les plantes utilitzen l'energia de la llum per transformar diòxid de carboni i aigua en glucosa, un sucre que serveix com a font d'energia i de carboni per al creixement.
-
-En l'equació global de la fotosíntesi, per formar una molècula de glucosa (C₆H₁₂O₆) es representen 6 molècules de diòxid de carboni (CO₂) i 6 molècules d'aigua (H₂O), utilitzant energia lumínica. Com a producte s'alliberen 6 molècules d'oxigen (O₂):
+L'aigua és especialment important en els ecosistemes mediterranis. La disponibilitat d'aigua condiciona la fotosíntesi i, per tant, la quantitat de carboni que l'arbre pot destinar al creixement. La fotosíntesi és el procés mitjançant el qual les plantes utilitzen l'energia de la llum per transformar diòxid de carboni i aigua en glucosa, un sucre que serveix com a font d'energia i de carboni per al creixement. En l'equació global de la fotosíntesi, per formar una molècula de glucosa (C₆H₁₂O₆) es representen 6 molècules de diòxid de carboni (CO₂) i 6 molècules d'aigua (H₂O), utilitzant energia lumínica. Com a producte s'alliberen 6 molècules d'oxigen (O₂):
 
 6 CO₂ + 6 H₂O + energia lumínica → C₆H₁₂O₆ + 6 O₂
 
