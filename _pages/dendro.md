@@ -36,11 +36,17 @@ Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un a
 
 ## Què ens expliquen els anells?
 
-L'aigua és especialment important en els ecosistemes mediterranis. La disponibilitat d'aigua condiciona la fotosíntesi i, per tant, la quantitat de carboni que l'arbre pot destinar al creixement. La fotosíntesi és el procés mitjançant el qual les plantes utilitzen l'energia de la llum per transformar diòxid de carboni i aigua en glucosa, un sucre que serveix com a font d'energia i de carboni per al creixement. En l'equació global de la fotosíntesi, per formar una molècula de glucosa (C₆H₁₂O₆) es representen 6 molècules de diòxid de carboni (CO₂) i 6 molècules d'aigua (H₂O), utilitzant energia lumínica. Com a producte s'alliberen 6 molècules d'oxigen (O₂):
+L'aigua és especialment important en els ecosistemes mediterranis. La disponibilitat d'aigua condiciona la fotosíntesi i, per tant, la quantitat de carboni que l'arbre pot destinar al creixement. La fotosíntesi és el procés mitjançant el qual les plantes utilitzen l'energia de la llum per transformar diòxid de carboni i aigua en glucosa, un sucre que serveix com a font d'energia i de carboni per al creixement. 
+
+En l'equació global de la fotosíntesi, per formar una molècula de glucosa (C₆H₁₂O₆) es necessiten 6 molècules de diòxid de carboni (CO₂) i 6 molècules d'aigua (H₂O), utilitzant energia lumínica. Com a subproducte s'alliberen 6 molècules d'oxigen (O₂):
 
 6 CO₂ + 6 H₂O + energia lumínica → C₆H₁₂O₆ + 6 O₂
 
-Aquests sucres proporcionen l'energia i el carboni necessaris per formar nous teixits, entre ells la fusta.
+Per fer la fotosíntesi, les plantes necessiten incorporar diòxid de carboni (CO₂) de l'atmosfera. Aquest intercanvi de gasos es produeix principalment a través dels estomes, petits porus situats a les fulles. Però els estomes tenen un inconvenient: quan estan oberts per captar CO₂, també permeten que l'aigua s'escapi de la planta en forma de vapor. Per això, quan hi ha poca aigua disponible, la planta pot tancar els estomes per reduir la pèrdua d'aigua. Això ajuda a evitar la deshidratació, però també limita l'entrada de CO₂ i, per tant, pot reduir la fotosíntesi.
+
+El resultat és una cadena d'efectes:
+
+Sequera → estomes més tancats →  menys fotosíntesi → menys carboni disponible per al creixement → anell de creixement estret.
 
 ## Com podem utilitzar els anells com a registre del clima?
 
