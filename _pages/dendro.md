@@ -44,6 +44,17 @@ En l'equació global de la fotosíntesi, per formar una molècula de glucosa (C�
 
 Per fer la fotosíntesi, les plantes necessiten incorporar diòxid de carboni (CO₂) de l'atmosfera. Aquest intercanvi de gasos es produeix principalment a través dels estomes, petits porus situats a les fulles. Però els estomes tenen un inconvenient: quan estan oberts per captar CO₂, també permeten que l'aigua s'escapi de la planta en forma de vapor. Per això, quan hi ha poca aigua disponible, la planta pot tancar els estomes per reduir la pèrdua d'aigua. Això ajuda a evitar la deshidratació, però també limita l'entrada de CO₂ i, per tant, pot reduir la fotosíntesi.
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/estoma.jpg" 
+       alt="" 
+       style="width: 100%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+    Els estomes regulen l’intercanvi de gasos i la pèrdua d’aigua de la planta. Quan estan oberts, permeten l’entrada de CO₂ necessari per a la fotosíntesi, però també provoquen pèrdua d’aigua per transpiració. En condicions de sequera, els estomes es tanquen per reduir aquesta pèrdua d’aigua, limitant alhora l’entrada de CO₂ i la fotosíntesi..
+  </em>
+</p>
+</div>
+
 El resultat és una cadena d'efectes:
 
 Sequera → estomes més tancats →  menys fotosíntesi → menys carboni disponible per al creixement → anell de creixement estret.
