@@ -13,11 +13,13 @@ La dendrocronologia és la ciència que estudia els anells de creixement dels ar
 
 El terme té arrels grecollatines:
 
-dendros → arbre, fusta
-cronos → temps
--logia → estudi, ciència
+- dendros → arbre, fusta
 
-Els arbres de les regions on hi ha una marcada estacionalitat formen, en general, un nou anell de creixement cada any. En moltes espècies d'arbres de regions temperades i mediterrànies, el creixement en diàmetre segueix un cicle estacional. Durant el període de creixement, el càmbium —una fina capa de cèl·lules situada sota l'escorça— produeix noves cèl·lules de fusta.
+- cronos → temps
+
+- -logia → estudi, ciència
+
+Els arbres formen, en general, un nou anell de creixement cada any. En moltes espècies d'arbres de regions temperades i mediterrànies, el creixement en diàmetre segueix un cicle estacional. Durant el període de creixement, el càmbium —una fina capa de cèl·lules situada sota l'escorça— produeix noves cèl·lules de fusta.
 
 Al començament de la temporada de creixement, les cèl·lules que es formen són generalment més grans i tenen parets més fines. Aquesta part de l'anell s'anomena fusta primerenca (earlywood) i sol tenir un aspecte més clar.
 
