@@ -4,60 +4,74 @@ title: "New Manuscript Submitted: Wildfire Hazard in Afforested Mediterranean La
 date: 2026-07-08
 ---
 
-We are pleased to share that our new manuscript, **"Wildfire hazard in afforested Mediterranean landscapes,"** has been submitted to *Scientific Reports*.
+We are pleased to share that a new manuscript, "Fire resilience in a Mediterranean cultural landscape," is now available as a preprint through *Research Square*.
 
-The manuscript is currently available as a preprint through Research Square, allowing readers to access the research while it undergoes peer review.
+The manuscript examines how historical agricultural terraces and other landscape and stand characteristics influence forest resistance, recovery, and post-fire regeneration following wildfire in a Mediterranean cultural landscape.
 
-## Wildfire hazard in Mediterranean cultural landscapes
+## Fire resilience in Mediterranean cultural landscapes
 
-Mediterranean landscapes are increasingly exposed to extreme wildfire events driven by climate and socioeconomic change. At the same time, decades of land abandonment and forest expansion have transformed historically managed landscapes into increasingly continuous and fuel-rich forests.
+Traditional agricultural terraces are widespread across Mediterranean landscapes. Although many terraces are no longer actively cultivated, these historical landscape structures remain embedded in forests that have developed through decades of land-use change and fire.
 
-Our study investigates how fire history and historical land-use legacies influence potential wildfire behaviour and spread in afforested Mediterranean landscapes.
+But do these cultural landscape legacies influence how forests respond to wildfire?
 
-In particular, we examine the role of:
+The study examines this question eleven years after a mixed-severity wildfire in Mallorca, Spain.
 
-- fire history
-- surface and canopy fuel accumulation
-- forest management
-- agricultural terraces
-- dry-stone walls
-- landscape structure and fire connectivity
+We surveyed 29 forest plots, including 15 terraced and 14 non-terraced plots, with different fire histories. 
 
-Using field measurements and fire-behaviour simulations, we explore how these factors influence wildfire hazard under different environmental conditions.
+For burned plots, we evaluated different dimensions of resilience, including resistance, recovery, and post-fire establishment of Aleppo pine (*Pinus halepensis*).
 
-## Can cultural landscapes help reduce wildfire hazard?
+## What happens after wildfire?
 
-One of the central questions behind this research is whether historical landscape structures can still influence modern wildfire behaviour.
+Forest resilience is not a single process. A forest can retain much of its pre-fire structure but subsequently recover slowly, while another forest may experience substantial structural change but move toward a different stable condition.
 
-Dry-stone walls and agricultural terraces are widespread features of Mediterranean cultural landscapes. Although many of these landscapes have been abandoned and progressively afforested, their physical structures remain embedded in the terrain.
+To capture these different trajectories, I combined resistance, recovery, and post-fire establishment within a resilience framework.
 
-Our results suggest that these landscape legacies may play an important role in disrupting fire spread and reducing landscape-scale connectivity.
+I identified five post-fire pathways:
 
-This highlights an often-overlooked opportunity: cultural landscapes may provide valuable information for designing future wildfire mitigation and fuel-management strategies.
+resistant and recovering
+resistant but recovery-limited
+recovery-driven
+hyperdense
+transition-risk
 
-## Why Scientific Reports?
 
-We chose to submit the manuscript to *Scientific Reports* because of its strong fit with the interdisciplinary nature of this research.
+## Do agricultural terraces influence fire resilience?
 
-The journal is part of the Nature Portfolio and publishes original research across the natural sciences, including Earth and environmental sciences, ecology, climate, and human–environment interactions. Its broad scope makes it particularly suitable for research that sits at the intersection of fire ecology, landscape science, environmental management, and cultural heritage.
+The results suggest that the influence of historical terraces on fire resilience is more complex than might be expected.
 
-Another important reason is accessibility. *Scientific Reports* is a fully open-access journal, meaning that accepted research is freely available to readers worldwide.
+Overstory resistance did not differ significantly between terraced and non-terraced hillslopes. However, terraced stands consistently retained a greater proportion of their pre-fire tree density, basal area, and small-diameter trees.
 
-For PyroMED, this aligns closely with our commitment to open science and making wildfire research accessible beyond academic institutions.
+Instead, resistance was more strongly associated with factors such as elevation, aspect, and tree size.
 
-The journal also provides substantial international visibility and reach, making it a valuable platform for research addressing globally relevant environmental challenges.
+Burned non-terraced stands showed greater multivariate convergence toward their unburned reference conditions than burned terraced stands, driven mainly by changes in overstory structure and recruitment.
+
+## A warning sign for post-fire forest trajectories
+
+Post-fire establishment varied substantially among burned plots. Some showed relatively little recruitment, while others developed extremely dense *Pinus halepensis* recruitment, exceeding 4,000 saplings per hectare.
+
+Nearly half of the burned plots showed evidence of a trajectory toward pre-fire conditions. However, the transition-risk pathway was the most common, occurring in 39.1% of burned plots.
+
+This pathway is particularly important because it may indicate a risk of vegetation-type conversion from Aleppo pine forest toward persistent shrubland.
+
+Identifying these trajectories early could therefore help managers determine where closer monitoring or targeted intervention may be needed.
+
+## What does this mean for Mediterranean forests?
+
+The study highlights the importance of considering historical land-use legacies, forest structure, and post-fire trajectories together when assessing wildfire resilience.
+
+The findings also show that cultural landscape features such as agricultural terraces do not necessarily have a straightforward effect on post-fire resilience. Their influence needs to be considered alongside the environmental and structural characteristics of the forests in which they occur.
+
+More broadly, understanding why some forests recover after wildfire while others move toward alternative vegetation states is increasingly important as Mediterranean ecosystems face more frequent drought and increasingly challenging fire conditions.
+
+The resilience framework presented here provides a potential approach for identifying early signs of declining recovery and emerging vegetation change, although its generality and predictive value will need to be tested across additional fires, landscapes, and longer post-fire periods.
 
 ## Read the preprint
 
-While the manuscript is undergoing peer review, the submitted version is publicly available through Research Square:
+The manuscript is currently undergoing peer review, and the submitted version is publicly available through Research Square:
 
-**Wildfire hazard in afforested Mediterranean landscapes**
+Keywords: Aleppo pine, Balearic Islands, dry-stone walls, forest structure, recruitment, regeneration, time since fire
 
-**Keywords:** cultural landscapes, dry-stone walls, fire behavior, fire modeling, fire spread, forest management
-
-The preprint was posted on July 8, 2026.
-
-[Read the manuscript on Research Square](https://doi.org/10.21203/rs.3.rs-10136426/v1)
+[Read the preprint on Research Square](https://doi.org/10.21203/rs.3.rs-10728343/v1)
 
 ---
 
