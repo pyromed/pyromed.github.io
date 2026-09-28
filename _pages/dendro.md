@@ -68,7 +68,7 @@ Els dendrocronòlegs poden comparar aquests patrons de creixement entre diferent
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/cronology.jpg" 
        alt="" 
-       style="width: 100%; height: auto; border-radius: 6px;">
+       style="width: 70%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     La datació creuada permet connectar mostres d’arbres vius amb fusta històrica a partir de patrons compartits en els anells de creixement. La seqüència d’anells amples i estrets produïda per les variacions ambientals es pot reconèixer en diferents mostres, permetent identificar els períodes que tenen en comú i construir cronologies que s’estenen més enllà de la vida dels arbres vius. Imatge adaptada de Panyushkina (2011).
