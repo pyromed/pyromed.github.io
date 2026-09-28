@@ -36,7 +36,7 @@ Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un a
 
 ## Què ens expliquen els anells?
 
-L'aigua és especialment important en els ecosistemes mediterranis. La disponibilitat d'aigua condiciona la fotosíntesi i, per tant, la quantitat de carboni que l'arbre pot destinar al creixement. La fotosíntesi és el procés mitjançant el qual les plantes utilitzen l'energia de la llum per transformar diòxid de carboni i aigua en glucosa, un sucre que serveix com a font d'energia i de carboni per al creixement. 
+L'aigua és especialment important en els ecosistemes mediterranis. La disponibilitat d'aigua condiciona la fotosíntesi i, per tant, la quantitat de carboni que l'arbre pot destinar al creixement. La fotosíntesi és el procés mitjançant el qual les plantes utilitzen l'energia de la llum per transformar diòxid de carboni i aigua en glucosa, un sucre que que proporciona l'energia i carboni per al metabolisme i el creixement. 
 
 En l'equació global de la fotosíntesi, per formar una molècula de glucosa (C₆H₁₂O₆) es necessiten 6 molècules de diòxid de carboni (CO₂) i 6 molècules d'aigua (H₂O), utilitzant energia lumínica. Com a subproducte s'alliberen 6 molècules d'oxigen (O₂):
 
@@ -57,13 +57,13 @@ Per fer la fotosíntesi, les plantes necessiten incorporar diòxid de carboni (C
 
 El resultat és una cadena d'efectes, en condicions de sequera:
 
-menys aigua → estomes més tancats →  menys entrada de CO₂ → menys fotosíntesi → menys carboni disponible per al creixement → anell anual de creixement més estret.
+menys aigua → estomes més tancats →  menys entrada de CO₂ → menys fotosíntesi → menys carboni disponible per al creixement → anell de creixement més estret.
 
 ## Com podem utilitzar els anells com a registre del clima?
 
 Els arbres d'una mateixa regió sovint responen de manera semblant a les variacions climàtiques. Un any especialment sec, per exemple, pot produir un anell anual molt estret en molts arbres alhora.
 
-Els dendrocronòlegs poden comparar aquests patrons de creixement entre diferents arbres (datació creuada) i construir una cronologia, una sèrie temporal que pot estendre's durant dècades o fins i tot segles.
+Els dendrocronòlegs poden comparar aquests patrons de creixement entre diferents arbres mitjançant la datació creuada. Aquest procés permet identificar els anys que coincideixen entre mostres i construir una cronologia, una sèrie temporal que pot estendre's durant dècades o fins i tot segles.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/cronology.jpg" 
@@ -86,11 +86,14 @@ D'aquesta manera, un arbre pot ajudar-nos a mirar molt més enrere en el temps q
 
 Quan un incendi passa prop o al voltant d'un arbre, la calor pot matar el càmbium, la fina capa de teixit responsable del creixement en diàmetre. Si una part del càmbium sobreviu, l'arbre pot continuar creixent.
 
-Per compartimentar la ferida i recuperar la continuïtat del càmbium, l'arbre produeix fusta de ferida. A mesura que el tronc continua creixent, els nous teixits envolten progressivament la zona afectada i la ferida queda incorporada a la fusta. El resultat és una cicatriu de foc que queda enregistrada al tronc.
+Per compartimentar la ferida i recuperar la continuïtat del càmbium, l'arbre produeix nova fusta al voltant de la ferida. A mesura que el tronc continua creixent, els nous teixits envolten progressivament la zona afectada i la ferida queda incorporada a la fusta. El resultat és una cicatriu de foc que queda enregistrada al tronc.
 
 Quan obtenim una mostra de fusta que travessa aquesta cicatriu, podem observar-la i datar l'incendi comparant-la amb els anells anuals de creixement. Però no tots els incendis deixen una cicatriu visible en tots els arbres. La probabilitat que es formi i es conservi una cicatriu depèn, entre altres factors, de la intensitat del foc i de les característiques de l'arbre. A més, una cicatriu antiga pot quedar destruïda per un incendi posterior o perdre's amb la degradació de la fusta.
 
-Quan diferents arbres presenten cicatrius que coincideixen en un mateix any, podem identificar un any en que va haber un incendi que probablement va afectar la zona estudiada. A partir d'aquest registre podem estudiar:
+> La presència d'una cicatriu de foc és una evidència d'incendi, però l'absència d'una cicatriu de foc no significa necessàriament que no hi hagi hagut un incendi.
+>
+
+Quan diferents arbres presenten cicatrius que coincideixen en un mateix any, podem identificar un any d'incendi que probablement va afectar la zona estudiada. A partir d'aquest registre podem estudiar:
 
 - quan es van produir els incendis
 - amb quina freqüència es cremava la zona
@@ -128,6 +131,6 @@ Si sabem com han respost els arbres a diferents nivells de sequera en el passat,
   </a>
 
   <a href="/adaptació/" class="btn btn--primary">
-    L →
+    L → 
   </a>
 </div>
