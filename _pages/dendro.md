@@ -97,8 +97,8 @@ Així podem reconstruir:
 - si els incendis es produïen de manera regular o irregular;
 - i, en alguns casos, com ha canviat el règim d'incendis al llarg del temps.
 
->>No tots els incendis deixen una cicatriu visible.>>
-
+> No tots els incendis deixen una cicatriu visible.
+> 
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/crosssection.jpg" 
