@@ -9,7 +9,7 @@ author_profile: true
      alt="Alicia Azpeleta and Sean Henning"
      style="display: block; margin: 20px auto 30px auto; max-width: 700px; width: 100%; border-radius: 8px;">
 
-<div class="lang-ca">
+
 
 ### Dra. Alicia Azpeleta
 
@@ -21,7 +21,7 @@ La seva recerca integra la dendrocronologia, la reconstrucció de la història d
 
 Actualment és investigadora postdoctoral a la Universitat de les Illes Balears, on estudia com les herències de l’ús històric del territori i els paisatges culturals mediterranis influeixen en el comportament dels incendis forestals i en la resiliència dels ecosistemes. La seva perspectiva científica contribueix a garantir que PyroMED combini una recerca ecològica rigorosa amb enfocaments pràctics per construir paisatges més resilients.
 
-...
+
 
 ### Sean E. Henning
 
@@ -31,7 +31,6 @@ Sean Henning aporta a l’equip més de dues dècades d’experiència operativa
 
 Al llarg de la seva trajectòria, Sean ha desenvolupat i implementat plans operatius de perill d’incendi en boscos nacionals dels Estats Units i ha participat, com a bomber forestal, en centenars d’incendis forestals. Ha treballat com a especialista en informació geoespacial per a diversos boscos nacionals, el Southwest Geographic Area Coordination Center (GACC) i el National Interagency Coordination Center (NICC). La seva àmplia experiència en gestió d’incidents i sistemes de suport a la presa de decisions garanteix que els nostres marcs científics estiguin plenament alineats amb les necessitats pràctiques i el ritme de treball de la gestió dels incendis forestals.
 
-...
 
 ### PyroMED
 
@@ -39,13 +38,7 @@ Com a cofundadors de PyroMED, Alicia i Sean han unit les seves trajectòries i e
 
 Creiem que protegir els nostres paisatges requereix un llenguatge compartit. Mitjançant l’intercanvi internacional de coneixement i el desenvolupament d’eines basades en dades i adaptades a les realitats locals, volem donar eines a les comunitats i als gestors del territori perquè puguin adaptar-se de manera proactiva a un clima canviant i aprendre a conviure amb el foc de manera segura.
 
-...
 
-</div>
-
-<hr class="language-divider">
-
-<div class="lang-en" markdown="1">
 
 ### Dr. Alicia Azpeleta
 
@@ -57,7 +50,6 @@ Her research integrates dendrochronology, fire-history reconstruction, forest in
 
 She is currently a postdoctoral researcher at the Universitat de les Illes Balears, where her work focuses on how historical land-use legacies and Mediterranean cultural landscapes influence wildfire behaviour and ecosystem resilience. Her scientific perspective ensures that PyroMED combines rigorous ecological research with practical approaches to building more resilient landscapes.
 
-...
 
 ### Sean E. Henning
 
@@ -67,7 +59,6 @@ Sean Henning brings over two decades of boots-on-the-ground, operational wildfir
 
 Throughout his career, Sean has developed and implemented fire danger operating plans across U.S. National Forests and contributed to hundreds of active wildfire incidents. He has served as a geospatial specialist for multiple national forests, the Southwest Geographic Area Coordination Center (GACC), and the National Interagency Coordination Center (NICC). His deep immersion in incident management and decision-support systems ensures that our scientific frameworks are completely aligned with the fast-paced, practical realities of wildfire workflows and management needs.
 
-...
 
 ### PyroMED
 
@@ -75,6 +66,4 @@ As co-founders of PyroMED, Alicia and Sean united their complementary background
 
 We believe that protecting our landscapes requires a shared language. By fostering international knowledge exchange and building data-driven, localized tools, we empower communities and land managers to proactively adapt to a changing climate and learn to safely coexist with fire.
 
-...
 
-</div>
