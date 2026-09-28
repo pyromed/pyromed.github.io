@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "Science for All"
+  - title: "Ciència per a tothom"
     url: /science/
   - title: "Research"
     url: /research/
