@@ -100,8 +100,7 @@ Quan diferents arbres presenten cicatrius que coincideixen en un mateix any, pod
 - com es distribuïen els incendis en el temps i l'espai
 - com ha canviat el règim d'incendis al llarg de dècades o segles
 
-> Els arbres ens permeten reconstruir una història del foc que sovint va molt més enrere que els registres històrics, i ens ajuda a entendre com el foc ha contribuït a configurar els paisatges mediterranis.
-> 
+Els arbres ens permeten reconstruir una història del foc que sovint va molt més enrere que els registres històrics, i ens ajuda a entendre com el foc ha contribuït a configurar els paisatges mediterranis.
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/fire_scar.jpg" 
