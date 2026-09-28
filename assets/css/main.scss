@@ -146,18 +146,33 @@
   display: none !important;
 }
 
-/* Only apply the sidebar pull-left effect on large desktop screens (1200px and up) */
+/* Safe responsive sidebar layout for Minimal Mistakes */
 @media (min-width: 1200px) {
+    #main {
+        display: flex !important;
+        flex-direction: row-reverse !important; /* Puts content on right, sidebar on left if desired */
+        justify-content: space-between !important;
+        width: 90% !important;
+        max-width: 1400px !important; /* Slightly wider to accommodate sidebars comfortably */
+    }
+
     .sidebar,
     .page__sidebar {
-        position: absolute !important;
-        top: 0 !important;
-        left: -200px !important;
-        width: 180px !important;
+        position: relative !important;
+        flex: 0 0 220px !important; /* Fixed, safe width for sidebar */
+        margin-right: 2rem !important;
+        left: auto !important;
+        top: auto !important;
+    }
+
+    .initial-content,
+    .page__content {
+        flex: 1 !important;
+        min-width: 0 !important; /* Prevents flex items from overflowing */
     }
 }
 
-/* On smaller laptops and tablets, keep the sidebar safely inside the flow so it never cuts off */
+/* On smaller laptops and tablets, stack them vertically */
 @media (max-width: 1199px) {
     .sidebar,
     .page__sidebar {
