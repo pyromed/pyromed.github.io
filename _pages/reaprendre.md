@@ -109,12 +109,12 @@ Aquestes accions no depenen d'un únic actor. La planificació territorial corre
 
 ---
 <div class="page-navigation">
-  <a href="/simulador/" class="btn btn--primary">
+  <a href="{{ '/simulador/' | relative_url }}" class="btn btn--primary">
     ← Simulador
   </a>
 
-  <a href="/clima/" class="btn btn--primary">
-    El canvi climatic →
+  <a href="{{ '/clima/' | relative_url }}" class="btn btn--primary">
+    El canvi climàtic →
   </a>
 </div>
 
