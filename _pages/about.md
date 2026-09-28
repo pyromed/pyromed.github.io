@@ -30,6 +30,8 @@ As co-founders of PYROMED, Alicia and Sean united their complementary background
 
 </div>
 
+<hr class="language-divider">
+
 <div class="lang-ca">
 
 ### Dra. Alicia Azpeleta
