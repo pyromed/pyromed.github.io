@@ -106,7 +106,7 @@ Quan diferents arbres presenten cicatrius que coincideixen en un mateix any, pod
        style="width: 100%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
-    Els estomes regulen l’intercanvi de gasos i la pèrdua d’aigua de la planta. Quan estan oberts, permeten l’entrada de CO₂ necessari per a la fotosíntesi, però també provoquen pèrdua d’aigua per transpiració. En condicions de sequera, els estomes es tanquen per reduir aquesta pèrdua d’aigua, limitant alhora l’entrada de CO₂ i la fotosíntesi..
+    Cicatrius de foc (assenyalades amb fletxes taronges) en una secció transversal d’un tronc d'alzina. Les ferides provocades pel foc queden enregistrades a la fusta i es poden datar mitjançant els anells de creixement. 
   </em>
 </p>
 </div>
@@ -115,11 +115,11 @@ Quan diferents arbres presenten cicatrius que coincideixen en un mateix any, pod
 
 Els arbres ens proporcionen un registre de com han respost als canvis ambientals que ja han passat. Per exemple, podem identificar els anys de sequera més intensa i estudiar com va respondre cada espècie: quant va disminuir el seu creixement, fins a quin punt es va recuperar després de la sequera i quant de temps va necessitar per tornar al seu ritme habitual.
 
-Aquesta informació ens permet quantificar la resistència i la resiliència dels arbres davant de la sequera.
+Aquesta informació ens permet quantificar la resistència i la resiliència dels arbres davant de la sequera i altres perturbacions i comparar la resposta de diferents espècies.
 
-Després podem combinar aquestes relacions amb les projeccions climàtiques futures.
-> El canvi climàtic no implica simplement que hi hagi més incendis. La seva principal influència és que modifica les condicions ambientals en què els incendis es desenvolupen. Quan coincideixen una ignició amb vegetació seca, una atmosfera càlida i seca i vents favorables, augmenta la probabilitat que el foc es propagui ràpidament i sigui difícil de controlar.
-> 
+Després podem combinar aquestes relacions amb les projeccions climàtiques futures. Els models climàtics ens permeten estimar com podrien canviar durant les pròximes dècades factors com la temperatura, la precipitació i la freqüència i intensitat de les sequeres.
+
+Si sabem com han respost els arbres a diferents nivells de sequera en el passat, podem utilitzar aquestes relacions per explorar com podrien respondre davant de les condicions climàtiques projectades per al futur. Per exemple, si una espècie mostra una forta reducció del creixement durant les sequeres més intenses, i les projeccions indiquen que aquestes condicions podrien ser més freqüents, podem esperar que aquesta espècie estigui sotmesa a una pressió hídrica més gran. En canvi, les espècies que mantenen millor el seu creixement durant la sequera i mostren una major capacitat de recuperació podrien ser candidates interessants per a la restauració i la replantació de boscos en zones on s'espera un augment de l'estrès hídric.
 
 ---
 <div class="page-navigation">
