@@ -24,7 +24,7 @@ Els arbres formen, en general, un nou anell de creixement cada any. Durant la te
 Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un any a l'altre. Cada anell conté informació sobre les condicions en què va créixer l'arbre durant aquell any. Un anell ample indica, en general, unes condicions que van permetre un major creixement, mentre que un anell estret pot indicar que el creixement va estar limitat. I és precisament aquesta variació la que ens permet convertir els arbres en arxius naturals del passat.
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/images/tree_rings.jpg" 
+  <img src="/assets/images/tree_rings.jpeg" 
        alt="" 
        style="width: 100%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
