@@ -16,7 +16,7 @@ author_profile: true
 </div>
 
 <!-- CATALAN CONTENT -->
-<div id="content-ca" class="lang-content">
+<div id="content-ca" class="lang-content" markdown="1">
 
 ### Dra. Alicia Azpeleta
 
@@ -46,7 +46,7 @@ Creiem que protegir els nostres paisatges requereix un llenguatge compartit. Mit
 
 
 <!-- ENGLISH CONTENT -->
-<div id="content-en" class="lang-content" style="display: none;">
+<div id="content-en" class="lang-content" style="display: none;" markdown="1">
 
 ### Dr. Alicia Azpeleta
 
