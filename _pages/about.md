@@ -9,7 +9,14 @@ author_profile: true
      alt="Alicia Azpeleta and Sean Henning"
      style="display: block; margin: 20px auto 30px auto; max-width: 700px; width: 100%; border-radius: 8px;">
 
+<!-- Language Switcher Buttons -->
+<div style="text-align: center; margin-bottom: 30px;">
+  <button onclick="setLanguage('ca')" id="btn-ca" style="padding: 8px 16px; margin-right: 10px; cursor: pointer; font-weight: bold; background-color: #002b49; color: white; border: none; border-radius: 4px;">Català</button>
+  <button onclick="setLanguage('en')" id="btn-en" style="padding: 8px 16px; cursor: pointer; font-weight: normal; background-color: #e0e0e0; color: #333; border: none; border-radius: 4px;">English</button>
+</div>
 
+<!-- CATALAN CONTENT -->
+<div id="content-ca" class="lang-content">
 
 ### Dra. Alicia Azpeleta
 
@@ -21,8 +28,6 @@ La seva recerca integra la dendrocronologia, la reconstrucció de la història d
 
 Actualment és investigadora postdoctoral a la Universitat de les Illes Balears, on estudia com les herències de l’ús històric del territori i els paisatges culturals mediterranis influeixen en el comportament dels incendis forestals i en la resiliència dels ecosistemes. La seva perspectiva científica contribueix a garantir que PyroMED combini una recerca ecològica rigorosa amb enfocaments pràctics per construir paisatges més resilients.
 
-
-
 ### Sean E. Henning
 
 **Especialista operatiu i cofundador**
@@ -31,14 +36,17 @@ Sean Henning aporta a l’equip més de dues dècades d’experiència operativa
 
 Al llarg de la seva trajectòria, Sean ha desenvolupat i implementat plans operatius de perill d’incendi en boscos nacionals dels Estats Units i ha participat, com a bomber forestal, en centenars d’incendis forestals. Ha treballat com a especialista en informació geoespacial per a diversos boscos nacionals, el Southwest Geographic Area Coordination Center (GACC) i el National Interagency Coordination Center (NICC). La seva àmplia experiència en gestió d’incidents i sistemes de suport a la presa de decisions garanteix que els nostres marcs científics estiguin plenament alineats amb les necessitats pràctiques i el ritme de treball de la gestió dels incendis forestals.
 
-
 ### PyroMED
 
 Com a cofundadors de PyroMED, Alicia i Sean han unit les seves trajectòries i experiències complementàries per crear una iniciativa sense ànim de lucre que superi les barreres tradicionals entre la comunitat científica i els professionals que treballen sobre el terreny.
 
 Creiem que protegir els nostres paisatges requereix un llenguatge compartit. Mitjançant l’intercanvi internacional de coneixement i el desenvolupament d’eines basades en dades i adaptades a les realitats locals, volem donar eines a les comunitats i als gestors del territori perquè puguin adaptar-se de manera proactiva a un clima canviant i aprendre a conviure amb el foc de manera segura.
 
+</div>
 
+
+<!-- ENGLISH CONTENT -->
+<div id="content-en" class="lang-content" style="display: none;">
 
 ### Dr. Alicia Azpeleta
 
@@ -50,7 +58,6 @@ Her research integrates dendrochronology, fire-history reconstruction, forest in
 
 She is currently a postdoctoral researcher at the Universitat de les Illes Balears, where her work focuses on how historical land-use legacies and Mediterranean cultural landscapes influence wildfire behaviour and ecosystem resilience. Her scientific perspective ensures that PyroMED combines rigorous ecological research with practical approaches to building more resilient landscapes.
 
-
 ### Sean E. Henning
 
 **Operational Specialist & Co-Founder**
@@ -59,11 +66,40 @@ Sean Henning brings over two decades of boots-on-the-ground, operational wildfir
 
 Throughout his career, Sean has developed and implemented fire danger operating plans across U.S. National Forests and contributed to hundreds of active wildfire incidents. He has served as a geospatial specialist for multiple national forests, the Southwest Geographic Area Coordination Center (GACC), and the National Interagency Coordination Center (NICC). His deep immersion in incident management and decision-support systems ensures that our scientific frameworks are completely aligned with the fast-paced, practical realities of wildfire workflows and management needs.
 
-
 ### PyroMED
 
 As co-founders of PyroMED, Alicia and Sean united their complementary backgrounds to create a non-profit initiative that breaks down the traditional silos between scientists and practitioners.
 
 We believe that protecting our landscapes requires a shared language. By fostering international knowledge exchange and building data-driven, localized tools, we empower communities and land managers to proactively adapt to a changing climate and learn to safely coexist with fire.
 
+</div>
 
+<!-- JavaScript to handle language toggling -->
+<script>
+function setLanguage(lang) {
+  const caDiv = document.getElementById('content-ca');
+  const enDiv = document.getElementById('content-en');
+  const btnCa = document.getElementById('btn-ca');
+  const btnEn = document.getElementById('btn-en');
+
+  if (lang === 'ca') {
+    caDiv.style.display = 'block';
+    enDiv.style.display = 'none';
+    btnCa.style.backgroundColor = '#002b49';
+    btnCa.style.color = 'white';
+    btnCa.style.fontWeight = 'bold';
+    btnEn.style.backgroundColor = '#e0e0e0';
+    btnEn.style.color = '#333';
+    btnEn.style.fontWeight = 'normal';
+  } else {
+    caDiv.style.display = 'none';
+    enDiv.style.display = 'block';
+    btnEn.style.backgroundColor = '#002b49';
+    btnEn.style.color = 'white';
+    btnEn.style.fontWeight = 'bold';
+    btnCa.style.backgroundColor = '#e0e0e0';
+    btnCa.style.color = '#333';
+    btnCa.style.fontWeight = 'normal';
+  }
+}
+</script>
