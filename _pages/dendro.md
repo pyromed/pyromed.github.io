@@ -78,26 +78,26 @@ Els dendrocronòlegs poden comparar aquests patrons de creixement entre diferent
 
 Però com sabem què significa un anell estret?
 
-Aquí entra en joc el registre instrumental. Per als períodes recents disposem de dades meteorològiques —precipitació, temperatura, humitat, etc.— procedents d'estacions meteorològiques. Podem comparar aquestes dades amb els anells dels arbres. Si trobem una relació consistent entre el creixement i una determinada variable climàtica, podem utilitzar els anells més antics per estudiar com ha variat aquesta variable abans que existissin registres meteorològics.
+Aquí entra en joc el registre instrumental. Per als períodes recents disposem de dades meteorològiques (precipitació, temperatura, humitat, etc.), procedents d'estacions meteorològiques. Podem comparar aquestes dades amb els anells dels arbres. Si trobem una relació consistent entre el creixement i una determinada variable climàtica, podem utilitzar els anells més antics per estudiar com ha variat aquesta variable abans que existissin registres meteorològics.
 
 D'aquesta manera, un arbre pot ajudar-nos a mirar molt més enrere en el temps que les dades instrumentals.
 
 ## Com podem utilitzar els anells com a registre d'incendis?
 
-Quan un foc passa per un arbre, les flames poden cremar la fusta. Si el càmbium,la capa de teixit responsable del creixement en diàmetre, sobreviu, l'arbre continua creixent. A mesura que creix, la fusta incorpora la ferida i forma una cicatriu.
+Quan un incendi passa per un arbre, la calor pot matar el càmbium, la fina capa de teixit responsable del creixement en diàmetre. Si una part del càmbium sobreviu, l'arbre pot continuar creixent.
 
-Quan extraiem una mostra de fusta que travessa aquesta cicatriu, podem observar-la al laboratori i determinar en quin any es va produir l'incendi.
+Per protegir la zona danyada l'arbre produeix fusta de ferida. A mesura que el tronc continua creixent, els nous teixits envolten progressivament la zona afectada i la ferida queda incorporada a la fusta. El resultat és una cicatriu d'incendi que queda enregistrada.
 
-Si estudiem molts arbres en una mateixa zona, podem trobar cicatrius que coincideixen en el temps. Quan diversos arbres mostren evidències d'un incendi en el mateix any, tenim una evidència molt més sòlida que aquell incendi va afectar una part important del bosc.
+Quan obtenim una mostra de fusta que travessa aquesta cicatriu, podem observar-la i datar l'incendi comparant-la amb els anells anuals de creixement. Pero no tots els incendis deixen una cicatriu visible en tots els arbres, depèn, entre altres factors, de la intensitat del foc i de les característiques de l'arbre. A més, una cicatriu antiga pot quedar destruïda per un incendi posterior o perdre's amb la degradació de la fusta.
 
-Així podem reconstruir:
+Quan diferents arbres presenten cicatrius que coincideixen en un mateix any, podem identificar un incendi que probablement va afectar la zona estudiada. A partir d'aquest registre podem estudiar:
 
-- quan es van produir els incendis;
-- amb quina freqüència es cremava una zona;
-- si els incendis es produïen de manera regular o irregular;
-- i, en alguns casos, com ha canviat el règim d'incendis al llarg del temps.
+- quan es van produir els incendis
+- amb quina freqüència es cremava la zona
+- com es distribuïen els incendis en el temps i l'espai.
+- com ha canviat el règim d'incendis al llarg de dècades o segles.
 
-> No tots els incendis deixen una cicatriu visible.
+> Els arbres ens permeten reconstruir una història del foc que sovint va molt més enrere que els registres històrics, i ens ajuda a entendre com el foc ha contribuït a configurar els paisatges mediterranis.
 > 
 
 <div style="text-align: center; margin: 20px 0;">
