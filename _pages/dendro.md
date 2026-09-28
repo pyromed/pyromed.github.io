@@ -119,7 +119,7 @@ Els arbres ens proporcionen un registre de com han respost als canvis ambientals
 
 Aquesta informació ens permet quantificar la resistència i la resiliència dels arbres davant de la sequera i altres perturbacions i comparar la resposta de diferents espècies.
 
-Després podem combinar aquestes relacions amb les projeccions climàtiques futures. Els models climàtics ens permeten estimar com podrien canviar durant les pròximes dècades factors com la temperatura, la precipitació i la freqüència i intensitat de les sequeres.
+Aquestes relacions es poden combinar amb les projeccions climàtiques futures. Els models climàtics ens permeten estimar com podrien canviar durant les pròximes dècades factors com la temperatura, la precipitació i la freqüència i intensitat de les sequeres.
 
 Si sabem com han respost els arbres a diferents nivells de sequera en el passat, podem utilitzar aquestes relacions per explorar com podrien respondre davant de les condicions climàtiques projectades per al futur. Per exemple, si una espècie mostra una forta reducció del creixement durant les sequeres més intenses, i les projeccions indiquen que aquestes condicions podrien ser més freqüents, podem esperar que aquesta espècie estigui sotmesa a una pressió hídrica més gran. En canvi, les espècies que mantenen millor el seu creixement durant la sequera i mostren una major capacitat de recuperació podrien ser candidates interessants per a la restauració i la replantació de boscos en zones on s'espera un augment de l'estrès hídric.
 
