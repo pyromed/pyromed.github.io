@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Règims d’incendi"
-excerpt: "🔥 Cada ecosistema té una relació diferent amb el foc. En aquest nou contingut de Ciència per a tothom, explorem com els patrons del foc al llarg del temps contribueixen a determinar l'estructura, la composició i el funcionament dels ecosistemes.."
+excerpt: "🔥 Cada ecosistema té una relació diferent amb el foc. En aquest nou contingut de Ciència per a tothom, explorem com els patrons del foc al llarg del temps contribueixen a determinar l'estructura, la composició i el funcionament dels ecosistemes."
 date: 2026-07-24
 ---
 
