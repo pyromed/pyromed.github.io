@@ -48,7 +48,7 @@ Actualment és investigadora postdoctoral a la Universitat de les Illes Balears,
 ### Sean E. Henning
 **Especialista operatiu i cofundador**
 
-Sean Henning aporta a l’equip més de dues dècades d’experiència operativa directa en la gestió d’incendis forestals. Antic professional del Servei Forestal Nord-amèrica (USFS), la seva experiència se situa en la intersecció entre les operacions de camp i els sistemes avançats d’anàlisi i suport a la presa de decisions.
+Sean Henning aporta a l’equip més de dues dècades d’experiència operativa directa en la gestió d’incendis forestals. Antic professional del Servei Forestal dels Estats Units (USFS), la seva experiència se situa en la intersecció entre les operacions de camp i els sistemes avançats d’anàlisi i suport a la presa de decisions.
 
 Al llarg de la seva trajectòria, Sean ha desenvolupat i implementat plans operatius de perill d’incendi en boscos nacionals dels Estats Units i ha participat, com a bomber forestal, en centenars d’incendis forestals. Ha treballat com a especialista en informació geoespacial per a diversos boscos nacionals, el Southwest Geographic Area Coordination Center (GACC) i el National Interagency Coordination Center (NICC). La seva àmplia experiència en gestió d’incidents i sistemes de suport a la presa de decisions garanteix que els nostres marcs científics estiguin plenament alineats amb les necessitats pràctiques i el ritme de treball de la gestió dels incendis forestals.
 
