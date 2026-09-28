@@ -50,7 +50,7 @@ Per fer la fotosíntesi, les plantes necessiten incorporar diòxid de carboni (C
        style="width: 50%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
-    Els estomes regulen l’intercanvi de gasos i la pèrdua d’aigua de la planta. Quan estan oberts, permeten l’entrada de CO₂ necessari per a la fotosíntesi, però també provoquen pèrdua d’aigua per transpiració. En condicions de sequera, els estomes es tanquen per reduir aquesta pèrdua d’aigua, limitant alhora l’entrada de CO₂ i la fotosíntesi..
+    Els estomes regulen l’intercanvi de gasos i la pèrdua d’aigua de la planta. Quan estan oberts, permeten l’entrada de CO₂ necessari per a la fotosíntesi, però també provoquen pèrdua d’aigua per transpiració. En condicions de sequera, els estomes es tanquen per reduir aquesta pèrdua d’aigua, limitant alhora l’entrada de CO₂ i la fotosíntesi.
   </em>
 </p>
 </div>
@@ -71,7 +71,7 @@ Els dendrocronòlegs poden comparar aquests patrons de creixement entre diferent
        style="width: 100%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
-    Els estomes regulen l’intercanvi de gasos i la pèrdua d’aigua de la planta. Quan estan oberts, permeten l’entrada de CO₂ necessari per a la fotosíntesi, però també provoquen pèrdua d’aigua per transpiració. En condicions de sequera, els estomes es tanquen per reduir aquesta pèrdua d’aigua, limitant alhora l’entrada de CO₂ i la fotosíntesi..
+    La datació creuada permet connectar mostres d’arbres vius amb fusta històrica a partir de patrons compartits en els anells de creixement. La seqüència d’anells amples i estrets produïda per les variacions ambientals es pot reconèixer en diferents mostres, permetent identificar els períodes que tenen en comú i construir cronologies que s’estenen més enllà de la vida dels arbres vius. Imathe adaptada de Panyushkina (2011).
   </em>
 </p>
 </div>
