@@ -101,7 +101,7 @@ Quan diferents arbres presenten cicatrius que coincideixen en un mateix any, pod
 > 
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/images/crosssection.jpg" 
+  <img src="/assets/images/fire_scar.jpg" 
        alt="" 
        style="width: 100%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
