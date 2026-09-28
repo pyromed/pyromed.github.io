@@ -4,6 +4,10 @@ title: "Què determina el comportament d'un incendi?"
 date: 2026-08-04
 ---
 
+<meta http-equiv="refresh" content="0; url={{ '/behaviour/' | relative_url }}">
+
+<p>Si no et redirigeix automàticament, fes clic <a href="{{ '/behaviour/' | relative_url }}">aquí</a>.</p>
+
 🔥 El comportament d'un incendi pot canviar en qüestió de minuts.
 
 El vent, la temperatura, la humitat, la topografia i la vegetació influeixen en la manera com el foc s'encén, es propaga i evoluciona.
