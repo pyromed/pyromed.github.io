@@ -146,41 +146,63 @@
   display: none !important;
 }
 
-/* Safe responsive sidebar layout for Minimal Mistakes */
+/* ==========================================================
+   Desktop Screens (1200px and up)
+   ========================================================== */
 @media (min-width: 1200px) {
     #main {
         display: flex !important;
-        flex-direction: row-reverse !important; /* Puts content on right, sidebar on left if desired */
+        flex-direction: row-reverse !important; /* Content on right, sidebar on left */
         justify-content: space-between !important;
         width: 90% !important;
-        max-width: 1400px !important; /* Slightly wider to accommodate sidebars comfortably */
+        max-width: 1350px !important;
     }
 
     .sidebar,
     .page__sidebar {
-        position: relative !important;
-        flex: 0 0 220px !important; /* Fixed, safe width for sidebar */
+        position: sticky !important;       /* Scrolls naturally with the page */
+        top: 2rem !important;              /* Keeps a neat gap from the top */
+        align-self: flex-start !important; /* Prevents sidebar from stretching full-height */
+        flex: 0 0 240px !important;        /* Fixed, safe width */
         margin-right: 2rem !important;
         left: auto !important;
-        top: auto !important;
     }
 
     .initial-content,
     .page__content {
         flex: 1 !important;
-        min-width: 0 !important; /* Prevents flex items from overflowing */
+        min-width: 0 !important;           /* Prevents text overflow bugs */
     }
 }
 
-/* On smaller laptops and tablets, stack them vertically */
+/* ==========================================================
+   Smaller Laptops, Tablets, and Mobile (Under 1200px)
+   ========================================================== */
 @media (max-width: 1199px) {
+    #main {
+        display: flex !important;
+        flex-direction: column !important; /* Stacks items vertically */
+        width: 90% !important;
+    }
+
+    /* CRITICAL: Forces your actual article/content to appear FIRST */
+    .initial-content,
+    .page__content {
+        order: 1 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Puts the sidebar SECOND (underneath the article text) */
     .sidebar,
     .page__sidebar {
+        order: 2 !important;
         position: relative !important;
         left: auto !important;
         width: 100% !important;
         max-width: 100% !important;
         float: none !important;
+        margin-top: 2rem !important;
         margin-bottom: 2rem !important;
     }
 }
