@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Manuscript Submitted: Wildfire Hazard in Afforested Mediterranean Landscapes"
+title: "New Preprint: Wildfire Hazard in Afforested Mediterranean Landscapes"
 date: 2026-07-08
 ---
 
