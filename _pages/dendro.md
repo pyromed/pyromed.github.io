@@ -84,6 +84,22 @@ D'aquesta manera, un arbre pot ajudar-nos a mirar molt més enrere en el temps q
 
 ## Com podem utilitzar els anells com a registre d'incendis?
 
+Quan un foc passa per un arbre, les flames poden cremar la fusta. Si el càmbium,la capa de teixit responsable del creixement en diàmetre, sobreviu, l'arbre continua creixent. A mesura que creix, la fusta incorpora la ferida i forma una cicatriu.
+
+Quan extraiem una mostra de fusta que travessa aquesta cicatriu, podem observar-la al laboratori i determinar en quin any es va produir l'incendi.
+
+Si estudiem molts arbres en una mateixa zona, podem trobar cicatrius que coincideixen en el temps. Quan diversos arbres mostren evidències d'un incendi en el mateix any, tenim una evidència molt més sòlida que aquell incendi va afectar una part important del bosc.
+
+Així podem reconstruir:
+
+- quan es van produir els incendis;
+- amb quina freqüència es cremava una zona;
+- si els incendis es produïen de manera regular o irregular;
+- i, en alguns casos, com ha canviat el règim d'incendis al llarg del temps.
+
+>>No tots els incendis deixen una cicatriu visible.>>
+
+
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/crosssection.jpg" 
        alt="" 
