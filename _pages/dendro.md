@@ -85,7 +85,7 @@ D'aquesta manera, un arbre pot ajudar-nos a mirar molt més enrere en el temps q
 ## Com podem utilitzar els anells com a registre d'incendis?
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/images/crosssection.png" 
+  <img src="/assets/images/crosssection.jpg" 
        alt="" 
        style="width: 100%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
