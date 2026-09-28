@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Incendis extrems"
+excerpt: "🔥 En aquest nou contingut de Ciència per a tothom, explorem què són els incendis extrems i per què representen un dels grans reptes actuals?"
 date: 2026-05-26
 ---
 
@@ -8,4 +9,3 @@ date: 2026-05-26
 
 <p>Si no et redirigeix automàticament, fes clic <a href="{{ '/extreme/' | relative_url }}">aquí</a>.</p>
 
-🔥 En aquest nou contingut de **Ciència per a tothom**, explorem què són els incendis extrems i per què representen un dels grans reptes actuals?
