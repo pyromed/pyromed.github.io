@@ -14,7 +14,7 @@ Traditional agricultural terraces are widespread across Mediterranean landscapes
 
 But do these cultural landscape legacies influence how forests respond to wildfire?
 
-Our study examines this question eleven years after a mixed-severity wildfire in Mallorca, Spain.
+The study examines this question eleven years after a mixed-severity wildfire in Mallorca, Spain.
 
 I surveyed 29 forest plots, including 15 terraced and 14 non-terraced plots, with different fire histories.
 
