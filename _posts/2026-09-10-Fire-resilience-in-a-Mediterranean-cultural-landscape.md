@@ -16,15 +16,15 @@ But do these cultural landscape legacies influence how forests respond to wildfi
 
 Our study examines this question eleven years after a mixed-severity wildfire in Mallorca, Spain.
 
-We surveyed 29 forest plots, including 15 terraced and 14 non-terraced plots, with different fire histories.
+I surveyed 29 forest plots, including 15 terraced and 14 non-terraced plots, with different fire histories.
 
 For burned plots, we evaluated different dimensions of resilience, including resistance, recovery, and post-fire establishment of Aleppo pine (*Pinus halepensis*).
 
 ## What happens after wildfire?
 
-Forest resilience is not a single process. A forest can retain much of its pre-fire structure but subsequently recover slowly, while another forest may experience substantial structural change but move toward a different stable condition.
+Forest resilience is not a single process. A forest can retain much of its pre-fire structure but subsequently recover slowly, while another forest may experience substantial structural change and move toward a different stable condition.
 
-To capture these different trajectories, we combined resistance, recovery, and post-fire establishment within a resilience framework.
+To capture these different trajectories, I combined resistance, recovery, and post-fire establishment within a resilience framework.
 
 We identified five post-fire pathways:
 
@@ -34,21 +34,20 @@ We identified five post-fire pathways:
 - hyperdense
 - transition-risk
 
-This framework allowed us to move beyond simply asking whether a forest "recovered" and instead examine how forests were changing after fire.
 
 ## Do agricultural terraces influence fire resilience?
 
-Our results suggest that the influence of historical terraces on fire resilience is more complex than might be expected.
+The results suggest that the influence of historical terraces on fire resilience is more complex than might be expected.
 
 Overstory resistance did not differ significantly between terraced and non-terraced hillslopes. However, terraced stands consistently retained a greater proportion of their pre-fire tree density, basal area, and small-diameter trees.
 
 Instead, resistance was more strongly associated with factors such as elevation, aspect, and tree size.
 
-We also found differences in recovery trajectories. Burned non-terraced stands showed greater multivariate convergence toward their unburned reference conditions than burned terraced stands, driven mainly by changes in overstory structure and recruitment.
+Burned non-terraced stands showed greater multivariate convergence toward their unburned reference conditions than burned terraced stands, driven mainly by changes in overstory structure and recruitment.
 
 ## A warning sign for post-fire forest trajectories
 
-Post-fire establishment varied substantially among burned plots. Some showed relatively little regeneration, while others developed extremely dense Pinus halepensis recruitment, exceeding 4,000 saplings per hectare.
+Post-fire establishment varied substantially among burned plots. Some showed relatively little recruitment, while others developed extremely dense *Pinus halepensis* recruitment, exceeding 4,000 saplings per hectare.
 
 Nearly half of the burned plots showed evidence of a trajectory toward pre-fire conditions. However, the transition-risk pathway was the most common, occurring in 39.1% of burned plots.
 
@@ -60,7 +59,7 @@ Identifying these trajectories early could therefore help managers determine whe
 
 The study highlights the importance of considering historical land-use legacies, forest structure, and post-fire trajectories together when assessing wildfire resilience.
 
-Our findings also show that cultural landscape features such as agricultural terraces do not necessarily have a straightforward effect on post-fire resilience. Their influence needs to be considered alongside the environmental and structural characteristics of the forests in which they occur.
+The findings also show that cultural landscape features such as agricultural terraces do not necessarily have a straightforward effect on post-fire resilience. Their influence needs to be considered alongside the environmental and structural characteristics of the forests in which they occur.
 
 More broadly, understanding why some forests recover after wildfire while others move toward alternative vegetation states is increasingly important as Mediterranean ecosystems face more frequent drought and increasingly challenging fire conditions.
 
@@ -72,4 +71,4 @@ The manuscript is currently undergoing peer review, and the submitted version is
 
 Keywords: Aleppo pine, Balearic Islands, dry-stone walls, forest structure, recruitment, regeneration, time since fire
 
-Read the manuscript on Research Square
+[Read the preprint on Research Square](https://doi.org/10.21203/rs.3.rs-10728343/v1)
