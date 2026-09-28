@@ -130,6 +130,6 @@ Si sabem com han respost els arbres a diferents nivells de sequera en el passat,
   </a>
 
   <a href="/adaptació/" class="btn btn--primary">
-   Boscos davant del canvi climàtic: resistir, recuperar-se o canviar → 
+   Resistir, recuperar-se o canviar → 
   </a>
 </div>
