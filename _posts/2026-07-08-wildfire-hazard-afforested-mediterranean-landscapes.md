@@ -28,11 +28,11 @@ To capture these different trajectories, I combined resistance, recovery, and po
 
 I identified five post-fire pathways:
 
-resistant and recovering
-resistant but recovery-limited
-recovery-driven
-hyperdense
-transition-risk
+- resistant and recovering
+- resistant but recovery-limited
+- recovery-driven
+- hyperdense
+- transition-risk
 
 
 ## Do agricultural terraces influence fire resilience?
