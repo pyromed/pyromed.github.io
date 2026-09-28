@@ -26,7 +26,7 @@ Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un a
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/tree_rings.jpeg" 
        alt="" 
-       style="width: 100%; height: auto; border-radius: 6px;">
+       style="width: 75%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     Vista dels anells anuals en arbres (disc i nucli). La imatge de la dreta és una microsecció que mostra la fusta a nivell cel·lular dins dels anells de creixement anuals. Imatge extreta de Gärtner (2007).
