@@ -149,10 +149,12 @@
 /* Shift profile sidebar relative to #main container */
 .sidebar,
 .page__sidebar {
-  position: absolute !important;
-  top: 0 !important;
-  left: -200px !important;
-  width: 180px !important;
+    position: relative !important; /* Keep it in the document flow */
+    left: auto !important;
+    width: 100% !important;
+    max-width: 220px !important;
+    float: left !important;
+    margin-right: 2rem !important;
 }
 
 /* Align content directly to the main container edge */
