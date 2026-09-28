@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Què determina el comportament d'un incendi?"
+excerpt: "🔥 El comportament d'un incendi pot canviar en qüestió de minuts. En aquest nou contingut de Ciència per a tothom, els principals factors que determinen el comportament del foc."
 date: 2026-08-04
 ---
 
