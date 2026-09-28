@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Dendrocronologia"
+date: 2026-09-28
+---
+
+🌳 Els arbres enregistren en els seus anells les condicions ambientals que han experimentat al llarg de la seva vida. La dendrocronologia ens permet llegir aquest registre natural per entendre el clima, la història dels incendis i altres pertorbacions.
