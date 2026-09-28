@@ -109,7 +109,7 @@ Aquestes accions no depenen d'un únic actor. La planificació territorial corre
 
 ---
 <div class="page-navigation">
-  <a href="/similador/" class="btn btn--primary">
+  <a href="/simulador/" class="btn btn--primary">
     ← Simulador
   </a>
 
