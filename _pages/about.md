@@ -25,8 +25,10 @@ Sean Henning brings over two decades of boots-on-the-ground, operational wildfir
 
 Throughout his career, Sean has developed and implemented fire danger operating plans across U.S. National Forests and contributed to hundreds of active wildfire incidents. He has served as a geospatial specialist for multiple national forests, the Southwest Geographic Area Coordination Center (GACC), and the National Interagency Coordination Center (NICC). His deep immersion in incident management and decision-support systems ensures that our scientific frameworks are completely aligned with the fast-paced, practical realities of wildfire workflows and management needs.
 
-## PYROMED
+### PYROMED
 As co-founders of PYROMED, Alicia and Sean united their complementary backgrounds to create a non-profit initiative that breaks down the traditional silos between scientists and practitioners. We believe that protecting our landscapes requires a shared language. By fostering international knowledge exchange and building data-driven, localized tools, we empower communities and land managers to proactively adapt to a changing climate and learn to safely coexist with fire.
+
+</div>
 
 <div class="lang-ca">
 
@@ -46,7 +48,7 @@ Sean Henning aporta a l’equip més de dues dècades d’experiència operativa
 
 Al llarg de la seva trajectòria, Sean ha desenvolupat i implementat plans operatius de perill d’incendi en boscos nacionals dels Estats Units i ha participat, com a bomber forestal, en centenars d’incendis forestals. Ha treballat com a especialista en informació geoespacial per a diversos boscos nacionals, el Southwest Geographic Area Coordination Center (GACC) i el National Interagency Coordination Center (NICC). La seva àmplia experiència en gestió d’incidents i sistemes de suport a la presa de decisions garanteix que els nostres marcs científics estiguin plenament alineats amb les necessitats pràctiques i el ritme de treball de la gestió dels incendis forestals.
 
-## PYROMED
+### PYROMED
 
 Com a cofundadors de PyroMED, Alicia i Sean han unit les seves trajectòries i experiències complementàries per crear una iniciativa sense ànim de lucre que superi les barreres tradicionals entre la comunitat científica i els professionals que treballen sobre el terreny.
 
