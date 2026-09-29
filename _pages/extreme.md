@@ -10,7 +10,7 @@ header:
 
 Els incendis esdevenen un problema greu quan presenten un comportament extrem, és a dir, quan superen la capacitat de control dels mitjans d'extinció.
 
-<img src="/assets/images/burn.jpg" alt="Incendis extrems" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/burn.jpg" alt="Incendis extrems" style="width:75%; border-radius:6px; margin: 15px 0;">
 <p style="font-size: 0.85em; font-style: italic; margin-bottom: 20px; color: #555;">
   *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ara Balears*
 </p>
@@ -31,7 +31,7 @@ Els incendis de comportament extrem solen presentar una elevada severitat ecolò
 
 Aquestes condicions dificulten considerablement la regeneració natural post-incendi. Tot i que moltes espècies mediterrànies estan adaptades al foc, la recurrència d’incendis molt intensos o massa freqüents pot superar la capacitat de recuperació dels ecosistemes i provocar canvis permanents en la composició i estructura de la vegetació.
 
-<img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/post-incendi.jpg" alt="Post incendi" style="width:75%; border-radius:6px; margin: 15px 0;">
 *Imatge: El paisatge després de l'incendi forestal d'Andratx en 2013. Autor: NA Font: Diario de Mallorca*
 ---
 
