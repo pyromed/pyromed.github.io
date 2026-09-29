@@ -105,7 +105,7 @@ We work to:
 - advance research, training, outreach, and technical advisory projects;
 - foster collaboration among public, private, and third-sector organizations; and
 - integrate gender equality and inclusion as cross-cutting principles in our work.
-- 
+
 **What we do**
 
 To achieve these aims, PyroMED develops and participates in:
