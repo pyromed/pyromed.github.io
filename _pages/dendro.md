@@ -26,7 +26,7 @@ Però aquests anells no són tots iguals: la seva amplada pot variar molt d'un a
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/tree_rings.jpeg" 
        alt="" 
-       style="width: 75%; height: auto; border-radius: 6px;">
+       style="width: 50%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     Vista dels anells anuals en arbres (disc i nucli). La imatge de la dreta és una microsecció que mostra la fusta a nivell cel·lular dins dels anells de creixement anuals. Imatge extreta de Gärtner (2007).
@@ -105,7 +105,7 @@ Els arbres ens permeten reconstruir una història del foc que sovint va molt mé
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/fire_scar.jpg" 
        alt="" 
-       style="width: 100%; height: auto; border-radius: 6px;">
+       style="width: 75%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     Cicatrius de foc (assenyalades amb fletxes taronges) en una secció transversal d’un tronc d'alzina. Les ferides provocades pel foc queden enregistrades a la fusta i es poden datar mitjançant els anells de creixement. 
