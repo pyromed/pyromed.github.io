@@ -214,27 +214,36 @@
   margin: 3em 0;
 }
 
-/* ==========================================================
-   Fixed Minimum Height Solution for Feature Tiles
-   ========================================================== */
-
-/* Force the outer card container to a uniform minimum height */
-.feature__item {
-  display: flex !important;
-  flex-direction: column !important;
-  min-height: 420px !important; /* Adjust this value (e.g. 400px or 450px) to fit your longest card */
-  box-sizing: border-box !important;
+/* Cards stretch to the tallest one in the row, and pass that height down */
+.feature__item,
+.feature__item .archive__item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-/* Force the internal text body to take available space and push the button down */
+/* Uniform image area, whatever the original image size */
+.feature__item .archive__item-teaser {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.feature__item .archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* crops to fill; use "contain" if cropping hurts */
+}
+
+/* Body fills the remaining space and pins the button to the bottom */
 .feature__item .archive__item-body {
-  display: flex !important;
-  flex-direction: column !important;
-  flex-grow: 1 !important;
-  justify-content: space-between !important;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-/* Ensure the button stays pinned to the bottom base */
-.feature__item .archive__item-body p {
-  margin-bottom: 1rem !important;
+.feature__item .archive__item-body > p:last-child {
+  margin-top: auto;   /* pushes the button row to the bottom */
+  padding-top: 1rem;
+  margin-bottom: 0;
 }
