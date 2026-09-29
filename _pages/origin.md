@@ -18,7 +18,7 @@ L’ús del foc ha estat històricament una eina fonamental de gestió del paisa
 
 <img src="/assets/images/carboner.jpg" 
      alt="Carboner" 
-     style="width:100%; border-radius:6px; margin: 15px 0;">
+     style="width:75%; border-radius:6px; margin: 15px 0;">
 
 <p style="font-size:0.9em; color:#666; margin-top:-5px;">
 <em>Fotografia: L'ofici de carboner i la producció de carbó vegetal. Font: IPCIME.</em>
@@ -67,7 +67,7 @@ La Llei d'incendis forestals de 1968 va establir per primera vegada un marc espe
 
 <img src="/assets/images/canadair.jpeg" 
      alt="hidroavió" 
-     style="width:100%; border-radius:6px; margin: 15px 0;">
+     style="width:75%; border-radius:6px; margin: 15px 0;">
 
 <p style="font-size:0.9em; color:#666; margin-top:-5px;">
 <em>Fotografia: els primers avions amfibis Canadair van arribar a Espanya el 1971. Font: (https://www.defensa.gob.es/).</em>
