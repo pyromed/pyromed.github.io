@@ -83,7 +83,7 @@ Els principals factors que dificulten les tasques d’extinció són:
 * **Elements combustibles i materials perillosos:** els habitatges poden contenir dipòsits de combustible, vehicles, bombones de gas i altres materials inflamables o potencialment perillosos que augmenten el risc per a les persones i els equips d'emergència.
 * **Accessibilitat limitada:** carrers estrets, carreteres sense sortida o una elevada dispersió dels habitatges poden dificultar tant l'evacuació de la població com l'accés dels vehicles d'emergència.
 
-<img src="/assets/images/interficie.jpg" alt="Interfase urbana forestal" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/interficie.jpg" alt="Interfase urbana forestal" style="width:75%; border-radius:6px; margin: 15px 0;">
 *Imatge: Bombers treballen per a controlar l'incendi forestal d'Andratx en 2013. Autor: NA Font: Ultima Hora*
 
 ---
