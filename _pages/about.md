@@ -42,6 +42,29 @@ Com a cofundadors de PyroMED, Alicia i Sean han unit les seves trajectòries i e
 
 Creiem que protegir els nostres paisatges requereix un llenguatge compartit. Mitjançant l’intercanvi internacional de coneixement i el desenvolupament d’eines basades en dades i adaptades a les realitats locals, volem donar eines a les comunitats i als gestors del territori perquè puguin adaptar-se de manera proactiva a un clima canviant i aprendre a conviure amb el foc de manera segura.
 
+**Els nostres objectius**
+
+PyroMED té com a objectiu fomentar la cooperació científica, tècnica i institucional en l’àmbit dels incendis forestals, el canvi climàtic i l’adaptació socioecològica.
+
+Treballem per:
+
+- facilitar l’intercanvi de coneixement, bones pràctiques i solucions innovadores;
+- impulsar projectes de recerca, formació, divulgació i assessorament tècnic;
+- fomentar la col·laboració entre entitats públiques, privades i del tercer sector; i
+- integrar la igualtat de gènere i la inclusió com a principis transversals de la nostra activitat.
+
+**Què fem**
+
+Per assolir aquests objectius, PyroMED desenvolupa i participa en:
+
+- projectes de recerca, innovació i transferència de coneixement;
+- congressos, seminaris, tallers i activitats formatives;
+- estudis, informes i publicacions;
+- xarxes i consorcis nacionals i internacionals; i
+- iniciatives de captació i gestió de finançament públic i privat.
+
+PyroMED és una associació sense ànim de lucre. Qualsevol excedent econòmic es destina exclusivament al compliment dels seus fins estatutaris.
+
 </div>
 
 
@@ -71,6 +94,29 @@ Throughout his career, Sean has developed and implemented fire danger operating 
 As co-founders of PyroMED, Alicia and Sean united their complementary backgrounds to create a non-profit initiative that breaks down the traditional silos between scientists and practitioners.
 
 We believe that protecting our landscapes requires a shared language. By fostering international knowledge exchange and building data-driven, localized tools, we empower communities and land managers to proactively adapt to a changing climate and learn to safely coexist with fire.
+
+**Our aims**
+
+PyroMED aims to promote scientific, technical, and institutional cooperation in the fields of wildfire, climate change, and socio-ecological adaptation.
+
+We work to:
+
+- facilitate the exchange of knowledge, best practices, and innovative solutions;
+- advance research, training, outreach, and technical advisory projects;
+- foster collaboration among public, private, and third-sector organizations; and
+- integrate gender equality and inclusion as cross-cutting principles in our work.
+- 
+**What we do**
+
+To achieve these aims, PyroMED develops and participates in:
+
+- research, innovation, and knowledge-transfer projects;
+- conferences, seminars, workshops, and training activities;
+- studies, reports, and publications;
+- national and international networks and consortia; and
+- initiatives to secure and manage public and private funding.
+
+PyroMED is a non-profit association. Any financial surplus is used exclusively to advance its statutory aims and is not distributed among its members.
 
 </div>
 
