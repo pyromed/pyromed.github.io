@@ -32,7 +32,7 @@ La topografia també pot generar vents locals. Durant el dia, l'aire calent tend
 
 <div style="text-align: center; margin: 25px 0;">
   
-<img src="/assets/images/topografia.jpg" alt="Propagació en pendent" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/topografia.jpg" alt="Propagació en pendent" style="width:75%; border-radius:6px; margin: 15px 0;">
 
 <p style="font-size: 0.85em; font-style: italic; color: #555; text-align: center;">
   Figura: Representació esquemàtica de la propagació d'un incendi pendent amunt. Imatge generada amb intel·ligència artificial.
