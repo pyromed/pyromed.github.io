@@ -16,7 +16,7 @@ Quan el foc es produeix dins un règim natural i amb una freqüència i intensit
 * **Disminució de l'estrès hídric:** en reduir la densitat d’arbustos i arbres debilitats, disminueix la competència per l’aigua i els recursos disponibles, fet especialment rellevant en ecosistemes mediterranis sotmesos a sequeres recurrents.
 * **Estimulació de la recuperació natural:** algunes espècies mediterrànies depenen parcialment del foc per completar el seu cicle vital. La calor o determinats compostos químics presents al fum poden estimular la germinació de llavors. En el cas del pi blanc (*Pinus halepensis*), les altes temperatures fonen la resina que manté tancades les pinyes, afavorint-ne l’obertura i l’alliberament de llavors després de l’incendi.
 
-<img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/mosaic-biodiversitat.jpg" alt="Beneficis del foc" style="width:75%; border-radius:6px; margin: 15px 0;">
 
 
 ### Les plantes estan adaptades al règim d'incendis
@@ -27,7 +27,7 @@ Les comunitats vegetals mediterrànies han evolucionat en un entorn on el foc fo
 
 * **Rebrotació:** algunes espècies, com l’estepa o l’ullastre, poden rebrotar després del foc gràcies a estructures subterrànies o teixits protegits que sobreviuen a les altes temperatures.
 * **Germinació:** altres plantes aprofiten l’incendi com a estímul per activar la germinació de les llavors. En el cas d’alguns pins mediterranis, la calor obre les pinyes i afavoreix l’alliberament de llavors sobre un sòl ric en nutrients i amb menys competència vegetal.
-<img src="/assets/images/adaptacions.jpg" alt="adaptacions al foc" style="width:100%; border-radius:6px; margin: 15px 0;">
+<img src="/assets/images/adaptacions.jpg" alt="adaptacions al foc" style="width:75%; border-radius:6px; margin: 15px 0;">
 *Fotografia: Rebrot d’estepa i regeneració massiva de pins després de l’incendi forestal d’Andratx de 2013.*
 
 ---
