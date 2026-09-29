@@ -39,7 +39,7 @@ Aquests gasos d'efecte hivernacle es troben de manera natural a l'atmosfera i co
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/GHG.jpg" 
        alt="L’efecte hivernacle" 
-       style="width: 100%; height: auto; border-radius: 6px;">
+       style="width: 75%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
    Els gasos d’efecte hivernacle (GEH) absorbeixen part de la calor irradiada per la superfície i en reemeten una part cap a l’espai i una altra cap a la superfície. Quan augmenta la concentració de GEH a l’atmosfera, aquest efecte s’intensifica: una menor proporció de calor escapa a l’espai i una major quantitat és retinguda pel sistema climàtic.
@@ -80,7 +80,7 @@ A més, els arbres sotmesos a estrès hídric poden ser més vulnerables a plagu
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/CC&Wildfire.jpg" 
        alt="Relacions entre el canvi climàtic, les condicions de propagació dels incendis i els ecosistemes mediterranis" 
-       style="width: 100%; height: auto; border-radius: 6px;">
+       style="width: 75%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     Esquema conceptual dels efectes del canvi climàtic sobre el règim d’incendis i els ecosistemes mediterranis.
