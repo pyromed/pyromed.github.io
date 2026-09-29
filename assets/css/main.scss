@@ -215,46 +215,26 @@
 }
 
 /* ==========================================================
-   Fix Feature Row Tile Heights & Button Alignment
+   Fixed Minimum Height Solution for Feature Tiles
    ========================================================== */
 
-/* Turn the feature wrapper into a flex container that stretches items */
-.feature__wrapper {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  align-items: stretch !important;
-}
-
-/* Target the direct column wrappers inside the feature row */
-.feature__wrapper > div {
+/* Force the outer card container to a uniform minimum height */
+.feature__item {
   display: flex !important;
   flex-direction: column !important;
+  min-height: 420px !important; /* Adjust this value (e.g. 400px or 450px) to fit your longest card */
   box-sizing: border-box !important;
-  margin-bottom: 2rem !important;
 }
 
-/* Force the inner archive/feature item to fill the column height */
-.feature__wrapper .archive__item,
-.feature__wrapper .feature__item {
-  display: flex !important;
-  flex-direction: column !important;
-  height: 100% !important;
-  flex-grow: 1 !important;
-  background: transparent; /* keeps your styling clean */
-}
-
-/* Force the content body to space out elements and push buttons to the bottom */
-.feature__wrapper .archive__item-body,
-.feature__wrapper .feature__content {
+/* Force the internal text body to take available space and push the button down */
+.feature__item .archive__item-body {
   display: flex !important;
   flex-direction: column !important;
   flex-grow: 1 !important;
   justify-content: space-between !important;
 }
 
-/* Ensure paragraph/title spacing looks balanced */
-.feature__wrapper .archive__item-body h2,
-.feature__wrapper .feature__content h2 {
-  margin-top: 0.5rem !important;
+/* Ensure the button stays pinned to the bottom base */
+.feature__item .archive__item-body p {
   margin-bottom: 1rem !important;
 }
