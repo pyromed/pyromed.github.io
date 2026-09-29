@@ -215,33 +215,46 @@
 }
 
 /* ==========================================================
-   Equal Height Feature Row Tiles
+   Fix Feature Row Tile Heights & Button Alignment
    ========================================================== */
 
-/* Target the container of the feature row grid */
+/* Turn the feature wrapper into a flex container that stretches items */
 .feature__wrapper {
   display: flex !important;
   flex-wrap: wrap !important;
   align-items: stretch !important;
 }
 
-/* Make individual feature cards fill available height */
-.feature__item {
+/* Target the direct column wrappers inside the feature row */
+.feature__wrapper > div {
+  display: flex !important;
+  flex-direction: column !important;
+  box-sizing: border-box !important;
+  margin-bottom: 2rem !important;
+}
+
+/* Force the inner archive/feature item to fill the column height */
+.feature__wrapper .archive__item,
+.feature__wrapper .feature__item {
   display: flex !important;
   flex-direction: column !important;
   height: 100% !important;
-  box-sizing: border-box !important;
+  flex-grow: 1 !important;
+  background: transparent; /* keeps your styling clean */
 }
 
-/* Ensure the inner content area takes up remaining space and aligns contents */
-.feature__item .archive__item-body {
+/* Force the content body to space out elements and push buttons to the bottom */
+.feature__wrapper .archive__item-body,
+.feature__wrapper .feature__content {
   display: flex !important;
   flex-direction: column !important;
   flex-grow: 1 !important;
   justify-content: space-between !important;
 }
 
-/* Fix paragraph text spacing inside feature items */
-.feature__item .archive__item-body p {
-  margin-bottom: 1.5rem !important;
+/* Ensure paragraph/title spacing looks balanced */
+.feature__wrapper .archive__item-body h2,
+.feature__wrapper .feature__content h2 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }
