@@ -4,18 +4,6 @@
 @import "minimal-mistakes/skins/{{ site.site_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Force identical dimensions across all feature/grid images */
-.feature__item-teaser img,
-.archive__item-teaser img,
-.feature__item img {
-  width: 100% !important;
-  height: 200px !important; /* Adjust height here if needed */
-  max-height: 200px !important;
-  object-fit: contain !important; /* Prevents distortion/clipping */
-  object-position: center !important;
-  display: block !important;
-}
-
 /* Full-bleed Hero Banner across screen width */
 .page__hero--overlay {
   min-height: 500px !important;
@@ -214,36 +202,46 @@
   margin: 3em 0;
 }
 
-/* Cards stretch to the tallest one in the row, and pass that height down */
+/* Turn the floated row into a flex row so cards get equal height */
+.feature__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature__wrapper::before,
+.feature__wrapper::after {
+  content: none;   /* remove the theme's clearfix, which would become a flex item */
+}
+
+/* Card and its inner box fill the row height */
 .feature__item,
 .feature__item .archive__item {
   display: flex;
   flex-direction: column;
-  height: 100%;
+}
+.feature__item .archive__item {
+  flex-grow: 1;
 }
 
-/* Uniform image area, whatever the original image size */
+/* Uniform image area */
 .feature__item .archive__item-teaser {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   margin-bottom: 0.5rem;
 }
-
 .feature__item .archive__item-teaser img {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* crops to fill; use "contain" if cropping hurts */
+  object-fit: cover;   /* or "contain" to avoid cropping the fire triangle */
 }
 
-/* Body fills the remaining space and pins the button to the bottom */
+/* Body fills the rest, button pinned to the bottom */
 .feature__item .archive__item-body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-
 .feature__item .archive__item-body > p:last-child {
-  margin-top: auto;   /* pushes the button row to the bottom */
+  margin-top: auto;
   padding-top: 1rem;
   margin-bottom: 0;
 }
