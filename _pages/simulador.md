@@ -88,6 +88,7 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
       <span style="background:#d62839"></span>Foc de superfície
       <span style="background:#f4a261"></span>Abast dels focus secundaris
     </div>
+    <div class="legend" id="updown" style="font-weight:700;"></div>
   </div>
 
   <div class="metrics">
@@ -118,7 +119,8 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
   var ROS  = [[0.6, 1.5, 3, 5],       [1.2, 3, 6, 10],       [2, 5, 10, 16]];          // m/min
   var FLI  = [[50, 150, 350, 700],    [150, 500, 1200, 2500],[400, 1200, 3000, 6000]]; // kW/m
   var SPOT = [[20, 60, 120, 200],     [40, 120, 250, 400],   [60, 200, 400, 650]];     // m (cfis)
-  var SLOPE_KMH = [0, 8, 16];   // vent equivalent del pendent (pla, moderat, fort)
+  var TAN_SLOPE = [0, 0.2, 0.4];      // pendent (tangent): pla, moderat ≈20 %, fort ≈40 %
+  var BETA = [0.003, 0.006, 0.012];   // relació d'empaquetament per densitat: SUBSTITUEIX-LA pel teu model
   var LB_MAX = 8;               // Finney (1998)
   var TIMES = [15, 30, 60, 120];
   var LEVELS = { ros: [5, 20, 50], fli: [500, 2000, 10000], fl: [2, 4, 10], spot: [100, 500, 1000] };
@@ -146,6 +148,21 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
     return { a: a, e: (ros - bros) / 2 / a };
   }
 
+  // Velocitat (m/min) en una direcció a `off` graus del cap del foc (equació de l'el·lipse)
+  function rdAt(P, off) {
+    var th = off * Math.PI / 180;
+    return P.el.a * (1 - P.el.e * P.el.e) / (1 - P.el.e * Math.cos(th));
+  }
+
+  // Vent (km/h) que dóna una velocitat de propagació concreta: inversa de la corba ROS(vent) en pla
+  function invert(arr, r) {
+    if (r <= arr[0]) return 0;
+    for (var i = 1; i < WINDS.length; i++)
+      if (r <= arr[i]) return WINDS[i - 1] + (WINDS[i] - WINDS[i - 1]) * (r - arr[i - 1]) / (arr[i] - arr[i - 1]);
+    var n = WINDS.length - 1;
+    return WINDS[n] + (WINDS[n] - WINDS[n - 1]) * (r - arr[n]) / (arr[n] - arr[n - 1]);
+  }
+
   // Perímetre del foc i abast dels focus secundaris (m); ignició a (0,0), nord = -y
   function shape(P, t) {
     var surf = [], spot = [];
@@ -163,7 +180,11 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
   function path(pts) {
     return pts.map(function (p, i) { return (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1); }).join("") + "Z";
   }
-  function fmt(n) { return n >= 100 ? Math.round(n).toLocaleString("ca") : (Math.round(n * 10) / 10).toLocaleString("ca"); }
+  function fmt(n) {
+    if (n >= 100) return Math.round(n).toLocaleString("ca");
+    var f = n < 1 ? 100 : 10;   // dues xifres decimals per sota d'1
+    return (Math.round(n * f) / f).toLocaleString("ca");
+  }
   function txt(x, y, size, color, s, anchor) {
     return '<text x="' + x + '" y="' + y + '" font-size="' + size + '" fill="' + color + '" text-anchor="' + (anchor || "start") + '" font-family="Arial">' + s + '</text>';
   }
@@ -217,11 +238,17 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
     var from = +$("dir").value, slope = +$("slope").value;
     var windTo = (from + 180) % 360, rad = windTo * Math.PI / 180;
 
-    var vx = u * Math.sin(rad), vy = u * Math.cos(rad) + SLOPE_KMH[slope];   // el pendent empeny cap al nord
-    var ue = Math.sqrt(vx * vx + vy * vy);
-    var heading = ue > 0.01 ? (Math.atan2(vx, vy) * 180 / Math.PI + 360) % 360 : 0;
+    // Rothermel (1972): R = R0 (1 + φw + φs). El vent i el pendent se sumen com a VECTORS DE FACTORS
+    // (Albini 1976), no com a velocitats: el pendent empeny cap amunt (nord) amb φs = 5,275 β^-0,3 tan²(pendent).
+    var R0 = ROS[d][0];                                  // propagació sense vent ni pendent
+    var phiW = interp(ROS[d], u) / R0 - 1;               // factor del vent (en pla)
+    var phiS = 5.275 * Math.pow(BETA[d], -0.3) * Math.pow(TAN_SLOPE[slope], 2);
+    var vx = phiW * Math.sin(rad), vy = phiW * Math.cos(rad) + phiS;
+    var phiE = Math.sqrt(vx * vx + vy * vy);
+    var heading = phiE > 0.001 ? (Math.atan2(vx, vy) * 180 / Math.PI + 360) % 360 : 0;
+    var ue = invert(ROS[d], R0 * (1 + phiE));            // vent efectiu equivalent (per a Lb, FLI i focus secundaris)
 
-    var P = { ros: interp(ROS[d], ue), fli: interp(FLI[d], ue), spot: interp(SPOT[d], ue), heading: heading };
+    var P = { ros: R0 * (1 + phiE), fli: interp(FLI[d], ue), spot: interp(SPOT[d], ue), heading: heading };
     P.el = ellipse(P.ros, ue);
     var fl = 0.0775 * Math.pow(P.fli, 0.46);   // Byram (1959)
 
@@ -229,6 +256,8 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
     $("o-fli").textContent = fmt(P.fli);   setLevel("fli", P.fli);
     $("o-fl").textContent = fmt(fl);       setLevel("fl", fl);
     $("o-spot").textContent = fmt(P.spot); setLevel("spot", P.spot);
+
+    $("updown").textContent = "Velocitat cap amunt (N): " + fmt(rdAt(P, -heading)) + " m/min · cap avall (S): " + fmt(rdAt(P, 180 - heading)) + " m/min";
 
     var big = shape(P, t), ext = 0;   // vista centrada a l'ignició
     big.surf.concat(big.spot).forEach(function (p) { ext = Math.max(ext, Math.abs(p[0]), Math.abs(p[1])); });
@@ -240,7 +269,7 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
 })();
 </script>
 
-<p style="font-size:.85em;">Model simplificat: el foc creix com una el·lipse (Anderson 1983) amb l'ignició al centre, i el vent i el pendent se sumen com a vectors. La llargada de flama ve de la intensitat de Byram (1959).</p>
+<p style="font-size:.85em;">Model simplificat: el foc creix com una el·lipse (Anderson 1983) amb l'ignició al centre, i el vent i el pendent se sumen com a factors vectorials segons Rothermel (1972): el pendent empeny el foc cap amunt amb un factor proporcional a tan²(pendent). La llargada de flama ve de la intensitat de Byram (1959).</p>
 
 <div class="page-navigation">
   <a href="/simulations/" class="btn btn--primary">← Com podem anticipar el comportament d’un incendi?</a>
