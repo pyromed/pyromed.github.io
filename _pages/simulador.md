@@ -108,6 +108,10 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
       <div><span class="val"><span id="o-spot">0</span> <small>m</small></span><span class="chip" id="l-spot"></span></div>
       <div class="seg" id="s-spot"><i></i><i></i><i></i><i></i></div>
       <p>Alta ≥ 500 · Molt alta ≥ 1.000 m</p></div>
+    <div class="card"><h4>Àrea cremada (<span id="o-t">30</span> min)</h4>
+      <div><span class="val"><span id="o-area">0</span> <small>ha</small></span><span class="chip" id="l-area"></span></div>
+      <div class="seg" id="s-area"><i></i><i></i><i></i><i></i></div>
+      <p>Alta ≥ 10 · Molt alta ≥ 100 ha</p></div>
   </div>
 </div>
 
@@ -123,7 +127,7 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
   var BETA = [0.003, 0.006, 0.012];   // relació d'empaquetament per densitat: SUBSTITUEIX-LA pel teu model
   var LB_MAX = 8;               // Finney (1998)
   var TIMES = [15, 30, 60, 120];
-  var LEVELS = { ros: [5, 20, 50], fli: [500, 2000, 10000], fl: [2, 4, 10], spot: [100, 500, 1000] };
+  var LEVELS = { ros: [5, 20, 50], fli: [500, 2000, 10000], fl: [2, 4, 10], spot: [100, 500, 1000], area: [1, 10, 100] };
   var NAMES = ["Baixa", "Moderada", "Alta", "Molt alta"];
   var COLS = ["#2e9e5b", "#d4a300", "#e8791a", "#c1121f"];
   var INK = "#12354a";
@@ -256,6 +260,11 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. El mapa mo
     $("o-fli").textContent = fmt(P.fli);   setLevel("fli", P.fli);
     $("o-fl").textContent = fmt(fl);       setLevel("fl", fl);
     $("o-spot").textContent = fmt(P.spot); setLevel("spot", P.spot);
+
+    // Àrea cremada = àrea de l'el·lipse al temps t: π · A · B, amb A = a·t i B = A·√(1 − e²); en hectàrees
+    var ha = Math.PI * Math.pow(P.el.a * t, 2) * Math.sqrt(1 - P.el.e * P.el.e) / 10000;
+    $("o-area").textContent = ha < 0.01 ? "< 0,01" : fmt(ha);  setLevel("area", ha);
+    $("o-t").textContent = t;
 
     $("updown").textContent = "Velocitat cap amunt (N): " + fmt(rdAt(P, -heading)) + " m/min · cap avall (S): " + fmt(rdAt(P, 180 - heading)) + " m/min";
 
