@@ -7,7 +7,7 @@ sidebar:
   nav: "main"
 ---
 
-Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos mapes mostren el mateix foc: a l'esquerra sense murs i a la dreta amb dos murs de pedra de 2 m a dalt del pendent, perquè es vegi quan els murs aturen el foc i quan no.
+Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos mapes mostren el mateix foc: a l'esquerra sense mur i a la dreta amb un mur de contenció de 2 m a dalt del pendent, perquè es vegi quan el mur atura el foc i quan no.
 
 <style>
   .sim { --ink:#12354a; display:grid; grid-template-columns:270px 1fr; gap:18px; background:#d6e6f0; color:var(--ink);
@@ -17,26 +17,24 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
   .sim label { display:block; font-weight:700; font-size:1em; color:var(--ink); margin-bottom:5px; }
   .sim select { width:100%; padding:9px; font-size:1em; border-radius:4px; border:1px solid #8fb0c6; background:#fff; color:var(--ink); }
   .sim .field { margin-bottom:14px; }
-  .sim .out { border-top:2px solid #a9c3d4; padding-top:8px; }
-  .sim .row { display:flex; justify-content:space-between; align-items:center; gap:8px; margin:14px 0 5px; }
-  .sim .row b { font-size:1.15em; white-space:nowrap; }
-  .sim .chip { display:inline-block; padding:2px 8px; border-radius:10px; font-size:.8em; font-weight:700; margin-left:6px; color:#fff; }
-  .sim .seg { display:grid; grid-template-columns:repeat(4,1fr); gap:3px; }
-  .sim .seg i { height:9px; border-radius:3px; background:#b4cad9; }
-  .sim small { display:block; margin-top:3px; font-size:.78em; color:#3d5e74; }
   .sim .stage { min-width:0; }
   .sim .maps { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:12px; }
   .sim figure { margin:0; }
   .sim figcaption { font-weight:700; margin-bottom:6px; }
-  .sim svg { width:100%; height:auto; background:#f4f8fb; border-radius:4px; display:block; }
-  .sim .maps svg { aspect-ratio:1/1; }
-  .sim .profile { margin-top:14px; }
-  .sim .profile svg { max-height:300px; }
+  .sim svg { width:100%; height:auto; aspect-ratio:1/1; background:#f4f8fb; border-radius:4px; display:block; }
   .sim .status { font-size:.9em; margin-top:6px; min-height:3.2em; }
-  .sim .legend { font-size:.85em; margin-top:10px; }
+  .sim .legend { font-size:.85em; margin-top:8px; }
   .sim .legend span { display:inline-block; width:12px; height:12px; border-radius:2px; margin:0 5px -2px 12px; }
   .sim .legend span:first-child { margin-left:0; }
-  @media (prefers-reduced-motion:reduce) { .sim * { transition:none !important; } }
+  .sim .metrics { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin-top:16px; }
+  .sim .card { background:#eaf2f8; border-radius:6px; padding:12px; }
+  .sim .card h4 { margin:0 0 6px; font-size:.95em; color:var(--ink); }
+  .sim .val { font-size:1.5em; font-weight:700; }
+  .sim .val small { font-size:.55em; font-weight:400; }
+  .sim .chip { display:inline-block; padding:2px 8px; border-radius:10px; font-size:.8em; font-weight:700; margin-left:6px; color:#fff; vertical-align:middle; }
+  .sim .seg { display:grid; grid-template-columns:repeat(4,1fr); gap:3px; margin-top:8px; }
+  .sim .seg i { height:9px; border-radius:3px; background:#b4cad9; }
+  .sim .card p { display:block; margin:5px 0 0; font-size:.78em; color:#3d5e74; }
 </style>
 
 <div class="sim">
@@ -87,49 +85,45 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
         <option value="120">120 min</option>
       </select>
     </div>
-
-    <div class="out">
-      <div class="row"><span>Velocitat de propagació <span class="chip" id="l-ros"></span></span><b><span id="o-ros">0</span> m/min</b></div>
-      <div class="seg" id="s-ros"><i></i><i></i><i></i><i></i></div>
-      <small>Alta ≥ 20 · Molt alta ≥ 50 m/min</small>
-
-      <div class="row"><span>Intensitat <span class="chip" id="l-fli"></span></span><b><span id="o-fli">0</span> kW/m</b></div>
-      <div class="seg" id="s-fli"><i></i><i></i><i></i><i></i></div>
-      <small>Alta ≥ 2.000 · Molt alta ≥ 10.000 kW/m</small>
-
-      <div class="row"><span>Llargada de flama <span class="chip" id="l-fl"></span></span><b><span id="o-fl">0</span> m</b></div>
-      <div class="seg" id="s-fl"><i></i><i></i><i></i><i></i></div>
-      <small>Alta ≥ 4 · Molt alta ≥ 10 m</small>
-
-      <div class="row"><span>Focus secundaris <span class="chip" id="l-spot"></span></span><b><span id="o-spot">0</span> m</b></div>
-      <div class="seg" id="s-spot"><i></i><i></i><i></i><i></i></div>
-      <small>Alta ≥ 500 · Molt alta ≥ 1.000 m</small>
-
-      <div class="row"><span>Vent efectiu (vent + pendent)</span><b><span id="o-ue">0</span> km/h</b></div>
-    </div>
   </div>
 
   <div class="stage">
     <div class="maps">
       <figure>
-        <figcaption>Sense murs</figcaption>
-        <svg id="svg-a" role="img" aria-label="Foc sense murs"></svg>
+        <figcaption>Sense mur</figcaption>
+        <svg id="svg-a" role="img" aria-label="Foc sense mur"></svg>
         <div class="status" id="st-a"></div>
       </figure>
       <figure>
-        <figcaption>Amb dos murs de 2 m a dalt del pendent (8 i 10 m)</figcaption>
-        <svg id="svg-b" role="img" aria-label="Foc amb dos murs"></svg>
+        <figcaption>Amb mur de contenció de 2 m a dalt del pendent (10 m)</figcaption>
+        <svg id="svg-b" role="img" aria-label="Foc amb mur"></svg>
         <div class="status" id="st-b"></div>
       </figure>
     </div>
-    <figure class="profile">
-      <figcaption>Vista lateral cap amunt: flama contra murs</figcaption>
-      <svg id="svg-p" role="img" aria-label="Perfil de la flama i els murs"></svg>
-    </figure>
     <div class="legend">
       <span style="background:#d62839"></span>Foc de superfície
       <span style="background:#f4a261"></span>Abast dels focus secundaris
-      <span style="background:#7a5a2e"></span>Murs
+      <span style="background:#7a5a2e"></span>Mur
+      <span style="background:#2f7d4a"></span>Arbres i arbustos (esquemàtic)
+    </div>
+
+    <div class="metrics">
+      <div class="card"><h4>Velocitat de propagació</h4>
+        <div><span class="val"><span id="o-ros">0</span> <small>m/min</small></span><span class="chip" id="l-ros"></span></div>
+        <div class="seg" id="s-ros"><i></i><i></i><i></i><i></i></div>
+        <p>Alta ≥ 20 · Molt alta ≥ 50 m/min</p></div>
+      <div class="card"><h4>Intensitat</h4>
+        <div><span class="val"><span id="o-fli">0</span> <small>kW/m</small></span><span class="chip" id="l-fli"></span></div>
+        <div class="seg" id="s-fli"><i></i><i></i><i></i><i></i></div>
+        <p>Alta ≥ 2.000 · Molt alta ≥ 10.000 kW/m</p></div>
+      <div class="card"><h4>Llargada de flama</h4>
+        <div><span class="val"><span id="o-fl">0</span> <small>m</small></span><span class="chip" id="l-fl"></span></div>
+        <div class="seg" id="s-fl"><i></i><i></i><i></i><i></i></div>
+        <p>Alta ≥ 4 · Molt alta ≥ 10 m</p></div>
+      <div class="card"><h4>Focus secundaris</h4>
+        <div><span class="val"><span id="o-spot">0</span> <small>m</small></span><span class="chip" id="l-spot"></span></div>
+        <div class="seg" id="s-spot"><i></i><i></i><i></i><i></i></div>
+        <p>Alta ≥ 500 · Molt alta ≥ 1.000 m</p></div>
     </div>
   </div>
 </div>
@@ -143,18 +137,25 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
   var FLI  = [[50, 150, 350, 700],    [150, 500, 1200, 2500],[400, 1200, 3000, 6000]]; // kW/m
   var SPOT = [[20, 60, 120, 200],     [40, 120, 250, 400],   [60, 200, 400, 650]];     // m (cfis)
   var SLOPE_KMH = [0, 8, 16];   // vent equivalent del pendent (pla, moderat, fort)
-  var SLOPE_PCT = [0, 0.2, 0.4];
   var LB_MAX = 8;               // Finney (1998)
-  var WALLS = [8, 10];          // distància dels murs a dalt del pendent (m)
-  var WALL_H = 2;               // alçada dels murs (m)
+  var WALL_DIST = 10;           // mur de contenció a dalt del pendent (m)
+  var WALL_H = 2;               // alçada del mur (m)
   var TIMES = [15, 30, 60, 120];
-  // Llindars de classificació [Alta, ... ] -> baixa | moderada | alta | molt alta
+  // Vegetació dibuixada (nombre de símbols): arbres proporcionals a la càrrega (0,5 : 1,5 : 3 = 1 : 3 : 6)
+  var TREES = [15, 45, 90], SHRUBS = [40, 65, 80];
   var LEVELS = { ros: [5, 20, 50], fli: [500, 2000, 10000], fl: [2, 4, 10], spot: [100, 500, 1000] };
   var NAMES = ["Baixa", "Moderada", "Alta", "Molt alta"];
   var COLS = ["#2e9e5b", "#d4a300", "#e8791a", "#c1121f"];
   var INK = "#12354a", WALLC = "#7a5a2e";
 
   var $ = function (id) { return document.getElementById(id); };
+
+  // Posicions fixes (generador amb llavor): en pujar la densitat s'hi afegeixen símbols, no es reordenen
+  var rnd = (function (a) { return function () { a |= 0; a = a + 0x6D2B79F5 | 0; var t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; })(20240611);
+  var TP = [], SP = [];
+  for (var i = 0; i < 90; i++) TP.push([rnd(), rnd()]);
+  for (i = 0; i < 80; i++) SP.push([rnd(), rnd()]);
 
   function interp(arr, u) {
     if (u <= 0) return arr[0];
@@ -180,23 +181,21 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
   }
   function flame(P, rd) { return 0.0775 * Math.pow(P.fli * rd / P.ros, 0.46); }  // Byram (1959), FLI direccional
 
-  // Perímetre del foc i abast dels focus secundaris (m). Amb murs: el mur atura el foc
-  // en les direccions on la flama és <= alçada del mur; si la flama és més alta, el salta.
-  function shape(P, t, walls) {
-    var surf = [], spot = [], hit = false, crossed = false;
+  // Perímetre del foc i abast dels focus secundaris (m). El mur atura el foc de superfície
+  // només en les direccions on la flama és <= 2 m; els focus secundaris no s'aturen mai.
+  function shape(P, t, wall) {
+    var surf = [], spot = [], hit = false;
     for (var off = 0; off <= 360; off += 5) {
       var rd = rdAt(P, off), phi = (P.heading + off) * Math.PI / 180;
       var x = rd * t * Math.sin(phi), y = -rd * t * Math.cos(phi);
-      if (walls && y < -WALLS[0]) {
+      if (wall && y < -WALL_DIST) {
         hit = true;
-        if (flame(P, rd) <= WALL_H) y = -WALLS[0];
+        if (flame(P, rd) <= WALL_H) y = -WALL_DIST;
       }
       var sd = P.spot * rd / P.ros;
-      var sx = x + sd * Math.sin(phi), sy = y - sd * Math.cos(phi);
-      if (walls && sy < -WALLS[1]) crossed = true;
-      surf.push([x, y]); spot.push([sx, sy]);
+      surf.push([x, y]); spot.push([x + sd * Math.sin(phi), y - sd * Math.cos(phi)]);
     }
-    return { surf: surf, spot: spot, hit: hit, crossed: crossed };
+    return { surf: surf, spot: spot, hit: hit };
   }
 
   function path(pts) {
@@ -212,7 +211,25 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
     return '<text x="' + x + '" y="' + y + '" font-size="' + size + '" fill="' + color + '" text-anchor="' + (anchor || "start") + '" font-family="Arial">' + s + '</text>';
   }
 
-  function draw(svg, id, P, view, t, walls, slope, windTo) {
+  // Arbres (pins) i arbusts: esquemàtics, no a escala; el nombre depèn de la densitat
+  function vegetation(view, dens) {
+    var k = view.span / 100, x0 = view.cx - view.span / 2, y0 = view.cy - view.span / 2, items = [], h = "";
+    TP.slice(0, TREES[dens]).forEach(function (p) { items.push([p[1], p[0], 1]); });
+    SP.slice(0, SHRUBS[dens]).forEach(function (p) { items.push([p[1], p[0], 0]); });
+    items.sort(function (a, b) { return a[0] - b[0]; });   // del fons al davant
+    items.forEach(function (it) {
+      var x = x0 + it[1] * view.span, y = y0 + it[0] * view.span;
+      if (it[2])
+        h += '<path d="M' + x + ' ' + (y - 6 * k) + 'L' + (x - 1.7 * k) + ' ' + (y - 2.8 * k) + 'H' + (x + 1.7 * k) + 'Z' +
+             'M' + x + ' ' + (y - 4.2 * k) + 'L' + (x - 2.1 * k) + ' ' + (y - 0.6 * k) + 'H' + (x + 2.1 * k) + 'Z" fill="#2f7d4a" fill-opacity=".8"/>' +
+             '<path d="M' + x + ' ' + (y - 0.6 * k) + 'v' + 0.9 * k + '" stroke="#6b4a2b" stroke-width="' + 0.5 * k + '"/>';
+      else
+        h += '<ellipse cx="' + x + '" cy="' + y + '" rx="' + 1.5 * k + '" ry="' + 1 * k + '" fill="#8dbb5f" fill-opacity=".85"/>';
+    });
+    return h;
+  }
+
+  function draw(svg, id, P, view, t, wall, slope, windTo, dens) {
     var k = view.span / 100, x0 = view.cx - view.span / 2, y0 = view.cy - view.span / 2;
     svg.setAttribute("viewBox", [x0, y0, view.span, view.span].join(" "));
     var h = "";
@@ -223,20 +240,20 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
            txt(view.cx, y0 + 5 * k, 3.2 * k, INK, "amunt ↑", "middle") +
            txt(view.cx, y0 + view.span - 2 * k, 3.2 * k, INK, "avall ↓", "middle");
 
-    if (walls)
-      WALLS.forEach(function (w) { h += '<path d="M' + x0 + ' ' + -w + 'h' + view.span + '" stroke="' + WALLC + '" stroke-width="' + 0.5 * k + '"/>'; });
+    h += vegetation(view, dens);
+    if (wall) h += '<path d="M' + x0 + ' ' + -WALL_DIST + 'h' + view.span + '" stroke="' + WALLC + '" stroke-width="' + 0.9 * k + '"/>';
 
-    var cur = shape(P, t, walls);
+    var cur = shape(P, t, wall);
     h += '<path d="' + path(cur.spot) + '" fill="#f4a261" fill-opacity="0.35" stroke="#e07a1f" stroke-width="' + 0.4 * k + '" stroke-dasharray="' + 2 * k + ' ' + 1.5 * k + '"/>';
     TIMES.forEach(function (tt) {
       if (tt === t) return;
-      var s = shape(P, tt, walls);
+      var s = shape(P, tt, wall);
       h += '<path d="' + path(s.surf) + '" fill="none" stroke="' + INK + '" stroke-opacity=".35" stroke-width="' + 0.3 * k + '"/>' +
            txt(s.surf[0][0] + 1.2 * k, s.surf[0][1], 2.8 * k, INK, tt + " min");
     });
     h += '<path d="' + path(cur.surf) + '" fill="#d62839" fill-opacity="0.7" stroke="#d62839" stroke-width="' + 0.6 * k + '"/>';
     h += '<circle r="' + 1.3 * k + '" fill="#5b3fd6" stroke="#fff" stroke-width="' + 0.35 * k + '"/>';
-    if (walls) h += txt(x0 + 3 * k, -WALLS[1] - 1.5 * k, 3.2 * k, WALLC, "murs (8 i 10 m)");
+    if (wall) h += txt(x0 + 3 * k, -WALL_DIST - 1.5 * k, 3.2 * k, WALLC, "mur (10 m)");
 
     var target = view.span / 4, len = 10;
     [10, 25, 50, 100, 250, 500, 1000, 2500].forEach(function (n) { if (n <= target) len = n; });
@@ -250,29 +267,6 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
     return cur;
   }
 
-  // Perfil lateral: flama (cap amunt) contra els murs, amb el pendent inclinat
-  function profile(flU, slope) {
-    var ang = Math.atan(SLOPE_PCT[slope]) * 180 / Math.PI, xe = 24;
-    var top = Math.max(flU * 1.15, 4) + SLOPE_PCT[slope] * xe + 1, fs = top / 12, sw = top / 90;
-    var h = "", ff = flU * 0.5;
-    h += '<g transform="rotate(' + -ang + ')">' +
-         '<rect x="-3" y="0" width="' + (xe + 3) + '" height="' + 4 * fs + '" fill="#b9cfdd"/>' +
-         '<path d="M-3 0H' + xe + '" stroke="' + INK + '" stroke-width="' + 2 * sw + '"/>' +
-         '<path d="M0 ' + -WALL_H + 'H' + xe + '" stroke="' + WALLC + '" stroke-width="' + sw + '" stroke-dasharray="' + 4 * sw + ' ' + 3 * sw + '"/>' +
-         txt(xe, -WALL_H - 0.4 * fs, fs, WALLC, "2 m", "end");
-    WALLS.forEach(function (w) {
-      h += '<rect x="' + (w - 0.2) + '" y="' + -WALL_H + '" width="0.4" height="' + WALL_H + '" fill="' + WALLC + '"/>' +
-           txt(w, 1.6 * fs, fs, INK, w + " m", "middle");
-    });
-    h += '<path d="M-0.7 0Q-0.7 ' + -ff + ' 0 ' + -flU + 'Q0.7 ' + -ff + ' 0.7 0Z" fill="#d62839" fill-opacity=".85"/>' +
-         '<circle r="' + 0.35 + '" fill="#5b3fd6"/>' +
-         txt(1.2, -flU, fs * 1.1, INK, "flama cap amunt: " + fmt(flU) + " m") +
-         txt(0, 1.6 * fs, fs, INK, "ignició", "middle") + '</g>';
-    var svg = $("svg-p");
-    svg.setAttribute("viewBox", [-3, -top, 27, top + 2].join(" "));
-    svg.innerHTML = h;
-  }
-
   function setLevel(key, v) {
     var lv = 0; LEVELS[key].forEach(function (x) { if (v >= x) lv++; });
     var segs = $("s-" + key).children;
@@ -282,10 +276,10 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
   }
 
   function wallMsg(cur, flU) {
-    var m = !cur.hit ? "El foc encara no arriba als murs."
-          : flU <= WALL_H ? "Flama cap amunt de " + fmt(flU) + " m (≤ 2 m): els murs aturen el foc de superfície."
-          : "Flama cap amunt de " + fmt(flU) + " m (> 2 m): el foc salta els murs.";
-    return m + (cur.crossed ? " Els focus secundaris els poden creuar." : " Els focus secundaris no els creuen.");
+    var m = !cur.hit ? "El foc encara no arriba al mur."
+          : flU <= WALL_H ? "Flama cap amunt de " + fmt(flU) + " m (≤ 2 m): el mur atura el foc de superfície."
+          : "Flama cap amunt de " + fmt(flU) + " m (> 2 m): el foc salta el mur.";
+    return m + " Els focus secundaris el poden creuar igualment.";
   }
 
   function update() {
@@ -305,21 +299,19 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
     $("o-fli").textContent = fmt(P.fli);   setLevel("fli", P.fli);
     $("o-fl").textContent = fmt(fl);       setLevel("fl", fl);
     $("o-spot").textContent = fmt(P.spot); setLevel("spot", P.spot);
-    $("o-ue").textContent = fmt(ue);
 
-    // Vista comuna, ajustada al temps triat (els murs són a prop de l'ignició)
-    var big = shape(P, t, false), xs = [0], ys = [0, -WALLS[1]];
+    // Vista comuna, ajustada al temps triat
+    var big = shape(P, t, false), xs = [0], ys = [0, -WALL_DIST];
     big.surf.concat(big.spot).forEach(function (p) { xs.push(p[0]); ys.push(p[1]); });
     var mnx = Math.min.apply(null, xs), mxx = Math.max.apply(null, xs);
     var mny = Math.min.apply(null, ys), mxy = Math.max.apply(null, ys);
     var view = { cx: (mnx + mxx) / 2, cy: (mny + mxy) / 2, span: Math.max(mxx - mnx, mxy - mny, 60) * 1.2 };
 
     var flU = flame(P, rdAt(P, -heading));   // flama en direcció nord (cap amunt)
-    draw($("svg-a"), "a", P, view, t, false, slope, windTo);
-    var b = draw($("svg-b"), "b", P, view, t, true, slope, windTo);
+    draw($("svg-a"), "a", P, view, t, false, slope, windTo, d);
+    var b = draw($("svg-b"), "b", P, view, t, true, slope, windTo, d);
     $("st-a").textContent = "Cap barrera: el foc avança lliurement.";
     $("st-b").textContent = wallMsg(b, flU);
-    profile(flU, slope);
   }
 
   ["dens", "wind", "dir", "slope", "time"].forEach(function (id) { $(id).addEventListener("change", update); });
@@ -327,7 +319,7 @@ Tria la vegetació, el vent, el pendent i el temps des de l'ignició. Els dos ma
 })();
 </script>
 
-<p style="font-size:.85em;">Model simplificat: el foc creix com una el·lipse (Anderson 1983) amb l'ignició en un focus. El vent i el pendent se sumen com a vectors per obtenir el vent efectiu, i la llargada de flama ve de la intensitat de Byram (1959). Un mur de 2 m atura el foc de superfície quan la flama en aquella direcció no supera els 2 m; els focus secundaris el poden creuar igualment.</p>
+<p style="font-size:.85em;">Model simplificat: el foc creix com una el·lipse (Anderson 1983) amb l'ignició en un focus. El vent i el pendent se sumen com a vectors, i la llargada de flama ve de la intensitat de Byram (1959). El mur de contenció de 2 m atura el foc de superfície quan la flama en aquella direcció no supera els 2 m; els focus secundaris el creuen igualment. Els arbres i arbustos són esquemàtics i no estan a escala.</p>
 
 <div class="page-navigation">
   <a href="/simulations/" class="btn btn--primary">← Com podem anticipar el comportament d’un incendi?</a>
