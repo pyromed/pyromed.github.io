@@ -38,6 +38,14 @@ Els ecosistemes que no tenen resiliència són vulnerables a les pertorbacions, 
 
 Qualsevol esdeveniment que afecti l’ecosistema pot tenir un impacte sobre múltiples serveis ecosistèmics i, en conseqüència, sobre la comunitat humana. Les comunitats que depenen en gran mesura dels ecosistemes poden veure’s greument afectades per les alteracions dels ecosistemes que provoquen una pèrdua de serveis.
 
+- resistència o persistencia: la capacitat dels individus o de les estructures de tolerar o persistir durant una pertorbació, permetent que el sistema torni al seu estat anterior a la pertorbació amb relativament pocs canvis. es caracteritza per una elevada supervivència demogràfica (supervivència per individu durant un interval de temps determinat) o, al contrari, per una baixa taxa de mortalitat.
+- recuperació: restabliment de la població anterior a la pertorbació després de la mortalitat dels individus originals, mitjançant el reclutament o la colonització. Els processos de recuperació poden ser relativament ràpids, com en el cas de les poblacions de pins amb cons seròtins (p. ex., Pinus contorta ssp. contorta), que depenen dels incendis intensos per obrir els seus cons i permetre la dispersió de les llavors sobre el sòl alliberat de vegetació, cosa que normalment condueix a un establiment abundant després del foc durant els 1–2 anys posteriors a l’incendi.
+- transició: tant els processos de persistència com els de recuperació poden fallar, i el sistema es reorganitza en un estat alternatiu
+
+L’escala espacial de la pertorbació té conseqüències profundes sobre nombrosos processos ecològics, incloent-hi la regeneració, el sòl i l’erosió, els processos hidrològics i la fauna silvestre. En molts casos, aquests efectes espacials poden determinar la forma que adopta la resposta de resiliència.
+Els efectes del foc sobre la biota i els sòls depenen de la intensitat de la reacció (energia calorífica alliberada, kJ m⁻² min⁻¹) i de la intensitat de la línia de foc (kJ m⁻¹ s⁻¹), expressades en funció del temps de residència, que queda representat en la funció temps-temperatura.
+
+El període durant el qual una planta o una zona de sòl està exposada a la calor d’un foc pot determinar, per exemple, si les arrels de les plantes experimenten un escalfament letal o el grau en què es produeixen canvis en les característiques del sòl, com ara la hidrofobicitat, la pèrdua de matèria orgànica o l’esterilització (Neary et al., 2005).
 ---
 
 <div class="page-navigation">
