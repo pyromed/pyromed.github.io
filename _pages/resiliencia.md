@@ -7,6 +7,8 @@ header:
   overlay_filter: 0.35
 ---
 
+Les sequeres més intenses, els incendis, els canvis en els règims de precipitació i l’augment de les temperatures poden modificar simultàniament diferents components d’un ecosistema. El resultat no és necessàriament només la pèrdua d’una espècie, sinó un canvi en la composició, l’estructura i les funcions de tot l’ecosistema.
+
 ## Què és un ecosistema?
 
 Un ecosistema és el conjunt d’éssers vius (animals, plantes, fongs i microorganismes), i l’entorn físic on viuen (clima, relleu, sòl, aigua) que interactuen entre ells i amb el medi.
@@ -16,16 +18,17 @@ Dins un ecosistema, tots aquests elements estan connectats i depenen els uns del
 > Els components biòtics i abiòtics estan estretament interconnectats. Els factors abiòtics condicionen les possibilitats de vida, mentre que els éssers vius (les persones incloses) també transformen el seu entorn. Si un d’aquests components canvia, els efectes es poden transmetre a la resta de l’ecosistema.
 >
 
-## Que són els serveis ecosistèmics?
+## Què són els serveis ecosistèmics?
 
 Són els beneficis que els ecosistemes proporcionen i que contribueixen al benestar de les persones. L’Avaluació dels Ecosistemes del Mil·lenni (MA) defineix quatre categories bàsiques de serveis ecosistèmics:
 
 - **Serveis de proveïment:** productes que obtenim dels ecosistemes, com ara aliments, aire i aigua dolça i combustibles.
 - **Serveis de regulació:** beneficis que proporcionen els ecosistemes perquè contribueixen a regular l’aigua, l’erosió, les inundacions, el clima i la qualitat de l’aire.
 - **Serveis de suport:** processos ecològics fonamentals per al funcionament dels ecosistemes a llarg termini, com ara els cicles dels nutrients, la fotosíntesi i la pol·linització dels cultius.
-- **Serveis culturals:** beneficis educatius, espirituals, recreatius i culturals que obtenim dels ecosistemes.Durant molt de temps, la gestió dels ecosistemes s’ha basat en la idea que existeix un estat de referència relativament estable al qual podem tornar després d’una pertorbació. Però el canvi climàtic està posant en qüestió aquesta premissa.
+- **Serveis culturals:** beneficis educatius, espirituals, recreatius i culturals que obtenim dels ecosistemes.
 
-Les sequeres més intenses, els incendis, els canvis en els règims de precipitació i l’augment de les temperatures poden modificar simultàniament diferents components d’un ecosistema. El resultat no és necessàriament només la pèrdua d’una espècie, sinó un canvi en la composició, l’estructura i les funcions de tot l’ecosistema.
+## Què es la resiliència i com es mesura?
+
 
 En aquests casos, parlar simplement de recuperació pot ser insuficient. Un bosc que es recupera després d’un incendi pot no tornar a tenir exactament la mateixa composició d’espècies que tenia abans. I això no implica necessàriament que el nou ecosistema sigui menys funcional: pot representar una nova combinació d’espècies i processos més adequada a les condicions climàtiques emergents.
 
@@ -33,24 +36,8 @@ Per a la gestió forestal, això planteja una pregunta fonamental: com podem aju
 
 Una manera d’abordar aquesta qüestió és mitjançant el marc de Resistència, Resiliència i Transició (RRT), desenvolupat per Swanston et al. (2016) i posteriorment ampliat per Nagel et al. (2017, 2025). Aquest marc proposa tres grans maneres d’afrontar el canvi.
 
-## Resistència
 
-La resistència consisteix a intentar mantenir el bosc en unes condicions similars a les actuals o a les que es consideren desitjables.
 
-Les actuacions de gestió busquen reforçar les defenses del bosc davant d'una pertorbació prevista o reduir-ne els efectes. 
-Poden ser especialment importants en llocs amb un elevat valor ecològic o cultural, o quan es vol protegir espècies, hàbitats o serveis ecosistèmics concrets.
-
-Alguns exemples podrien ser:
-
-- Reduir la densitat de l’arbrat per disminuir la competència per l’aigua i mantenir arbres de gran valor ecològic o cultural.
-- Crear o mantenir discontinuïtats de combustible al voltant d’infraestructures o zones d’especial valor per reduir l’impacte potencial dels incendis.
-- Controlar espècies invasores que competeixen amb la vegetació autòctona.
-- Protegir poblacions de plantes o animals especialment vulnerables o singulars davant de sequeres, plagues o incendis.
-
-L’objectiu és, en aquest cas, limitar el canvi. Mantenir unes condicions històriques pot esdevenir cada vegada més difícil i costós a mesura que el clima continua canviant. Per això, la resistència pot ser més adequada en llocs on conservar determinades característiques sigui especialment important.
-
----
-## Resiliència
 
 La resiliència parteix d’una idea diferent: alguns canvis són inevitables, però podem ajudar el bosc a recuperar-se després d’una pertorbació.
 
