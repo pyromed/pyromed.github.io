@@ -18,6 +18,7 @@ Dins un ecosistema, tots aquests elements estan connectats i depenen els uns del
 > Els components biòtics i abiòtics estan estretament interconnectats. Els factors abiòtics condicionen les possibilitats de vida, mentre que els éssers vius (les persones incloses) també transformen el seu entorn. Si un d’aquests components canvia, els efectes es poden transmetre a la resta de l’ecosistema.
 >
 
+
 ## Què són els serveis ecosistèmics?
 
 Són els beneficis que els ecosistemes proporcionen i que contribueixen al benestar de les persones. L’Avaluació dels Ecosistemes del Mil·lenni (MA) defineix quatre categories bàsiques de serveis ecosistèmics:
@@ -29,8 +30,13 @@ Són els beneficis que els ecosistemes proporcionen i que contribueixen al benes
 
 ## Què es la resiliència i com es mesura?
 
-La resiliència dels ecosistemes es defineix com la capacitat d’un ecosistema per resistir o recuperar-se de les pertorbacions mantenint la seva estructura i les seves funcions.
+Els ecosistemes estan sotmesos a pertorbacions naturals, com ara incendis, inundacions, sequeres i brots de malalties, així com a pertorbacions causades per l’activitat humana.
 
+La resiliència dels ecosistemes es defineix com la capacitat d’un ecosistema per resistir o recuperar-se de les pertorbacions mantenint la seva estructura i les seves funcion sense travessar un llindar crític i, per tant, de tornar al seu estat d’equilibri original
+
+Els ecosistemes que no tenen resiliència són vulnerables a les pertorbacions, que poden provocar una reducció en la provisió de serveis ecosistèmics. Per tant, mantenir una provisió estable de serveis ecosistèmics depèn de disposar d’ecosistemes resilients.
+
+Qualsevol esdeveniment que afecti l’ecosistema pot tenir un impacte sobre múltiples serveis ecosistèmics i, en conseqüència, sobre la comunitat humana. Les comunitats que depenen en gran mesura dels ecosistemes poden veure’s greument afectades per les alteracions dels ecosistemes que provoquen una pèrdua de serveis.
 
 ---
 
