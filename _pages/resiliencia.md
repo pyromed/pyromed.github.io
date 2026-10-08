@@ -29,7 +29,7 @@ Són els beneficis que els ecosistemes proporcionen i que contribueixen al benes
 
 ## Què es la resiliència i com es mesura?
 
-
+La resiliència dels ecosistemes es defineix com la capacitat d’un ecosistema per resistir o recuperar-se de les pertorbacions mantenint la seva estructura i les seves funcions.
 
 
 ---
