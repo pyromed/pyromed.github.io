@@ -18,7 +18,7 @@ Dins un ecosistema, tots aquests elements estan connectats i depenen els uns del
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/ecosistema.jpg" 
        alt="Diagrama dels components d’un ecosistema, dividits en medi físic o components abiòtics —clima, relleu, sòl i aigua— i éssers vius o components biòtics —plantes, animals, fongs i microorganismes—. Tots aquests components interactuen entre si i formen l’ecosistema." 
-       style="width: 100%; height: auto; border-radius: 6px;">
+       style="width: 50%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     Components biòtics i abiòtics d’un ecosistema.
