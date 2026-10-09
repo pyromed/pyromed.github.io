@@ -54,7 +54,7 @@ La resiliència és important perquè els canvis en un ecosistema poden afectar 
 
 És important tenir en compte que la resiliència no és una característica absoluta: depèn del tipus de pertorbació i de les condicions en què es produeix. Un ecosistema pot tenir capacitat de recuperar-se després d’un incendi, però ser més vulnerable a sequeres prolongades o a incendis repetits en intervals curts. A més, la resposta pot variar segons la intensitat de la pertorbació, les condicions ambientals i les espècies que formen part de l’ecosistema.
 
-Per això, quan parlam de resiliència, és important demanar-nos: resiliència davant què, i quina capacitat de recuperació volem mantenir?
+Per això, quan parlam de resiliència, és important demanar-nos: **resiliència davant què**, i **quina capacitat de recuperació volem mantenir**?
 
 ### Són els ecosistemes mediterranis resilients al foc?
 
