@@ -48,14 +48,6 @@ La resiliència està relacionada amb dues capacitats principals:
 - **Resistència:** la capacitat de suportar una pertorbació i experimentar pocs canvis.
 - **Recuperació:** la capacitat de restablir-se després de la pertorbació, per exemple mitjançant el rebrot de les plantes, o la germinació de llavors.
 
-La resistència i/o recuperació no sempre són possibles. Si les pertorbacions són massa intenses, freqüents o persistents, l’ecosistema pot no recuperar la seva estructura i les seves funcions anteriors i pot transformar-se en un estat alternatiu.
-
-La resiliència és important perquè els canvis en un ecosistema poden afectar els serveis que proporciona, com ara la regulació de l’aigua, la protecció del sòl, l’emmagatzematge de carboni i els recursos dels quals depenen les persones. Per això, entendre com responen els ecosistemes a les pertorbacions ens ajuda a comprendre com conservar-los i gestionar-los en un context de canvi climàtic.
-
-És important tenir en compte que la resiliència no és una característica absoluta: depèn del tipus de pertorbació i de les condicions en què es produeix. Un ecosistema pot tenir capacitat de recuperar-se després d’un incendi, però ser més vulnerable a sequeres prolongades o a incendis repetits en intervals curts. A més, la resposta pot variar segons la intensitat de la pertorbació, les condicions ambientals i les espècies que formen part de l’ecosistema.
-
-Per això, quan parlam de resiliència, és important demanar-nos: **resiliència davant què**, i **quina capacitat de recuperació volem mantenir**?
-
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/resilience.jpg" 
        alt="Gràfic esquemàtic amb el temps a l’eix horitzontal i l’estat de l’ecosistema a l’eix vertical. Després d’una pertorbació, com un incendi o una sequera, l’estat de l’ecosistema disminueix bruscament. La resistència s’indica amb una fletxa vertical que representa la magnitud d’aquest descens. A continuació, una línia ascendent mostra la recuperació gradual fins a l’estat inicial." 
@@ -66,6 +58,16 @@ Per això, quan parlam de resiliència, és important demanar-nos: **resiliènci
   </em>
 </p>
 </div>
+
+La resistència i/o recuperació no sempre són possibles. Si les pertorbacions són massa intenses, freqüents o persistents, l’ecosistema pot no recuperar la seva estructura i les seves funcions anteriors i pot transformar-se en un estat alternatiu.
+
+La resiliència és important perquè els canvis en un ecosistema poden afectar els serveis que proporciona, com ara la regulació de l’aigua, la protecció del sòl, l’emmagatzematge de carboni i els recursos dels quals depenen les persones. Per això, entendre com responen els ecosistemes a les pertorbacions ens ajuda a comprendre com conservar-los i gestionar-los en un context de canvi climàtic.
+
+És important tenir en compte que la resiliència no és una característica absoluta: depèn del tipus de pertorbació i de les condicions en què es produeix. Un ecosistema pot tenir capacitat de recuperar-se després d’un incendi, però ser més vulnerable a sequeres prolongades o a incendis repetits en intervals curts. A més, la resposta pot variar segons la intensitat de la pertorbació, les condicions ambientals i les espècies que formen part de l’ecosistema.
+
+Per això, quan parlam de resiliència, és important demanar-nos: **resiliència davant què**, i **quina capacitat de recuperació volem mantenir**?
+
+
 
 ### Són els ecosistemes mediterranis resilients al foc?
 
