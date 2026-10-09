@@ -7,7 +7,9 @@ header:
   overlay_filter: 0.35
 ---
 
-Les sequeres més intenses, els incendis, els canvis en els règims de precipitació i l’augment de les temperatures poden modificar simultàniament diferents components d’un ecosistema. El resultat no és necessàriament només la pèrdua d’una espècie, sinó un canvi en la composició, l’estructura i les funcions de tot l’ecosistema.
+Els ecosistemes estan formats per éssers vius i pel medi físic on viuen, però no són simplement un conjunt de plantes, animals i elements naturals. Tots aquests components interactuen i depenen els uns dels altres. Per això, quan un component canvia, els efectes es poden estendre a la resta de l’ecosistema i alterar-ne l’estructura i el funcionament.
+
+Les sequeres intenses, els incendis i l’augment de les temperatures són alguns dels factors que poden desencadenar aquests canvis, especialment quan actuen de manera simultània o repetida.
 
 ## Què és un ecosistema?
 
@@ -28,12 +30,12 @@ Dins un ecosistema, tots aquests elements estan connectats i depenen els uns del
 
 ## Què són els serveis ecosistèmics?
 
-Són els beneficis que els ecosistemes proporcionen i que contribueixen al benestar de les persones. L’Avaluació dels Ecosistemes del Mil·lenni (MA) defineix quatre categories bàsiques de serveis ecosistèmics:
+Els ecosistemes ens proporcionen nombrosos beneficis que contribueixen al nostre benestar i a la nostra qualitat de vida. Aquests beneficis s’anomenen serveis ecosistèmics. L’Avaluació dels Ecosistemes del Mil·lenni (MA) els classifica en quatre categories:
 
-- **Serveis de proveïment:** productes que obtenim dels ecosistemes, com ara aliments, aire i aigua dolça i combustibles.
-- **Serveis de regulació:** beneficis que proporcionen els ecosistemes perquè contribueixen a regular l’aigua, l’erosió, les inundacions, el clima i la qualitat de l’aire.
-- **Serveis de suport:** processos ecològics fonamentals per al funcionament dels ecosistemes a llarg termini, com ara els cicles dels nutrients, la fotosíntesi i la pol·linització dels cultius.
-- **Serveis culturals:** beneficis educatius, espirituals, recreatius i culturals que obtenim dels ecosistemes.
+- **Serveis de proveïment:** productes que obtenim dels ecosistemes, com ara aliments, aire i aigua dolça, fusta i altres matèries primeres.
+- **Serveis de regulació:** beneficis derivats de la regulació dels processos naturals, com ara la regulació del clima, la qualitat de l’aire i de l’aigua, l’erosió i les inundacions.
+- **Serveis de suport:** processos ecològics fonamentals que permeten el funcionament dels ecosistemes, com ara la formació del sòl, els cicles dels nutrients i la producció primària.
+- **Serveis culturals:** beneficis no materials que obtenim dels ecosistemes, com ara les experiències recreatives, l’aprenentatge, els valors espirituals i el gaudir del paisatge.
 
 ## Què es la resiliència i com es mesura?
 
