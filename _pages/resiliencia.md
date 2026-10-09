@@ -13,7 +13,7 @@ Les sequeres intenses, els incendis i l’augment de les temperatures són algun
 
 ## Què és un ecosistema?
 
-Un ecosistema és el conjunt d’éssers vius (animals, plantes, fongs i microorganismes), i l’entorn físic on viuen (clima, relleu, sòl, aigua) que interactuen entre ells i amb el medi. Exemples d'ecosistemes a les Balears: alzinars, pinars, garrigues, albuferes, torrents, oliverars
+Un ecosistema és el conjunt d’éssers vius (animals, plantes, fongs i microorganismes), i l’entorn físic on viuen (clima, relleu, sòl, aigua) que interactuen entre ells i amb el medi. Exemples d'ecosistemes a les Balears: alzinars, pinars, garrigues, albuferes, torrents, oliverars...
 
 Dins un ecosistema, tots aquests elements estan connectats i depenen els uns dels altres. Les seves interaccions mantenen un equilibri dinàmic que permet que l’ecosistema funcioni i es mantengui al llarg del temps. Si un d’aquests components canvia, els efectes es poden transmetre a la resta de l’ecosistema.
 
