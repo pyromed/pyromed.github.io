@@ -82,7 +82,11 @@ La resposta també depèn de l’extensió de la zona afectada i de la distribuc
 ---
 
 <div class="page-navigation">
- <a href="/extreme/" class="btn btn--primary">
-    Incendis extrems →
+  <a href="/dendro/" class="btn btn--primary">
+    ← El canvi climàtic
+  </a>
+
+  <a href="/RRT/" class="btn btn--primary">
+   Resistir, recuperar-se o canviar → 
   </a>
 </div>
