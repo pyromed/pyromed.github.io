@@ -15,6 +15,16 @@ Un ecosistema és el conjunt d’éssers vius (animals, plantes, fongs i microor
 
 Dins un ecosistema, tots aquests elements estan connectats i depenen els uns dels altres. Les seves interaccions mantenen un equilibri dinàmic que permet que l’ecosistema funcioni i es mantengui al llarg del temps. Si un d’aquests components canvia, els efectes es poden transmetre a la resta de l’ecosistema.
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/ecosistema.jpg" 
+       alt="Diagrama dels components d’un ecosistema, dividits en medi físic o components abiòtics —clima, relleu, sòl i aigua— i éssers vius o components biòtics —plantes, animals, fongs i microorganismes—. Tots aquests components interactuen entre si i formen l’ecosistema." 
+       style="width: 100%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+    Components biòtics i abiòtics d’un ecosistema.
+  </em>
+</p>
+</div>
 
 ## Què són els serveis ecosistèmics?
 
