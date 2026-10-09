@@ -52,6 +52,24 @@ La resistència i/o recuperació no sempre són possibles. Si les pertorbacions 
 
 La resiliència és important perquè els canvis en un ecosistema poden afectar els serveis que proporciona, com ara la regulació de l’aigua, la protecció del sòl, l’emmagatzematge de carboni i els recursos dels quals depenen les persones. Per això, entendre com responen els ecosistemes a les pertorbacions ens ajuda a comprendre com conservar-los i gestionar-los en un context de canvi climàtic.
 
+És important tenir en compte que la resiliència no és una característica absoluta: depèn del tipus de pertorbació i de les condicions en què es produeix. Un ecosistema pot tenir capacitat de recuperar-se després d’un incendi, però ser més vulnerable a sequeres prolongades o a incendis repetits en intervals curts. A més, la resposta pot variar segons la intensitat de la pertorbació, les condicions ambientals i les espècies que formen part de l’ecosistema.
+
+Per això, quan parlam de resiliència, és important demanar-nos: resiliència davant què, i quina capacitat de recuperació volem mantenir?
+
+### Són els ecosistemes mediterranis resilients al foc?
+
+Mediterranean ecosystems have a long history of interaction with fire, and some plant species have traits that help them survive or regenerate after it. However, resilience varies among ecosystems and species, and depends on factors such as fire intensity, the interval between fires, drought conditions and the availability of seeds or resprouting organs.
+
+The key message: being adapted to fire does not mean being able to recover from any fire regime
+
+### Són els ecosistemes mediterranis resilients a la sequera?
+
+Mediterranean ecosystems experience seasonal summer drought, and many species are adapted to it. But more intense or prolonged droughts, particularly when combined with heat waves or repeated fires, can exceed the capacity of plants and ecosystems to resist and recover.
+
+The key message: adaptation to seasonal drought does not guarantee resilience to future drought conditions.
+
+### Què passa quan les pertorbacions se superposen?
+
 L’escala espacial de la pertorbació té conseqüències profundes sobre nombrosos processos ecològics, incloent-hi la regeneració, el sòl i l’erosió, els processos hidrològics i la fauna silvestre. En molts casos, aquests efectes espacials poden determinar la forma que adopta la resposta de resiliència.
 Els efectes del foc sobre la biota i els sòls depenen de la intensitat de la reacció (energia calorífica alliberada, kJ m⁻² min⁻¹) i de la intensitat de la línia de foc (kJ m⁻¹ s⁻¹), expressades en funció del temps de residència, que queda representat en la funció temps-temperatura.
 
