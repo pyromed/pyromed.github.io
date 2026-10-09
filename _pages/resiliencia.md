@@ -37,7 +37,7 @@ Els ecosistemes ens proporcionen nombrosos beneficis que contribueixen al nostre
 - **Serveis de suport:** processos ecològics fonamentals que permeten el funcionament dels ecosistemes, com ara la formació del sòl, els cicles dels nutrients i la producció primària.
 - **Serveis culturals:** beneficis no materials que obtenim dels ecosistemes, com ara les experiències recreatives, l’aprenentatge, els valors espirituals i el gaudir del paisatge.
 
-## Què es la resiliència i com es mesura?
+## Què es la resiliència?
 
 Els ecosistemes estan sotmesos a pertorbacions naturals, com ara incendis, inundacions, sequeres i brots de malalties, així com a alteracions provocades per l’activitat humana. Però no tots els ecosistemes responen de la mateixa manera davant aquests esdeveniments.
 
