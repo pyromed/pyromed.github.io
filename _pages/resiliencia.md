@@ -58,22 +58,26 @@ Per això, quan parlam de resiliència, és important demanar-nos: **resiliènci
 
 ### Són els ecosistemes mediterranis resilients al foc?
 
-Mediterranean ecosystems have a long history of interaction with fire, and some plant species have traits that help them survive or regenerate after it. However, resilience varies among ecosystems and species, and depends on factors such as fire intensity, the interval between fires, drought conditions and the availability of seeds or resprouting organs.
+Els ecosistemes mediterranis han conviscut amb el foc al llarg de la seva història, i algunes espècies vegetals presenten adaptacions que els permeten sobreviure-hi o regenerar-se després d’un incendi.
+- Les alzines poden rebrotar després de perdre la part aèria gràcies als brots que es desenvolupen a partir de les soques i les arrels. Això els permet recuperar-se després d'alguns incendis, sempre que les reserves i els òrgans de rebrot no hagin quedat greument danyats.
+- El pi blanc manté pinyes que poden retenir llavors durant un temps i alliberar-ne una part després de l'escalfament provocat pel foc. La regeneració posterior depèn de la disponibilitat de llavors, de les condicions del sòl i de la pluja després de l'incendi.
+- Algunes estepes tenen llavors que poden romandre al sòl i germinar després d'un incendi, afavorides per l'escalfament o altres canvis associats al foc. Això els permet colonitzar zones cremades, encara que la resposta varia segons l'espècie i les condicions.
 
-The key message: being adapted to fire does not mean being able to recover from any fire regime
+Estar adaptat al foc no significa poder recuperar-se després de qualsevol incendi. Si els incendis són massa intensos o es repeteixen abans que la vegetació s’hagi pogut recuperar, la regeneració pot veure’s compromesa i l’ecosistema pot experimentar canvis importants.
 
 ### Són els ecosistemes mediterranis resilients a la sequera?
 
-Mediterranean ecosystems experience seasonal summer drought, and many species are adapted to it. But more intense or prolonged droughts, particularly when combined with heat waves or repeated fires, can exceed the capacity of plants and ecosystems to resist and recover.
+Els ecosistemes mediterranis estan condicionats per la sequera estival, i moltes de les seves espècies hi presenten adaptacions. 
+- Les fulles dures i coriàcies, amb una superfície inferior protegida per pèls,dels ullastres contribueixen a reduir la pèrdua d'aigua.
+- Les fulles persistents, dures i relativament petites del llentiscle contribueixen a limitar la pèrdua d'aigua regulant l'obertura dels estomes per reduir la transpiració quan l'aigua escasseja.
 
-The key message: adaptation to seasonal drought does not guarantee resilience to future drought conditions.
+Estar adaptat a la sequera estival no garanteix poder resistir sequeres més intenses o prolongades en el futur. A mesura que augmenten les temperatures i canvien els règims de precipitació, les condicions ambientals poden superar els límits que moltes espècies poden tolerar.
 
 ### Què passa quan les pertorbacions se superposen?
 
-L’escala espacial de la pertorbació té conseqüències profundes sobre nombrosos processos ecològics, incloent-hi la regeneració, el sòl i l’erosió, els processos hidrològics i la fauna silvestre. En molts casos, aquests efectes espacials poden determinar la forma que adopta la resposta de resiliència.
-Els efectes del foc sobre la biota i els sòls depenen de la intensitat de la reacció (energia calorífica alliberada, kJ m⁻² min⁻¹) i de la intensitat de la línia de foc (kJ m⁻¹ s⁻¹), expressades en funció del temps de residència, que queda representat en la funció temps-temperatura.
+Els ecosistemes no sempre s’enfronten a una sola pertorbació cada vegada. Una sequera prolongada pot afeblir la vegetació i afavorir unes condicions més propícies per a incendis intensos. Després d’un incendi, si la sequera persisteix, les plantes poden tenir més dificultats per rebrotar, germinar o establir-se. Quan aquestes pertorbacions se succeeixen o actuen alhora, la capacitat de recuperació de l’ecosistema es pot veure compromesa.
 
-El període durant el qual una planta o una zona de sòl està exposada a la calor d’un foc pot determinar, per exemple, si les arrels de les plantes experimenten un escalfament letal o el grau en què es produeixen canvis en les característiques del sòl, com ara la hidrofobicitat, la pèrdua de matèria orgànica o l’esterilització (Neary et al., 2005).
+La resposta també depèn de l’extensió de la zona afectada i de la distribució espacial dels efectes. Per exemple, un incendi que afecta grans superfícies pot dificultar la regeneració si elimina bona part de la vegetació i de les fonts de llavors, mentre que els canvis en el sòl poden afavorir l’erosió i alterar la circulació de l’aigua.
 ---
 
 <div class="page-navigation">
