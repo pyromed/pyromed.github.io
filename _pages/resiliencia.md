@@ -57,7 +57,7 @@ La resiliència és important perquè els canvis en un ecosistema poden afectar 
 Per això, quan parlam de resiliència, és important demanar-nos: **resiliència davant què**, i **quina capacitat de recuperació volem mantenir**?
 
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/assets/images/resiliencia.jpg" 
+  <img src="/assets/images/resilience.jpg" 
        alt="Gràfic esquemàtic amb el temps a l’eix horitzontal i l’estat de l’ecosistema a l’eix vertical. Després d’una pertorbació, com un incendi o una sequera, l’estat de l’ecosistema disminueix bruscament. La resistència s’indica amb una fletxa vertical que representa la magnitud d’aquest descens. A continuació, una línia ascendent mostra la recuperació gradual fins a l’estat inicial." 
        style="width: 50%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
