@@ -78,6 +78,7 @@ Estar adaptat a la sequera estival no garanteix poder resistir sequeres més int
 Els ecosistemes no sempre s’enfronten a una sola pertorbació cada vegada. Una sequera prolongada pot afeblir la vegetació i afavorir unes condicions més propícies per a incendis intensos. Després d’un incendi, si la sequera persisteix, les plantes poden tenir més dificultats per rebrotar, germinar o establir-se. Quan aquestes pertorbacions se succeeixen o actuen alhora, la capacitat de recuperació de l’ecosistema es pot veure compromesa.
 
 La resposta també depèn de l’extensió de la zona afectada i de la distribució espacial dels efectes. Per exemple, un incendi que afecta grans superfícies pot dificultar la regeneració si elimina bona part de la vegetació i de les fonts de llavors, mentre que els canvis en el sòl poden afavorir l’erosió i alterar la circulació de l’aigua.
+
 ---
 
 <div class="page-navigation">
