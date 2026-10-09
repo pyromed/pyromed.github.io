@@ -51,7 +51,7 @@ La resiliència està relacionada amb dues capacitats principals:
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/resilience.jpg" 
        alt="Gràfic esquemàtic amb el temps a l’eix horitzontal i l’estat de l’ecosistema a l’eix vertical. Després d’una pertorbació, com un incendi o una sequera, l’estat de l’ecosistema disminueix bruscament. La resistència s’indica amb una fletxa vertical que representa la magnitud d’aquest descens. A continuació, una línia ascendent mostra la recuperació gradual fins a l’estat inicial." 
-       style="width: 50%; height: auto; border-radius: 6px;">
+       style="width: 75%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     Representació esquemàtica de la resistència i la recuperació d’un ecosistema davant una pertorbació, com ara un incendi o una sequera. La resistència es reflecteix en la magnitud del canvi inicial en l’estat de l’ecosistema, mentre que la recuperació correspon al procés i al temps necessaris per tornar a l’estat inicial.
