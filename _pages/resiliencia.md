@@ -13,10 +13,7 @@ Les sequeres més intenses, els incendis, els canvis en els règims de precipita
 
 Un ecosistema és el conjunt d’éssers vius (animals, plantes, fongs i microorganismes), i l’entorn físic on viuen (clima, relleu, sòl, aigua) que interactuen entre ells i amb el medi.
 
-Dins un ecosistema, tots aquests elements estan connectats i depenen els uns dels altres. Les seves interaccions mantenen un equilibri dinàmic que permet que l’ecosistema funcioni i es mantengui al llarg del temps.
-
-> Els components biòtics i abiòtics estan estretament interconnectats. Els factors abiòtics condicionen les possibilitats de vida, mentre que els éssers vius (les persones incloses) també transformen el seu entorn. Si un d’aquests components canvia, els efectes es poden transmetre a la resta de l’ecosistema.
->
+Dins un ecosistema, tots aquests elements estan connectats i depenen els uns dels altres. Les seves interaccions mantenen un equilibri dinàmic que permet que l’ecosistema funcioni i es mantengui al llarg del temps. Si un d’aquests components canvia, els efectes es poden transmetre a la resta de l’ecosistema.
 
 
 ## Què són els serveis ecosistèmics?
