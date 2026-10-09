@@ -37,17 +37,18 @@ Són els beneficis que els ecosistemes proporcionen i que contribueixen al benes
 
 ## Què es la resiliència i com es mesura?
 
-Els ecosistemes estan sotmesos a pertorbacions naturals, com ara incendis, inundacions, sequeres i brots de malalties, així com a pertorbacions causades per l’activitat humana.
+Els ecosistemes estan sotmesos a pertorbacions naturals, com ara incendis, inundacions, sequeres i brots de malalties, així com a alteracions provocades per l’activitat humana. Però no tots els ecosistemes responen de la mateixa manera davant aquests esdeveniments.
 
-La resiliència dels ecosistemes es defineix com la capacitat d’un ecosistema per resistir o recuperar-se de les pertorbacions mantenint la seva estructura i les seves funcion sense travessar un llindar crític i, per tant, de tornar al seu estat d’equilibri original
+La resiliència ecològica és la capacitat d’un ecosistema de fer front a una pertorbació i mantenir les seves funcions essencials, sense perdre les característiques que el defineixen. Aquesta capacitat depèn, entre altres factors, de la intensitat i la freqüència de les pertorbacions, de les condicions ambientals i de les característiques dels organismes que hi viuen.
 
-Els ecosistemes que no tenen resiliència són vulnerables a les pertorbacions, que poden provocar una reducció en la provisió de serveis ecosistèmics. Per tant, mantenir una provisió estable de serveis ecosistèmics depèn de disposar d’ecosistemes resilients.
+La resiliència està relacionada amb dues capacitats principals:
 
-Qualsevol esdeveniment que afecti l’ecosistema pot tenir un impacte sobre múltiples serveis ecosistèmics i, en conseqüència, sobre la comunitat humana. Les comunitats que depenen en gran mesura dels ecosistemes poden veure’s greument afectades per les alteracions dels ecosistemes que provoquen una pèrdua de serveis.
+- **Resistència:** la capacitat de suportar una pertorbació i experimentar pocs canvis.
+- **Recuperació:** la capacitat de restablir-se després de la pertorbació, per exemple mitjançant el rebrot de les plantes, o la germinació de llavors.
 
-- resistència o persistencia: la capacitat dels individus o de les estructures de tolerar o persistir durant una pertorbació, permetent que el sistema torni al seu estat anterior a la pertorbació amb relativament pocs canvis. es caracteritza per una elevada supervivència demogràfica (supervivència per individu durant un interval de temps determinat) o, al contrari, per una baixa taxa de mortalitat.
-- recuperació: restabliment de la població anterior a la pertorbació després de la mortalitat dels individus originals, mitjançant el reclutament o la colonització. Els processos de recuperació poden ser relativament ràpids, com en el cas de les poblacions de pins amb cons seròtins (p. ex., Pinus contorta ssp. contorta), que depenen dels incendis intensos per obrir els seus cons i permetre la dispersió de les llavors sobre el sòl alliberat de vegetació, cosa que normalment condueix a un establiment abundant després del foc durant els 1–2 anys posteriors a l’incendi.
-- transició: tant els processos de persistència com els de recuperació poden fallar, i el sistema es reorganitza en un estat alternatiu
+La resistència i/o recuperació no sempre són possibles. Si les pertorbacions són massa intenses, freqüents o persistents, l’ecosistema pot no recuperar la seva estructura i les seves funcions anteriors i pot transformar-se en un estat alternatiu.
+
+La resiliència és important perquè els canvis en un ecosistema poden afectar els serveis que proporciona, com ara la regulació de l’aigua, la protecció del sòl, l’emmagatzematge de carboni i els recursos dels quals depenen les persones. Per això, entendre com responen els ecosistemes a les pertorbacions ens ajuda a comprendre com conservar-los i gestionar-los en un context de canvi climàtic.
 
 L’escala espacial de la pertorbació té conseqüències profundes sobre nombrosos processos ecològics, incloent-hi la regeneració, el sòl i l’erosió, els processos hidrològics i la fauna silvestre. En molts casos, aquests efectes espacials poden determinar la forma que adopta la resposta de resiliència.
 Els efectes del foc sobre la biota i els sòls depenen de la intensitat de la reacció (energia calorífica alliberada, kJ m⁻² min⁻¹) i de la intensitat de la línia de foc (kJ m⁻¹ s⁻¹), expressades en funció del temps de residència, que queda representat en la funció temps-temperatura.
