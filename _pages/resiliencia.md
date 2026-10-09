@@ -1,7 +1,7 @@
 ---
 title: "Ecosistemes resilients"
 layout: splash
-permalink: /rrt/
+permalink: /resiliencia/
 header:
   overlay_image: /assets/images/andratx-hero.jpg
   overlay_filter: 0.35
