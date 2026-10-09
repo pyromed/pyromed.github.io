@@ -83,7 +83,7 @@ La resposta també depèn de l’extensió de la zona afectada i de la distribuc
 
 <div class="page-navigation">
   <a href="/dendro/" class="btn btn--primary">
-    ← El canvi climàtic
+    ← La dendrocronologia
   </a>
 
   <a href="/RRT/" class="btn btn--primary">
