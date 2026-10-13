@@ -90,9 +90,9 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
- - image_path: /assets/images/resilience.jpg
-    alt: "resilience diagrama"
-    title: "La resiliencia"
+  - image_path: /assets/images/resilience.jpg
+    alt: "Diagrama de resiliència"
+    title: "La resiliència"
     url: "/resiliencia/"
     btn_label: "Explora"
     btn_class: "btn--primary"
