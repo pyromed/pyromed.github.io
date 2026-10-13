@@ -34,7 +34,7 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/estepa-rebrot.jpg
+  - image_path: /assets/images/serotiny.jpg
     alt: "adaptacions"
     title: " El paper ecològic del foc"
     url: "/ecology/"
