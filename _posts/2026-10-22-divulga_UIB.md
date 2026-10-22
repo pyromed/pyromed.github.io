@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Divulga UIB: Què expliquen els arbres dels incendis del passat?"
-excerpt: "🌳 Nova temporada de #DivulgaUIB! Parlam amb la investigadora Alicia Azpeleta sobre el projecte PyroMED, la història dels incendis i la gestió dels boscos mediterranis."
+excerpt: "🌳 Participam al pòdcast #DivulgaUIB per donar a conèixer el projecte PyroMED i parlar de la història dels incendis i la gestió dels boscos mediterranis."
 date: 2026-10-22
 ---
 
