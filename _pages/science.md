@@ -114,6 +114,8 @@ Escriu-nos i ajuda'ns a fer créixer aquest espai de divulgació científica.
 
 <div class="notice" markdown="1">
 Aquest espai i part dels seus continguts s’han desenvolupat en el marc del projecte «Ecologia del foc a la serra de Tramuntana» (PD-052-2022), finançat per l’ajut postdoctoral Vicenç Mut de la Conselleria d’Educació i Universitats del Govern de les Illes Balears i cofinançat pel Fons Social Europeu Plus (FSE+).
+
+![Cofinançat per la Unió Europea – Fons Europeus – Govern de les Illes Balears]({{ '/assets/images/logos-fse-caib.png' | relative_url }}){: .align-center style="max-width: 600px; width: 100%;"}
 </div>
 
 
