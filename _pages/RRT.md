@@ -111,7 +111,9 @@ Per això, el que defineix l’estratègia no és tant l’actuació com l’obj
 Imaginem la serra de Tramuntana, amb pinars, alzinars i marjades abandonades. Aquest és només un exemple per il·lustrar la idea, no una recomanació per a cap lloc concret:
 
 Resistència: protegir un rodal d’arbres vells o un alzinar d’alt valor, i mantenir discontinuïtats de combustible al voltant de les cases i dels camins.
+
 Resiliència: fer aclarides en pinars molt densos, sobretot en les zones cremades on la regeneració de pi blanc és massa atapeïda, i conservar els arbres més grans.
+
 Transició: en els vessants més secs, on el pinar té més dificultats per regenerar-se, afavorir espècies que ja hi són i que poden rebrotar, com l’ullastre o el llentiscle, perquè la vegetació que hi quedi protegeixi el sòl i pugui recuperar-se després del proper incendi.
 
 ---
