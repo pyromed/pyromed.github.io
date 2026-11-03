@@ -13,7 +13,7 @@ Les sequeres més intenses, els canvis en els règims d'incendis i de precipitac
 
 En aquests casos, parlar simplement de recuperació pot ser insuficient. Un bosc que es recupera després d’un incendi pot no tornar a tenir exactament la mateixa composició d’espècies que tenia abans. I això no implica necessàriament que el nou ecosistema sigui menys funcional, pot representar una nova combinació d’espècies i processos més adequada a les condicions climàtiques emergents.
 
-Per a la gestió forestal, això planteja una pregunta fonamental: com podem ajudar els boscos a afrontar unes condicions que estan canviant?
+Per a la gestió forestal, això planteja una pregunta fonamental: **com podem ajudar els boscos a afrontar unes condicions que estan canviant?**
 
 ---
 
