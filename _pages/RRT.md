@@ -11,7 +11,7 @@ Durant molt de temps, la gestió dels ecosistemes s’ha basat en la idea que ex
 
 Les sequeres més intenses, els canvis en els règims d'incendis i de precipitació i l’augment de les temperatures poden modificar simultàniament diferents components d’un ecosistema. El resultat no és necessàriament només la pèrdua d’una espècie, sinó un canvi en la composició, l’estructura i les funcions de tot l’ecosistema.
 
-En aquests casos, parlar simplement de recuperació pot ser insuficient. Un bosc que es recupera després d’un incendi pot no tornar a tenir exactament la mateixa composició d’espècies que tenia abans. I això no implica necessàriament que el nou ecosistema sigui menys funcional: pot representar una nova combinació d’espècies i processos més adequada a les condicions climàtiques emergents.
+En aquests casos, parlar simplement de recuperació pot ser insuficient. Un bosc que es recupera després d’un incendi pot no tornar a tenir exactament la mateixa composició d’espècies que tenia abans. I això no implica necessàriament que el nou ecosistema sigui menys funcional, pot representar una nova combinació d’espècies i processos més adequada a les condicions climàtiques emergents.
 
 Per a la gestió forestal, això planteja una pregunta fonamental: com podem ajudar els boscos a afrontar unes condicions que estan canviant?
 
