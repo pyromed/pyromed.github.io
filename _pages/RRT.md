@@ -36,7 +36,6 @@ Alguns exemples podrien ser:
 
 L’objectiu és, en aquest cas, limitar el canvi. Mantenir unes condicions històriques pot esdevenir cada vegada més difícil i costós a mesura que el clima continua canviant. Per això, la resistència pot ser més adequada en llocs on conservar determinades característiques sigui especialment important.
 
----
 ### Resiliència
 
 La resiliència parteix d’una idea diferent: alguns canvis són inevitables, però podem ajudar el bosc a recuperar-se després d’una pertorbació.
@@ -58,7 +57,7 @@ L’objectiu no és evitar completament el canvi, sinó mantenir la capacitat de
 A la pàgina sobre [ecosistemes resilients]({{ '/resiliencia/' | relative_url }}) hem vist que la resiliència inclou la resistència i la recuperació. Allà parlàvem de com respon un ecosistema. Aquí parlam de què decidim fer les persones: dins el marc RRT, resistència i resiliència són dues estratègies de gestió diferents, i la segona posa l’accent en la recuperació. La paraula resiliència s’utilitza de maneres molt diverses, fins i tot en la literatura científica, i per això convé aclarir sempre en quin sentit es fa servir.
 
 </div>
----
+
 ### Transició
 
 En alguns casos, però, les condicions futures poden ser tan diferents de les actuals que intentar mantenir el bosc tal com el coneixem pot deixar de ser viable.
@@ -91,9 +90,9 @@ Una aclarida pot aparèixer en les tres estratègies. Pot servir per protegir un
 
 Per això, el que defineix l’estratègia no és tant l’actuació com l’objectiu que es persegueix, és a dir, el tipus de bosc que volem tenir en el futur. A més, les fronteres entre les tres categories no sempre són clares, i una mateixa actuació pot tenir efectes en més d’una.
 
-
 > **I si no feim res?** Deixar els ecosistemes evolucionar sense intervenir també és una opció. No decidir també és una decisió, amb les seves conseqüències
 >
+
 ---
 
 ## Com podria ser en un paisatge com el nostre?
@@ -105,6 +104,7 @@ Resiliència: fer aclarides en pinars molt densos, sobretot en les zones cremade
 Transició: en els vessants més secs, on el pinar té més dificultats per regenerar-se, afavorir espècies que ja hi són i que poden rebrotar, com l’ullastre o el llentiscle, perquè la vegetació que hi quedi protegeixi el sòl i pugui recuperar-se després del proper incendi.
 
 ---
+
 ## Com es decideix?
 
 No hi ha una recepta vàlida per a tots els ecosistemes. Abans d’actuar, convé fer-se algunes preguntes:
@@ -120,6 +120,7 @@ Aquest darrer punt és essencial. Els arbres responen lentament i el clima futur
 
 > La pregunta ja no és només com tornar el bosc a com era, sinó quin bosc volem i podem tenir en el futur.
 >
+
 ---
 <div class="page-navigation">
  <a href="/resiliencia/" class="btn btn--primary">
