@@ -100,6 +100,6 @@ La resposta també depèn de l’extensió de la zona afectada i de la distribuc
   </a>
 
   <a href="/rrt/" class="btn btn--primary">
-   Resistir, recuperar-se o canviar → 
+   Resistir, recuperar-se o transformar → 
   </a>
 </div>
