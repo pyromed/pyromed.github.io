@@ -19,7 +19,18 @@ Per a la gestió forestal, això planteja una pregunta fonamental: com podem aju
 
 ## Tres maneres d’afrontar el canvi
 
-Una manera d’abordar aquesta qüestió és el marc de Resistència, Resiliència i Transició (RRT). La idea parteix de Millar i col·laboradors (2007), que varen proposar aquestes opcions per gestionar els boscos davant la incertesa del clima futur. Des de llavors, el Servei Forestal dels Estats Units l’ha desenvolupada com una eina per prendre decisions, i s’està posant a prova en boscos reals (Nagel et al., 2017; Clark et al., 2026).La resistència consisteix a intentar mantenir el bosc en unes condicions similars a les actuals o a les que es consideren desitjables.
+Una manera d’abordar aquesta qüestió és el marc de Resistència, Resiliència i Transició (RRT). La idea parteix de Millar i col·laboradors (2007), que varen proposar aquestes opcions per gestionar els boscos davant la incertesa del clima futur. Des de llavors, el Servei Forestal dels Estats Units l’ha desenvolupada com una eina per prendre decisions, i s’està posant a prova en boscos reals (Nagel et al., 2017; Clark et al., 2026).
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/rrt-boscos.jpg"
+       alt="Il·lustració d’un mateix bosc de pins i alzines en tres estratègies i tres moments: avui, després d’un incendi o una sequera, i en el futur. Amb la resistència, el bosc perd molt pocs arbres i es manté igual. Amb la resiliència, perd més arbres però es recupera amb una composició semblant. Amb la transició, els arbres morts són substituïts per plançons d’espècies més adaptades i el bosc del futur és diferent."
+       style="width: 100%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+    Representació conceptual de les tres estratègies aplicades a un mateix bosc. La resistència intenta mantenir-lo, la resiliència l’ajuda a recuperar-se i la transició acompanya el canvi cap a un bosc diferent, preparat per al clima futur.
+  </em>
+</p>
+</div>
 
 ### Resistència
 
