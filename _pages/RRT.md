@@ -66,10 +66,10 @@ En alguns casos, però, les condicions futures poden ser tan diferents de les ac
 
 Exemples inclouen:
 
-Després d’una pertorbació, permetre que la vegetació evolucioni cap a una nova composició en lloc d’intentar restaurar exactament la comunitat anterior.
-Introduir llavors o plançons procedents de poblacions que actualment viuen en condicions més càlides, seques o extremes, amb l’objectiu d’augmentar la probabilitat que els arbres plantats estiguin adaptats al clima futur del lloc. És el que s’anomena migració assistida.
-Afavorir espècies ja presents al territori que probablement estaran millor adaptades a les noves condicions.
-Connectar hàbitats perquè les poblacions puguin desplaçar-se.
+- Després d’una pertorbació, permetre que la vegetació evolucioni cap a una nova composició en lloc d’intentar restaurar exactament la comunitat anterior.
+- Introduir llavors o plançons procedents de poblacions que actualment viuen en condicions més càlides, seques o extremes, amb l’objectiu d’augmentar la probabilitat que els arbres plantats estiguin adaptats al clima futur del lloc. És el que s’anomena migració assistida.
+- Afavorir espècies ja presents al territori que probablement estaran millor adaptades a les noves condicions.
+- Connectar hàbitats perquè les poblacions puguin desplaçar-se.
 
 L’objectiu és facilitar el canvi i preparar l’ecosistema per a unes condicions noves. Té sentit en llocs on mantenir l’estat actual deixarà de ser viable, el problema és que hi ha incertesa sobre el futur i el resultat tarda a veure’s.
 
