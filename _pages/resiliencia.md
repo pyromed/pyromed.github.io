@@ -99,7 +99,7 @@ La resposta també depèn de l’extensió de la zona afectada i de la distribuc
     ← La dendrocronologia
   </a>
 
-  <a href="/RRT/" class="btn btn--primary">
+  <a href="/rrt/" class="btn btn--primary">
    Resistir, recuperar-se o canviar → 
   </a>
 </div>
