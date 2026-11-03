@@ -95,7 +95,7 @@ Per això, el que defineix l’estratègia no és tant l’actuació com l’obj
 
 ---
 
-## Com podria ser en un paisatge com el nostre?
+### Com podria ser en un paisatge com el nostre?
 
 Imaginem la serra de Tramuntana, amb pinars, alzinars i marjades abandonades. Aquest és només un exemple per il·lustrar la idea, no una recomanació per a cap lloc concret:
 
@@ -105,7 +105,7 @@ Transició: en els vessants més secs, on el pinar té més dificultats per rege
 
 ---
 
-## Com es decideix?
+### Com es decideix?
 
 No hi ha una recepta vàlida per a tots els ecosistemes. Abans d’actuar, convé fer-se algunes preguntes:
 
