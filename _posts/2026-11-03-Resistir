@@ -2,9 +2,9 @@
 layout: post
 title: "Divulga UIB: Què expliquen els arbres dels incendis del passat?"
 excerpt: "🌳 Participam al pòdcast #DivulgaUIB per donar a conèixer el projecte PyroMED i parlar de la història dels incendis i la gestió dels boscos mediterranis."
-date: 2026-10-22
+date: 2026-10-13
 ---
 
-<meta http-equiv="refresh" content="0; url=https://go.ivoox.com/rf/182256137">
+<meta http-equiv="refresh" content="0; url={{ '/rrt/' | relative_url }}">
 
-<p>Si no et redirigeix automàticament, fes clic <a href="https://go.ivoox.com/rf/182256137">aquí per escoltar l'episodi</a>.</p>
+<p>Si no et redirigeix automàticament, fes clic <a href="{{ '/rrt/' | relative_url }}">aquí</a>.</p>
