@@ -123,6 +123,8 @@ Aquest darrer punt és essencial. Els arbres responen lentament i el clima futur
 ---
 <div class="page-navigation">
  <a href="/resiliencia/" class="btn btn--primary">
-    Ecosistemes resilienrs →
+     ← Ecosistemes resilients
   </a>
-</div>
+
+  <a href="/404/" class="btn btn--primary">
+    → 
