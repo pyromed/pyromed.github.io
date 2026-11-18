@@ -106,7 +106,7 @@ feature_row_projects:
 
   - image_path: /assets/images/MANFV01_Moderate_2013fire.jpg
     alt: "Postincendi, "
-    title: "Regeneració post-incendi"
+    title: "Recuperar el bosc després d’un incendi"
     url: "/postincendi/"
     btn_label: "Explora"
     btn_class: "btn--primary"
