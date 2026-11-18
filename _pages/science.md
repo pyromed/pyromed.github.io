@@ -104,6 +104,12 @@ feature_row_projects:
     btn_label: "Explora"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/MANFV01_Moderate_2013fire.jpg
+    alt: "Postincendi, "
+    title: "Regeneració post-incendi"
+    url: "/postincendi/"
+    btn_label: "Explora"
+    btn_class: "btn--primary"
 
 ---
 
