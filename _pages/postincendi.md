@@ -108,6 +108,17 @@ Aquest risc no és només teòric. En un [estudi nostre a Mallorca](https://doi.
 
 Es tracta d'un estudi encara en revisió, basat en un nombre limitat de parcel·les i en un únic incendi. Tot i aquestes limitacions, els resultats posen de manifest la importància de fer un seguiment de la regeneració durant la primera dècada després del foc.
 
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/Regen_Andratx.jpg" 
+       alt="Parcel·la forestal d'Andratx, Mallorca, onze anys després d'un incendi, amb pins supervivents dispersos entre zones amb regeneració abundant de plançons de pi." 
+       style="width: 50%; height: auto; border-radius: 6px;">
+  <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
+  <em>
+    Aspecte d'una de les parcel·les estudiades a Andratx, Mallorca, onze anys després de l'incendi. La persistència d'àrees obertes dominades per vegetació arbustiva, intercalades amb pins supervivents, il·lustra algunes de les possibles trajectòries de recuperació de la vegetació després del foc.
+  </em>
+</p>
+</div>
+
 ### I si hi ha massa pins?
 
 També pot passar el contrari: després d'alguns incendis poden germinar **milers de pins per hectàrea**. Si creixen massa junts, competeixen intensament per l'aigua i els nutrients, tenen dificultats per desenvolupar-se i poden acabar formant una massa molt densa i contínua de combustible.
