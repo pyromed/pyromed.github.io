@@ -232,7 +232,7 @@ Abans de prendre decisions, val la pena:
 
 ---
 <div class="page-navigation">
- <a href="/RRT/" class="btn btn--primary">
+ <a href="/rrt/" class="btn btn--primary">
      ← Resistir, recuperar-se i transformar
   </a>
 
