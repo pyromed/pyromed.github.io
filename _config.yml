@@ -9,7 +9,11 @@ twitter_username: username
 github_username: pyromed
 minimal_mistakes_skin: air
 search: true
-google_analytics: G-ZB86D2H14Y
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-ZB86D2H14Y"
+    anonymize_ip: false
 
 # Build settings
 markdown: kramdown
