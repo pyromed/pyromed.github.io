@@ -136,15 +136,11 @@ Aquest darrer punt és essencial. Els arbres responen lentament i el clima futur
 
 ---
 <div class="page-navigation">
- <a href="/resiliencia/" class="btn btn--primary">
-     ← Ecosistemes resilients
+  <a href="/resiliencia/" class="btn btn--primary">
+    ← Ecosistemes resilients
   </a>
 
   <a href="/postincendi/" class="btn btn--primary">
-   Recuperar el bosc després d’un incendi → 
+    Recuperar el bosc després d’un incendi →
   </a>
 </div>
-
-
-  <a href="/postincendi/" class="btn btn--primary">
-    → 
