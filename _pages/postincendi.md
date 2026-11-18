@@ -111,7 +111,7 @@ Es tracta d'un estudi encara en revisió, basat en un nombre limitat de parcel·
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/images/Regen_Andratx.jpg" 
        alt="Parcel·la forestal d'Andratx, Mallorca, onze anys després d'un incendi, amb pins supervivents dispersos entre zones amb regeneració abundant de plançons de pi." 
-       style="width: 50%; height: auto; border-radius: 6px;">
+       style="width: 100%; height: auto; border-radius: 6px;">
   <p style="font-size: 0.85em; margin-top: 8px; color: #555;">
   <em>
     Aspecte d'una de les parcel·les estudiades a Andratx, Mallorca, onze anys després de l'incendi. La persistència d'àrees obertes dominades per vegetació arbustiva, intercalades amb pins supervivents, il·lustra algunes de les possibles trajectòries de recuperació de la vegetació després del foc.
