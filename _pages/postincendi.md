@@ -237,4 +237,6 @@ Abans de prendre decisions, val la pena:
   </a>
 
   <a href="/404/" class="btn btn--primary">
-    → 
+    Recuperar el bosc després d’un incendi → 
+  </a>
+</div> 
