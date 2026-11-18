@@ -236,7 +236,7 @@ Abans de prendre decisions, val la pena:
      ← Resistir, recuperar-se i transformar
   </a>
 
-  <a href="/404/" class="btn btn--primary">
-    Recuperar el bosc després d’un incendi → 
+  <a href="/postincendi/" class="btn btn--primary">
+   Recuperar el bosc després d’un incendi → 
   </a>
-</div> 
+</div>
