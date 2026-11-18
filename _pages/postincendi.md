@@ -236,7 +236,7 @@ Abans de prendre decisions, val la pena:
      ← Resistir, recuperar-se i transformar
   </a>
 
-  <a href="/404.html/" class="btn btn--primary">
+  <a href="/science/" class="btn btn--primary">
     → 
   </a>
 </div>
