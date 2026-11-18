@@ -140,5 +140,5 @@ Aquest darrer punt és essencial. Els arbres responen lentament i el clima futur
      ← Ecosistemes resilients
   </a>
 
-  <a href="/404/" class="btn btn--primary">
+  <a href="/postincendi/" class="btn btn--primary">
     → 
