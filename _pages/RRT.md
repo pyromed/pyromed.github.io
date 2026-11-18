@@ -141,7 +141,7 @@ Aquest darrer punt és essencial. Els arbres responen lentament i el clima futur
   </a>
 
   <a href="/postincendi/" class="btn btn--primary">
-   Resistir, recuperar-se i transformar → 
+   Recuperar el bosc després d’un incendi → 
   </a>
 </div>
 
