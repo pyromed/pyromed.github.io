@@ -129,7 +129,7 @@ Si sabem com han respost els arbres a diferents nivells de sequera en el passat,
     ← El canvi climàtic
   </a>
 
-  <a href="/rrt/" class="btn btn--primary">
-   Resistir, recuperar-se o canviar → 
+  <a href="/resiliencia/" class="btn btn--primary">
+   Ecosistemes resilients → 
   </a>
 </div>
